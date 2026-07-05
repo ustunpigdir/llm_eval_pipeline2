@@ -1,7 +1,7 @@
 import re
 
 def normalize_answer(answer):
-    if answer is None:
+    if answer is "":
         return ""
     answer = answer.strip()
     answer = re.sub(r"\s+", " ", answer)
