@@ -1,0 +1,26 @@
+{
+  "all_verdict_distribution": {
+    "MATCH": 1012,
+    "MISMATCH": 742,
+    "NOT_FOUND": 63,
+    "REVIEW": 44
+  },
+  "concept_gate_applied": false,
+  "created_at": "2026-07-05T08:26:22+00:00",
+  "github_repo": "https://github.com/ustunpigdir/llm_eval_pipeline2",
+  "grading_result_rows_all": 1861,
+  "grading_result_rows_usable": 1839,
+  "official_gradeable_runs": 624,
+  "review_overrides_applied": false,
+  "snapshot_name": "baseline_usable_20260705",
+  "snapshot_stage": "post_official_grading_post_structural_quality_pre_concept_gate",
+  "source_database": "learning.db",
+  "unusable_official_runs": 7,
+  "usable_official_gradeable_runs": 617,
+  "usable_verdict_distribution": {
+    "MATCH": 1012,
+    "MISMATCH": 742,
+    "NOT_FOUND": 41,
+    "REVIEW": 44
+  }
+}

@@ -1,0 +1,8 @@
+run_id,model_name,scenario_id,quality_status,usability_status,rationale,source_artifact
+185,Llama 3.1 8B Instruct,GR_CHIRP_001,UNUSABLE,UNUSABLE,no complete filled final-answer block found anywhere in the answer,remaining_layer1b_flag_classification_v3.csv
+187,Ministral 3 8B,GR_CHIRP_001,UNUSABLE,UNUSABLE,no complete filled final-answer block found anywhere in the answer,remaining_layer1b_flag_classification_v3.csv
+188,Ministral 3 8B,GR_CHIRP_001,UNUSABLE,UNUSABLE,no complete filled final-answer block found anywhere in the answer,remaining_layer1b_flag_classification_v3.csv
+256,NVIDIA Nemotron 3 Nano 30B-A3B,GR_PERI_001,UNUSABLE,UNUSABLE,no complete filled final-answer block found anywhere in the answer,remaining_layer1b_flag_classification_v3.csv
+286,Llama 3.1 8B Instruct,QFT_CASIMIR_001,UNUSABLE,UNUSABLE,"no complete filled final-answer block found anywhere in the answer; repetition/looping present, preventing resolution",remaining_layer1b_flag_classification_v3.csv
+380,Ministral 3 8B,QI_CLONE_001,UNUSABLE,UNUSABLE,no complete filled final-answer block found anywhere in the answer,remaining_layer1b_flag_classification_v3.csv
+514,Gemma 3 12B IT,QM_TUNNEL_001,UNUSABLE,UNUSABLE,"no complete filled final-answer block found anywhere in the answer; repetition/looping present, preventing resolution",remaining_layer1b_flag_classification_v3.csv

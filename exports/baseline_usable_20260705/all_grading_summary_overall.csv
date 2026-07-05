@@ -1,0 +1,5 @@
+benchmark_id,verdict,n
+scientific_reasoning_32_v1,MATCH,1012
+scientific_reasoning_32_v1,MISMATCH,742
+scientific_reasoning_32_v1,NOT_FOUND,63
+scientific_reasoning_32_v1,REVIEW,44
