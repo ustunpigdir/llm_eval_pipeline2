@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-07-05T10:56:25.175374+00:00",
+  "source_folder": "outputs/structured_prompt_pilot_v2/pdf_review_source",
+  "html_path": "outputs/structured_prompt_pilot_v2/pdf_review/structured_prompt_v2_clean_review_ipad.html",
+  "pdf_path": "outputs/structured_prompt_pilot_v2/pdf_review/structured_prompt_v2_clean_review_ipad.pdf",
+  "pdf_generation_method": "google_chrome_headless",
+  "page_count_detected": 65,
+  "clean_run_pages": 64,
+  "summary_pages": 1,
+  "raw_model_responses_included": true,
+  "nemotron_rows_excluded": true,
+  "validation": {
+    "clean_rows_from_review_layer": 64,
+    "autograde_clean_rows": 64,
+    "raw_responses_joined": 64,
+    "pages_to_generate": 64,
+    "nemotron_rows_in_main_pdf": 0,
+    "missing_join_records": [],
+    "missing_required_content": []
+  }
+}
