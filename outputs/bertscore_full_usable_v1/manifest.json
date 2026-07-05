@@ -1,0 +1,12 @@
+{
+  "candidate_source": "questions.answer",
+  "concept_gate_applied": false,
+  "lang": "en",
+  "n_bertscore_results": 617,
+  "n_usable_official_runs": 617,
+  "reference_source": "worked_solutions_batch1.md through worked_solutions_batch7.md",
+  "rescale_with_baseline": true,
+  "run_name": "pre_structured_prompt_usable_full_v1",
+  "scope": "all usable official runs before structured-prompt rerun",
+  "structured_prompt_run": false
+}
