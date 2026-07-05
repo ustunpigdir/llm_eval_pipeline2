@@ -1,0 +1,154 @@
+[
+ {
+  "answer_number": "50.7",
+  "answer_latex": "50.7",
+  "unit": "atm",
+  "source": "atkins",
+  "eval_number": 50.7,
+  "eval_latex": 50.7
+ },
+ {
+  "answer_number": "+65.49",
+  "answer_latex": "+65.49",
+  "unit": "kJ/mol",
+  "source": "atkins",
+  "eval_number": 65.49,
+  "eval_latex": 65.49
+ },
+ {
+  "answer_number": "-1368",
+  "answer_latex": "-1368",
+  "unit": "kJ/mol",
+  "source": "atkins",
+  "eval_number": -1368.0,
+  "eval_latex": -1368.0
+ },
+ {
+  "answer_number": "-167",
+  "answer_latex": "$-167$",
+  "unit": "J",
+  "source": "atkins",
+  "eval_number": -167.0,
+  "eval_latex": -167.0
+ },
+ {
+  "answer_number": "0.88",
+  "answer_latex": "0.88",
+  "unit": "",
+  "source": "atkins",
+  "eval_number": 0.88,
+  "eval_latex": 0.88
+ },
+ {
+  "answer_number": "-233",
+  "answer_latex": "-233",
+  "unit": "°N",
+  "source": "atkins",
+  "eval_number": -233.0,
+  "eval_latex": -233.0
+ },
+ {
+  "answer_number": "0.118",
+  "answer_latex": "0.118",
+  "unit": "nm",
+  "source": "atkins",
+  "eval_number": 0.118,
+  "eval_latex": 0.118
+ },
+ {
+  "answer_number": "+3.60",
+  "answer_latex": "+3.60",
+  "unit": "kJ",
+  "source": "atkins",
+  "eval_number": 3.6,
+  "eval_latex": 3.6
+ },
+ {
+  "answer_number": "0.66666666666",
+  "answer_latex": "\\frac{2}{3}",
+  "unit": "",
+  "source": "stat",
+  "eval_number": 0.66666666666,
+  "eval_latex": 0.6666666666666666
+ },
+ {
+  "answer_number": "0.444444444444444",
+  "answer_latex": "$\\frac{41}{90}$",
+  "unit": "",
+  "source": "stat",
+  "eval_number": 0.444444444444444,
+  "eval_latex": 0.45555555555555555
+ },
+ {
+  "answer_number": "2688",
+  "answer_latex": "2688",
+  "unit": "",
+  "source": "stat",
+  "eval_number": 2688.0,
+  "eval_latex": 2688.0
+ },
+ {
+  "answer_number": "0.9966",
+  "answer_latex": "0.9966",
+  "unit": "",
+  "source": "stat",
+  "eval_number": 0.9966,
+  "eval_latex": 0.9966
+ },
+ {
+  "answer_number": "358800",
+  "answer_latex": "358800",
+  "unit": "",
+  "source": "stat",
+  "eval_number": 358800.0,
+  "eval_latex": 358800.0
+ },
+ {
+  "answer_number": "-131.1",
+  "answer_latex": "-131.1",
+  "unit": "kJ/mol",
+  "source": "thermo",
+  "eval_number": -131.1,
+  "eval_latex": -131.1
+ },
+ {
+  "answer_number": "4.85",
+  "answer_latex": "4.85",
+  "unit": "$10^8$ J",
+  "source": "thermo",
+  "eval_number": 4.85,
+  "eval_latex": 4.85
+ },
+ {
+  "answer_number": "1.27",
+  "answer_latex": "1.27",
+  "unit": "$10^6$",
+  "source": "thermo",
+  "eval_number": 1.27,
+  "eval_latex": 1.27
+ },
+ {
+  "answer_number": "6.64",
+  "answer_latex": "6.64",
+  "unit": "$10^3$ J/°C",
+  "source": "thermo",
+  "eval_number": 6.64,
+  "eval_latex": 6.64
+ },
+ {
+  "answer_number": "0.318",
+  "answer_latex": "0.318",
+  "unit": "nm^2",
+  "source": "thermo",
+  "eval_number": 0.318,
+  "eval_latex": 0.318
+ },
+ {
+  "answer_number": "322",
+  "answer_latex": "322",
+  "unit": "K",
+  "source": "thermo",
+  "eval_number": 322.0,
+  "eval_latex": 322.0
+ }
+]

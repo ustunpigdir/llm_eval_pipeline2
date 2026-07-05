@@ -1,0 +1,40 @@
+Okay, let's break down this problem step-by-step.
+
+1. **Evaluate the Hubble distance $c/H_0$ in Mpc and the linear term $cz/H_0$ at $z = 0.200$.**
+
+First, we need to convert $H_0$ from km/s/Mpc to Mpc/s.  $H_0 = 70.0 \text{ km/s/Mpc} = 70.0 \times 10^5 \text{ m/s/Mpc} = 70.0 \times 10^5 \times 10^{-3} \text{ Mpc/s} = 70 \text{ Mpc/s}$.
+The speed of light, $c$, is approximately $3 \times 10^5 \text{ km/s} = 3 \times 10^5 \times 10^3 \text{ m/s} = 3 \times 10^8 \text{ m/s} = 3 \times 10^8 \times 10^{-3} \text{ Mpc/s} = 3 \times 10^5 \text{ Mpc/s}$.
+
+The Hubble distance is $c/H_0 = (3 \times 10^5 \text{ Mpc/s}) / (70 \text{ Mpc/s}) \approx 4285.71 \text{ Mpc}$.
+
+The linear term $cz/H_0$ at $z = 0.2$ is $(c \times z) / H_0 = (3 \times 10^5 \text{ Mpc/s} \times 0.2) / (70 \text{ Mpc/s}) = (6 \times 10^4) / 70 \approx 857.14 \text{ Mpc}$.
+
+2. **Evaluate $d_L$ at $z = 0.2$ for LCDM ($q_0 = -0.55$).**
+
+The luminosity distance formula is $d_L = \frac{cz}{H_0}\left[1 + \frac{(1-q_0)z}{2}\right]$.
+For LCDM, $q_0 = -0.55$.  So,
+$d_L = \frac{cz}{H_0}\left[1 + \frac{(1-(-0.55))z}{2}\right] = \frac{cz}{H_0}\left[1 + \frac{1.55z}{2}\right]$.
+Plugging in $z = 0.2$, we get
+$d_L = 857.14 \left[1 + \frac{1.55 \times 0.2}{2}\right] = 857.14 \left[1 + \frac{0.31}{2}\right] = 857.14 [1 + 0.155] = 857.14 \times 1.155 \approx 992.94 \text{ Mpc}$.
+
+3. **Evaluate $d_L$ at $z = 0.2$ for Einstein-de Sitter ($q_0 = +0.5$).**
+
+For EdS, $q_0 = 0.5$.  So,
+$d_L = \frac{cz}{H_0}\left[1 + \frac{(1-0.5)z}{2}\right] = \frac{cz}{H_0}\left[1 + \frac{0.5z}{2}\right]$.
+Plugging in $z = 0.2$, we get
+$d_L = 857.14 \left[1 + \frac{0.5 \times 0.2}{2}\right] = 857.14 \left[1 + \frac{0.1}{2}\right] = 857.14 [1 + 0.05] = 857.14 \times 1.05 \approx 900.05 \text{ Mpc}$.
+
+4. **A supernova at $z = 0.2$ appears FAINTER than the EdS prediction. Which model does that favor, and why? Relate to the 1998 discovery.**
+
+A supernova appears fainter than predicted by the EdS model if its distance is *greater* than the distance predicted by EdS.  Our calculations show that the LCDM model predicts a luminosity distance of approximately 992.94 Mpc, while the EdS model predicts a luminosity distance of approximately 900.05 Mpc.  Since the observed supernova is fainter than the EdS prediction, it is further away than EdS predicts. This favors the LCDM model.
+
+The 1998 discovery of accelerating expansion of the universe was based on observations of Type Ia supernovae at high redshifts. These supernovae were found to be fainter than expected in the context of an EdS universe, indicating that they were further away than predicted. This observation provided strong evidence for the existence of dark energy and favored cosmological models like LCDM, which incorporate a cosmological constant (or equivalent) to drive the accelerated expansion.  The negative $q_0$ in LCDM leads to larger distances at a given redshift compared to the positive $q_0$ in EdS.
+
+\[
+\begin{aligned}
+\mathrm{hubble\_distance\_mpc} &= 4285.71 \\
+\mathrm{dl\_linear\_mpc} &= 857.14 \\
+\mathrm{dl\_lcdm\_mpc} &= 992.94 \\
+\mathrm{dl\_eds\_mpc} &= 900.05
+\end{aligned}
+\]

@@ -1,0 +1,35 @@
+run_id,model_name,scenario_id,answer_length,flag_types,severities,display_math_count,inline_math_count,environment_count,classification,reason
+120,Granite 4.1 8B,unknown,2751,unmatched_bracket_display,warning,9,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+121,Granite 4.1 8B,unknown,2886,unmatched_bracket_display,warning,9,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+122,Granite 4.1 8B,unknown,2912,unmatched_bracket_display,warning,9,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+181,Granite 4.1 8B,unknown,8590,unmatched_bracket_display,warning,33,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+185,Llama 3.1 8B Instruct,unknown,24938,odd_single_dollar,warning,192,92,0,UNUSABLE,no complete final-answer block (\begin{aligned}...\end{aligned} with >=2 \mathrm{} fields) found anywhere in the answer
+187,Ministral 3 8B,unknown,28413,unmatched_bracket_display,warning,172,0,0,UNUSABLE,no complete final-answer block (\begin{aligned}...\end{aligned} with >=2 \mathrm{} fields) found anywhere in the answer
+188,Ministral 3 8B,unknown,23990,unmatched_bracket_display,warning,79,0,0,UNUSABLE,no complete final-answer block (\begin{aligned}...\end{aligned} with >=2 \mathrm{} fields) found anywhere in the answer
+214,NVIDIA Nemotron 3 Nano 30B-A3B,unknown,32394,unmatched_environment,warning,24,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled; repetition/looping detected but occurs entirely after the final-answer block
+223,Granite 4.1 8B,unknown,4588,unmatched_bracket_display,warning,21,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+224,Granite 4.1 8B,unknown,4518,unmatched_bracket_display,warning,20,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+235,NVIDIA Nemotron 3 Nano 30B-A3B,unknown,29048,unmatched_environment,warning,13,0,1,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+256,NVIDIA Nemotron 3 Nano 30B-A3B,unknown,913,unmatched_bracket_display,warning,3,0,0,UNUSABLE,no complete final-answer block (\begin{aligned}...\end{aligned} with >=2 \mathrm{} fields) found anywhere in the answer
+286,Llama 3.1 8B Instruct,unknown,27129,odd_single_dollar,warning,0,299,0,UNUSABLE,no complete final-answer block (\begin{aligned}...\end{aligned} with >=2 \mathrm{} fields) found anywhere in the answer
+290,Mistral NeMo 12B,unknown,2655,odd_single_dollar;unmatched_bracket_display,warning,5,13,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+336,NVIDIA Nemotron 3 Nano 30B-A3B,unknown,2864,unmatched_bracket_display,warning,11,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+372,Granite 4.1 8B,unknown,3565,unmatched_bracket_display,warning,10,1,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+380,Ministral 3 8B,unknown,38889,unmatched_bracket_display,warning,214,0,0,UNUSABLE,no complete final-answer block (\begin{aligned}...\end{aligned} with >=2 \mathrm{} fields) found anywhere in the answer
+392,Granite 4.1 8B,unknown,5268,unmatched_bracket_display,warning,20,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+394,Granite 4.1 8B,unknown,5386,unmatched_bracket_display,warning,21,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+412,Granite 4.1 8B,unknown,2785,unmatched_bracket_display,warning,10,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+413,Granite 4.1 8B,unknown,2934,unmatched_bracket_display,warning,9,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+414,Granite 4.1 8B,unknown,2933,unmatched_bracket_display,warning,10,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+467,NVIDIA Nemotron 3 Nano 30B-A3B,unknown,3433,unmatched_bracket_display,warning,13,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+496,Granite 4.1 8B,unknown,3643,unmatched_bracket_display,warning,14,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+497,Granite 4.1 8B,unknown,3543,unmatched_bracket_display,warning,14,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+498,Granite 4.1 8B,unknown,3701,unmatched_bracket_display,warning,13,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+509,NVIDIA Nemotron 3 Nano 30B-A3B,unknown,3757,unmatched_bracket_display,warning,13,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+514,Gemma 3 12B IT,unknown,25613,odd_single_dollar,warning,0,38,0,UNUSABLE,no complete final-answer block (\begin{aligned}...\end{aligned} with >=2 \mathrm{} fields) found anywhere in the answer
+559,Granite 4.1 8B,unknown,2626,unmatched_bracket_display,warning,9,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+560,Granite 4.1 8B,unknown,2618,unmatched_bracket_display,warning,9,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+561,Granite 4.1 8B,unknown,2465,unmatched_bracket_display,warning,9,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+650,Granite 4.1 8B,unknown,2242,unmatched_bracket_display,warning,8,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+651,Granite 4.1 8B,unknown,2482,unmatched_bracket_display,warning,9,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled
+652,Granite 4.1 8B,unknown,2312,unmatched_bracket_display,warning,9,0,0,FORMAT_WARNING_KEEP,complete final-answer block with all fields filled

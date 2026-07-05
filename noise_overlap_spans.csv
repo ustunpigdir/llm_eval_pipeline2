@@ -1,0 +1,1144 @@
+run_id,run_categories,span_id,span_index,span_type,status,raw_text
+55,TRIVIAL+PROSE,1802,54,inline_math,PROSE,f_{min}
+55,TRIVIAL+PROSE,1752,4,inline_math,TRIVIAL,a
+57,TRIVIAL+PROSE,1902,49,inline_math,PROSE,f_{min}
+57,TRIVIAL+PROSE,1857,4,inline_math,TRIVIAL,a
+57,TRIVIAL+PROSE,1858,5,inline_math,TRIVIAL,z
+57,TRIVIAL+PROSE,1872,19,inline_math,TRIVIAL,E
+58,TRIVIAL+PROSE,1927,24,inline_math,PROSE,"
+Substituting "
+58,TRIVIAL+PROSE,1928,25,inline_math,PROSE, (where 
+58,TRIVIAL+PROSE,1934,31,inline_math,PROSE,"
+The equation becomes:
+"
+58,TRIVIAL+PROSE,1938,35,inline_math,PROSE,"
+Integrating twice with respect to time:
+"
+58,TRIVIAL+PROSE,1944,41,inline_math,PROSE,"
+Since "
+58,TRIVIAL+PROSE,1949,46,inline_math,PROSE,"
+Using "
+58,TRIVIAL+PROSE,1966,63,inline_math,PROSE,f_{min}
+58,TRIVIAL+PROSE,1929,26,inline_math,TRIVIAL,"):
+"
+58,TRIVIAL+PROSE,1945,42,inline_math,TRIVIAL,":
+"
+58,TRIVIAL+PROSE,1950,47,inline_math,TRIVIAL,":
+"
+62,TRIVIAL+PROSE,2072,53,inline_math,PROSE,f_{min}
+62,TRIVIAL+PROSE,2053,34,inline_math,TRIVIAL,g
+62,TRIVIAL+PROSE,2054,35,inline_math,TRIVIAL,L
+62,TRIVIAL+PROSE,2058,39,inline_math,TRIVIAL,U
+62,TRIVIAL+PROSE,2070,51,inline_math,TRIVIAL,g
+62,TRIVIAL+PROSE,2071,52,inline_math,TRIVIAL,L
+63,TRIVIAL+PROSE,2111,38,inline_math,PROSE,f_{min}
+63,TRIVIAL+PROSE,2090,17,inline_math,TRIVIAL,g
+63,TRIVIAL+PROSE,2091,18,inline_math,TRIVIAL,L
+68,TRIVIAL+PROSE,2327,24,inline_math,PROSE,V_{eff}
+68,TRIVIAL+PROSE,2316,13,inline_math,TRIVIAL,m
+68,TRIVIAL+PROSE,2317,14,inline_math,TRIVIAL,g
+68,TRIVIAL+PROSE,2318,15,inline_math,TRIVIAL,h
+68,TRIVIAL+PROSE,2320,17,inline_math,TRIVIAL,a
+69,TRIVIAL+PROSE,2348,17,inline_math,PROSE,f_{min}
+69,TRIVIAL+PROSE,2340,9,inline_math,TRIVIAL,y
+69,TRIVIAL+PROSE,2343,12,inline_math,TRIVIAL,m
+69,TRIVIAL+PROSE,2344,13,inline_math,TRIVIAL,g
+69,TRIVIAL+PROSE,2345,14,inline_math,TRIVIAL,L
+79,TRIVIAL+PROSE,2563,16,inline_math,PROSE,"
+Since the axis is nearly horizontal, the magnitude of the torque is "
+79,TRIVIAL+PROSE,2564,17,inline_math,PROSE, (for 
+79,TRIVIAL+PROSE,2572,25,inline_math,PROSE,"
+Substituting "
+79,TRIVIAL+PROSE,2573,26,inline_math,PROSE, and 
+79,TRIVIAL+PROSE,2576,29,inline_math,PROSE,"
+Dividing by "
+79,TRIVIAL+PROSE,2577,30,inline_math,PROSE, (assuming 
+79,TRIVIAL+PROSE,2574,27,inline_math,TRIVIAL,":
+"
+79,TRIVIAL+PROSE,2578,31,inline_math,TRIVIAL,"):
+"
+79,TRIVIAL+PROSE,2581,34,inline_math,TRIVIAL,T
+79,TRIVIAL+PROSE,2591,44,inline_math,TRIVIAL,T
+98,TRIVIAL+PROSE,3103,17,inline_math,PROSE,t_H
+98,TRIVIAL+PROSE,3112,26,inline_math,TRIVIAL,H
+123,TRIVIAL+PROSE,3662,15,inline_math,PROSE,n(z)
+123,TRIVIAL+PROSE,3659,12,inline_math,TRIVIAL,a
+123,TRIVIAL+PROSE,3664,17,inline_math,TRIVIAL,a
+136,TRIVIAL+PROSE,3915,32,inline_math,PROSE,T_{GH}
+136,TRIVIAL+PROSE,3903,20,inline_math,TRIVIAL,N
+136,TRIVIAL+PROSE,3906,23,inline_math,TRIVIAL,a
+136,TRIVIAL+PROSE,3909,26,inline_math,TRIVIAL,N
+138,TRIVIAL+PROSE,3971,30,inline_math,PROSE,T_{GH}
+138,TRIVIAL+PROSE,3945,4,inline_math,TRIVIAL,H
+138,TRIVIAL+PROSE,3961,20,inline_math,TRIVIAL,N
+139,TRIVIAL+PROSE,3987,15,inline_math,PROSE,T_{GH}
+139,TRIVIAL+PROSE,3995,23,inline_math,PROSE,T_{GH}
+139,TRIVIAL+PROSE,3977,5,inline_math,TRIVIAL,H
+139,TRIVIAL+PROSE,3989,17,inline_math,TRIVIAL,N
+139,TRIVIAL+PROSE,3991,19,inline_math,TRIVIAL,a
+140,TRIVIAL+PROSE,4020,25,inline_math,PROSE,T_{GH}
+140,TRIVIAL+PROSE,4000,5,inline_math,TRIVIAL,H
+140,TRIVIAL+PROSE,4004,9,inline_math,TRIVIAL,r
+140,TRIVIAL+PROSE,4006,11,inline_math,TRIVIAL,r
+140,TRIVIAL+PROSE,4023,28,inline_math,TRIVIAL,N
+140,TRIVIAL+PROSE,4024,29,inline_math,TRIVIAL,N
+145,TRIVIAL+PROSE,4454,19,inline_math,PROSE,k_B
+145,TRIVIAL+PROSE,4458,23,inline_math,PROSE,T_{GH}
+145,TRIVIAL+PROSE,4461,26,inline_math,PROSE,T_{GH} < T_{CMB}
+145,TRIVIAL+PROSE,4463,28,inline_math,PROSE,T_{GH}
+145,TRIVIAL+PROSE,4438,3,inline_math,TRIVIAL,H
+145,TRIVIAL+PROSE,4441,6,inline_math,TRIVIAL,H
+145,TRIVIAL+PROSE,4453,18,inline_math,TRIVIAL,H
+146,TRIVIAL+PROSE,4490,24,inline_math,PROSE,T_{GH}
+146,TRIVIAL+PROSE,4492,26,inline_math,PROSE,T_{GH}
+146,TRIVIAL+PROSE,4478,12,inline_math,TRIVIAL,H
+146,TRIVIAL+PROSE,4481,15,inline_math,TRIVIAL,c
+146,TRIVIAL+PROSE,4495,29,inline_math,TRIVIAL,a
+146,TRIVIAL+PROSE,4496,30,inline_math,TRIVIAL,N
+146,TRIVIAL+PROSE,4498,32,inline_math,TRIVIAL,N
+150,TRIVIAL+PROSE,4567,16,inline_math,PROSE,T_{GH}
+150,TRIVIAL+PROSE,4565,14,inline_math,TRIVIAL,N
+151,TRIVIAL+PROSE,4583,16,inline_math,PROSE,T_{GH}
+151,TRIVIAL+PROSE,4585,18,inline_math,PROSE,T_{GH}
+151,TRIVIAL+PROSE,4582,15,inline_math,TRIVIAL,a
+157,TRIVIAL+PROSE,4696,13,inline_math,PROSE,d_L
+157,TRIVIAL+PROSE,4704,21,inline_math,PROSE,d_L
+157,TRIVIAL+PROSE,4690,7,inline_math,TRIVIAL,c
+158,TRIVIAL+PROSE,4726,13,inline_math,PROSE,d_L
+158,TRIVIAL+PROSE,4734,21,inline_math,PROSE,d_L
+158,TRIVIAL+PROSE,4742,29,inline_math,PROSE,d_L
+158,TRIVIAL+PROSE,4743,30,inline_math,PROSE,d_L
+158,TRIVIAL+PROSE,4720,7,inline_math,TRIVIAL,c
+159,TRIVIAL+PROSE,4759,13,inline_math,PROSE,d_L
+159,TRIVIAL+PROSE,4767,21,inline_math,PROSE,d_L
+159,TRIVIAL+PROSE,4753,7,inline_math,TRIVIAL,c
+161,TRIVIAL+PROSE,4819,14,inline_math,PROSE,"
+For a redshift "
+161,TRIVIAL+PROSE,4828,23,inline_math,PROSE,"
+The correction term is:
+"
+161,TRIVIAL+PROSE,4830,25,inline_math,PROSE,"
+Calculating "
+161,TRIVIAL+PROSE,4837,32,inline_math,PROSE,"
+The correction term is:
+"
+161,TRIVIAL+PROSE,4839,34,inline_math,PROSE,"
+Calculating "
+161,TRIVIAL+PROSE,4845,40,inline_math,PROSE,"
+The "
+161,TRIVIAL+PROSE,4846,41,inline_math,PROSE,CDM model predicts a larger luminosity distance for the same redshift. This is because a negative 
+161,TRIVIAL+PROSE,4847,42,inline_math,PROSE, (acceleration) pushes the object further away compared to a positive 
+161,TRIVIAL+PROSE,4848,43,inline_math,PROSE, (deceleration). This observation favors the 
+161,TRIVIAL+PROSE,4831,26,inline_math,TRIVIAL,":
+"
+161,TRIVIAL+PROSE,4840,35,inline_math,TRIVIAL,":
+"
+166,TRIVIAL+PROSE,4949,23,inline_math,PROSE,d_L
+166,TRIVIAL+PROSE,4952,26,inline_math,PROSE,d_L
+166,TRIVIAL+PROSE,4957,31,inline_math,PROSE,d_L
+166,TRIVIAL+PROSE,4959,33,inline_math,PROSE,d_L
+166,TRIVIAL+PROSE,4961,35,inline_math,PROSE,d_L
+166,TRIVIAL+PROSE,4964,38,inline_math,PROSE,d_L
+166,TRIVIAL+PROSE,4969,43,inline_math,PROSE,d_L
+166,TRIVIAL+PROSE,4971,45,inline_math,PROSE,d_L
+166,TRIVIAL+PROSE,4930,4,inline_math,TRIVIAL,c
+166,TRIVIAL+PROSE,4942,16,inline_math,TRIVIAL,z
+179,TRIVIAL+PROSE,5165,3,inline_math,PROSE,f_{GW}
+179,TRIVIAL+PROSE,5166,4,inline_math,PROSE,f_{GW}
+179,TRIVIAL+PROSE,5170,8,inline_math,TRIVIAL,c
+180,TRIVIAL+PROSE,5201,8,inline_math,PROSE,"
+where "
+180,TRIVIAL+PROSE,5248,55,inline_math,TRIVIAL,E
+180,TRIVIAL+PROSE,5249,56,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5564,194,inline_math,PROSE,f_{GW}
+185,TRIVIAL+PROSE,5566,196,inline_math,PROSE,f_{GW}
+185,TRIVIAL+PROSE,5575,205,inline_math,TRIVIAL,c
+185,TRIVIAL+PROSE,5579,209,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5582,212,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5584,214,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5588,218,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5592,222,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5596,226,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5600,230,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5604,234,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5608,238,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5612,242,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5616,246,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5620,250,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5624,254,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5628,258,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5632,262,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5636,266,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5640,270,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5644,274,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5648,278,inline_math,TRIVIAL,M
+185,TRIVIAL+PROSE,5652,282,inline_math,TRIVIAL,M
+186,TRIVIAL+PROSE,5669,15,inline_math,PROSE,f_{GW}
+186,TRIVIAL+PROSE,5671,17,inline_math,PROSE,f_{GW}
+186,TRIVIAL+PROSE,5687,33,inline_math,TRIVIAL,m
+190,TRIVIAL+PROSE,6034,12,inline_math,PROSE,f_{GW}
+190,TRIVIAL+PROSE,6036,14,inline_math,TRIVIAL,G
+190,TRIVIAL+PROSE,6038,16,inline_math,TRIVIAL,c
+190,TRIVIAL+PROSE,6043,21,inline_math,TRIVIAL,m
+191,TRIVIAL+PROSE,6056,11,inline_math,PROSE,f_{GW}
+191,TRIVIAL+PROSE,6057,12,inline_math,TRIVIAL,G
+191,TRIVIAL+PROSE,6058,13,inline_math,TRIVIAL,c
+192,TRIVIAL+PROSE,6075,12,inline_math,PROSE,f_{GW}
+192,TRIVIAL+PROSE,6076,13,inline_math,PROSE,f_{GW}
+192,TRIVIAL+PROSE,6079,16,inline_math,TRIVIAL,G
+192,TRIVIAL+PROSE,6080,17,inline_math,TRIVIAL,c
+197,TRIVIAL+PROSE,6153,2,inline_math,PROSE,dt_s
+197,TRIVIAL+PROSE,6154,3,inline_math,PROSE,dt_g
+197,TRIVIAL+PROSE,6157,6,inline_math,PROSE,M_E
+197,TRIVIAL+PROSE,6156,5,inline_math,TRIVIAL,G
+197,TRIVIAL+PROSE,6158,7,inline_math,TRIVIAL,r
+197,TRIVIAL+PROSE,6159,8,inline_math,TRIVIAL,c
+197,TRIVIAL+PROSE,6178,27,inline_math,TRIVIAL,v
+198,TRIVIAL+PROSE,6195,6,inline_math,PROSE,M_E
+198,TRIVIAL+PROSE,6192,3,inline_math,TRIVIAL,dt
+198,TRIVIAL+PROSE,6194,5,inline_math,TRIVIAL,G
+198,TRIVIAL+PROSE,6196,7,inline_math,TRIVIAL,r
+198,TRIVIAL+PROSE,6197,8,inline_math,TRIVIAL,c
+198,TRIVIAL+PROSE,6200,11,inline_math,TRIVIAL,dt
+198,TRIVIAL+PROSE,6208,19,inline_math,TRIVIAL,v
+199,TRIVIAL+PROSE,6225,6,inline_math,PROSE,M_E
+199,TRIVIAL+PROSE,6224,5,inline_math,TRIVIAL,G
+199,TRIVIAL+PROSE,6226,7,inline_math,TRIVIAL,r
+199,TRIVIAL+PROSE,6227,8,inline_math,TRIVIAL,c
+199,TRIVIAL+PROSE,6249,30,inline_math,TRIVIAL,v
+204,TRIVIAL+PROSE,6646,299,inline_math,PROSE,GM_E
+204,TRIVIAL+PROSE,6647,300,inline_math,PROSE,R_E
+204,TRIVIAL+PROSE,6648,301,inline_math,TRIVIAL,r
+204,TRIVIAL+PROSE,6649,302,inline_math,TRIVIAL,r
+218,TRIVIAL+PROSE,6965,24,inline_math,PROSE,r_{isco}
+218,TRIVIAL+PROSE,6959,18,inline_math,TRIVIAL,M
+221,TRIVIAL+PROSE,7031,2,inline_math,PROSE,r_s
+221,TRIVIAL+PROSE,7033,4,inline_math,PROSE,r_{ph}
+221,TRIVIAL+PROSE,7035,6,inline_math,PROSE,r_{isco}
+221,TRIVIAL+PROSE,7037,8,inline_math,PROSE,r_{isco}
+221,TRIVIAL+PROSE,7053,24,inline_math,PROSE,r_{isco}
+221,TRIVIAL+PROSE,7057,28,inline_math,PROSE,f_{isco}
+221,TRIVIAL+PROSE,7050,21,inline_math,TRIVIAL,f
+221,TRIVIAL+PROSE,7054,25,inline_math,TRIVIAL,M
+225,TRIVIAL+PROSE,7135,16,inline_math,PROSE,f_{GW}
+225,TRIVIAL+PROSE,7137,18,inline_math,TRIVIAL,M
+225,TRIVIAL+PROSE,7138,19,inline_math,TRIVIAL,M
+227,TRIVIAL+PROSE,7199,16,inline_math,PROSE,f_{GW}
+227,TRIVIAL+PROSE,7201,18,inline_math,TRIVIAL,M
+227,TRIVIAL+PROSE,7202,19,inline_math,TRIVIAL,M
+242,TRIVIAL+PROSE,7518,12,inline_math,PROSE,"
+where "
+242,TRIVIAL+PROSE,7519,13,inline_math,PROSE, and 
+242,TRIVIAL+PROSE,7520,14,inline_math,PROSE," is the specific angular momentum. In Newtonian mechanics, the term "
+242,TRIVIAL+PROSE,7521,15,inline_math,PROSE," is absent, resulting in closed elliptical orbits. Treating the GR term as a small perturbation, the shift in the perihelion per orbit "
+242,TRIVIAL+PROSE,7522,16,inline_math,PROSE," is derived as:
+"
+242,TRIVIAL+PROSE,7524,18,inline_math,PROSE,"
+where "
+242,TRIVIAL+PROSE,7532,26,inline_math,PROSE,"
+Now substitute into the "
+242,TRIVIAL+PROSE,7533,27,inline_math,PROSE," formula:
+"
+242,TRIVIAL+PROSE,7539,33,inline_math,PROSE,"
+Convert radians to arcseconds ("
+242,TRIVIAL+PROSE,7540,34,inline_math,TRIVIAL,"):
+"
+260,TRIVIAL+PROSE,7895,29,inline_math,PROSE,E(k)
+260,TRIVIAL+PROSE,7898,32,inline_math,PROSE," is:
+"
+260,TRIVIAL+PROSE,7900,34,inline_math,PROSE,"
+Substituting the Bloch ansatz "
+260,TRIVIAL+PROSE,7901,35,inline_math,PROSE," (we can omit the normalization for finding the dispersion):
+"
+260,TRIVIAL+PROSE,7903,37,inline_math,PROSE,"
+Dividing by "
+260,TRIVIAL+PROSE,7904,38,inline_math,PROSE,", we get the energy dispersion "
+260,TRIVIAL+PROSE,7907,41,inline_math,PROSE,"
+Using Euler's formula "
+260,TRIVIAL+PROSE,7908,42,inline_math,PROSE,", we can separate the real and imaginary parts of the energy:
+"
+260,TRIVIAL+PROSE,7912,46,inline_math,PROSE,"
+This is the parametric equation of a curve in the complex energy plane, with "
+260,TRIVIAL+PROSE,7913,47,inline_math,PROSE, as the parameter. Let 
+260,TRIVIAL+PROSE,7914,48,inline_math,PROSE,". Then:
+"
+260,TRIVIAL+PROSE,7918,52,inline_math,PROSE,"
+We can write this in the standard form of an ellipse:
+"
+260,TRIVIAL+PROSE,7930,64,inline_math,PROSE,"
+Assuming "
+260,TRIVIAL+PROSE,7931,65,inline_math,PROSE,", we can divide the entire equation by "
+260,TRIVIAL+PROSE,7934,68,inline_math,PROSE,"
+Rearranging this gives the characteristic equation, which is a quadratic equation for "
+260,TRIVIAL+PROSE,7937,71,inline_math,PROSE,"
+For a given energy "
+260,TRIVIAL+PROSE,7938,72,inline_math,PROSE,", this equation has two roots, "
+260,TRIVIAL+PROSE,7939,73,inline_math,PROSE, and 
+260,TRIVIAL+PROSE,7940,74,inline_math,PROSE,". According to Vieta's formulas, the product of the roots of a quadratic equation "
+260,TRIVIAL+PROSE,7942,76,inline_math,PROSE,". For our characteristic equation, "
+260,TRIVIAL+PROSE,7944,78,inline_math,PROSE,", and "
+260,TRIVIAL+PROSE,7945,79,inline_math,PROSE,".
+Therefore, the product of the roots is:
+"
+260,TRIVIAL+PROSE,7954,88,inline_math,PROSE,"
+Substituting the equal modulus condition:
+"
+260,TRIVIAL+PROSE,7956,90,inline_math,PROSE,"
+Since "
+260,TRIVIAL+PROSE,7957,91,inline_math,PROSE, and 
+260,TRIVIAL+PROSE,7958,92,inline_math,PROSE," are given as positive real numbers, the GBZ radius is:
+"
+260,TRIVIAL+PROSE,7960,94,inline_math,PROSE,"
+Using the given values "
+260,TRIVIAL+PROSE,7961,95,inline_math,PROSE, and 
+260,TRIVIAL+PROSE,7968,102,inline_math,PROSE,"
+The two roots "
+260,TRIVIAL+PROSE,7969,103,inline_math,PROSE, and 
+260,TRIVIAL+PROSE,7970,104,inline_math,PROSE, have the same modulus if the term under the square root (the discriminant 
+260,TRIVIAL+PROSE,7972,106,inline_math,PROSE,". In this case, the roots are complex conjugates of each other (or purely imaginary).
+If "
+260,TRIVIAL+PROSE,7973,107,inline_math,PROSE,", then "
+260,TRIVIAL+PROSE,7974,108,inline_math,PROSE,", and the roots are:
+"
+260,TRIVIAL+PROSE,7976,110,inline_math,PROSE,"
+The squared modulus of these roots is:
+"
+260,TRIVIAL+PROSE,7978,112,inline_math,PROSE,"
+This confirms that the condition "
+260,TRIVIAL+PROSE,7979,113,inline_math,PROSE, is equivalent to the GBZ condition 
+260,TRIVIAL+PROSE,7980,114,inline_math,PROSE,. The OBC spectrum is therefore given by the range of (real) energies 
+260,TRIVIAL+PROSE,7981,115,inline_math,PROSE, for which 
+260,TRIVIAL+PROSE,7984,118,inline_math,PROSE,"
+This implies that the OBC spectrum is purely real and forms a continuous line segment on the real axis:
+"
+260,TRIVIAL+PROSE,7986,120,inline_math,PROSE,"
+The maximum absolute value of the energy in the OBC spectrum is:
+"
+260,TRIVIAL+PROSE,7988,122,inline_math,PROSE,"
+Using the given values:
+"
+260,TRIVIAL+PROSE,8001,135,inline_math,PROSE,t_R > t_L
+260,TRIVIAL+PROSE,8006,140,inline_math,PROSE,t_R < t_L
+260,TRIVIAL+PROSE,8012,146,inline_math,PROSE,t_R > t_L
+260,TRIVIAL+PROSE,7893,27,inline_math,TRIVIAL,k
+260,TRIVIAL+PROSE,7905,39,inline_math,TRIVIAL,":
+"
+260,TRIVIAL+PROSE,7932,66,inline_math,TRIVIAL,":
+"
+260,TRIVIAL+PROSE,7935,69,inline_math,TRIVIAL,":
+"
+260,TRIVIAL+PROSE,7941,75,inline_math,TRIVIAL, is 
+260,TRIVIAL+PROSE,7943,77,inline_math,TRIVIAL,", "
+260,TRIVIAL+PROSE,7948,82,inline_math,TRIVIAL,E
+260,TRIVIAL+PROSE,7962,96,inline_math,TRIVIAL,":
+"
+260,TRIVIAL+PROSE,7964,98,inline_math,TRIVIAL,E
+260,TRIVIAL+PROSE,7982,116,inline_math,TRIVIAL,".
+"
+260,TRIVIAL+PROSE,8004,138,inline_math,TRIVIAL,j
+260,TRIVIAL+PROSE,8005,139,inline_math,TRIVIAL,j
+260,TRIVIAL+PROSE,8008,142,inline_math,TRIVIAL,j
+260,TRIVIAL+PROSE,8009,143,inline_math,TRIVIAL,j
+261,TRIVIAL+PROSE,8068,56,inline_math,PROSE,|E|
+261,TRIVIAL+PROSE,8073,61,inline_math,PROSE,t_R > t_L
+261,TRIVIAL+PROSE,8075,63,inline_math,PROSE,t_R
+261,TRIVIAL+PROSE,8040,28,inline_math,TRIVIAL,j
+261,TRIVIAL+PROSE,8042,30,inline_math,TRIVIAL,j
+261,TRIVIAL+PROSE,8044,32,inline_math,TRIVIAL,K
+261,TRIVIAL+PROSE,8047,35,inline_math,TRIVIAL,E
+261,TRIVIAL+PROSE,8049,37,inline_math,TRIVIAL,E
+261,TRIVIAL+PROSE,8050,38,inline_math,TRIVIAL,K
+262,TRIVIAL+PROSE,8106,30,inline_math,PROSE,"
+Since "
+262,TRIVIAL+PROSE,8107,31,inline_math,PROSE,", we have:
+"
+262,TRIVIAL+PROSE,8126,50,inline_math,PROSE,"
+Substituting this back into the eigenvalue equation:
+"
+262,TRIVIAL+PROSE,8128,52,inline_math,PROSE,"
+This is not correct. Let's go back to the original equation:
+"
+262,TRIVIAL+PROSE,8134,58,inline_math,PROSE,"
+The characteristic equation is:
+"
+262,TRIVIAL+PROSE,8138,62,inline_math,PROSE,"
+This is a linear equation, so there are two roots, which are identical. The product of the roots is "
+262,TRIVIAL+PROSE,8139,63,inline_math,PROSE,".
+However, we can also consider the equation "
+262,TRIVIAL+PROSE,8140,64,inline_math,PROSE," as:
+"
+262,TRIVIAL+PROSE,8148,72,inline_math,PROSE,"
+The characteristic equation is "
+262,TRIVIAL+PROSE,8149,73,inline_math,PROSE,. The product of the roots is 
+262,TRIVIAL+PROSE,8167,91,inline_math,PROSE,|E|
+262,TRIVIAL+PROSE,8173,97,inline_math,PROSE,t_L < t_R
+262,TRIVIAL+PROSE,8168,92,inline_math,TRIVIAL,N
+263,TRIVIAL+PROSE,8175,2,inline_math,PROSE,E(k)
+263,TRIVIAL+PROSE,8180,7,inline_math,PROSE,E(k)
+263,TRIVIAL+PROSE,8208,35,inline_math,PROSE,|E|
+263,TRIVIAL+PROSE,8210,37,inline_math,PROSE,|E|
+263,TRIVIAL+PROSE,8216,43,inline_math,PROSE,|E|
+263,TRIVIAL+PROSE,8224,51,inline_math,PROSE,t_R
+263,TRIVIAL+PROSE,8225,52,inline_math,PROSE,t_L
+263,TRIVIAL+PROSE,8226,53,inline_math,PROSE,t_R > t_L
+263,TRIVIAL+PROSE,8176,3,inline_math,TRIVIAL,H
+263,TRIVIAL+PROSE,8178,5,inline_math,TRIVIAL,k
+263,TRIVIAL+PROSE,8185,12,inline_math,TRIVIAL,E
+263,TRIVIAL+PROSE,8209,36,inline_math,TRIVIAL,N
+265,TRIVIAL+PROSE,8257,13,inline_math,PROSE,|E|
+265,TRIVIAL+PROSE,8262,18,inline_math,PROSE,t_R > t_L
+265,TRIVIAL+PROSE,8255,11,inline_math,TRIVIAL,E
+265,TRIVIAL+PROSE,8258,14,inline_math,TRIVIAL,N
+265,TRIVIAL+PROSE,8261,17,inline_math,TRIVIAL,N
+266,TRIVIAL+PROSE,8276,14,inline_math,PROSE,E(k)
+266,TRIVIAL+PROSE,8284,22,inline_math,PROSE,|E|
+266,TRIVIAL+PROSE,8288,26,inline_math,PROSE,t_R > t_L
+266,TRIVIAL+PROSE,8280,18,inline_math,TRIVIAL,E
+266,TRIVIAL+PROSE,8285,23,inline_math,TRIVIAL,N
+266,TRIVIAL+PROSE,8287,25,inline_math,TRIVIAL,N
+268,TRIVIAL+PROSE,8326,27,inline_math,PROSE,"
+where "
+268,TRIVIAL+PROSE,8328,29,inline_math,PROSE,H(k)
+268,TRIVIAL+PROSE,8332,33,inline_math,PROSE,"
+Using "
+268,TRIVIAL+PROSE,8333,34,inline_math,PROSE, and 
+268,TRIVIAL+PROSE,8334,35,inline_math,PROSE,", we get:
+"
+268,TRIVIAL+PROSE,8338,39,inline_math,PROSE,"
+In matrix form, this is:
+"
+268,TRIVIAL+PROSE,8340,41,inline_math,PROSE,"
+The eigenvalues "
+268,TRIVIAL+PROSE,8341,42,inline_math,PROSE, are found from the characteristic equation 
+268,TRIVIAL+PROSE,8352,53,inline_math,PROSE,"
+Taking the square root of both sides:
+"
+268,TRIVIAL+PROSE,8354,55,inline_math,PROSE,"
+This can be written using "
+268,TRIVIAL+PROSE,8362,63,inline_math,PROSE,E(k)
+268,TRIVIAL+PROSE,8374,75,inline_math,PROSE,"
+In this case, the spectrum is entirely real for all "
+268,TRIVIAL+PROSE,8380,81,inline_math,PROSE,"
+This can be separated into two independent quadratic equations for "
+268,TRIVIAL+PROSE,8383,84,inline_math,PROSE,"
+Let "
+268,TRIVIAL+PROSE,8398,99,inline_math,PROSE, and 
+268,TRIVIAL+PROSE,8401,102,inline_math,PROSE,"
+When "
+268,TRIVIAL+PROSE,8403,104,inline_math,PROSE, is imaginary or zero. Let 
+268,TRIVIAL+PROSE,8404,105,inline_math,PROSE, where 
+268,TRIVIAL+PROSE,8407,108,inline_math,PROSE,"
+So, for "
+268,TRIVIAL+PROSE,8408,109,inline_math,PROSE,", the GBZ is the unit circle ("
+268,TRIVIAL+PROSE,8416,117,inline_math,PROSE,"
+The GBZ radius is:
+"
+268,TRIVIAL+PROSE,8342,43,inline_math,TRIVIAL,":
+"
+268,TRIVIAL+PROSE,8355,56,inline_math,TRIVIAL,":
+"
+268,TRIVIAL+PROSE,8367,68,inline_math,TRIVIAL,k
+268,TRIVIAL+PROSE,8381,82,inline_math,TRIVIAL,":
+"
+268,TRIVIAL+PROSE,8384,85,inline_math,TRIVIAL,".
+"
+268,TRIVIAL+PROSE,8388,89,inline_math,TRIVIAL,E
+268,TRIVIAL+PROSE,8399,100,inline_math,TRIVIAL,").
+"
+268,TRIVIAL+PROSE,8402,103,inline_math,TRIVIAL,", "
+268,TRIVIAL+PROSE,8405,106,inline_math,TRIVIAL,".
+"
+268,TRIVIAL+PROSE,8422,123,inline_math,TRIVIAL,T
+268,TRIVIAL+PROSE,8425,126,inline_math,TRIVIAL,K
+269,TRIVIAL+PROSE,8454,27,inline_math,PROSE,"
+where "
+269,TRIVIAL+PROSE,8455,28,inline_math,PROSE,". We can rewrite this as:
+"
+269,TRIVIAL+PROSE,8457,30,inline_math,PROSE,"
+Using Euler's formula, "
+269,TRIVIAL+PROSE,8462,35,inline_math,PROSE,"
+Substituting these into the Hamiltonian:
+"
+269,TRIVIAL+PROSE,8466,39,inline_math,PROSE,"
+This Hamiltonian is of the form "
+269,TRIVIAL+PROSE,8467,40,inline_math,PROSE,", with "
+269,TRIVIAL+PROSE,8470,43,inline_math,PROSE,", and "
+269,TRIVIAL+PROSE,8471,44,inline_math,PROSE,. The eigenvalues 
+269,TRIVIAL+PROSE,8472,45,inline_math,PROSE, are given by 
+269,TRIVIAL+PROSE,8479,52,inline_math,PROSE,"
+Alternatively, and more directly from the "
+269,TRIVIAL+PROSE,8480,53,inline_math,PROSE," representation which is better for the GBZ analysis:
+"
+269,TRIVIAL+PROSE,8482,55,inline_math,PROSE,"
+The eigenvalues are "
+269,TRIVIAL+PROSE,8487,60,inline_math,PROSE,"
+Substituting "
+269,TRIVIAL+PROSE,8488,61,inline_math,PROSE,", we have "
+269,TRIVIAL+PROSE,8489,62,inline_math,PROSE, and 
+269,TRIVIAL+PROSE,8504,77,inline_math,PROSE,"
+which is purely real. If "
+269,TRIVIAL+PROSE,8505,78,inline_math,PROSE,", the imaginary part is zero.
+Therefore, the exact condition for the PBC spectrum to be entirely real is "
+269,TRIVIAL+PROSE,8519,92,inline_math,PROSE,"
+Let "
+269,TRIVIAL+PROSE,8520,93,inline_math,PROSE,". The equation splits into two:
+"
+269,TRIVIAL+PROSE,8522,95,inline_math,PROSE,"
+Multiplying by "
+269,TRIVIAL+PROSE,8523,96,inline_math,PROSE, and rearranging gives two quadratic equations for 
+269,TRIVIAL+PROSE,8531,104,inline_math,PROSE,"
+The OBC continuum is formed by energies "
+269,TRIVIAL+PROSE,8532,105,inline_math,PROSE," for which the roots are complex conjugates. This occurs when the discriminant of the quadratic equations is negative. For the first equation, "
+269,TRIVIAL+PROSE,8533,106,inline_math,PROSE,".
+When "
+269,TRIVIAL+PROSE,8534,107,inline_math,PROSE,", the roots are complex conjugates, "
+269,TRIVIAL+PROSE,8535,108,inline_math,PROSE,", so "
+269,TRIVIAL+PROSE,8536,109,inline_math,PROSE,. Their modulus is given by 
+269,TRIVIAL+PROSE,8537,110,inline_math,PROSE,".
+Similarly, for the second equation, "
+269,TRIVIAL+PROSE,8558,131,inline_math,PROSE,"
+The GBZ radius is:
+"
+269,TRIVIAL+PROSE,8458,31,inline_math,TRIVIAL,":
+"
+269,TRIVIAL+PROSE,8468,41,inline_math,TRIVIAL,", "
+269,TRIVIAL+PROSE,8469,42,inline_math,TRIVIAL,", "
+269,TRIVIAL+PROSE,8473,46,inline_math,TRIVIAL,".
+"
+269,TRIVIAL+PROSE,8490,63,inline_math,TRIVIAL,".
+"
+269,TRIVIAL+PROSE,8493,66,inline_math,TRIVIAL,k
+269,TRIVIAL+PROSE,8494,67,inline_math,TRIVIAL,k
+269,TRIVIAL+PROSE,8508,81,inline_math,TRIVIAL,E
+269,TRIVIAL+PROSE,8567,140,inline_math,TRIVIAL,k
+269,TRIVIAL+PROSE,8568,141,inline_math,TRIVIAL,-k
+270,TRIVIAL+PROSE,8590,10,inline_math,PROSE,E(k)
+270,TRIVIAL+PROSE,8592,12,inline_math,PROSE,"
+Substitute "
+270,TRIVIAL+PROSE,8593,13,inline_math,PROSE, and use the fact that 
+270,TRIVIAL+PROSE,8596,16,inline_math,PROSE,"
+Using Euler's formula, "
+270,TRIVIAL+PROSE,8597,17,inline_math,PROSE, and 
+270,TRIVIAL+PROSE,8600,20,inline_math,PROSE,"
+Expanding and simplifying:
+"
+270,TRIVIAL+PROSE,8602,22,inline_math,PROSE,"
+This simplifies to:
+"
+270,TRIVIAL+PROSE,8604,24,inline_math,PROSE,"
+The dispersion relation "
+270,TRIVIAL+PROSE,8605,25,inline_math,PROSE, can be found by solving for the eigenvalues of 
+270,TRIVIAL+PROSE,8606,26,inline_math,PROSE,H(k)
+270,TRIVIAL+PROSE,8607,27,inline_math,PROSE,E(k)
+270,TRIVIAL+PROSE,8608,28,inline_math,PROSE,H(k)
+270,TRIVIAL+PROSE,8610,30,inline_math,PROSE,"
+Simplifying:
+"
+270,TRIVIAL+PROSE,8612,32,inline_math,PROSE,"
+Further simplification yields:
+"
+270,TRIVIAL+PROSE,8616,36,inline_math,PROSE,E(k)
+270,TRIVIAL+PROSE,8594,14,inline_math,TRIVIAL,":
+"
+270,TRIVIAL+PROSE,8598,18,inline_math,TRIVIAL,":
+"
+270,TRIVIAL+PROSE,8614,34,inline_math,TRIVIAL,g
+270,TRIVIAL+PROSE,8617,37,inline_math,TRIVIAL,k
+270,TRIVIAL+PROSE,8619,39,inline_math,TRIVIAL,t
+270,TRIVIAL+PROSE,8621,41,inline_math,TRIVIAL,g
+270,TRIVIAL+PROSE,8624,44,inline_math,TRIVIAL,g
+270,TRIVIAL+PROSE,8635,55,inline_math,TRIVIAL,g
+270,TRIVIAL+PROSE,8637,57,inline_math,TRIVIAL,g
+271,TRIVIAL+PROSE,8673,34,inline_math,PROSE,E(k)
+271,TRIVIAL+PROSE,8674,35,inline_math,PROSE,E(k)
+271,TRIVIAL+PROSE,8677,38,inline_math,TRIVIAL,E
+271,TRIVIAL+PROSE,8685,46,inline_math,TRIVIAL,E
+271,TRIVIAL+PROSE,8686,47,inline_math,TRIVIAL,g
+271,TRIVIAL+PROSE,8688,49,inline_math,TRIVIAL,k
+271,TRIVIAL+PROSE,8696,57,inline_math,TRIVIAL,E
+272,TRIVIAL+PROSE,8723,8,inline_math,PROSE,E(k)
+272,TRIVIAL+PROSE,8725,10,inline_math,PROSE,"
+Substitute "
+272,TRIVIAL+PROSE,8726,11,inline_math,PROSE, and use the fact that 
+272,TRIVIAL+PROSE,8729,14,inline_math,PROSE,"
+Using Euler's formula, "
+272,TRIVIAL+PROSE,8730,15,inline_math,PROSE, and 
+272,TRIVIAL+PROSE,8733,18,inline_math,PROSE,"
+Expanding and simplifying:
+"
+272,TRIVIAL+PROSE,8735,20,inline_math,PROSE,"
+This simplifies to:
+"
+272,TRIVIAL+PROSE,8737,22,inline_math,PROSE,"
+The dispersion relation "
+272,TRIVIAL+PROSE,8738,23,inline_math,PROSE, is found by solving for the eigenvalues of 
+272,TRIVIAL+PROSE,8743,28,inline_math,PROSE,H(k)
+272,TRIVIAL+PROSE,8778,63,inline_math,PROSE,|g|
+272,TRIVIAL+PROSE,8727,12,inline_math,TRIVIAL,":
+"
+272,TRIVIAL+PROSE,8731,16,inline_math,TRIVIAL,":
+"
+272,TRIVIAL+PROSE,8739,24,inline_math,TRIVIAL,":
+"
+272,TRIVIAL+PROSE,8741,26,inline_math,TRIVIAL,g
+272,TRIVIAL+PROSE,8744,29,inline_math,TRIVIAL,k
+272,TRIVIAL+PROSE,8745,30,inline_math,TRIVIAL,g
+272,TRIVIAL+PROSE,8746,31,inline_math,TRIVIAL,g
+272,TRIVIAL+PROSE,8748,33,inline_math,TRIVIAL,g
+272,TRIVIAL+PROSE,8755,40,inline_math,TRIVIAL,g
+272,TRIVIAL+PROSE,8773,58,inline_math,TRIVIAL,g
+280,TRIVIAL+PROSE,9194,19,inline_math,PROSE,"
+Using Zeta function regularization, "
+280,TRIVIAL+PROSE,9195,20,inline_math,PROSE,". The resulting renormalized energy per unit area is:
+"
+280,TRIVIAL+PROSE,9197,22,inline_math,PROSE,"
+The pressure is the negative derivative of the energy with respect to "
+280,TRIVIAL+PROSE,9210,35,inline_math,PROSE,"
+Convert to "
+280,TRIVIAL+PROSE,9187,12,inline_math,TRIVIAL,d
+280,TRIVIAL+PROSE,9188,13,inline_math,TRIVIAL,z
+280,TRIVIAL+PROSE,9198,23,inline_math,TRIVIAL,":
+"
+280,TRIVIAL+PROSE,9211,36,inline_math,TRIVIAL,":
+"
+300,TRIVIAL+PROSE,9849,2,inline_math,PROSE,a_e
+300,TRIVIAL+PROSE,9860,13,inline_math,PROSE,a_e
+300,TRIVIAL+PROSE,9857,10,inline_math,TRIVIAL,g
+300,TRIVIAL+PROSE,9858,11,inline_math,TRIVIAL,g
+300,TRIVIAL+PROSE,9863,16,inline_math,TRIVIAL,g
+301,TRIVIAL+PROSE,9882,17,inline_math,PROSE,"
+The "
+301,TRIVIAL+PROSE,9886,21,inline_math,PROSE,"
+Since "
+301,TRIVIAL+PROSE,9887,22,inline_math,PROSE," by charge renormalization, the anomalous magnetic moment "
+301,TRIVIAL+PROSE,9888,23,inline_math,PROSE," is defined as:
+"
+301,TRIVIAL+PROSE,9899,34,inline_math,PROSE,"
+To report "
+301,TRIVIAL+PROSE,9913,48,inline_math,PROSE,a_e
+301,TRIVIAL+PROSE,9919,54,inline_math,PROSE,a_e
+301,TRIVIAL+PROSE,9880,15,inline_math,TRIVIAL,g
+301,TRIVIAL+PROSE,9884,19,inline_math,TRIVIAL,"):
+"
+301,TRIVIAL+PROSE,9900,35,inline_math,TRIVIAL,":
+"
+301,TRIVIAL+PROSE,9902,37,inline_math,TRIVIAL,g
+301,TRIVIAL+PROSE,9903,38,inline_math,TRIVIAL,g
+301,TRIVIAL+PROSE,9915,50,inline_math,TRIVIAL,m
+305,TRIVIAL+PROSE,9949,10,inline_math,PROSE,a_e
+305,TRIVIAL+PROSE,9953,14,inline_math,PROSE,a_e
+305,TRIVIAL+PROSE,9956,17,inline_math,PROSE,a_e
+305,TRIVIAL+PROSE,9957,18,inline_math,PROSE,a_e
+305,TRIVIAL+PROSE,9954,15,inline_math,TRIVIAL,g
+305,TRIVIAL+PROSE,9955,16,inline_math,TRIVIAL,g
+306,TRIVIAL+PROSE,9968,10,inline_math,PROSE,a_e
+306,TRIVIAL+PROSE,9976,18,inline_math,PROSE,a_e
+306,TRIVIAL+PROSE,9973,15,inline_math,TRIVIAL,g
+307,TRIVIAL+PROSE,9984,7,inline_math,PROSE,a_e
+307,TRIVIAL+PROSE,9986,9,inline_math,PROSE,a_e
+307,TRIVIAL+PROSE,9988,11,inline_math,PROSE,a_e
+307,TRIVIAL+PROSE,9996,19,inline_math,PROSE,a_e
+307,TRIVIAL+PROSE,9993,16,inline_math,TRIVIAL,g
+307,TRIVIAL+PROSE,9994,17,inline_math,TRIVIAL,g
+307,TRIVIAL+PROSE,9995,18,inline_math,TRIVIAL,g
+312,TRIVIAL+PROSE,10047,13,inline_math,PROSE,a_e
+312,TRIVIAL+PROSE,10044,10,inline_math,TRIVIAL,g
+312,TRIVIAL+PROSE,10045,11,inline_math,TRIVIAL,g
+312,TRIVIAL+PROSE,10046,12,inline_math,TRIVIAL,g
+313,TRIVIAL+PROSE,10057,10,inline_math,PROSE,a_e
+313,TRIVIAL+PROSE,10060,13,inline_math,PROSE,a_e
+313,TRIVIAL+PROSE,10066,19,inline_math,PROSE,a_e
+313,TRIVIAL+PROSE,10067,20,inline_math,PROSE,a_e
+313,TRIVIAL+PROSE,10058,11,inline_math,TRIVIAL,g
+313,TRIVIAL+PROSE,10063,16,inline_math,TRIVIAL,g
+313,TRIVIAL+PROSE,10064,17,inline_math,TRIVIAL,g
+318,TRIVIAL+PROSE,10161,9,inline_math,PROSE,k_B
+318,TRIVIAL+PROSE,10155,3,inline_math,TRIVIAL,T
+318,TRIVIAL+PROSE,10158,6,inline_math,TRIVIAL,a
+318,TRIVIAL+PROSE,10159,7,inline_math,TRIVIAL,c
+318,TRIVIAL+PROSE,10163,11,inline_math,TRIVIAL,a
+318,TRIVIAL+PROSE,10172,20,inline_math,TRIVIAL,a
+318,TRIVIAL+PROSE,10174,22,inline_math,TRIVIAL,a
+319,TRIVIAL+PROSE,10197,9,inline_math,PROSE,k_B
+319,TRIVIAL+PROSE,10191,3,inline_math,TRIVIAL,T
+319,TRIVIAL+PROSE,10194,6,inline_math,TRIVIAL,a
+319,TRIVIAL+PROSE,10195,7,inline_math,TRIVIAL,c
+319,TRIVIAL+PROSE,10199,11,inline_math,TRIVIAL,a
+319,TRIVIAL+PROSE,10206,18,inline_math,TRIVIAL,a
+319,TRIVIAL+PROSE,10208,20,inline_math,TRIVIAL,a
+320,TRIVIAL+PROSE,10229,9,inline_math,PROSE,k_B
+320,TRIVIAL+PROSE,10223,3,inline_math,TRIVIAL,T
+320,TRIVIAL+PROSE,10226,6,inline_math,TRIVIAL,a
+320,TRIVIAL+PROSE,10227,7,inline_math,TRIVIAL,c
+320,TRIVIAL+PROSE,10231,11,inline_math,TRIVIAL,a
+320,TRIVIAL+PROSE,10240,20,inline_math,TRIVIAL,a
+320,TRIVIAL+PROSE,10242,22,inline_math,TRIVIAL,a
+321,TRIVIAL+PROSE,10266,10,inline_math,PROSE,k_B
+321,TRIVIAL+PROSE,10259,3,inline_math,TRIVIAL,T
+321,TRIVIAL+PROSE,10262,6,inline_math,TRIVIAL,a
+321,TRIVIAL+PROSE,10264,8,inline_math,TRIVIAL,c
+321,TRIVIAL+PROSE,10272,16,inline_math,TRIVIAL,a
+322,TRIVIAL+PROSE,10297,15,inline_math,PROSE,k_B
+322,TRIVIAL+PROSE,10294,12,inline_math,TRIVIAL,a
+322,TRIVIAL+PROSE,10296,14,inline_math,TRIVIAL,c
+322,TRIVIAL+PROSE,10298,16,inline_math,TRIVIAL,T
+322,TRIVIAL+PROSE,10305,23,inline_math,TRIVIAL,a
+322,TRIVIAL+PROSE,10309,27,inline_math,TRIVIAL,a
+326,TRIVIAL+PROSE,10366,11,inline_math,PROSE,k_B
+326,TRIVIAL+PROSE,10363,8,inline_math,TRIVIAL,a
+326,TRIVIAL+PROSE,10365,10,inline_math,TRIVIAL,c
+326,TRIVIAL+PROSE,10367,12,inline_math,TRIVIAL,T
+326,TRIVIAL+PROSE,10371,16,inline_math,TRIVIAL,a
+326,TRIVIAL+PROSE,10372,17,inline_math,TRIVIAL,T
+327,TRIVIAL+PROSE,10383,11,inline_math,PROSE,k_B
+327,TRIVIAL+PROSE,10380,8,inline_math,TRIVIAL,a
+327,TRIVIAL+PROSE,10382,10,inline_math,TRIVIAL,c
+327,TRIVIAL+PROSE,10387,15,inline_math,TRIVIAL,a
+327,TRIVIAL+PROSE,10388,16,inline_math,TRIVIAL,T
+328,TRIVIAL+PROSE,10398,10,inline_math,PROSE,k_B
+328,TRIVIAL+PROSE,10395,7,inline_math,TRIVIAL,a
+328,TRIVIAL+PROSE,10397,9,inline_math,TRIVIAL,c
+328,TRIVIAL+PROSE,10405,17,inline_math,TRIVIAL,T
+332,TRIVIAL+PROSE,10583,8,inline_math,PROSE,T_U
+332,TRIVIAL+PROSE,10587,12,inline_math,PROSE,k_B
+332,TRIVIAL+PROSE,10588,13,inline_math,PROSE,T_U
+332,TRIVIAL+PROSE,10585,10,inline_math,TRIVIAL,a
+332,TRIVIAL+PROSE,10586,11,inline_math,TRIVIAL,c
+332,TRIVIAL+PROSE,10595,20,inline_math,TRIVIAL,a
+333,TRIVIAL+PROSE,10612,14,inline_math,PROSE,T_U
+333,TRIVIAL+PROSE,10616,18,inline_math,PROSE,k_B
+333,TRIVIAL+PROSE,10617,19,inline_math,PROSE,T_U
+333,TRIVIAL+PROSE,10614,16,inline_math,TRIVIAL,a
+333,TRIVIAL+PROSE,10615,17,inline_math,TRIVIAL,c
+334,TRIVIAL+PROSE,10642,14,inline_math,PROSE,k_B
+334,TRIVIAL+PROSE,10638,10,inline_math,TRIVIAL,T
+334,TRIVIAL+PROSE,10640,12,inline_math,TRIVIAL,a
+334,TRIVIAL+PROSE,10641,13,inline_math,TRIVIAL,c
+334,TRIVIAL+PROSE,10643,15,inline_math,TRIVIAL,T
+344,TRIVIAL+PROSE,10878,9,inline_math,PROSE,V(r)
+344,TRIVIAL+PROSE,10880,11,inline_math,TRIVIAL,g
+344,TRIVIAL+PROSE,10884,15,inline_math,TRIVIAL,r
+344,TRIVIAL+PROSE,10898,29,inline_math,TRIVIAL,m
+370,TRIVIAL+PROSE,11225,19,inline_math,PROSE,S_x
+370,TRIVIAL+PROSE,11208,2,inline_math,TRIVIAL,U
+370,TRIVIAL+PROSE,11211,5,inline_math,TRIVIAL,U
+390,TRIVIAL+PROSE,11946,12,inline_math,PROSE,p_x
+390,TRIVIAL+PROSE,11974,40,inline_math,PROSE,p_i
+390,TRIVIAL+PROSE,11947,13,inline_math,TRIVIAL,x
+390,TRIVIAL+PROSE,11949,15,inline_math,TRIVIAL,x
+391,TRIVIAL+PROSE,12013,24,inline_math,PROSE,"
+Using the quadratic formula "
+391,TRIVIAL+PROSE,12016,27,inline_math,PROSE,"
+The eigenvalues are:
+"
+391,TRIVIAL+PROSE,12025,36,inline_math,PROSE,"
+Substituting the values:
+"
+391,TRIVIAL+PROSE,12005,16,inline_math,TRIVIAL,x
+391,TRIVIAL+PROSE,12014,25,inline_math,TRIVIAL,":
+"
+411,TRIVIAL+ELIDED,13028,3,display_math,ELIDED,\[ F \approx 0.9333... \]
+411,TRIVIAL+ELIDED,13036,11,inline_math,TRIVIAL,F
+411,TRIVIAL+ELIDED,13038,13,inline_math,TRIVIAL,F
+411,TRIVIAL+ELIDED,13040,15,inline_math,TRIVIAL,f
+411,TRIVIAL+ELIDED,13041,16,inline_math,TRIVIAL,F
+421,TRIVIAL+PROSE,13183,18,inline_math,PROSE,F > F_{classical}
+421,TRIVIAL+PROSE,13175,10,inline_math,TRIVIAL,F
+421,TRIVIAL+PROSE,13177,12,inline_math,TRIVIAL,F
+421,TRIVIAL+PROSE,13181,16,inline_math,TRIVIAL,f
+421,TRIVIAL+PROSE,13182,17,inline_math,TRIVIAL,f
+421,TRIVIAL+PROSE,13184,19,inline_math,TRIVIAL,f
+421,TRIVIAL+PROSE,13185,20,inline_math,TRIVIAL,f
+437,TRIVIAL+PROSE,13532,23,inline_math,PROSE,T_B
+437,TRIVIAL+PROSE,13539,30,inline_math,TRIVIAL,p
+438,TRIVIAL+PROSE,13571,22,inline_math,PROSE,T_B
+438,TRIVIAL+PROSE,13578,29,inline_math,TRIVIAL,p
+453,TRIVIAL+PROSE,13917,14,inline_math,PROSE,"
+Given:
+"
+453,TRIVIAL+PROSE,13913,10,inline_math,TRIVIAL,B
+453,TRIVIAL+PROSE,13914,11,inline_math,TRIVIAL,r
+453,TRIVIAL+PROSE,13925,22,inline_math,TRIVIAL,N
+474,TRIVIAL+PROSE,14248,20,inline_math,PROSE,"
+Given "
+474,TRIVIAL+PROSE,14249,21,inline_math,PROSE,", we have "
+474,TRIVIAL+PROSE,14250,22,inline_math,PROSE,". Substituting this into the formula:
+"
+474,TRIVIAL+PROSE,14259,31,inline_math,PROSE,"
+The magnitude of the Berry phase is:
+"
+474,TRIVIAL+PROSE,14265,37,inline_math,PROSE,"
+The magnitude of the phase for "
+474,TRIVIAL+PROSE,14266,38,inline_math,PROSE," is:
+"
+474,TRIVIAL+PROSE,14268,40,inline_math,PROSE,"
+Thus, the phase is proportional to the spin projection "
+474,TRIVIAL+PROSE,14241,13,inline_math,TRIVIAL,z
+474,TRIVIAL+PROSE,14252,24,inline_math,TRIVIAL,S
+474,TRIVIAL+PROSE,14253,25,inline_math,TRIVIAL,m
+474,TRIVIAL+PROSE,14257,29,inline_math,TRIVIAL,"):
+"
+474,TRIVIAL+PROSE,14270,42,inline_math,TRIVIAL,T
+491,TRIVIAL+PROSE,14547,12,inline_math,PROSE,E_n
+491,TRIVIAL+PROSE,14539,4,inline_math,TRIVIAL,k'
+491,TRIVIAL+PROSE,14543,8,inline_math,TRIVIAL,E
+491,TRIVIAL+PROSE,14560,25,inline_math,TRIVIAL,n
+491,TRIVIAL+PROSE,14569,34,inline_math,TRIVIAL,n
+492,TRIVIAL+PROSE,14589,13,inline_math,PROSE,E_n
+492,TRIVIAL+PROSE,14585,9,inline_math,TRIVIAL,E
+492,TRIVIAL+PROSE,14602,26,inline_math,TRIVIAL,n
+492,TRIVIAL+PROSE,14612,36,inline_math,TRIVIAL,n
+492,TRIVIAL+PROSE,14613,37,inline_math,TRIVIAL,n
+493,TRIVIAL+PROSE,14631,13,inline_math,PROSE,E_n
+493,TRIVIAL+PROSE,14627,9,inline_math,TRIVIAL,E
+493,TRIVIAL+PROSE,14644,26,inline_math,TRIVIAL,n
+493,TRIVIAL+PROSE,14654,36,inline_math,TRIVIAL,n
+494,TRIVIAL+PROSE,14668,8,inline_math,PROSE,x > L
+494,TRIVIAL+PROSE,14737,77,inline_math,PROSE,E_n
+494,TRIVIAL+PROSE,14663,3,inline_math,TRIVIAL,L
+494,TRIVIAL+PROSE,14685,25,inline_math,TRIVIAL,B
+494,TRIVIAL+PROSE,14708,48,inline_math,TRIVIAL,n
+494,TRIVIAL+PROSE,14715,55,inline_math,TRIVIAL,n
+494,TRIVIAL+PROSE,14729,69,inline_math,TRIVIAL,n
+494,TRIVIAL+PROSE,14735,75,inline_math,TRIVIAL,n
+495,TRIVIAL+PROSE,14749,12,inline_math,PROSE,x > L
+495,TRIVIAL+PROSE,14757,20,inline_math,TRIVIAL,A
+495,TRIVIAL+PROSE,14758,21,inline_math,TRIVIAL,B
+495,TRIVIAL+PROSE,14759,22,inline_math,TRIVIAL,T
+495,TRIVIAL+PROSE,14762,25,inline_math,TRIVIAL,A
+495,TRIVIAL+PROSE,14763,26,inline_math,TRIVIAL,B
+495,TRIVIAL+PROSE,14767,30,inline_math,TRIVIAL,R
+495,TRIVIAL+PROSE,14793,56,inline_math,TRIVIAL,n
+499,TRIVIAL+PROSE,14964,124,inline_math,PROSE,E_n
+499,TRIVIAL+PROSE,14939,99,inline_math,TRIVIAL,B
+499,TRIVIAL+PROSE,14940,100,inline_math,TRIVIAL,n
+499,TRIVIAL+PROSE,14941,101,inline_math,TRIVIAL,k
+499,TRIVIAL+PROSE,14945,105,inline_math,TRIVIAL,n
+499,TRIVIAL+PROSE,14947,107,inline_math,TRIVIAL,m
+499,TRIVIAL+PROSE,14948,108,inline_math,TRIVIAL,L
+499,TRIVIAL+PROSE,14950,110,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15114,150,inline_math,PROSE,E_n
+500,TRIVIAL+PROSE,15107,143,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15109,145,inline_math,TRIVIAL,E
+500,TRIVIAL+PROSE,15110,146,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15111,147,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15115,151,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15116,152,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15118,154,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15119,155,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15121,157,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15122,158,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15124,160,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15125,161,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15127,163,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15128,164,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15130,166,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15131,167,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15133,169,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15134,170,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15136,172,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15137,173,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15139,175,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15140,176,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15142,178,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15143,179,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15145,181,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15146,182,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15148,184,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15149,185,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15151,187,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15152,188,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15154,190,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15155,191,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15157,193,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15158,194,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15160,196,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15161,197,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15163,199,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15164,200,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15166,202,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15167,203,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15169,205,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15170,206,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15172,208,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15173,209,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15175,211,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15176,212,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15178,214,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15179,215,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15181,217,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15182,218,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15184,220,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15185,221,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15187,223,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15188,224,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15190,226,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15191,227,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15193,229,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15194,230,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15196,232,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15197,233,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15199,235,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15200,236,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15202,238,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15203,239,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15205,241,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15206,242,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15208,244,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15209,245,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15211,247,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15212,248,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15214,250,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15215,251,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15217,253,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15218,254,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15220,256,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15221,257,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15223,259,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15224,260,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15226,262,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15227,263,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15229,265,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15230,266,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15232,268,inline_math,TRIVIAL,n
+500,TRIVIAL+PROSE,15233,269,inline_math,TRIVIAL,n
+516,TRIVIAL+PROSE,15715,34,inline_math,PROSE,"
+The dimensionless product "
+516,TRIVIAL+PROSE,15716,35,inline_math,PROSE, for 
+516,TRIVIAL+PROSE,15717,36,inline_math,PROSE," nm is:
+"
+516,TRIVIAL+PROSE,15720,39,inline_math,PROSE,"
+Substituting the values in eV:
+"
+516,TRIVIAL+PROSE,15724,43,inline_math,PROSE,"
+Calculating the value:
+"
+516,TRIVIAL+PROSE,15698,17,inline_math,TRIVIAL,T
+516,TRIVIAL+PROSE,15734,53,inline_math,TRIVIAL,L
+516,TRIVIAL+PROSE,15735,54,inline_math,TRIVIAL,L
+537,TRIVIAL+PROSE,16354,15,inline_math,PROSE,L_{proper}
+537,TRIVIAL+PROSE,16358,19,inline_math,PROSE,L_{proper}
+537,TRIVIAL+PROSE,16352,13,inline_math,TRIVIAL,t
+537,TRIVIAL+PROSE,16356,17,inline_math,TRIVIAL,v
+580,TRIVIAL+PROSE,17291,21,inline_math,PROSE,"(t, x)"
+580,TRIVIAL+PROSE,17295,25,inline_math,PROSE,"
+Integrating with respect to lab time "
+580,TRIVIAL+PROSE,17296,26,inline_math,PROSE, (starting from 
+580,TRIVIAL+PROSE,17300,30,inline_math,PROSE,"
+Solving for "
+580,TRIVIAL+PROSE,17303,33,inline_math,PROSE,"
+To find the relationship with proper time "
+580,TRIVIAL+PROSE,17304,34,inline_math,PROSE,", we use "
+580,TRIVIAL+PROSE,17307,37,inline_math,PROSE,"
+Integrating:
+"
+580,TRIVIAL+PROSE,17312,42,inline_math,PROSE,"
+Integrating "
+580,TRIVIAL+PROSE,17317,47,inline_math,PROSE,"
+Substituting "
+580,TRIVIAL+PROSE,17332,62,inline_math,PROSE,"
+Using "
+580,TRIVIAL+PROSE,17337,67,inline_math,PROSE,"
+Using "
+580,TRIVIAL+PROSE,17345,75,inline_math,PROSE,"
+Since "
+580,TRIVIAL+PROSE,17346,76,inline_math,PROSE,", the student finds "
+580,TRIVIAL+PROSE,17347,77,inline_math,PROSE,", which is "
+580,TRIVIAL+PROSE,17349,79,inline_math,PROSE,". In relativity, constant proper acceleration does not lead to a linear increase in lab velocity. Instead, the velocity follows a hyperbolic tangent function "
+580,TRIVIAL+PROSE,17350,80,inline_math,PROSE,. Because 
+580,TRIVIAL+PROSE,17351,81,inline_math,PROSE, for all finite 
+580,TRIVIAL+PROSE,17288,18,inline_math,TRIVIAL,a
+580,TRIVIAL+PROSE,17297,27,inline_math,TRIVIAL, at 
+580,TRIVIAL+PROSE,17298,28,inline_math,TRIVIAL,"):
+"
+580,TRIVIAL+PROSE,17301,31,inline_math,TRIVIAL,":
+"
+580,TRIVIAL+PROSE,17305,35,inline_math,TRIVIAL,":
+"
+580,TRIVIAL+PROSE,17315,45,inline_math,TRIVIAL,"):
+"
+580,TRIVIAL+PROSE,17318,48,inline_math,TRIVIAL,":
+"
+580,TRIVIAL+PROSE,17322,52,inline_math,TRIVIAL,":
+"
+580,TRIVIAL+PROSE,17330,60,inline_math,TRIVIAL,t
+580,TRIVIAL+PROSE,17333,63,inline_math,TRIVIAL,":
+"
+580,TRIVIAL+PROSE,17335,65,inline_math,TRIVIAL,x
+580,TRIVIAL+PROSE,17338,68,inline_math,TRIVIAL,":
+"
+628,TRIVIAL+PROSE,18470,17,inline_math,PROSE,T_c
+628,TRIVIAL+PROSE,18475,22,inline_math,PROSE,"
+where "
+628,TRIVIAL+PROSE,18476,23,inline_math,PROSE," is the thermal de Broglie wavelength.
+Rearranging for "
+628,TRIVIAL+PROSE,18479,26,inline_math,PROSE,"
+Substitute the expression for "
+628,TRIVIAL+PROSE,18482,29,inline_math,PROSE,"
+Raise both sides to the power of "
+628,TRIVIAL+PROSE,18485,32,inline_math,PROSE,"
+Solving for "
+628,TRIVIAL+PROSE,18488,35,inline_math,PROSE,T_c
+628,TRIVIAL+PROSE,18498,45,inline_math,PROSE,"
+Now raise to the "
+628,TRIVIAL+PROSE,18499,46,inline_math,PROSE," power:
+"
+628,TRIVIAL+PROSE,18501,48,inline_math,PROSE,"
+Now calculate the prefactor "
+628,TRIVIAL+PROSE,18504,51,inline_math,PROSE,"
+Calculate "
+628,TRIVIAL+PROSE,18507,54,inline_math,PROSE,"
+Calculate "
+628,TRIVIAL+PROSE,18520,67,inline_math,PROSE,"
+Comparing this to the correct formula:
+"
+628,TRIVIAL+PROSE,18471,18,inline_math,TRIVIAL,T
+628,TRIVIAL+PROSE,18473,20,inline_math,TRIVIAL,n
+628,TRIVIAL+PROSE,18477,24,inline_math,TRIVIAL,":
+"
+628,TRIVIAL+PROSE,18480,27,inline_math,TRIVIAL,":
+"
+628,TRIVIAL+PROSE,18483,30,inline_math,TRIVIAL,":
+"
+628,TRIVIAL+PROSE,18486,33,inline_math,TRIVIAL,":
+"
+628,TRIVIAL+PROSE,18502,49,inline_math,TRIVIAL,":
+"
+628,TRIVIAL+PROSE,18505,52,inline_math,TRIVIAL,":
+"
+628,TRIVIAL+PROSE,18508,55,inline_math,TRIVIAL,":
+"
+632,TRIVIAL+PROSE,18620,17,inline_math,PROSE,k_B T_c
+632,TRIVIAL+PROSE,18625,22,inline_math,PROSE,k_B T_c
+632,TRIVIAL+PROSE,18626,23,inline_math,PROSE,T_c
+632,TRIVIAL+PROSE,18629,26,inline_math,PROSE,T_c
+632,TRIVIAL+PROSE,18631,28,inline_math,PROSE,T_c
+632,TRIVIAL+PROSE,18624,21,inline_math,TRIVIAL,T
+632,TRIVIAL+PROSE,18627,24,inline_math,TRIVIAL,n
+634,TRIVIAL+PROSE,18696,17,inline_math,PROSE,T_c
+634,TRIVIAL+PROSE,18702,23,inline_math,PROSE,T_c
+634,TRIVIAL+PROSE,18703,24,inline_math,PROSE,T_c
+634,TRIVIAL+PROSE,18708,29,inline_math,PROSE,T_c
+634,TRIVIAL+PROSE,18710,31,inline_math,PROSE,T_c
+634,TRIVIAL+PROSE,18712,33,inline_math,PROSE,T_c
+634,TRIVIAL+PROSE,18715,36,inline_math,PROSE,T_c
+634,TRIVIAL+PROSE,18719,40,inline_math,PROSE,T_c
+634,TRIVIAL+PROSE,18697,18,inline_math,TRIVIAL,n
+634,TRIVIAL+PROSE,18701,22,inline_math,TRIVIAL,T
+634,TRIVIAL+PROSE,18718,39,inline_math,TRIVIAL,T
+639,TRIVIAL+PROSE,18841,12,inline_math,PROSE,k_B T_c
+639,TRIVIAL+PROSE,18842,13,inline_math,PROSE,T_c
+639,TRIVIAL+PROSE,18852,23,inline_math,PROSE,T_c
+639,TRIVIAL+PROSE,18857,28,inline_math,PROSE,T_c
+639,TRIVIAL+PROSE,18858,29,inline_math,PROSE,T_c
+639,TRIVIAL+PROSE,18860,31,inline_math,PROSE,T_c
+639,TRIVIAL+PROSE,18868,39,inline_math,PROSE,T_c
+639,TRIVIAL+PROSE,18844,15,inline_math,TRIVIAL,n
+639,TRIVIAL+PROSE,18849,20,inline_math,TRIVIAL,T
+639,TRIVIAL+PROSE,18850,21,inline_math,TRIVIAL,m
+639,TRIVIAL+PROSE,18851,22,inline_math,TRIVIAL,T
+645,TRIVIAL+PROSE,19022,14,inline_math,PROSE,T_c
+645,TRIVIAL+PROSE,19023,15,inline_math,PROSE,T_c
+645,TRIVIAL+PROSE,19011,3,inline_math,TRIVIAL,z
+646,TRIVIAL+PROSE,19038,14,inline_math,PROSE,T_c
+646,TRIVIAL+PROSE,19027,3,inline_math,TRIVIAL,z
+647,TRIVIAL+PROSE,19053,14,inline_math,PROSE,T_c
+647,TRIVIAL+PROSE,19042,3,inline_math,TRIVIAL,z
+648,TRIVIAL+PROSE,19065,11,inline_math,PROSE,T_c
+648,TRIVIAL+PROSE,19057,3,inline_math,TRIVIAL,z
+649,TRIVIAL+PROSE,19081,15,inline_math,PROSE,"
+Solving for "
+649,TRIVIAL+PROSE,19084,18,inline_math,PROSE,"
+For a square lattice, "
+649,TRIVIAL+PROSE,19085,19,inline_math,PROSE,", so:
+"
+649,TRIVIAL+PROSE,19089,23,inline_math,PROSE,"
+Evaluating the numerical value:
+"
+649,TRIVIAL+PROSE,19097,31,inline_math,PROSE,"), regardless of the size of the system. However, the entropy gained by placing this domain wall anywhere in the chain of "
+649,TRIVIAL+PROSE,19098,32,inline_math,PROSE, sites grows as 
+649,TRIVIAL+PROSE,19099,33,inline_math,PROSE,. For any 
+649,TRIVIAL+PROSE,19100,34,inline_math,PROSE,", the free energy "
+649,TRIVIAL+PROSE,19082,16,inline_math,TRIVIAL,":
+"
+654,TRIVIAL+PROSE,19149,12,inline_math,PROSE,T_c
+654,TRIVIAL+PROSE,19142,5,inline_math,TRIVIAL,z
+655,TRIVIAL+PROSE,19162,12,inline_math,PROSE,T_c
+655,TRIVIAL+PROSE,19155,5,inline_math,TRIVIAL,z
+659,TRIVIAL+PROSE,19209,11,inline_math,PROSE,T_c
+659,TRIVIAL+PROSE,19213,15,inline_math,PROSE,k_B
+659,TRIVIAL+PROSE,19216,18,inline_math,PROSE,T_c
+659,TRIVIAL+PROSE,19217,19,inline_math,PROSE,T_c
+659,TRIVIAL+PROSE,19219,21,inline_math,PROSE,T_c
+659,TRIVIAL+PROSE,19220,22,inline_math,PROSE,T_c
+659,TRIVIAL+PROSE,19210,12,inline_math,TRIVIAL,m
+659,TRIVIAL+PROSE,19211,13,inline_math,TRIVIAL,z
+659,TRIVIAL+PROSE,19212,14,inline_math,TRIVIAL,J
+659,TRIVIAL+PROSE,19214,16,inline_math,TRIVIAL,T
+661,TRIVIAL+PROSE,19241,12,inline_math,PROSE,T_c
+661,TRIVIAL+PROSE,19237,8,inline_math,TRIVIAL,z
+665,TRIVIAL+PROSE,19261,3,inline_math,PROSE,k_B
+665,TRIVIAL+PROSE,19269,11,inline_math,PROSE,Q_{min}
+665,TRIVIAL+PROSE,19262,4,inline_math,TRIVIAL,T
+666,TRIVIAL+PROSE,19283,3,inline_math,PROSE,k_B
+666,TRIVIAL+PROSE,19284,4,inline_math,TRIVIAL,T
+667,TRIVIAL+PROSE,19306,3,inline_math,PROSE,k_B
+667,TRIVIAL+PROSE,19310,7,inline_math,PROSE,P(state)
+667,TRIVIAL+PROSE,19307,4,inline_math,TRIVIAL,T
+668,TRIVIAL+PROSE,19325,3,inline_math,PROSE,k_B
+668,TRIVIAL+PROSE,19331,9,inline_math,PROSE,Q_{min}
+668,TRIVIAL+PROSE,19327,5,inline_math,TRIVIAL,T
+669,TRIVIAL+PROSE,19358,18,inline_math,PROSE,"
+Since "
+669,TRIVIAL+PROSE,19359,19,inline_math,PROSE,", the heat dissipated to the environment is:
+"
+669,TRIVIAL+PROSE,19361,21,inline_math,PROSE,Q_{min}
+669,TRIVIAL+PROSE,19375,35,inline_math,PROSE,"
+Convert eV to meV ("
+669,TRIVIAL+PROSE,19350,10,inline_math,TRIVIAL,T
+669,TRIVIAL+PROSE,19376,36,inline_math,TRIVIAL,"):
+"
+674,TRIVIAL+PROSE,19432,11,inline_math,PROSE,Q_{min}
+674,TRIVIAL+PROSE,19433,12,inline_math,PROSE,k_B
+674,TRIVIAL+PROSE,19436,15,inline_math,PROSE,Q_{min}
+674,TRIVIAL+PROSE,19430,9,inline_math,TRIVIAL,T
+674,TRIVIAL+PROSE,19434,13,inline_math,TRIVIAL,T
+675,TRIVIAL+PROSE,19440,2,inline_math,PROSE,Q_{min}
+675,TRIVIAL+PROSE,19442,4,inline_math,PROSE,k_B
+675,TRIVIAL+PROSE,19447,9,inline_math,PROSE,Q_{min}
+675,TRIVIAL+PROSE,19448,10,inline_math,PROSE,k_B
+675,TRIVIAL+PROSE,19451,13,inline_math,PROSE,k_B
+675,TRIVIAL+PROSE,19455,17,inline_math,PROSE,Q_{min}
+675,TRIVIAL+PROSE,19456,18,inline_math,PROSE,Q_{min}
+675,TRIVIAL+PROSE,19459,21,inline_math,PROSE,Q_{min}
+675,TRIVIAL+PROSE,19460,22,inline_math,PROSE,Q_{min}
+675,TRIVIAL+PROSE,19463,25,inline_math,PROSE,Q_{min}
+675,TRIVIAL+PROSE,19443,5,inline_math,TRIVIAL,T
+675,TRIVIAL+PROSE,19449,11,inline_math,TRIVIAL,T
+680,TRIVIAL+PROSE,19537,7,inline_math,PROSE,k_B
+680,TRIVIAL+PROSE,19540,10,inline_math,PROSE,Q_{min}
+680,TRIVIAL+PROSE,19542,12,inline_math,PROSE,Q_{min}
+680,TRIVIAL+PROSE,19538,8,inline_math,TRIVIAL,T
+681,TRIVIAL+PROSE,19550,8,inline_math,PROSE,Q_{min}
+681,TRIVIAL+PROSE,19551,9,inline_math,PROSE,k_B
+681,TRIVIAL+PROSE,19553,11,inline_math,PROSE,Q_{min}
+681,TRIVIAL+PROSE,19555,13,inline_math,PROSE,Q_{min}
+681,TRIVIAL+PROSE,19556,14,inline_math,PROSE,k_B T
+681,TRIVIAL+PROSE,19557,15,inline_math,PROSE,Q_{min}
+681,TRIVIAL+PROSE,19552,10,inline_math,TRIVIAL,T
+688,TRIVIAL+PROSE,19684,28,inline_math,PROSE,N_{up} > N_{down}
+688,TRIVIAL+PROSE,19661,5,inline_math,TRIVIAL,T
+688,TRIVIAL+PROSE,19677,21,inline_math,TRIVIAL,E
+688,TRIVIAL+PROSE,19678,22,inline_math,TRIVIAL,T
+688,TRIVIAL+PROSE,19680,24,inline_math,TRIVIAL,Z
+690,TRIVIAL+PROSE,19710,11,inline_math,PROSE,N_{up}
+690,TRIVIAL+PROSE,19711,12,inline_math,PROSE,N_{down}
+690,TRIVIAL+PROSE,19708,9,inline_math,TRIVIAL,T
+690,TRIVIAL+PROSE,19713,14,inline_math,TRIVIAL,T
+690,TRIVIAL+PROSE,19715,16,inline_math,TRIVIAL,T
+690,TRIVIAL+PROSE,19717,18,inline_math,TRIVIAL,T
+690,TRIVIAL+PROSE,19730,31,inline_math,TRIVIAL,E
+690,TRIVIAL+PROSE,19731,32,inline_math,TRIVIAL,S
+690,TRIVIAL+PROSE,19733,34,inline_math,TRIVIAL,S
+690,TRIVIAL+PROSE,19734,35,inline_math,TRIVIAL,E
+690,TRIVIAL+PROSE,19742,43,inline_math,TRIVIAL,T

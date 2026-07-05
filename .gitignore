@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Backups
+backups/
+*.bak
+*.backup
+*_backup*
+*.sqlite-backup
+*.db-backup
+
+# Archives
+*.zip
+
+# Optional generated caches
+.cache/
+.pytest_cache/

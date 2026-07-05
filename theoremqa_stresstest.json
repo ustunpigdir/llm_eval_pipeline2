@@ -1,0 +1,182 @@
+[
+ {
+  "Answer": "11760",
+  "Answer_type": "integer",
+  "eval": 11760.0,
+  "note": "numeric"
+ },
+ {
+  "Answer": "5",
+  "Answer_type": "integer",
+  "eval": 5.0,
+  "note": "numeric"
+ },
+ {
+  "Answer": "59",
+  "Answer_type": "integer",
+  "eval": 59.0,
+  "note": "numeric"
+ },
+ {
+  "Answer": "-36",
+  "Answer_type": "integer",
+  "eval": -36.0,
+  "note": "numeric"
+ },
+ {
+  "Answer": "18",
+  "Answer_type": "integer",
+  "eval": 18.0,
+  "note": "numeric"
+ },
+ {
+  "Answer": "132",
+  "Answer_type": "integer",
+  "eval": 132.0,
+  "note": "numeric"
+ },
+ {
+  "Answer": "1.0",
+  "Answer_type": "float",
+  "eval": 1.0,
+  "note": "numeric"
+ },
+ {
+  "Answer": "1.42",
+  "Answer_type": "float",
+  "eval": 1.42,
+  "note": "numeric"
+ },
+ {
+  "Answer": "-1.047",
+  "Answer_type": "float",
+  "eval": -1.047,
+  "note": "numeric"
+ },
+ {
+  "Answer": "0.955",
+  "Answer_type": "float",
+  "eval": 0.955,
+  "note": "numeric"
+ },
+ {
+  "Answer": "-0.3",
+  "Answer_type": "float",
+  "eval": -0.3,
+  "note": "numeric"
+ },
+ {
+  "Answer": "345.0",
+  "Answer_type": "float",
+  "eval": 345.0,
+  "note": "numeric"
+ },
+ {
+  "Answer": "0.4",
+  "Answer_type": "float",
+  "eval": 0.4,
+  "note": "numeric"
+ },
+ {
+  "Answer": "54.8",
+  "Answer_type": "float",
+  "eval": 54.8,
+  "note": "numeric"
+ },
+ {
+  "Answer": "0.2",
+  "Answer_type": "float",
+  "eval": 0.2,
+  "note": "numeric"
+ },
+ {
+  "Answer": "1.667",
+  "Answer_type": "float",
+  "eval": 1.667,
+  "note": "numeric"
+ },
+ {
+  "Answer": "-0.023669",
+  "Answer_type": "float",
+  "eval": -0.023669,
+  "note": "numeric"
+ },
+ {
+  "Answer": "1.12",
+  "Answer_type": "float",
+  "eval": 1.12,
+  "note": "numeric"
+ },
+ {
+  "Answer": "4e-05",
+  "Answer_type": "float",
+  "eval": 4e-05,
+  "note": "numeric"
+ },
+ {
+  "Answer": "3e-36",
+  "Answer_type": "float",
+  "eval": 3e-36,
+  "note": "numeric"
+ },
+ {
+  "Answer": "True",
+  "Answer_type": "bool",
+  "eval": null,
+  "note": "evalf-fail:AttributeError"
+ },
+ {
+  "Answer": "False",
+  "Answer_type": "bool",
+  "eval": null,
+  "note": "evalf-fail:AttributeError"
+ },
+ {
+  "Answer": "[0, 5]",
+  "Answer_type": "list of integer",
+  "eval": null,
+  "note": "evalf-fail:AttributeError"
+ },
+ {
+  "Answer": "[4, 1, 2, 0]",
+  "Answer_type": "list of integer",
+  "eval": null,
+  "note": "evalf-fail:AttributeError"
+ },
+ {
+  "Answer": "[-1, 6]",
+  "Answer_type": "list of integer",
+  "eval": null,
+  "note": "evalf-fail:AttributeError"
+ },
+ {
+  "Answer": "[2.0, 1.32]",
+  "Answer_type": "list of float",
+  "eval": null,
+  "note": "evalf-fail:AttributeError"
+ },
+ {
+  "Answer": "[0.333, 0.25]",
+  "Answer_type": "list of float",
+  "eval": null,
+  "note": "evalf-fail:AttributeError"
+ },
+ {
+  "Answer": "(c)",
+  "Answer_type": "option",
+  "eval": null,
+  "note": "free-symbols:c"
+ },
+ {
+  "Answer": "(b)",
+  "Answer_type": "option",
+  "eval": null,
+  "note": "free-symbols:b"
+ },
+ {
+  "Answer": "(a)",
+  "Answer_type": "option",
+  "eval": null,
+  "note": "free-symbols:a"
+ }
+]
