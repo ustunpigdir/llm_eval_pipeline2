@@ -4,6 +4,13 @@
 
 This change adds read-only SQLite views for analyzing the official benchmark after excluding runs marked structurally unusable in `run_quality_status`. The original benchmark and grading tables remain preserved for all-results analysis.
 
+## Existing Source Tables And Views Used
+
+- `official_gradeable_runs`: source view for all official benchmark runs eligible for grading, with `run_id`, `model_name`, and `scenario_id`.
+- `grading_results`: source table for official field-level grading rows, with `run_id`, `model_name`, `scenario_id`, and `verdict`.
+- `run_quality_status`: source table for review-layer usability status, including `quality_status`, `usability_status`, `rationale`, and `source_artifact`.
+- `scenarios`: source table for scenario metadata, including `scenario_id` and `title`.
+
 ## Views Added
 
 - `official_usable_gradeable_runs`: official gradeable runs with `usability_status = 'USABLE'`.

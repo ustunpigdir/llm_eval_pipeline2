@@ -13,7 +13,14 @@ DEFAULT_DB = ROOT / "learning.db"
 
 
 VIEW_SQL = """
-CREATE VIEW IF NOT EXISTS official_usable_gradeable_runs AS
+DROP VIEW IF EXISTS usable_grading_summary_by_scenario;
+DROP VIEW IF EXISTS usable_grading_summary_by_model;
+DROP VIEW IF EXISTS usable_grading_summary_overall;
+DROP VIEW IF EXISTS unusable_official_runs;
+DROP VIEW IF EXISTS usable_grading_results;
+DROP VIEW IF EXISTS official_usable_gradeable_runs;
+
+CREATE VIEW official_usable_gradeable_runs AS
 SELECT
     ogr.run_id,
     ogr.model_name,
@@ -23,7 +30,7 @@ JOIN run_quality_status AS rqs
     ON rqs.run_id = ogr.run_id
 WHERE rqs.usability_status = 'USABLE';
 
-CREATE VIEW IF NOT EXISTS usable_grading_results AS
+CREATE VIEW usable_grading_results AS
 SELECT
     gr.*
 FROM grading_results AS gr
@@ -31,7 +38,7 @@ JOIN run_quality_status AS rqs
     ON rqs.run_id = gr.run_id
 WHERE rqs.usability_status = 'USABLE';
 
-CREATE VIEW IF NOT EXISTS usable_grading_summary_overall AS
+CREATE VIEW usable_grading_summary_overall AS
 SELECT
     COUNT(*) AS total_rows,
     SUM(CASE WHEN verdict = 'MATCH' THEN 1 ELSE 0 END) AS match_count,
@@ -43,10 +50,10 @@ SELECT
         / NULLIF(SUM(CASE WHEN verdict <> 'NOT_FOUND' THEN 1 ELSE 0 END), 0) AS match_rate_found_rows
 FROM usable_grading_results;
 
-CREATE VIEW IF NOT EXISTS usable_grading_summary_by_model AS
+CREATE VIEW usable_grading_summary_by_model AS
 SELECT
     COALESCE(model_name, 'unknown') AS model_name,
-    COUNT(*) AS total_graded_fields,
+    COUNT(*) AS total_rows,
     SUM(CASE WHEN verdict = 'MATCH' THEN 1 ELSE 0 END) AS match_count,
     SUM(CASE WHEN verdict = 'MISMATCH' THEN 1 ELSE 0 END) AS mismatch_count,
     SUM(CASE WHEN verdict = 'NOT_FOUND' THEN 1 ELSE 0 END) AS not_found_count,
@@ -57,11 +64,11 @@ SELECT
 FROM usable_grading_results
 GROUP BY COALESCE(model_name, 'unknown');
 
-CREATE VIEW IF NOT EXISTS usable_grading_summary_by_scenario AS
+CREATE VIEW usable_grading_summary_by_scenario AS
 SELECT
     ugr.scenario_id,
     s.title AS scenario_title,
-    COUNT(*) AS total_graded_fields,
+    COUNT(*) AS total_rows,
     SUM(CASE WHEN ugr.verdict = 'MATCH' THEN 1 ELSE 0 END) AS match_count,
     SUM(CASE WHEN ugr.verdict = 'MISMATCH' THEN 1 ELSE 0 END) AS mismatch_count,
     SUM(CASE WHEN ugr.verdict = 'NOT_FOUND' THEN 1 ELSE 0 END) AS not_found_count,
@@ -74,7 +81,7 @@ LEFT JOIN scenarios AS s
     ON s.scenario_id = ugr.scenario_id
 GROUP BY ugr.scenario_id, s.title;
 
-CREATE VIEW IF NOT EXISTS unusable_official_runs AS
+CREATE VIEW unusable_official_runs AS
 SELECT
     ogr.run_id,
     ogr.model_name,

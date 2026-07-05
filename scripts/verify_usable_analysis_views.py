@@ -67,11 +67,11 @@ def print_model_summaries(con: sqlite3.Connection) -> None:
     print("top_model_summaries_by_found_match_rate")
     for row in con.execute(
         """
-        SELECT model_name, total_graded_fields, match_count, mismatch_count, not_found_count, review_count,
+        SELECT model_name, total_rows, match_count, mismatch_count, not_found_count, review_count,
                match_rate_all_rows, match_rate_found_rows
         FROM usable_grading_summary_by_model
         ORDER BY match_rate_found_rows DESC, match_rate_all_rows DESC, model_name
-        LIMIT 5
+        LIMIT 10
         """
     ):
         print(
@@ -82,11 +82,11 @@ def print_model_summaries(con: sqlite3.Connection) -> None:
     print("bottom_model_summaries_by_found_match_rate")
     for row in con.execute(
         """
-        SELECT model_name, total_graded_fields, match_count, mismatch_count, not_found_count, review_count,
+        SELECT model_name, total_rows, match_count, mismatch_count, not_found_count, review_count,
                match_rate_all_rows, match_rate_found_rows
         FROM usable_grading_summary_by_model
         ORDER BY match_rate_found_rows ASC, match_rate_all_rows ASC, model_name
-        LIMIT 5
+        LIMIT 10
         """
     ):
         print(
