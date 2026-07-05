@@ -1,0 +1,73 @@
+scenario_id,model_name,prompt_mode,raw_helper_status,first_layer_extractable,review_status,review_reason,final_answer_block_count,field_count,numeric_field_count,output_path_or_run_id
+CM_FOUCAULT_001,Gemma 3 12B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,683d993d-776a-4d0a-8d7b-5f3955ff7ec2
+CM_FOUCAULT_001,Gemma 3 27B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,b77ca7e5-2054-47cf-8b2a-f0522502ecbe
+CM_FOUCAULT_001,Gemma 4 31B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,98f3c8aa-7662-449d-8bc9-789db679a7b5
+CM_FOUCAULT_001,Granite 4.1 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,6a439759-2c09-40f5-b714-5f0905b08611
+CM_FOUCAULT_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,43b57069-ea6b-42b1-9339-b978dcf9ad74
+CM_FOUCAULT_001,Ministral 3 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,981eba36-7bcf-427e-9a83-c05551b36c90
+CM_FOUCAULT_001,Mistral NeMo 12B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,78db6adf-408e-49e7-8f70-5a4c3fe210ad
+CM_FOUCAULT_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,87d3ed82-6adb-40f0-8db1-efb66f5207f4
+CM_FOUCAULT_001,NVIDIA Nemotron 3 Nano 30B-A3B,structured_prompt_pilot_v2,ALL_BLANK,False,REVIEW,nemotron_tail_loop_or_multi_block_risk,1,0,0,85248882-722c-4322-9de6-07aaceb58e13
+COS_CMB_001,Gemma 3 12B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,f7f12cfe-6b34-4c5b-8af3-5337de7fb235
+COS_CMB_001,Gemma 3 27B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,45f12cf7-3772-421a-8998-b0b7ff23252b
+COS_CMB_001,Gemma 4 31B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,c15d63d9-68db-48a3-85f1-9600fff091ee
+COS_CMB_001,Granite 4.1 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,33b7ba26-8ce1-4c4c-aadf-b13a0800ceed
+COS_CMB_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,a3752b06-d12a-4b6f-b533-06abdc5a4a2d
+COS_CMB_001,Ministral 3 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,ea1562a8-ce25-46ef-96c3-4ea66084be94
+COS_CMB_001,Mistral NeMo 12B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,5bde406e-bcbd-4d75-9974-030635a1f45a
+COS_CMB_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,2d1f22bc-291c-4722-88c7-cc1fed3ce53d
+COS_CMB_001,NVIDIA Nemotron 3 Nano 30B-A3B,structured_prompt_pilot_v2,CONFLICT,False,REVIEW,nemotron_tail_loop_or_multi_block_risk,17,3,3,945eb607-6f22-42fc-8534-46897c00497b
+GR_ISCO_001,Gemma 3 12B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,0891d888-672d-4f87-bc31-5a40a8dfdd32
+GR_ISCO_001,Gemma 3 27B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,a043fef4-92a9-4e39-8b94-4099ce5d7bd8
+GR_ISCO_001,Gemma 4 31B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,e4d58dfa-4086-43b4-a5bf-1f9bec6c2599
+GR_ISCO_001,Granite 4.1 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,40dd5ad7-5daa-4765-ad81-b279dda17267
+GR_ISCO_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,12ba6901-ab09-4608-812d-243a3ba8cb47
+GR_ISCO_001,Ministral 3 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,6a0624c3-57f8-4327-8206-731c8c16e32e
+GR_ISCO_001,Mistral NeMo 12B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,afe1c751-3c98-4578-aee5-2bc6938397b8
+GR_ISCO_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,ab92bfee-92d9-4fbc-b33c-4d25777badf5
+GR_ISCO_001,NVIDIA Nemotron 3 Nano 30B-A3B,structured_prompt_pilot_v2,OK,True,REVIEW,nemotron_tail_loop_or_multi_block_risk,18,3,3,e7e6f8ce-e798-4950-a5fb-2d0519d13e39
+QI_TELEPORT_001,Gemma 3 12B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,30ac6932-dc57-4cf3-bf98-468533408eb0
+QI_TELEPORT_001,Gemma 3 27B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,7c096d8f-6286-4837-bb5c-38e6df0e6b56
+QI_TELEPORT_001,Gemma 4 31B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,42445057-c8f5-4253-80d2-5a671b2f970e
+QI_TELEPORT_001,Granite 4.1 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,1,b82bd97e-a127-4a93-adc1-3fd1abd73acc
+QI_TELEPORT_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,ba60237f-f38f-49a1-aff7-f714152bab19
+QI_TELEPORT_001,Ministral 3 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,1,9584a665-3773-4c3a-a6fd-e7fe2777cbbb
+QI_TELEPORT_001,Mistral NeMo 12B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,ef9cc4a7-79d5-4db1-94dc-31e32778b632
+QI_TELEPORT_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,dfc152eb-9100-4902-bb40-b122e3842d5f
+QI_TELEPORT_001,NVIDIA Nemotron 3 Nano 30B-A3B,structured_prompt_pilot_v2,ALL_BLANK,False,REVIEW,nemotron_tail_loop_or_multi_block_risk,1,0,0,cda2dc2d-248a-427f-bac5-0bea7e267b83
+QM_BERRY_001,Gemma 3 12B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,d94b3e8b-d2fa-4bfd-8261-18fc32f1e6c2
+QM_BERRY_001,Gemma 3 27B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,5adb68d3-d803-46a1-ac23-424753a795f6
+QM_BERRY_001,Gemma 4 31B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,0,9db36a40-841b-4808-bbed-447ab10fa45e
+QM_BERRY_001,Granite 4.1 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,0,bfead667-22b7-4add-82bd-2984b62eeac1
+QM_BERRY_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,e85fdb3c-6f96-43c1-ae20-f3af6c23ab26
+QM_BERRY_001,Ministral 3 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,0,fdc95d2c-3de5-4854-8c60-7b922434ac4c
+QM_BERRY_001,Mistral NeMo 12B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,0,183a2bc8-11a9-43e6-a8a0-67b79cff192b
+QM_BERRY_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,0c429cf4-5519-4352-b10b-b78367d1aa96
+QM_BERRY_001,NVIDIA Nemotron 3 Nano 30B-A3B,structured_prompt_pilot_v2,OK,True,REVIEW,nemotron_tail_loop_or_multi_block_risk,1,2,0,61b12ab0-6438-43b3-932f-73621dc67103
+QFT_G2_001,Gemma 3 12B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,b29759a2-66b7-4fc4-ba87-3dfd71ad6ba3
+QFT_G2_001,Gemma 3 27B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,25529e5b-327b-4589-a52a-93f73ca80330
+QFT_G2_001,Gemma 4 31B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,c4603976-d5d0-4988-a94c-66b6032bc539
+QFT_G2_001,Granite 4.1 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,4013320a-823c-4eea-a0f8-eff99460982d
+QFT_G2_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,eaff2b64-dfb3-49b3-9728-2a8a928c5ac7
+QFT_G2_001,Ministral 3 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,b3e81597-bbd0-4808-a7b4-5c7c68c104f0
+QFT_G2_001,Mistral NeMo 12B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,96198746-3f2d-4926-bcef-e8433bbb98d7
+QFT_G2_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,2,2,ca000060-3995-4bae-816b-f16738e1b5cc
+QFT_G2_001,NVIDIA Nemotron 3 Nano 30B-A3B,structured_prompt_pilot_v2,OK,True,REVIEW,nemotron_tail_loop_or_multi_block_risk,3,2,2,7b0ce15d-58c5-43f9-85f7-525bfec5c97f
+SR_ROCKET_001,Gemma 3 12B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,0a1bfb8e-7794-43ce-a724-e54da756c20b
+SR_ROCKET_001,Gemma 3 27B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,0fdbc6f7-aa2f-4d13-85e3-1de67d52d0f1
+SR_ROCKET_001,Gemma 4 31B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,4e6f8a7e-4f83-4d56-8303-b5235d10c856
+SR_ROCKET_001,Granite 4.1 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,03445593-5565-4d84-808b-961d8347ef18
+SR_ROCKET_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,ea3655fd-8b19-4f34-972d-8d47bb3d3a2f
+SR_ROCKET_001,Ministral 3 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,b43a15c6-f44a-490f-9780-8498520180c6
+SR_ROCKET_001,Mistral NeMo 12B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,1,dc36a2b4-f64b-443a-b417-a32edd88612a
+SR_ROCKET_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,8dd9d539-5113-456a-ad1b-2987c0bf85c9
+SR_ROCKET_001,NVIDIA Nemotron 3 Nano 30B-A3B,structured_prompt_pilot_v2,NO_VALID_BLOCK,False,REVIEW,nemotron_tail_loop_or_multi_block_risk,0,0,0,a9e7cd4b-06e3-432f-b0a5-6130ae2fc1f8
+STAT_ISING_001,Gemma 3 12B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,863e22f3-01f3-468c-994c-0a868b72a3dc
+STAT_ISING_001,Gemma 3 27B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,a82bb41e-4662-4d67-95ff-851677b05abd
+STAT_ISING_001,Gemma 4 31B IT,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,8032048a-8e04-432c-b3eb-aab06ea4d99e
+STAT_ISING_001,Granite 4.1 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,5f22cbbd-f1ee-4af0-aa42-2c057e6b9037
+STAT_ISING_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,7ccc748d-227f-4678-a6d4-a73a86a210d0
+STAT_ISING_001,Ministral 3 8B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,06aa69b6-039e-4f7c-91d6-191279776ccc
+STAT_ISING_001,Mistral NeMo 12B,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,1578b708-15cc-4472-862d-060fbdc5e95c
+STAT_ISING_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v2,OK,True,CLEAN,clean_first_layer_ok,1,3,3,9e6a063d-dc82-49ce-aceb-7ac5aad0e02b
+STAT_ISING_001,NVIDIA Nemotron 3 Nano 30B-A3B,structured_prompt_pilot_v2,OK,True,REVIEW,nemotron_tail_loop_or_multi_block_risk,7,3,3,554e121d-3b3f-4710-a9fb-79ef45340a2a

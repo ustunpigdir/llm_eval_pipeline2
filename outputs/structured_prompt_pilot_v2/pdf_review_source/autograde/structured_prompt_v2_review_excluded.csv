@@ -1,0 +1,9 @@
+scenario_id,model_name,raw_helper_status,review_status,review_reason,autograded
+CM_FOUCAULT_001,NVIDIA Nemotron 3 Nano 30B-A3B,ALL_BLANK,REVIEW,nemotron_tail_loop_or_multi_block_risk,no
+COS_CMB_001,NVIDIA Nemotron 3 Nano 30B-A3B,CONFLICT,REVIEW,nemotron_tail_loop_or_multi_block_risk,no
+GR_ISCO_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,REVIEW,nemotron_tail_loop_or_multi_block_risk,no
+QI_TELEPORT_001,NVIDIA Nemotron 3 Nano 30B-A3B,ALL_BLANK,REVIEW,nemotron_tail_loop_or_multi_block_risk,no
+QM_BERRY_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,REVIEW,nemotron_tail_loop_or_multi_block_risk,no
+QFT_G2_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,REVIEW,nemotron_tail_loop_or_multi_block_risk,no
+SR_ROCKET_001,NVIDIA Nemotron 3 Nano 30B-A3B,NO_VALID_BLOCK,REVIEW,nemotron_tail_loop_or_multi_block_risk,no
+STAT_ISING_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,REVIEW,nemotron_tail_loop_or_multi_block_risk,no
