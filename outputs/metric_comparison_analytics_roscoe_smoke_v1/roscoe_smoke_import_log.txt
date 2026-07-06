@@ -1,0 +1,33 @@
+# ROSCOE smoke import log
+
+Source runtime directory: `tmp/roscoe_parlai_runtime`
+
+Fetched source files:
+- projects/roscoe/README.md
+- projects/roscoe/score.py
+- projects/roscoe/roscoe.py
+- projects/roscoe/utils.py
+- tests/nightly/cpu/test_roscoe.py
+
+Source fetch errors:
+none
+
+Import command:
+`/Users/upigdir/Desktop/Pipeline SQL proj/.venv_roscoe/bin/python -c <import projects.roscoe.score>`
+
+Return code: 0
+
+stdout:
+```json
+{
+  "import_score": "failed",
+  "error": "ModuleNotFoundError: No module named 'numpy'",
+  "sentence_transformers": "failed: ModuleNotFoundError: No module named 'sentence_transformers'",
+  "simcse": "failed: ModuleNotFoundError: No module named 'simcse'"
+}
+```
+
+stderr:
+```text
+
+```

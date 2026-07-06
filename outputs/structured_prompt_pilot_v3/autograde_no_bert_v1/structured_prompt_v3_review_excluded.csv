@@ -1,0 +1,4 @@
+scenario_id,model_name,raw_helper_status,review_status,review_reason,autograded
+QM_TUNNEL_001,Granite 4.1 8B,NO_VALID_BLOCK,REVIEW,non_clean_helper_status,no
+STAT_BEC_001,Granite 4.1 8B,NO_VALID_BLOCK,REVIEW,non_clean_helper_status,no
+STAT_BEC_001,Llama 3.1 8B Instruct,NO_VALID_BLOCK,REVIEW,non_clean_helper_status,no

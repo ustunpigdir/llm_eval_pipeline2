@@ -1,0 +1,9 @@
+model_name,total_rows,original_pass_count,original_fail_count,soft_numeric_fail_count,hard_fail_count,soft_numeric_share_of_fails
+Gemma 3 12B IT,32,15,17,0,17,0.0
+Gemma 3 27B IT,32,16,16,0,16,0.0
+Gemma 4 31B IT,32,27,5,0,5,0.0
+Granite 4.1 8B,29,19,10,0,10,0.0
+Llama 3.1 8B Instruct,31,10,21,0,21,0.0
+Ministral 3 8B,32,12,20,0,20,0.0
+Mistral NeMo 12B,32,4,28,0,28,0.0
+Mistral Small 3.2 24B Instruct,32,14,18,0,18,0.0

@@ -1,0 +1,9 @@
+scenario_id,clean_rows,pass_count,fail_count,pass_rate,most_common_failure_mode
+CM_TOP_001,8,6,2,0.75,numeric_mismatch
+COS_AGE_001,8,1,7,0.125,numeric_mismatch
+GR_CHIRP_001,8,0,8,0.0,numeric_mismatch
+QFT_YUKAWA_001,8,7,1,0.875,numeric_mismatch
+QI_CLONE_001,8,8,0,1.0,none
+QM_RT_001,8,1,7,0.125,numeric_mismatch
+SR_FIZEAU_001,8,8,0,1.0,none
+STAT_NEGT_001,8,6,2,0.75,numeric_mismatch

@@ -1,0 +1,73 @@
+scenario_id,model_name,original_helper_status,truncated_helper_status,truncate_applied,original_final_answer_block_count,truncated_final_answer_block_count,original_field_count,truncated_field_count,original_numeric_field_count,truncated_numeric_field_count,field_names_detected,field_order_matches_db,values_present_after_truncation,diagnosis
+CM_FOUCAULT_001,Gemma 3 12B IT,OK,OK,True,1,1,3,3,3,3,"['period_hours', 'rate_deg_per_day', 'rate_deg_per_hour']",True,True,unchanged helper status
+CM_FOUCAULT_001,Gemma 3 27B IT,OK,OK,True,1,1,3,3,3,3,"['period_hours', 'rate_deg_per_day', 'rate_deg_per_hour']",True,True,unchanged helper status
+CM_FOUCAULT_001,Gemma 4 31B IT,OK,OK,True,1,1,3,3,3,3,"['period_hours', 'rate_deg_per_day', 'rate_deg_per_hour']",True,True,unchanged helper status
+CM_FOUCAULT_001,Granite 4.1 8B,OK,OK,True,1,1,3,3,3,3,"['period_hours', 'rate_deg_per_day', 'rate_deg_per_hour']",True,True,unchanged helper status
+CM_FOUCAULT_001,Llama 3.1 8B Instruct,OK,OK,False,1,1,3,3,3,3,"['period_hours', 'rate_deg_per_day', 'rate_deg_per_hour']",True,True,no complete displayed aligned block after first FINAL ANSWER heading; unchanged
+CM_FOUCAULT_001,Ministral 3 8B,OK,OK,True,1,1,3,3,3,3,"['period_hours', 'rate_deg_per_day', 'rate_deg_per_hour']",True,True,unchanged helper status
+CM_FOUCAULT_001,Mistral NeMo 12B,OK,OK,True,1,1,3,3,3,3,"['period_hours', 'rate_deg_per_day', 'rate_deg_per_hour']",True,True,unchanged helper status
+CM_FOUCAULT_001,Mistral Small 3.2 24B Instruct,OK,OK,True,1,1,3,3,3,3,"['period_hours', 'rate_deg_per_day', 'rate_deg_per_hour']",True,True,unchanged helper status
+CM_FOUCAULT_001,NVIDIA Nemotron 3 Nano 30B-A3B,ALL_BLANK,ALL_BLANK,True,1,1,0,0,0,0,[],False,False,unchanged helper status
+COS_CMB_001,Gemma 3 12B IT,OK,OK,True,1,1,3,3,3,3,"['T_rec_K', 'log10_energy_ratio', 'log10_number_ratio']",True,True,unchanged helper status
+COS_CMB_001,Gemma 3 27B IT,OK,OK,True,1,1,3,3,3,3,"['T_rec_K', 'log10_energy_ratio', 'log10_number_ratio']",True,True,unchanged helper status
+COS_CMB_001,Gemma 4 31B IT,OK,OK,True,1,1,3,3,3,3,"['T_rec_K', 'log10_energy_ratio', 'log10_number_ratio']",True,True,unchanged helper status
+COS_CMB_001,Granite 4.1 8B,OK,OK,True,1,1,3,3,3,3,"['T_rec_K', 'log10_energy_ratio', 'log10_number_ratio']",True,True,unchanged helper status
+COS_CMB_001,Llama 3.1 8B Instruct,OK,OK,True,1,1,3,3,3,3,"['T_rec_K', 'log10_energy_ratio', 'log10_number_ratio']",True,True,unchanged helper status
+COS_CMB_001,Ministral 3 8B,OK,OK,True,1,1,3,3,3,3,"['T_rec_K', 'log10_energy_ratio', 'log10_number_ratio']",True,True,unchanged helper status
+COS_CMB_001,Mistral NeMo 12B,OK,OK,True,1,1,3,3,3,3,"['T_rec_K', 'log10_energy_ratio', 'log10_number_ratio']",True,True,unchanged helper status
+COS_CMB_001,Mistral Small 3.2 24B Instruct,OK,OK,True,1,1,3,3,3,3,"['T_rec_K', 'log10_energy_ratio', 'log10_number_ratio']",True,True,unchanged helper status
+COS_CMB_001,NVIDIA Nemotron 3 Nano 30B-A3B,CONFLICT,OK,True,17,1,3,3,3,0,"['T_rec_K', 'log10_energy_ratio', 'log10_number_ratio']",True,True,improved from CONFLICT to OK by removing tail after first complete final block
+GR_ISCO_001,Gemma 3 12B IT,OK,OK,True,1,1,3,3,3,3,"['f_gw_hz', 'f_orbital_hz', 'r_isco_km']",True,True,unchanged helper status
+GR_ISCO_001,Gemma 3 27B IT,OK,OK,True,1,1,3,3,3,3,"['f_gw_hz', 'f_orbital_hz', 'r_isco_km']",True,True,unchanged helper status
+GR_ISCO_001,Gemma 4 31B IT,OK,OK,True,1,1,3,3,3,3,"['f_gw_hz', 'f_orbital_hz', 'r_isco_km']",True,True,unchanged helper status
+GR_ISCO_001,Granite 4.1 8B,OK,OK,True,1,1,3,3,3,3,"['f_gw_hz', 'f_orbital_hz', 'r_isco_km']",True,True,unchanged helper status
+GR_ISCO_001,Llama 3.1 8B Instruct,OK,OK,True,1,1,3,3,3,3,"['f_gw_hz', 'f_orbital_hz', 'r_isco_km']",True,True,unchanged helper status
+GR_ISCO_001,Ministral 3 8B,OK,OK,True,1,1,3,3,3,3,"['f_gw_hz', 'f_orbital_hz', 'r_isco_km']",True,True,unchanged helper status
+GR_ISCO_001,Mistral NeMo 12B,OK,OK,True,1,1,3,3,3,3,"['f_gw_hz', 'f_orbital_hz', 'r_isco_km']",True,True,unchanged helper status
+GR_ISCO_001,Mistral Small 3.2 24B Instruct,OK,OK,True,1,1,3,3,3,3,"['f_gw_hz', 'f_orbital_hz', 'r_isco_km']",True,True,unchanged helper status
+GR_ISCO_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,ALL_BLANK,True,18,1,3,0,3,0,[],False,False,worsened from OK to ALL_BLANK; first block was less usable than later content
+QI_TELEPORT_001,Gemma 3 12B IT,OK,OK,True,1,1,3,3,3,3,"['classical_limit', 'f_threshold', 'teleport_fidelity']",True,True,unchanged helper status
+QI_TELEPORT_001,Gemma 3 27B IT,OK,OK,True,1,1,3,3,3,3,"['classical_limit', 'f_threshold', 'teleport_fidelity']",True,True,unchanged helper status
+QI_TELEPORT_001,Gemma 4 31B IT,OK,OK,True,1,1,3,3,3,3,"['classical_limit', 'f_threshold', 'teleport_fidelity']",True,True,unchanged helper status
+QI_TELEPORT_001,Granite 4.1 8B,OK,OK,True,1,1,3,3,1,1,"['classical_limit', 'f_threshold', 'teleport_fidelity']",True,True,unchanged helper status
+QI_TELEPORT_001,Llama 3.1 8B Instruct,OK,OK,True,1,1,3,3,3,3,"['classical_limit', 'f_threshold', 'teleport_fidelity']",True,True,unchanged helper status
+QI_TELEPORT_001,Ministral 3 8B,OK,OK,True,1,1,3,3,1,1,"['classical_limit', 'f_threshold', 'teleport_fidelity']",True,True,unchanged helper status
+QI_TELEPORT_001,Mistral NeMo 12B,OK,OK,True,1,1,3,3,3,3,"['classical_limit', 'f_threshold', 'teleport_fidelity']",True,True,unchanged helper status
+QI_TELEPORT_001,Mistral Small 3.2 24B Instruct,OK,OK,True,1,1,3,3,3,3,"['classical_limit', 'f_threshold', 'teleport_fidelity']",True,True,unchanged helper status
+QI_TELEPORT_001,NVIDIA Nemotron 3 Nano 30B-A3B,ALL_BLANK,ALL_BLANK,True,1,1,0,0,0,0,[],False,False,unchanged helper status
+QM_BERRY_001,Gemma 3 12B IT,OK,OK,True,1,1,2,2,2,2,"['berry_phase_rad', 'solid_angle_sr']",True,True,unchanged helper status
+QM_BERRY_001,Gemma 3 27B IT,OK,OK,True,1,1,2,2,2,2,"['berry_phase_rad', 'solid_angle_sr']",True,True,unchanged helper status
+QM_BERRY_001,Gemma 4 31B IT,OK,OK,True,1,1,2,2,0,0,"['berry_phase_rad', 'solid_angle_sr']",True,True,unchanged helper status
+QM_BERRY_001,Granite 4.1 8B,OK,OK,True,1,1,2,2,0,0,"['berry_phase_rad', 'solid_angle_sr']",True,True,unchanged helper status
+QM_BERRY_001,Llama 3.1 8B Instruct,OK,OK,True,1,1,2,2,2,2,"['berry_phase_rad', 'solid_angle_sr']",True,True,unchanged helper status
+QM_BERRY_001,Ministral 3 8B,OK,OK,True,1,1,2,2,0,0,"['berry_phase_rad', 'solid_angle_sr']",True,True,unchanged helper status
+QM_BERRY_001,Mistral NeMo 12B,OK,OK,True,1,1,2,2,0,0,"['berry_phase_rad', 'solid_angle_sr']",True,True,unchanged helper status
+QM_BERRY_001,Mistral Small 3.2 24B Instruct,OK,OK,True,1,1,2,2,2,2,"['berry_phase_rad', 'solid_angle_sr']",True,True,unchanged helper status
+QM_BERRY_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,OK,True,1,1,2,2,0,0,"['berry_phase_rad', 'solid_angle_sr']",True,True,unchanged helper status
+QFT_G2_001,Gemma 3 12B IT,OK,OK,True,1,1,2,2,2,2,"['anomaly_times_1e3', 'g_factor']",True,True,unchanged helper status
+QFT_G2_001,Gemma 3 27B IT,OK,OK,True,1,1,2,2,2,2,"['anomaly_times_1e3', 'g_factor']",True,True,unchanged helper status
+QFT_G2_001,Gemma 4 31B IT,OK,OK,True,1,1,2,2,2,2,"['anomaly_times_1e3', 'g_factor']",True,True,unchanged helper status
+QFT_G2_001,Granite 4.1 8B,OK,OK,True,1,1,2,2,2,2,"['anomaly_times_1e3', 'g_factor']",True,True,unchanged helper status
+QFT_G2_001,Llama 3.1 8B Instruct,OK,OK,False,1,1,2,2,2,2,"['anomaly_times_1e3', 'g_factor']",True,True,no complete displayed aligned block after first FINAL ANSWER heading; unchanged
+QFT_G2_001,Ministral 3 8B,OK,OK,True,1,1,2,2,2,2,"['anomaly_times_1e3', 'g_factor']",True,True,unchanged helper status
+QFT_G2_001,Mistral NeMo 12B,OK,OK,True,1,1,2,2,2,2,"['anomaly_times_1e3', 'g_factor']",True,True,unchanged helper status
+QFT_G2_001,Mistral Small 3.2 24B Instruct,OK,OK,True,1,1,2,2,2,2,"['anomaly_times_1e3', 'g_factor']",True,True,unchanged helper status
+QFT_G2_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,ALL_BLANK,True,3,1,2,0,2,0,[],False,False,worsened from OK to ALL_BLANK; first block was less usable than later content
+SR_ROCKET_001,Gemma 3 12B IT,OK,OK,True,1,1,3,3,3,3,"['distance_ly', 'final_beta', 'lab_time_yr']",True,True,unchanged helper status
+SR_ROCKET_001,Gemma 3 27B IT,OK,OK,True,1,1,3,3,3,3,"['distance_ly', 'final_beta', 'lab_time_yr']",True,True,unchanged helper status
+SR_ROCKET_001,Gemma 4 31B IT,OK,OK,True,1,1,3,3,3,3,"['distance_ly', 'final_beta', 'lab_time_yr']",True,True,unchanged helper status
+SR_ROCKET_001,Granite 4.1 8B,OK,OK,True,1,1,3,3,3,3,"['distance_ly', 'final_beta', 'lab_time_yr']",True,True,unchanged helper status
+SR_ROCKET_001,Llama 3.1 8B Instruct,OK,OK,True,1,1,3,3,3,3,"['distance_ly', 'final_beta', 'lab_time_yr']",True,True,unchanged helper status
+SR_ROCKET_001,Ministral 3 8B,OK,OK,True,1,1,3,3,3,3,"['distance_ly', 'final_beta', 'lab_time_yr']",True,True,unchanged helper status
+SR_ROCKET_001,Mistral NeMo 12B,OK,OK,True,1,1,3,3,1,1,"['distance_ly', 'final_beta', 'lab_time_yr']",True,True,unchanged helper status
+SR_ROCKET_001,Mistral Small 3.2 24B Instruct,OK,OK,True,1,1,3,3,3,3,"['distance_ly', 'final_beta', 'lab_time_yr']",True,True,unchanged helper status
+SR_ROCKET_001,NVIDIA Nemotron 3 Nano 30B-A3B,NO_VALID_BLOCK,NO_VALID_BLOCK,False,0,0,0,0,0,0,[],False,False,no complete displayed aligned block after first FINAL ANSWER heading; unchanged
+STAT_ISING_001,Gemma 3 12B IT,OK,OK,True,1,1,3,3,3,3,"['ratio_exact_mf', 'tc_exact', 'tc_meanfield']",True,True,unchanged helper status
+STAT_ISING_001,Gemma 3 27B IT,OK,OK,True,1,1,3,3,3,3,"['ratio_exact_mf', 'tc_exact', 'tc_meanfield']",True,True,unchanged helper status
+STAT_ISING_001,Gemma 4 31B IT,OK,OK,True,1,1,3,3,3,3,"['ratio_exact_mf', 'tc_exact', 'tc_meanfield']",True,True,unchanged helper status
+STAT_ISING_001,Granite 4.1 8B,OK,OK,True,1,1,3,3,3,3,"['ratio_exact_mf', 'tc_exact', 'tc_meanfield']",True,True,unchanged helper status
+STAT_ISING_001,Llama 3.1 8B Instruct,OK,OK,True,1,1,3,3,3,3,"['ratio_exact_mf', 'tc_exact', 'tc_meanfield']",True,True,unchanged helper status
+STAT_ISING_001,Ministral 3 8B,OK,OK,True,1,1,3,3,3,3,"['ratio_exact_mf', 'tc_exact', 'tc_meanfield']",True,True,unchanged helper status
+STAT_ISING_001,Mistral NeMo 12B,OK,OK,True,1,1,3,3,3,3,"['ratio_exact_mf', 'tc_exact', 'tc_meanfield']",True,True,unchanged helper status
+STAT_ISING_001,Mistral Small 3.2 24B Instruct,OK,OK,True,1,1,3,3,3,3,"['ratio_exact_mf', 'tc_exact', 'tc_meanfield']",True,True,unchanged helper status
+STAT_ISING_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,ALL_BLANK,True,7,1,3,0,3,0,[],False,False,worsened from OK to ALL_BLANK; first block was less usable than later content

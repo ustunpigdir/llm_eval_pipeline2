@@ -21,9 +21,9 @@ MARKER_NEARBY_WINDOW = 500
 POLLUTION_PROSE_LENGTH_THRESHOLD = 500
 
 ALIGNED_BLOCK_PATTERN = re.compile(r"\\begin\{aligned\}.*?\\end\{aligned\}", re.DOTALL)
-# Value may follow "&" via "=", "\approx", "\approxeq", "\sim", "\cong", etc., not only a literal "&=".
+# Value may follow "&" via "=", "\approxeq", "\approx", "\simeq", "\sim", "\cong", etc., not only a literal "&=".
 FIELD_PATTERN = re.compile(r"\\mathrm\{([^}]+)\}\s*&\s*(.*?)(?=\\\\|\\end\{aligned\}|$)", re.DOTALL)
-FIELD_VALUE_OPERATOR_PREFIX = re.compile(r"^(=|\\approx|\\approxeq|\\sim|\\cong)\s*")
+FIELD_VALUE_OPERATOR_PREFIX = re.compile(r"^(\\approxeq|\\approx|\\simeq|\\sim|\\cong|=)\s*")
 LOOP_PATTERN = re.compile(r"(.{15,100}?)\1{2,}", re.DOTALL)
 
 META_DISCUSSION_PHRASES = [

@@ -1,0 +1,9 @@
+scenario_id,clean_rows,pass_count,fail_count,pass_rate,most_common_failure_mode
+CM_KAPITZA_001,8,1,7,0.125,numeric_mismatch
+COS_DESITTER_001,8,1,7,0.125,numeric_mismatch
+GR_PERI_001,8,1,7,0.125,numeric_mismatch
+QFT_UNRUH_001,7,2,5,0.285714,numeric_mismatch
+QI_HOLEVO_001,8,2,6,0.25,numeric_mismatch
+QM_AB_001,8,4,4,0.5,numeric_mismatch
+SR_TWIN_001,8,6,2,0.75,numeric_mismatch
+STAT_LANDAUER_001,8,2,6,0.25,numeric_mismatch

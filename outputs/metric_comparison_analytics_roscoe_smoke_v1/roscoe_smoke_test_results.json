@@ -1,0 +1,47 @@
+{
+  "artifact_name": "roscoe_smoke_test_v1",
+  "created_at": "2026-07-05T23:17:04.742105+00:00",
+  "parlai_source": "https://github.com/facebookresearch/ParlAI",
+  "parlai_commit": "6c802418e93a51cbb746b011439ab783dd136de8",
+  "roscoe_files_used": [
+    "projects/roscoe/README.md",
+    "projects/roscoe/score.py",
+    "projects/roscoe/roscoe.py",
+    "projects/roscoe/utils.py",
+    "tests/nightly/cpu/test_roscoe.py"
+  ],
+  "smoke_test_status": "failed",
+  "smoke_pairs_attempted": 3,
+  "smoke_pairs_scored": 0,
+  "metrics_available": [],
+  "selected_semantic_metric_if_any": "",
+  "pairs": [
+    {
+      "pair_id": "A_good_equivalent_reasoning",
+      "candidate_text": "First compute x = 2. Then compute y = x + 3 = 5. Therefore the final value is 5.",
+      "reference_text": "Set x equal to 2. Add 3 to x, giving y = 5. Therefore the answer is 5.",
+      "input_format_used": "not_run_import_failed",
+      "roscoe_scoring_status": "failed",
+      "metrics": {},
+      "error_if_any": "ModuleNotFoundError: No module named 'numpy'"
+    },
+    {
+      "pair_id": "B_arithmetic_contradiction",
+      "candidate_text": "First compute x = 2. Then compute y = x + 3 = 9. Therefore the final value is 9.",
+      "reference_text": "Set x equal to 2. Add 3 to x, giving y = 5. Therefore the answer is 5.",
+      "input_format_used": "not_run_import_failed",
+      "roscoe_scoring_status": "failed",
+      "metrics": {},
+      "error_if_any": "ModuleNotFoundError: No module named 'numpy'"
+    },
+    {
+      "pair_id": "C_unrelated_reasoning",
+      "candidate_text": "The capital city is discussed first. Then the weather is described. Therefore the answer is about geography.",
+      "reference_text": "Set x equal to 2. Add 3 to x, giving y = 5. Therefore the answer is 5.",
+      "input_format_used": "not_run_import_failed",
+      "roscoe_scoring_status": "failed",
+      "metrics": {},
+      "error_if_any": "ModuleNotFoundError: No module named 'numpy'"
+    }
+  ]
+}

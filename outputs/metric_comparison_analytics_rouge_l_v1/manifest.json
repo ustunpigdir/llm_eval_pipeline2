@@ -1,0 +1,52 @@
+{
+  "actual_rows": 252,
+  "artifact_name": "rouge_l_metric_v1",
+  "bertscore_run": false,
+  "created_at": "2026-07-05T22:38:31+00:00",
+  "expected_rows": 252,
+  "external_api_calls": false,
+  "fail_count": 135,
+  "input_text_artifact": "outputs/metric_text_artifacts_v1/canonical_reasoning_text_dataset.csv",
+  "learning_db_modified": false,
+  "metrics_computed": [
+    "rouge_l_precision",
+    "rouge_l_recall",
+    "rouge_l_f1"
+  ],
+  "model_calls_made": false,
+  "nli_run": false,
+  "output_files": [
+    "README.md",
+    "ROUGE_L_METRIC_REPORT.md",
+    "rouge_l_row_scores.csv",
+    "rouge_l_row_scores.json",
+    "rouge_l_by_grade.csv",
+    "rouge_l_by_batch.csv",
+    "rouge_l_by_scenario.csv",
+    "rouge_l_by_model.csv",
+    "rouge_l_outliers_high_rouge_fail.csv",
+    "rouge_l_outliers_low_rouge_pass.csv",
+    "rouge_l_vs_existing_metrics.csv",
+    "rouge_l_correlation_matrix.csv",
+    "manifest.json"
+  ],
+  "overall": {
+    "FAIL_mean_rouge_l_f1": 0.7630170643449785,
+    "PASS_mean_rouge_l_f1": 0.8073686035458156,
+    "PASS_minus_FAIL_mean_gap": 0.04435153920083712,
+    "fail_count": 135,
+    "max_rouge_l_f1": 0.9798165137614679,
+    "mean_rouge_l_f1": 0.78360885040251,
+    "median_rouge_l_f1": 0.8924432653648806,
+    "min_rouge_l_f1": 0.12168344007319305,
+    "pass_count": 117,
+    "row_count": 252,
+    "simple_effect_size": 0.2092165755307789
+  },
+  "pass_count": 117,
+  "phase2_semantics_implemented": false,
+  "raw_outputs_modified": false,
+  "read_only": true,
+  "roscoe_run": false,
+  "tokenizer": "lowercase regex tokens: [A-Za-z]+|[0-9]+(?:\\.[0-9]+)?|[\\\\+\\-*/=^_{}()[\\],.]"
+}

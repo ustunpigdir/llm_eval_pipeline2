@@ -1,0 +1,274 @@
+[
+  {
+    "source_path": "extract_final_answers.py",
+    "bundle_path": "selected_files/extract_final_answers.py",
+    "reason_included": "Core final-answer block selection, field-pair parsing, operator matching, value reduction.",
+    "size_bytes": 11244,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "normalizer.py",
+    "bundle_path": "selected_files/normalizer.py",
+    "reason_included": "Answer normalizer entry point; includes None guard and math/text cleanup.",
+    "size_bytes": 167,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "normalize_math_spans.py",
+    "bundle_path": "selected_files/normalize_math_spans.py",
+    "reason_included": "Math-span normalization pass used before extraction/review.",
+    "size_bytes": 10283,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "normalize_all_answers.py",
+    "bundle_path": "selected_files/normalize_all_answers.py",
+    "reason_included": "Bulk normalization orchestration over stored answers.",
+    "size_bytes": 591,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "merge_normalized_body.py",
+    "bundle_path": "selected_files/merge_normalized_body.py",
+    "reason_included": "Body/normalized-answer merge logic, relevant to extraction inputs.",
+    "size_bytes": 6645,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "symbolic_eval.py",
+    "bundle_path": "selected_files/symbolic_eval.py",
+    "reason_included": "Deterministic numeric/symbolic evaluator used by structured autograding.",
+    "size_bytes": 4375,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "classify_remaining_layer1b_flags.py",
+    "bundle_path": "selected_files/classify_remaining_layer1b_flags.py",
+    "reason_included": "Layer 1B final-block classifier and recoverability logic.",
+    "size_bytes": 25028,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "create_extraction_quality_flags_table.py",
+    "bundle_path": "selected_files/create_extraction_quality_flags_table.py",
+    "reason_included": "Schema support for extraction quality flags.",
+    "size_bytes": 1617,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "populate_extraction_quality_flags.py",
+    "bundle_path": "selected_files/populate_extraction_quality_flags.py",
+    "reason_included": "Populates extraction quality flags from parsed answers.",
+    "size_bytes": 6214,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "scripts/add_review_layer.py",
+    "bundle_path": "selected_files/scripts/add_review_layer.py",
+    "reason_included": "Database-backed review/usable layer policy and historical unusable IDs.",
+    "size_bytes": 11695,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "scripts/verify_review_layer.py",
+    "bundle_path": "selected_files/scripts/verify_review_layer.py",
+    "reason_included": "Verification script for review-layer invariants.",
+    "size_bytes": 5239,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "scripts/create_structured_prompt_review_layer_v1.py",
+    "bundle_path": "selected_files/scripts/create_structured_prompt_review_layer_v1.py",
+    "reason_included": "Structured prompt v2 review-layer logic.",
+    "size_bytes": 7352,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "scripts/create_structured_prompt_v5_review_layer_v1.py",
+    "bundle_path": "selected_files/scripts/create_structured_prompt_v5_review_layer_v1.py",
+    "reason_included": "Latest structured prompt review-layer logic.",
+    "size_bytes": 6700,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "scripts/autograde_structured_prompt_v5_no_bert.py",
+    "bundle_path": "selected_files/scripts/autograde_structured_prompt_v5_no_bert.py",
+    "reason_included": "Latest deterministic autograder interface for CLEAN rows.",
+    "size_bytes": 21206,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "scripts/export_structured_prompt_pilot_v5.py",
+    "bundle_path": "selected_files/scripts/export_structured_prompt_pilot_v5.py",
+    "reason_included": "Prompt/export validation including field order from gold_fields.field_index.",
+    "size_bytes": 26452,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "scripts/test_structured_prompt_truncation.py",
+    "bundle_path": "selected_files/scripts/test_structured_prompt_truncation.py",
+    "reason_included": "Rejected truncation-cleaner experiment and comparison logic.",
+    "size_bytes": 16415,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "PROJECT_TAKEOVER_REPORT.md",
+    "bundle_path": "selected_files/PROJECT_TAKEOVER_REPORT.md",
+    "reason_included": "Concise project history for Layer 1B classification fixes and known run IDs.",
+    "size_bytes": 12069,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "OFFICIAL_LAYER_MERGE_REPORT.md",
+    "bundle_path": "selected_files/OFFICIAL_LAYER_MERGE_REPORT.md",
+    "reason_included": "Official merge/extraction layer context.",
+    "size_bytes": 3543,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "USABLE_ANALYSIS_VIEWS_REPORT.md",
+    "bundle_path": "selected_files/USABLE_ANALYSIS_VIEWS_REPORT.md",
+    "reason_included": "Usability analysis view summary and unusable run IDs.",
+    "size_bytes": 3130,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "remaining_layer1b_flag_classification_v3.csv",
+    "bundle_path": "selected_files/remaining_layer1b_flag_classification_v3.csv",
+    "reason_included": "Compact classification table for known recoverable/unusable/clean flagged runs.",
+    "size_bytes": 8273,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "inspect_unusable_runs.csv",
+    "bundle_path": "selected_files/inspect_unusable_runs.csv",
+    "reason_included": "Compact unusable-run inspection table.",
+    "size_bytes": 1688,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "final_answer_values_review.csv",
+    "bundle_path": "selected_files/final_answer_values_review.csv.excerpt.md",
+    "reason_included": "Field-level extracted values review; included as excerpt because large.",
+    "size_bytes": 127348,
+    "included_as": "excerpt",
+    "notes": ""
+  },
+  {
+    "source_path": "math_span_normalization_review.csv",
+    "bundle_path": "selected_files/math_span_normalization_review.csv",
+    "reason_included": "Math-span normalization review examples.",
+    "size_bytes": 2414126,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "grade_results_sample.csv",
+    "bundle_path": "selected_files/grade_results_sample.csv.excerpt.md",
+    "reason_included": "Sample deterministic grade results; included as excerpt because large.",
+    "size_bytes": 169342,
+    "included_as": "excerpt",
+    "notes": ""
+  },
+  {
+    "source_path": "official_grade.csv",
+    "bundle_path": "selected_files/official_grade.csv.excerpt.md",
+    "reason_included": "Official deterministic grading rows; included as excerpt because large.",
+    "size_bytes": 311735,
+    "included_as": "excerpt",
+    "notes": ""
+  },
+  {
+    "source_path": "outputs/structured_prompt_pilot_v2/review_layer_v1/REVIEW_LAYER_V1_REPORT.md",
+    "bundle_path": "selected_files/outputs/structured_prompt_pilot_v2/review_layer_v1/REVIEW_LAYER_V1_REPORT.md",
+    "reason_included": "Structured prompt v2 review-layer status distribution.",
+    "size_bytes": 1172,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "outputs/structured_prompt_pilot_v2/truncation_test/TRUNCATION_TEST_REPORT.md",
+    "bundle_path": "selected_files/outputs/structured_prompt_pilot_v2/truncation_test/TRUNCATION_TEST_REPORT.md",
+    "reason_included": "Evidence that global truncation cleaner is unsafe for Nemotron.",
+    "size_bytes": 30385,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "outputs/structured_prompt_pilot_v2/non_clean_raw_outputs.md",
+    "bundle_path": "selected_files/outputs/structured_prompt_pilot_v2/non_clean_raw_outputs.md",
+    "reason_included": "Small curated non-clean structured output snippets.",
+    "size_bytes": 127271,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "outputs/structured_prompt_pilot_v5/review_layer_v1/REVIEW_LAYER_V1_REPORT.md",
+    "bundle_path": "selected_files/outputs/structured_prompt_pilot_v5/review_layer_v1/REVIEW_LAYER_V1_REPORT.md",
+    "reason_included": "Latest V5 clean extraction status.",
+    "size_bytes": 472,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "outputs/structured_prompt_pilot_v5/autograde_no_bert_v1/STRUCTURED_PROMPT_V5_AUTOGRADE_NO_BERT_REPORT.md",
+    "bundle_path": "selected_files/outputs/structured_prompt_pilot_v5/autograde_no_bert_v1/STRUCTURED_PROMPT_V5_AUTOGRADE_NO_BERT_REPORT.md",
+    "reason_included": "Latest deterministic structured autograde report.",
+    "size_bytes": 6255,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "outputs/structured_prompt_all32_summary/STRUCTURED_PROMPT_ALL32_SUMMARY.md",
+    "bundle_path": "selected_files/outputs/structured_prompt_all32_summary/STRUCTURED_PROMPT_ALL32_SUMMARY.md",
+    "reason_included": "Combined V2-V5 structured prompt summary.",
+    "size_bytes": 2200,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "outputs/structured_prompt_all32_summary/structured_prompt_all32_summary_by_batch.csv",
+    "bundle_path": "selected_files/outputs/structured_prompt_all32_summary/structured_prompt_all32_summary_by_batch.csv",
+    "reason_included": "Combined structured batch-level pass/review rates.",
+    "size_bytes": 181,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "outputs/structured_prompt_all32_summary/structured_prompt_all32_summary_by_scenario.csv",
+    "bundle_path": "selected_files/outputs/structured_prompt_all32_summary/structured_prompt_all32_summary_by_scenario.csv",
+    "reason_included": "Combined structured scenario-level pass/review rates.",
+    "size_bytes": 1480,
+    "included_as": "full_file",
+    "notes": ""
+  },
+  {
+    "source_path": "outputs/structured_prompt_all32_summary/structured_prompt_all32_summary_by_model.csv",
+    "bundle_path": "selected_files/outputs/structured_prompt_all32_summary/structured_prompt_all32_summary_by_model.csv",
+    "reason_included": "Combined structured model-level pass/review rates.",
+    "size_bytes": 524,
+    "included_as": "full_file",
+    "notes": ""
+  }
+]

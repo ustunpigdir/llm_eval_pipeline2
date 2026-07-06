@@ -1,0 +1,5 @@
+batch,numeric_field_count,included_count,excluded_count,mean_rel_error,median_rel_error,p90_rel_error,p95_rel_error,max_rel_error,fields_with_rel_error_lte_1_percent,fields_with_rel_error_lte_1_25_percent,fields_with_rel_error_lte_2_percent,fields_with_rel_error_lte_3_percent,fields_with_rel_error_lte_5_percent,fields_with_rel_error_gt_10_percent,fields_with_rel_error_gt_100_percent
+V2,176,173,3,695.797888706,0.000521773465704,0.999999199281,8.16505226057,41536.3180706,116,116,120,121,122,47,13
+V3,220,219,1,12032476.8198,0.000692285999056,9.00703760684,222.787356532,2635088802.47,126,126,127,127,131,85,43
+V4,174,173,1,5.76493825239,0.0933333333333,2.994270006,8.98740567428,414.201514742,82,83,83,84,84,86,26
+V5,176,175,1,16.8925530334,0.00108678588195,0.999614678899,4.90035758683,1068.3427031,113,115,115,117,117,56,16

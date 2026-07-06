@@ -1,0 +1,9 @@
+model_name,clean_rows,pass_count,fail_count,pass_rate,most_common_failure_mode
+Gemma 3 12B IT,8,3,5,0.375,numeric_mismatch
+Gemma 3 27B IT,8,2,6,0.25,numeric_mismatch
+Gemma 4 31B IT,8,8,0,1.0,none
+Granite 4.1 8B,7,3,4,0.428571,numeric_mismatch
+Llama 3.1 8B Instruct,8,1,7,0.125,numeric_mismatch
+Ministral 3 8B,8,1,7,0.125,numeric_mismatch
+Mistral NeMo 12B,8,0,8,0.0,numeric_mismatch
+Mistral Small 3.2 24B Instruct,8,1,7,0.125,numeric_mismatch

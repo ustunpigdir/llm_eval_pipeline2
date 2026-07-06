@@ -1,0 +1,45 @@
+source,path,file_type,size_bytes_if_known,reason_relevant,contains_metric_logic,contains_entrypoint,contains_dependency_imports,notes
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning,tree,,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/README,blob,2566,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/__init__.py,blob,199,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/agents.py,blob,2851,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/base.py,blob,20126,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/question_answer.py,blob,4558,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/reason_types,tree,,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/reason_types/__init__.py,blob,199,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/reason_types/free_form.py,blob,1132,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/reason_types/step_by_step.py,blob,37128,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,parlai/tasks/reasoning/requirements.txt,blob,38,path/name matches ROSCOE or reasoning,False,False,True,source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe,tree,,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,projects/roscoe/README.md,blob,6912,path/name matches ROSCOE or reasoning,False,False,True,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe/baselines,tree,,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/baselines/constants.py,blob,2760,path/name matches ROSCOE or reasoning,False,False,False,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe/baselines/requirements.txt,blob,100,path/name matches ROSCOE or reasoning,False,False,False,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe/baselines/run.py,blob,8882,path/name matches ROSCOE or reasoning,False,True,True,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe/baselines/scores.py,blob,11754,path/name matches ROSCOE or reasoning,False,False,True,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe/meta_evaluation,tree,,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/meta_evaluation/correlations.py,blob,1480,path/name matches ROSCOE or reasoning,False,False,False,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe/meta_evaluation/roscoe_correlations.py,blob,50256,path/name matches ROSCOE or reasoning,True,True,True,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe/meta_evaluation/roscoe_synthetic_correlations.py,blob,12425,path/name matches ROSCOE or reasoning,False,True,False,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe/meta_evaluation/run_synthetic_correlations.sh,blob,328,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/meta_evaluation/table_file_writing.py,blob,14668,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/pictures,tree,,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/pictures/equations.png,blob,142324,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/roscoe.py,blob,7212,path/name matches ROSCOE or reasoning,True,True,True,inside ParlAI ROSCOE project; source fetched for inspection; CLI dataset scoring wrapper
+https://github.com/facebookresearch/ParlAI,projects/roscoe/roscoe_data,tree,,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/roscoe_data/download_annotated.sh,blob,1655,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/roscoe_data/generate_perturbed_data.sh,blob,7278,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/roscoe_data/restore_annotated.py,blob,11686,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/roscoe_data/restore_data.py,blob,6071,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/roscoe_data/unperturbed_ids.json,blob,597046,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/score.py,blob,39044,path/name matches ROSCOE or reasoning,True,False,True,inside ParlAI ROSCOE project; source fetched for inspection; core Evaluator and metric constants
+https://github.com/facebookresearch/ParlAI,projects/roscoe/synthetic_evaluation,tree,,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/synthetic_evaluation/score_all.sh,blob,1032,path/name matches ROSCOE or reasoning,,,,inside ParlAI ROSCOE project
+https://github.com/facebookresearch/ParlAI,projects/roscoe/synthetic_evaluation/synthetic_roscoe.py,blob,8049,path/name matches ROSCOE or reasoning,True,True,False,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,projects/roscoe/utils.py,blob,3998,path/name matches ROSCOE or reasoning,False,False,True,inside ParlAI ROSCOE project; source fetched for inspection
+https://github.com/facebookresearch/ParlAI,tests/nightly/cpu/test_roscoe.py,blob,4230,path/name matches ROSCOE or reasoning,True,True,True,source fetched for inspection
+https://github.com/facebookresearch/ParlAI,tests/tasks/reasoning_teacher,tree,,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,tests/tasks/reasoning_teacher/test_abstract_reasoning_teacher.py,blob,5087,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,tests/tasks/reasoning_teacher/test_math_dataset_step_by_step_teacher.py,blob,1852,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,tests/tasks/reasoning_teacher/test_question_answer.py,blob,1989,path/name matches ROSCOE or reasoning,,,,
+https://github.com/facebookresearch/ParlAI,tests/tasks/reasoning_teacher/test_step_by_step.py,blob,8582,path/name matches ROSCOE or reasoning,,,,

@@ -1,0 +1,9 @@
+scenario_id,clean_rows,pass_count,fail_count,pass_rate,most_common_failure_mode
+CM_FOUCAULT_001,8,7,1,0.875,numeric_mismatch
+COS_CMB_001,8,5,3,0.625,numeric_mismatch
+GR_ISCO_001,8,0,8,0.0,numeric_mismatch
+QFT_G2_001,8,3,5,0.375,numeric_mismatch
+QI_TELEPORT_001,8,6,2,0.75,unparseable_value
+QM_BERRY_001,8,8,0,1.0,none
+SR_ROCKET_001,8,1,7,0.125,numeric_mismatch
+STAT_ISING_001,8,7,1,0.875,numeric_mismatch

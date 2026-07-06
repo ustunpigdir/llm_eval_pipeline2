@@ -127,7 +127,14 @@ def grade_row(
     else:
         primary_failure_mode = "other"
 
-    extraction_status = "OK" if helper_status == "OK" and len(values) == len(gold_rows) else helper_status
+    extracted_field_names = set(values)
+    gold_field_names = {row["field_name"] for row in gold_rows}
+    if helper_status == "OK" and len(values) == len(gold_rows) and extracted_field_names == gold_field_names:
+        extraction_status = "OK"
+    elif helper_status == "OK":
+        extraction_status = "FIELD_SET_MISMATCH"
+    else:
+        extraction_status = helper_status
     return {
         "scenario_id": review_row["scenario_id"],
         "model_name": review_row["model_name"],

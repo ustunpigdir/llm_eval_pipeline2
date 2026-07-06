@@ -1,0 +1,12 @@
+dependency,required_or_optional,reason_needed,installed_in_current_env,likely_python_compatibility,risk_level,notes
+ParlAI repository/package,required for stock CLI/import paths,projects.roscoe imports assume ParlAI source layout; CLI uses ParlaiParser.,False,"setup.py says >=3.8, but current modern Python 3.12 plus old transitive deps may be risky",high,Full install likely large; minimal source copy may be possible but still needs project import layout.
+torch,required,model inference and tensor operations,True,available in current .venv per prior setup,medium,CPU mode is possible but may be slow.
+transformers,required,AutoTokenizer/AutoModel/NLI/PPL/grammar models,True,"available in current .venv, but ROSCOE was written for older APIs",medium,Requires Hugging Face model downloads.
+sentence-transformers,required by eager import,sentence embedding metrics,False,"modern versions may support 3.12, exact ROSCOE compatibility unknown",high,Not installed in current .venv.
+simcse,required by eager import,fine-tuned ROSCOE/SimCSE embedding model support,False,unclear for Python 3.12,high,README requires simcse; import failure blocks score.py even if only sentence-transformers mode is used.
+nltk,required for CLI parsing,sent_tokenize and reasoning-step splitting,False,likely OK,medium,May require punkt data download for CLI adapter.
+scipy,listed setup dependency,README says install/upgrade scipy,False,likely OK,medium,Version sensitivity unknown.
+facebook/roscoe-512-roberta-base,optional but paper-relevant,fine-tuned ROSCOE embedding model,False,model download/runtime dependent,high,Hugging Face model weights required.
+MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli,required for logical inference metrics,NLI contradiction probabilities,False,model download/runtime dependent,high,Large model; CPU runtime likely expensive.
+gpt2-large,required for PPL language metrics,perplexity metrics,False,model download/runtime dependent,high,Large model; CPU runtime likely expensive.
+cointegrated/roberta-large-cola-krishna2020,required for grammar metrics,grammaticality classifier,False,model download/runtime dependent,high,Large model; CPU runtime likely expensive.

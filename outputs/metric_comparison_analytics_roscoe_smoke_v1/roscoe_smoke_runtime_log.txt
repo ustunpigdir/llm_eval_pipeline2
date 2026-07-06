@@ -1,0 +1,12 @@
+# ROSCOE smoke runtime log
+
+Device info:
+- local smoke scoring was attempted only if import succeeded
+- benchmark rows scored: false
+- model calls made: false
+- external LLM API calls: false
+
+Smoke status: failed
+Smoke pairs attempted: 3
+Smoke pairs scored: 0
+Metrics available: none

@@ -1,0 +1,102 @@
+{
+  "actual_rows_scored": 0,
+  "artifact_name": "roscoe_metric_v1",
+  "bertscore_run": false,
+  "created_at": "2026-07-05T22:54:39+00:00",
+  "expected_rows": 252,
+  "external_llm_api_calls": false,
+  "fail_count": 0,
+  "input_text_artifact": "outputs/metric_text_artifacts_v1/canonical_reasoning_text_dataset.csv",
+  "learning_db_modified": false,
+  "metrics_computed": [],
+  "model_calls_made": false,
+  "nli_run": false,
+  "output_files": [
+    "README.md",
+    "ROSCOE_METRIC_REPORT.md",
+    "roscoe_setup_status.md",
+    "manifest.json"
+  ],
+  "pass_count": 0,
+  "phase2_semantics_implemented": false,
+  "raw_outputs_modified": false,
+  "read_only": true,
+  "roscoe_available": false,
+  "roscoe_metrics_available": [],
+  "roscoe_run": false,
+  "run_mode": "setup_only",
+  "selected_roscoe_metric": "",
+  "setup": {
+    "cache_status": {
+      "huggingface_cache_exists": true,
+      "huggingface_cache_path": "/Users/upigdir/.cache/huggingface",
+      "sentence_transformers_cache_exists": false,
+      "sentence_transformers_cache_path": ""
+    },
+    "created_at": "2026-07-05T22:54:38+00:00",
+    "estimated_scoring_mode": "setup_only",
+    "existing_metric_alignment_sources": {
+      "bertscore_reasoning_only_canonical_v2": true,
+      "chrf_v1": true,
+      "metric_comparison_base": true,
+      "rouge_l_v1": true
+    },
+    "input_fail_count": 135,
+    "input_model_count": 8,
+    "input_pass_count": 117,
+    "input_review_rows": 0,
+    "input_rows": 252,
+    "input_scenario_count": 32,
+    "module_status": [
+      {
+        "importable": false,
+        "module": "roscoe",
+        "origin": "",
+        "version": ""
+      },
+      {
+        "importable": false,
+        "module": "sentence_transformers",
+        "origin": "",
+        "version": ""
+      },
+      {
+        "importable": true,
+        "module": "transformers",
+        "origin": "/Users/upigdir/Desktop/Pipeline SQL proj/.venv/lib/python3.12/site-packages/transformers/__init__.py",
+        "version": "5.13.0"
+      },
+      {
+        "importable": true,
+        "module": "torch",
+        "origin": "/Users/upigdir/Desktop/Pipeline SQL proj/.venv/lib/python3.12/site-packages/torch/__init__.py",
+        "version": "2.12.1"
+      },
+      {
+        "importable": false,
+        "module": "datasets",
+        "origin": "",
+        "version": ""
+      },
+      {
+        "importable": false,
+        "module": "evaluate",
+        "origin": "",
+        "version": ""
+      }
+    ],
+    "platform": "macOS-26.3.1-arm64-arm-64bit",
+    "python_version": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "roscoe_available": false,
+    "sentence_transformers_available": false,
+    "setup_blocker": "roscoe package is not importable in the project virtual environment",
+    "torch_status": {
+      "available": true,
+      "cuda_available": false,
+      "device": "cpu",
+      "error": "",
+      "mps_available": false,
+      "version": "2.12.1"
+    }
+  }
+}

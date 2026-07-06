@@ -1,0 +1,43 @@
+{
+  "changed_rows_count": 0,
+  "created_at": "2026-07-05T21:39:31+00:00",
+  "outputs": {
+    "by_batch": "structured_prompt_phase1_hardened_by_batch.csv",
+    "by_model": "structured_prompt_phase1_hardened_by_model.csv",
+    "by_scenario": "structured_prompt_phase1_hardened_by_scenario.csv",
+    "changed_rows": "structured_prompt_phase1_hardened_changed_rows.csv",
+    "report": "PHASE1_HARDENED_RERUN_REPORT.md"
+  },
+  "post_phase1_summary": {
+    "BERTScore_status": "not run",
+    "FAIL": 135,
+    "PASS": 117,
+    "external_api_calls": false,
+    "extraction_status_distribution": {
+      "OK": 252
+    },
+    "learning_db_modified": false,
+    "overall_clean_row_pass_rate": 0.464286,
+    "raw_outputs_modified": false,
+    "total_CLEAN_rows": 252,
+    "total_REVIEW_rows": 12,
+    "total_structured_runs": 264
+  },
+  "pre_phase1_known_summary": {
+    "BERTScore": "not run",
+    "FAIL": 135,
+    "PASS": 117,
+    "overall_pass_rate": 0.464286,
+    "total_clean_rows": 252,
+    "total_review_rows": 12,
+    "total_structured_runs": 264
+  },
+  "scripts_run": [
+    "scripts/autograde_structured_prompt_v2_no_bert.py",
+    "scripts/autograde_structured_prompt_v3_no_bert.py",
+    "scripts/autograde_structured_prompt_v4_no_bert.py",
+    "scripts/autograde_structured_prompt_v5_no_bert.py"
+  ],
+  "source": "saved structured prompt outputs only",
+  "stability_decision": "STABLE_NO_METRIC_CHANGE"
+}

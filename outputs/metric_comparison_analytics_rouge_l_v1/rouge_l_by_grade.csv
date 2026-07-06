@@ -1,0 +1,3 @@
+deterministic_grade,row_count,pass_count,fail_count,mean_rouge_l_f1,median_rouge_l_f1,min_rouge_l_f1,max_rouge_l_f1,PASS_mean_rouge_l_f1,FAIL_mean_rouge_l_f1,PASS_minus_FAIL_mean_gap,simple_effect_size
+FAIL,135,0,135,0.7630170643449785,0.8538812785388128,0.12168344007319305,0.9651376146788991,,0.7630170643449785,,
+PASS,117,117,0,0.8073686035458156,0.9185520361990951,0.24506749740394598,0.9798165137614679,0.8073686035458156,,,

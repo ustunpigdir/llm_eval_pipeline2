@@ -1,0 +1,5 @@
+batch,total_rows,original_pass_count,original_fail_count,plus_one_pp_numeric_rescue_count,hard_fail_count,rescue_share_of_fails
+V2,64,37,27,1,26,0.037037
+V3,61,24,37,0,37,0.0
+V4,63,19,44,0,44,0.0
+V5,64,37,27,0,27,0.0

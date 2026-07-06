@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-07-05T11:47:41+00:00",
+  "excluded_model_names": [
+    "NVIDIA Nemotron 3 Nano 30B-A3B"
+  ],
+  "excluded_scenario_ids": [
+    "CM_APSIDAL_001",
+    "CM_FOUCAULT_001",
+    "COS_CMB_001",
+    "COS_DL_001",
+    "GR_GPS_001",
+    "GR_ISCO_001",
+    "QFT_CASIMIR_001",
+    "QFT_G2_001",
+    "QI_TELEPORT_001",
+    "QI_WERNER_001",
+    "QM_BERRY_001",
+    "QM_TUNNEL_001",
+    "SR_BELL_001",
+    "SR_ROCKET_001",
+    "STAT_BEC_001",
+    "STAT_ISING_001"
+  ],
+  "model_identity_count": 8,
+  "model_names": [
+    "Gemma 3 12B IT",
+    "Gemma 3 27B IT",
+    "Gemma 4 31B IT",
+    "Granite 4.1 8B",
+    "Llama 3.1 8B Instruct",
+    "Ministral 3 8B",
+    "Mistral NeMo 12B",
+    "Mistral Small 3.2 24B Instruct"
+  ],
+  "outputs": {
+    "csv": "structured_prompt_pilot_v4.csv",
+    "jsonl": "structured_prompt_pilot_v4.jsonl",
+    "report": "STRUCTURED_PROMPT_PILOT_V4_REPORT.md",
+    "run_plan": "structured_prompt_pilot_v4_run_plan.json"
+  },
+  "pilot_name": "structured_prompt_pilot_v4",
+  "preflight_validation": {
+    "exactly_one_final_answer_block": "64/64",
+    "failures": [],
+    "field_order_matches_db": "64/64",
+    "leaked_final_gold_values": 0,
+    "model_count": 8,
+    "nemotron_assignments": 0,
+    "original_question_present": "64/64",
+    "passed": true,
+    "placeholder_count_gt_zero": "64/64",
+    "prompt_does_not_begin_with_derivation": true,
+    "scenario_count": 8,
+    "scenario_summary": {
+      "CM_KAPITZA_001": {
+        "assignment_count": 8,
+        "final_answer_block_count_ok": 8,
+        "final_answer_field_order_matches_db": true,
+        "leaked_final_gold_values_detected": false,
+        "original_question_present_count": 8,
+        "placeholder_count": 7
+      },
+      "COS_DESITTER_001": {
+        "assignment_count": 8,
+        "final_answer_block_count_ok": 8,
+        "final_answer_field_order_matches_db": true,
+        "leaked_final_gold_values_detected": false,
+        "original_question_present_count": 8,
+        "placeholder_count": 9
+      },
+      "GR_PERI_001": {
+        "assignment_count": 8,
+        "final_answer_block_count_ok": 8,
+        "final_answer_field_order_matches_db": true,
+        "leaked_final_gold_values_detected": false,
+        "original_question_present_count": 8,
+        "placeholder_count": 13
+      },
+      "QFT_UNRUH_001": {
+        "assignment_count": 8,
+        "final_answer_block_count_ok": 8,
+        "final_answer_field_order_matches_db": true,
+        "leaked_final_gold_values_detected": false,
+        "original_question_present_count": 8,
+        "placeholder_count": 9
+      },
+      "QI_HOLEVO_001": {
+        "assignment_count": 8,
+        "final_answer_block_count_ok": 8,
+        "final_answer_field_order_matches_db": true,
+        "leaked_final_gold_values_detected": false,
+        "original_question_present_count": 8,
+        "placeholder_count": 6
+      },
+      "QM_AB_001": {
+        "assignment_count": 8,
+        "final_answer_block_count_ok": 8,
+        "final_answer_field_order_matches_db": true,
+        "leaked_final_gold_values_detected": false,
+        "original_question_present_count": 8,
+        "placeholder_count": 8
+      },
+      "SR_TWIN_001": {
+        "assignment_count": 8,
+        "final_answer_block_count_ok": 8,
+        "final_answer_field_order_matches_db": true,
+        "leaked_final_gold_values_detected": false,
+        "original_question_present_count": 8,
+        "placeholder_count": 12
+      },
+      "STAT_LANDAUER_001": {
+        "assignment_count": 8,
+        "final_answer_block_count_ok": 8,
+        "final_answer_field_order_matches_db": true,
+        "leaked_final_gold_values_detected": false,
+        "original_question_present_count": 8,
+        "placeholder_count": 5
+      }
+    },
+    "total_assignments": 64
+  },
+  "prompt_assignment_count": 64,
+  "scenario_count": 8,
+  "scenario_ids": [
+    "CM_KAPITZA_001",
+    "COS_DESITTER_001",
+    "GR_PERI_001",
+    "QFT_UNRUH_001",
+    "QI_HOLEVO_001",
+    "QM_AB_001",
+    "SR_TWIN_001",
+    "STAT_LANDAUER_001"
+  ]
+}

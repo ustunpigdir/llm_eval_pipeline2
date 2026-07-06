@@ -1,0 +1,31 @@
+{
+  "artifact_name": "python311_provision_for_roscoe_v1",
+  "created_at": "2026-07-05T23:27:08.158416+00:00",
+  "purpose": "provide Python 3.11 runtime for isolated ROSCOE smoke test",
+  "python311_found_before_install": false,
+  "install_attempted": true,
+  "install_method": "homebrew",
+  "python311_executable": "python3.11",
+  "python311_version": "Python 3.11.15",
+  "validation_venv_created": true,
+  "validation_venv_deleted": true,
+  "main_venv_modified": false,
+  "roscoe_dependencies_installed": false,
+  "learning_db_modified": false,
+  "raw_outputs_modified": false,
+  "frozen_metric_artifacts_modified": false,
+  "benchmark_rows_scored": false,
+  "model_calls_made": false,
+  "external_llm_api_calls": false,
+  "bertscore_run": false,
+  "phase2_semantics_implemented": false,
+  "ready_to_retry_roscoe_smoke_v2": true,
+  "output_files": [
+    "README.md",
+    "PYTHON311_PROVISION_REPORT.md",
+    "python311_discovery_log.txt",
+    "python311_install_log.txt",
+    "python311_validation_log.txt",
+    "manifest.json"
+  ]
+}

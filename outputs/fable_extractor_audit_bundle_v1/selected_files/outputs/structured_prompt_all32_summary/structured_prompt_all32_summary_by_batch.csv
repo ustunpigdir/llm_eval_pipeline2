@@ -1,0 +1,5 @@
+batch,total_runs,clean_rows,review_rows,pass_count,fail_count,pass_rate
+V2,72,64,8,37,27,0.578125
+V3,64,61,3,24,37,0.393443
+V4,64,63,1,19,44,0.301587
+V5,64,64,0,37,27,0.578125

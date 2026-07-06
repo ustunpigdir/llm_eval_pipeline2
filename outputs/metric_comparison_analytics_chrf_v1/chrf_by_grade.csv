@@ -1,0 +1,3 @@
+deterministic_grade,row_count,pass_count,fail_count,mean_chrf_score,median_chrf_score,min_chrf_score,max_chrf_score,PASS_mean_chrf_score,FAIL_mean_chrf_score,PASS_minus_FAIL_mean_gap,simple_effect_size
+FAIL,135,0,135,0.7711220629858075,0.8646423312781606,0.2464398811208246,0.9751084394461151,,0.7711220629858075,,
+PASS,117,117,0,0.8363901219635425,0.9326756449867345,0.40644689979788484,0.9914191870065052,0.8363901219635425,,,

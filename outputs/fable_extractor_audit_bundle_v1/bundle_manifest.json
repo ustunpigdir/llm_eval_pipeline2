@@ -1,0 +1,13 @@
+{
+  "bundle_name": "fable_extractor_audit_bundle_v1",
+  "created_at": "2026-07-05T21:14:33+00:00",
+  "purpose": "compact curated audit bundle for Claude Fable 5",
+  "fable_not_called": true,
+  "external_api_calls": false,
+  "learning_db_modified": false,
+  "benchmark_results_modified": false,
+  "bertscore_run": false,
+  "selected_file_count": 34,
+  "representative_case_count": 15,
+  "zip_path": "outputs/fable_extractor_audit_bundle_v1.zip"
+}

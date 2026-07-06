@@ -1,0 +1,53 @@
+{
+  "actual_rows": 252,
+  "artifact_name": "chrf_metric_v1",
+  "bertscore_run": false,
+  "chrf_beta": 2.0,
+  "chrf_ngram_order_max": 6,
+  "created_at": "2026-07-05T22:43:03+00:00",
+  "expected_rows": 252,
+  "external_api_calls": false,
+  "fail_count": 135,
+  "input_text_artifact": "outputs/metric_text_artifacts_v1/canonical_reasoning_text_dataset.csv",
+  "learning_db_modified": false,
+  "metrics_computed": [
+    "chrf_precision",
+    "chrf_recall",
+    "chrf_score"
+  ],
+  "model_calls_made": false,
+  "nli_run": false,
+  "output_files": [
+    "README.md",
+    "CHRF_METRIC_REPORT.md",
+    "chrf_row_scores.csv",
+    "chrf_row_scores.json",
+    "chrf_by_grade.csv",
+    "chrf_by_batch.csv",
+    "chrf_by_scenario.csv",
+    "chrf_by_model.csv",
+    "chrf_outliers_high_chrf_fail.csv",
+    "chrf_outliers_low_chrf_pass.csv",
+    "chrf_vs_existing_metrics.csv",
+    "chrf_correlation_matrix.csv",
+    "manifest.json"
+  ],
+  "overall": {
+    "FAIL_mean_chrf_score": 0.7711220629858075,
+    "PASS_mean_chrf_score": 0.8363901219635425,
+    "PASS_minus_FAIL_mean_gap": 0.06526805897773491,
+    "fail_count": 135,
+    "max_chrf_score": 0.9914191870065052,
+    "mean_chrf_score": 0.8014250903683273,
+    "median_chrf_score": 0.8902547719135157,
+    "min_chrf_score": 0.2464398811208246,
+    "pass_count": 117,
+    "row_count": 252,
+    "simple_effect_size": 0.3528040940066603
+  },
+  "pass_count": 117,
+  "phase2_semantics_implemented": false,
+  "raw_outputs_modified": false,
+  "read_only": true,
+  "roscoe_run": false
+}

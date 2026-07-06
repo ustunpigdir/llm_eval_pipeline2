@@ -1,0 +1,35 @@
+$ which python3.11
+returncode=1
+
+$ python3.11 --version
+returncode=None
+stderr:
+FileNotFoundError(2, 'No such file or directory')
+
+$ /opt/homebrew/bin/python3.11 --version
+returncode=None
+stderr:
+FileNotFoundError(2, 'No such file or directory')
+
+$ /usr/local/bin/python3.11 --version
+returncode=None
+stderr:
+FileNotFoundError(2, 'No such file or directory')
+
+$ which brew
+returncode=0
+stdout:
+/opt/homebrew/bin/brew
+
+$ brew --version
+returncode=0
+stdout:
+Homebrew 6.0.6
+
+$ which pyenv
+returncode=1
+
+$ pyenv --version
+returncode=None
+stderr:
+FileNotFoundError(2, 'No such file or directory')

@@ -1,0 +1,67 @@
+{
+  "batch_distribution": {
+    "V2": 64,
+    "V3": 61,
+    "V4": 63,
+    "V5": 64
+  },
+  "bertscore_model": "unknown",
+  "bertscore_notes": "",
+  "candidate_rows_scored": 252,
+  "candidate_source": "structured_prompt_pilot_v2-v5 saved raw model responses",
+  "created_at": "2026-07-05T21:48:19+00:00",
+  "deterministic_grade_distribution": {
+    "FAIL": 135,
+    "PASS": 117
+  },
+  "extraction_status_distribution": {
+    "OK": 252
+  },
+  "helper_status_distribution": {
+    "OK": 252
+  },
+  "lang": "en",
+  "learning_db_modified": false,
+  "model_or_llm_api_calls": false,
+  "output_folder": "outputs/bertscore_structured_all32_phase1_hardened_v1",
+  "overall": {
+    "fail": 135,
+    "max_f1": 0.7747526168823242,
+    "mean_candidate_text_length_chars": 1101.329365079365,
+    "mean_f1": 0.5035585879629093,
+    "mean_precision": 0.35308868133685634,
+    "mean_recall": 0.6638429536057325,
+    "mean_reference_text_length_chars": 746.5595238095239,
+    "median_f1": 0.6324729919433594,
+    "median_precision": 0.4668261259794235,
+    "median_recall": 0.8078551292419434,
+    "min_f1": -0.38166603446006775,
+    "n_rows": 252,
+    "pass": 117,
+    "pass_rate": 0.4642857142857143
+  },
+  "previous_baseline_summary": {
+    "max_f1": 0.08206989616155624,
+    "mean_f1": -0.16353481221941074,
+    "median_f1": -0.16704843938350677,
+    "min_f1": -0.4067196846008301,
+    "n_rows": 617,
+    "run_name": "pre_structured_prompt_usable_full_v1"
+  },
+  "raw_outputs_modified": false,
+  "reference_files": [
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch1.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch2.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch3.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch4.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch5.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch6.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch7.md"
+  ],
+  "reference_source": "worked_solutions_batch1.md through worked_solutions_batch7.md",
+  "rescale_with_baseline": true,
+  "review_rows_scored": 0,
+  "run_name": "structured_prompt_all32_phase1_hardened_v1",
+  "scenario_count": 32,
+  "source_summary_folder": "outputs/structured_prompt_all32_summary_phase1_hardened"
+}

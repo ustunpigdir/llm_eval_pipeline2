@@ -1,0 +1,1969 @@
+pilot_name,prompt_mode,prompt_sequence,scenario_id,scenario_title,category,model_id,model_label,provider,model,trial,prompt,prompt_sha256
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,1,CM_APSIDAL_001,Apsidal angle - why only two potentials close orbits,Classical Mechanics,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+A particle moves in a central force $F(r) = -k r^{n}$ (attractive). For NEARLY circular orbits, the apsidal angle (angle swept between successive perihelion and aphelion) is $\Phi = \pi/\sqrt{3+n}$.
+
+Conventions: $n$ is the FORCE-law exponent ($F \propto r^n$): Kepler is $n = -2$, harmonic is $n = +1$.
+
+Tasks:
+1. Verify the formula against the two closed-orbit cases: evaluate $\Phi$ for $n = -2$ and $n = +1$, in degrees.
+2. Evaluate $\Phi$ in degrees for $n = -1$ (force $\propto 1/r$).
+3. For $n = -1$, is the orbit closed? Compute the apsidal precession per radial period, $2\Phi - 360^\circ$, in degrees.
+4. State Bertrand's theorem and explain how these results illustrate it. What goes wrong for $n \le -3$?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Closed cases.** Kepler n = −2: Φ = π/√(3−2) = π/√1 = **____°**. Harmonic n = +1: Φ = π/√(3+1) = π/2 = **____°**. Both are rational fractions of π ⟹ orbits close.
+2. **n = −1.** Φ = π/√(3−1) = π/√2 = **____°**.
+3. **Not closed.** For n = −1, Φ is not a rational multiple of ____° that closes; the precession per radial period is 2Φ − 360° = 2·____ − 360 = **____** (the orbit regresses).
+4. **Bertrand's theorem.** Only n = −2 (inverse-square) and n = +1 (Hooke) close **all** bounded orbits. For n ≤ −3 the argument 3+n ≤ 0, √ is non-real ⟹ circular orbits are unstable and no apsidal angle exists.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{apsidal\_harmonic\_deg}       &=  \\
+\mathrm{apsidal\_kepler\_deg}         &=  \\
+\mathrm{apsidal\_n\_minus1\_deg}      &=  \\
+\mathrm{precession\_per\_period\_deg} &=  \\
+\end{aligned}
+\]",62c0fd0c57b845e7f4d583ac73bed8c6118aa6f94b65d048363274d3cfbacc4b
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,2,CM_APSIDAL_001,Apsidal angle - why only two potentials close orbits,Classical Mechanics,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+A particle moves in a central force $F(r) = -k r^{n}$ (attractive). For NEARLY circular orbits, the apsidal angle (angle swept between successive perihelion and aphelion) is $\Phi = \pi/\sqrt{3+n}$.
+
+Conventions: $n$ is the FORCE-law exponent ($F \propto r^n$): Kepler is $n = -2$, harmonic is $n = +1$.
+
+Tasks:
+1. Verify the formula against the two closed-orbit cases: evaluate $\Phi$ for $n = -2$ and $n = +1$, in degrees.
+2. Evaluate $\Phi$ in degrees for $n = -1$ (force $\propto 1/r$).
+3. For $n = -1$, is the orbit closed? Compute the apsidal precession per radial period, $2\Phi - 360^\circ$, in degrees.
+4. State Bertrand's theorem and explain how these results illustrate it. What goes wrong for $n \le -3$?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Closed cases.** Kepler n = −2: Φ = π/√(3−2) = π/√1 = **____°**. Harmonic n = +1: Φ = π/√(3+1) = π/2 = **____°**. Both are rational fractions of π ⟹ orbits close.
+2. **n = −1.** Φ = π/√(3−1) = π/√2 = **____°**.
+3. **Not closed.** For n = −1, Φ is not a rational multiple of ____° that closes; the precession per radial period is 2Φ − 360° = 2·____ − 360 = **____** (the orbit regresses).
+4. **Bertrand's theorem.** Only n = −2 (inverse-square) and n = +1 (Hooke) close **all** bounded orbits. For n ≤ −3 the argument 3+n ≤ 0, √ is non-real ⟹ circular orbits are unstable and no apsidal angle exists.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{apsidal\_harmonic\_deg}       &=  \\
+\mathrm{apsidal\_kepler\_deg}         &=  \\
+\mathrm{apsidal\_n\_minus1\_deg}      &=  \\
+\mathrm{precession\_per\_period\_deg} &=  \\
+\end{aligned}
+\]",62c0fd0c57b845e7f4d583ac73bed8c6118aa6f94b65d048363274d3cfbacc4b
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,3,CM_APSIDAL_001,Apsidal angle - why only two potentials close orbits,Classical Mechanics,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+A particle moves in a central force $F(r) = -k r^{n}$ (attractive). For NEARLY circular orbits, the apsidal angle (angle swept between successive perihelion and aphelion) is $\Phi = \pi/\sqrt{3+n}$.
+
+Conventions: $n$ is the FORCE-law exponent ($F \propto r^n$): Kepler is $n = -2$, harmonic is $n = +1$.
+
+Tasks:
+1. Verify the formula against the two closed-orbit cases: evaluate $\Phi$ for $n = -2$ and $n = +1$, in degrees.
+2. Evaluate $\Phi$ in degrees for $n = -1$ (force $\propto 1/r$).
+3. For $n = -1$, is the orbit closed? Compute the apsidal precession per radial period, $2\Phi - 360^\circ$, in degrees.
+4. State Bertrand's theorem and explain how these results illustrate it. What goes wrong for $n \le -3$?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Closed cases.** Kepler n = −2: Φ = π/√(3−2) = π/√1 = **____°**. Harmonic n = +1: Φ = π/√(3+1) = π/2 = **____°**. Both are rational fractions of π ⟹ orbits close.
+2. **n = −1.** Φ = π/√(3−1) = π/√2 = **____°**.
+3. **Not closed.** For n = −1, Φ is not a rational multiple of ____° that closes; the precession per radial period is 2Φ − 360° = 2·____ − 360 = **____** (the orbit regresses).
+4. **Bertrand's theorem.** Only n = −2 (inverse-square) and n = +1 (Hooke) close **all** bounded orbits. For n ≤ −3 the argument 3+n ≤ 0, √ is non-real ⟹ circular orbits are unstable and no apsidal angle exists.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{apsidal\_harmonic\_deg}       &=  \\
+\mathrm{apsidal\_kepler\_deg}         &=  \\
+\mathrm{apsidal\_n\_minus1\_deg}      &=  \\
+\mathrm{precession\_per\_period\_deg} &=  \\
+\end{aligned}
+\]",62c0fd0c57b845e7f4d583ac73bed8c6118aa6f94b65d048363274d3cfbacc4b
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,4,CM_APSIDAL_001,Apsidal angle - why only two potentials close orbits,Classical Mechanics,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+A particle moves in a central force $F(r) = -k r^{n}$ (attractive). For NEARLY circular orbits, the apsidal angle (angle swept between successive perihelion and aphelion) is $\Phi = \pi/\sqrt{3+n}$.
+
+Conventions: $n$ is the FORCE-law exponent ($F \propto r^n$): Kepler is $n = -2$, harmonic is $n = +1$.
+
+Tasks:
+1. Verify the formula against the two closed-orbit cases: evaluate $\Phi$ for $n = -2$ and $n = +1$, in degrees.
+2. Evaluate $\Phi$ in degrees for $n = -1$ (force $\propto 1/r$).
+3. For $n = -1$, is the orbit closed? Compute the apsidal precession per radial period, $2\Phi - 360^\circ$, in degrees.
+4. State Bertrand's theorem and explain how these results illustrate it. What goes wrong for $n \le -3$?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Closed cases.** Kepler n = −2: Φ = π/√(3−2) = π/√1 = **____°**. Harmonic n = +1: Φ = π/√(3+1) = π/2 = **____°**. Both are rational fractions of π ⟹ orbits close.
+2. **n = −1.** Φ = π/√(3−1) = π/√2 = **____°**.
+3. **Not closed.** For n = −1, Φ is not a rational multiple of ____° that closes; the precession per radial period is 2Φ − 360° = 2·____ − 360 = **____** (the orbit regresses).
+4. **Bertrand's theorem.** Only n = −2 (inverse-square) and n = +1 (Hooke) close **all** bounded orbits. For n ≤ −3 the argument 3+n ≤ 0, √ is non-real ⟹ circular orbits are unstable and no apsidal angle exists.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{apsidal\_harmonic\_deg}       &=  \\
+\mathrm{apsidal\_kepler\_deg}         &=  \\
+\mathrm{apsidal\_n\_minus1\_deg}      &=  \\
+\mathrm{precession\_per\_period\_deg} &=  \\
+\end{aligned}
+\]",62c0fd0c57b845e7f4d583ac73bed8c6118aa6f94b65d048363274d3cfbacc4b
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,5,CM_APSIDAL_001,Apsidal angle - why only two potentials close orbits,Classical Mechanics,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+A particle moves in a central force $F(r) = -k r^{n}$ (attractive). For NEARLY circular orbits, the apsidal angle (angle swept between successive perihelion and aphelion) is $\Phi = \pi/\sqrt{3+n}$.
+
+Conventions: $n$ is the FORCE-law exponent ($F \propto r^n$): Kepler is $n = -2$, harmonic is $n = +1$.
+
+Tasks:
+1. Verify the formula against the two closed-orbit cases: evaluate $\Phi$ for $n = -2$ and $n = +1$, in degrees.
+2. Evaluate $\Phi$ in degrees for $n = -1$ (force $\propto 1/r$).
+3. For $n = -1$, is the orbit closed? Compute the apsidal precession per radial period, $2\Phi - 360^\circ$, in degrees.
+4. State Bertrand's theorem and explain how these results illustrate it. What goes wrong for $n \le -3$?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Closed cases.** Kepler n = −2: Φ = π/√(3−2) = π/√1 = **____°**. Harmonic n = +1: Φ = π/√(3+1) = π/2 = **____°**. Both are rational fractions of π ⟹ orbits close.
+2. **n = −1.** Φ = π/√(3−1) = π/√2 = **____°**.
+3. **Not closed.** For n = −1, Φ is not a rational multiple of ____° that closes; the precession per radial period is 2Φ − 360° = 2·____ − 360 = **____** (the orbit regresses).
+4. **Bertrand's theorem.** Only n = −2 (inverse-square) and n = +1 (Hooke) close **all** bounded orbits. For n ≤ −3 the argument 3+n ≤ 0, √ is non-real ⟹ circular orbits are unstable and no apsidal angle exists.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{apsidal\_harmonic\_deg}       &=  \\
+\mathrm{apsidal\_kepler\_deg}         &=  \\
+\mathrm{apsidal\_n\_minus1\_deg}      &=  \\
+\mathrm{precession\_per\_period\_deg} &=  \\
+\end{aligned}
+\]",62c0fd0c57b845e7f4d583ac73bed8c6118aa6f94b65d048363274d3cfbacc4b
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,6,CM_APSIDAL_001,Apsidal angle - why only two potentials close orbits,Classical Mechanics,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+A particle moves in a central force $F(r) = -k r^{n}$ (attractive). For NEARLY circular orbits, the apsidal angle (angle swept between successive perihelion and aphelion) is $\Phi = \pi/\sqrt{3+n}$.
+
+Conventions: $n$ is the FORCE-law exponent ($F \propto r^n$): Kepler is $n = -2$, harmonic is $n = +1$.
+
+Tasks:
+1. Verify the formula against the two closed-orbit cases: evaluate $\Phi$ for $n = -2$ and $n = +1$, in degrees.
+2. Evaluate $\Phi$ in degrees for $n = -1$ (force $\propto 1/r$).
+3. For $n = -1$, is the orbit closed? Compute the apsidal precession per radial period, $2\Phi - 360^\circ$, in degrees.
+4. State Bertrand's theorem and explain how these results illustrate it. What goes wrong for $n \le -3$?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Closed cases.** Kepler n = −2: Φ = π/√(3−2) = π/√1 = **____°**. Harmonic n = +1: Φ = π/√(3+1) = π/2 = **____°**. Both are rational fractions of π ⟹ orbits close.
+2. **n = −1.** Φ = π/√(3−1) = π/√2 = **____°**.
+3. **Not closed.** For n = −1, Φ is not a rational multiple of ____° that closes; the precession per radial period is 2Φ − 360° = 2·____ − 360 = **____** (the orbit regresses).
+4. **Bertrand's theorem.** Only n = −2 (inverse-square) and n = +1 (Hooke) close **all** bounded orbits. For n ≤ −3 the argument 3+n ≤ 0, √ is non-real ⟹ circular orbits are unstable and no apsidal angle exists.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{apsidal\_harmonic\_deg}       &=  \\
+\mathrm{apsidal\_kepler\_deg}         &=  \\
+\mathrm{apsidal\_n\_minus1\_deg}      &=  \\
+\mathrm{precession\_per\_period\_deg} &=  \\
+\end{aligned}
+\]",62c0fd0c57b845e7f4d583ac73bed8c6118aa6f94b65d048363274d3cfbacc4b
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,7,CM_APSIDAL_001,Apsidal angle - why only two potentials close orbits,Classical Mechanics,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+A particle moves in a central force $F(r) = -k r^{n}$ (attractive). For NEARLY circular orbits, the apsidal angle (angle swept between successive perihelion and aphelion) is $\Phi = \pi/\sqrt{3+n}$.
+
+Conventions: $n$ is the FORCE-law exponent ($F \propto r^n$): Kepler is $n = -2$, harmonic is $n = +1$.
+
+Tasks:
+1. Verify the formula against the two closed-orbit cases: evaluate $\Phi$ for $n = -2$ and $n = +1$, in degrees.
+2. Evaluate $\Phi$ in degrees for $n = -1$ (force $\propto 1/r$).
+3. For $n = -1$, is the orbit closed? Compute the apsidal precession per radial period, $2\Phi - 360^\circ$, in degrees.
+4. State Bertrand's theorem and explain how these results illustrate it. What goes wrong for $n \le -3$?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Closed cases.** Kepler n = −2: Φ = π/√(3−2) = π/√1 = **____°**. Harmonic n = +1: Φ = π/√(3+1) = π/2 = **____°**. Both are rational fractions of π ⟹ orbits close.
+2. **n = −1.** Φ = π/√(3−1) = π/√2 = **____°**.
+3. **Not closed.** For n = −1, Φ is not a rational multiple of ____° that closes; the precession per radial period is 2Φ − 360° = 2·____ − 360 = **____** (the orbit regresses).
+4. **Bertrand's theorem.** Only n = −2 (inverse-square) and n = +1 (Hooke) close **all** bounded orbits. For n ≤ −3 the argument 3+n ≤ 0, √ is non-real ⟹ circular orbits are unstable and no apsidal angle exists.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{apsidal\_harmonic\_deg}       &=  \\
+\mathrm{apsidal\_kepler\_deg}         &=  \\
+\mathrm{apsidal\_n\_minus1\_deg}      &=  \\
+\mathrm{precession\_per\_period\_deg} &=  \\
+\end{aligned}
+\]",62c0fd0c57b845e7f4d583ac73bed8c6118aa6f94b65d048363274d3cfbacc4b
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,8,CM_APSIDAL_001,Apsidal angle - why only two potentials close orbits,Classical Mechanics,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+A particle moves in a central force $F(r) = -k r^{n}$ (attractive). For NEARLY circular orbits, the apsidal angle (angle swept between successive perihelion and aphelion) is $\Phi = \pi/\sqrt{3+n}$.
+
+Conventions: $n$ is the FORCE-law exponent ($F \propto r^n$): Kepler is $n = -2$, harmonic is $n = +1$.
+
+Tasks:
+1. Verify the formula against the two closed-orbit cases: evaluate $\Phi$ for $n = -2$ and $n = +1$, in degrees.
+2. Evaluate $\Phi$ in degrees for $n = -1$ (force $\propto 1/r$).
+3. For $n = -1$, is the orbit closed? Compute the apsidal precession per radial period, $2\Phi - 360^\circ$, in degrees.
+4. State Bertrand's theorem and explain how these results illustrate it. What goes wrong for $n \le -3$?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Closed cases.** Kepler n = −2: Φ = π/√(3−2) = π/√1 = **____°**. Harmonic n = +1: Φ = π/√(3+1) = π/2 = **____°**. Both are rational fractions of π ⟹ orbits close.
+2. **n = −1.** Φ = π/√(3−1) = π/√2 = **____°**.
+3. **Not closed.** For n = −1, Φ is not a rational multiple of ____° that closes; the precession per radial period is 2Φ − 360° = 2·____ − 360 = **____** (the orbit regresses).
+4. **Bertrand's theorem.** Only n = −2 (inverse-square) and n = +1 (Hooke) close **all** bounded orbits. For n ≤ −3 the argument 3+n ≤ 0, √ is non-real ⟹ circular orbits are unstable and no apsidal angle exists.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{apsidal\_harmonic\_deg}       &=  \\
+\mathrm{apsidal\_kepler\_deg}         &=  \\
+\mathrm{apsidal\_n\_minus1\_deg}      &=  \\
+\mathrm{precession\_per\_period\_deg} &=  \\
+\end{aligned}
+\]",62c0fd0c57b845e7f4d583ac73bed8c6118aa6f94b65d048363274d3cfbacc4b
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,9,COS_DL_001,Luminosity distance - the q0 correction that revealed dark energy,Cosmology,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+Use the low-redshift expansion of the luminosity distance: $d_L = \frac{cz}{H_0}\left[1 + \frac{(1-q_0)z}{2}\right]$, with $H_0 = 70.0$ km/s/Mpc.
+
+Conventions: deceleration parameter $q_0 = \Omega_m/2 - \Omega_\Lambda$; LCDM (0.3, 0.7) gives $q_0 = -0.55$; Einstein-de Sitter gives $q_0 = +0.5$.
+
+Tasks:
+1. Evaluate the Hubble distance $c/H_0$ in Mpc and the linear term $cz/H_0$ at $z = 0.200$.
+2. Evaluate $d_L$ at $z = 0.2$ for LCDM ($q_0 = -0.55$).
+3. Evaluate $d_L$ at $z = 0.2$ for Einstein-de Sitter ($q_0 = +0.5$).
+4. A supernova at $z = 0.2$ appears FAINTER than the EdS prediction. Which model does that favor, and why? Relate to the 1998 discovery.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble distance & linear term.** c/H₀ = ____×10⁵/70 = **____ Mpc**; cz/H₀ = ____·0.2 = **____ Mpc**.
+2. **ΛCDM (q₀ = −0.55).** [1 + (1−(−0.55))·0.2/2] = [1 + 1.55·0.1] = ____ ⟹ d_L = ____·____ = **____ Mpc**.
+3. **EdS (q₀ = +0.5).** [1 + (1−0.5)·0.1] = 1.05 ⟹ d_L = ____·1.05 = **____ Mpc**.
+4. **The 1998 result.** A supernova at z = 0.2 appearing **fainter** than the EdS prediction means a **larger** d_L, i.e. larger (1 − q₀), i.e. **more negative q₀** — an accelerating expansion. This favors ΛCDM / dark energy (Riess & Perlmutter 1998). q₀ < 0 signals acceleration.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{dl\_eds\_mpc}          &=  \\
+\mathrm{dl\_lcdm\_mpc}         &=  \\
+\mathrm{dl\_linear\_mpc}       &=  \\
+\mathrm{hubble\_distance\_mpc} &=  \\
+\end{aligned}
+\]",76208a64e2b20540c7b9b5abb7f4ea4d09db98b14ec6bd4d74073fb579408616
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,10,COS_DL_001,Luminosity distance - the q0 correction that revealed dark energy,Cosmology,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+Use the low-redshift expansion of the luminosity distance: $d_L = \frac{cz}{H_0}\left[1 + \frac{(1-q_0)z}{2}\right]$, with $H_0 = 70.0$ km/s/Mpc.
+
+Conventions: deceleration parameter $q_0 = \Omega_m/2 - \Omega_\Lambda$; LCDM (0.3, 0.7) gives $q_0 = -0.55$; Einstein-de Sitter gives $q_0 = +0.5$.
+
+Tasks:
+1. Evaluate the Hubble distance $c/H_0$ in Mpc and the linear term $cz/H_0$ at $z = 0.200$.
+2. Evaluate $d_L$ at $z = 0.2$ for LCDM ($q_0 = -0.55$).
+3. Evaluate $d_L$ at $z = 0.2$ for Einstein-de Sitter ($q_0 = +0.5$).
+4. A supernova at $z = 0.2$ appears FAINTER than the EdS prediction. Which model does that favor, and why? Relate to the 1998 discovery.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble distance & linear term.** c/H₀ = ____×10⁵/70 = **____ Mpc**; cz/H₀ = ____·0.2 = **____ Mpc**.
+2. **ΛCDM (q₀ = −0.55).** [1 + (1−(−0.55))·0.2/2] = [1 + 1.55·0.1] = ____ ⟹ d_L = ____·____ = **____ Mpc**.
+3. **EdS (q₀ = +0.5).** [1 + (1−0.5)·0.1] = 1.05 ⟹ d_L = ____·1.05 = **____ Mpc**.
+4. **The 1998 result.** A supernova at z = 0.2 appearing **fainter** than the EdS prediction means a **larger** d_L, i.e. larger (1 − q₀), i.e. **more negative q₀** — an accelerating expansion. This favors ΛCDM / dark energy (Riess & Perlmutter 1998). q₀ < 0 signals acceleration.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{dl\_eds\_mpc}          &=  \\
+\mathrm{dl\_lcdm\_mpc}         &=  \\
+\mathrm{dl\_linear\_mpc}       &=  \\
+\mathrm{hubble\_distance\_mpc} &=  \\
+\end{aligned}
+\]",76208a64e2b20540c7b9b5abb7f4ea4d09db98b14ec6bd4d74073fb579408616
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,11,COS_DL_001,Luminosity distance - the q0 correction that revealed dark energy,Cosmology,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+Use the low-redshift expansion of the luminosity distance: $d_L = \frac{cz}{H_0}\left[1 + \frac{(1-q_0)z}{2}\right]$, with $H_0 = 70.0$ km/s/Mpc.
+
+Conventions: deceleration parameter $q_0 = \Omega_m/2 - \Omega_\Lambda$; LCDM (0.3, 0.7) gives $q_0 = -0.55$; Einstein-de Sitter gives $q_0 = +0.5$.
+
+Tasks:
+1. Evaluate the Hubble distance $c/H_0$ in Mpc and the linear term $cz/H_0$ at $z = 0.200$.
+2. Evaluate $d_L$ at $z = 0.2$ for LCDM ($q_0 = -0.55$).
+3. Evaluate $d_L$ at $z = 0.2$ for Einstein-de Sitter ($q_0 = +0.5$).
+4. A supernova at $z = 0.2$ appears FAINTER than the EdS prediction. Which model does that favor, and why? Relate to the 1998 discovery.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble distance & linear term.** c/H₀ = ____×10⁵/70 = **____ Mpc**; cz/H₀ = ____·0.2 = **____ Mpc**.
+2. **ΛCDM (q₀ = −0.55).** [1 + (1−(−0.55))·0.2/2] = [1 + 1.55·0.1] = ____ ⟹ d_L = ____·____ = **____ Mpc**.
+3. **EdS (q₀ = +0.5).** [1 + (1−0.5)·0.1] = 1.05 ⟹ d_L = ____·1.05 = **____ Mpc**.
+4. **The 1998 result.** A supernova at z = 0.2 appearing **fainter** than the EdS prediction means a **larger** d_L, i.e. larger (1 − q₀), i.e. **more negative q₀** — an accelerating expansion. This favors ΛCDM / dark energy (Riess & Perlmutter 1998). q₀ < 0 signals acceleration.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{dl\_eds\_mpc}          &=  \\
+\mathrm{dl\_lcdm\_mpc}         &=  \\
+\mathrm{dl\_linear\_mpc}       &=  \\
+\mathrm{hubble\_distance\_mpc} &=  \\
+\end{aligned}
+\]",76208a64e2b20540c7b9b5abb7f4ea4d09db98b14ec6bd4d74073fb579408616
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,12,COS_DL_001,Luminosity distance - the q0 correction that revealed dark energy,Cosmology,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+Use the low-redshift expansion of the luminosity distance: $d_L = \frac{cz}{H_0}\left[1 + \frac{(1-q_0)z}{2}\right]$, with $H_0 = 70.0$ km/s/Mpc.
+
+Conventions: deceleration parameter $q_0 = \Omega_m/2 - \Omega_\Lambda$; LCDM (0.3, 0.7) gives $q_0 = -0.55$; Einstein-de Sitter gives $q_0 = +0.5$.
+
+Tasks:
+1. Evaluate the Hubble distance $c/H_0$ in Mpc and the linear term $cz/H_0$ at $z = 0.200$.
+2. Evaluate $d_L$ at $z = 0.2$ for LCDM ($q_0 = -0.55$).
+3. Evaluate $d_L$ at $z = 0.2$ for Einstein-de Sitter ($q_0 = +0.5$).
+4. A supernova at $z = 0.2$ appears FAINTER than the EdS prediction. Which model does that favor, and why? Relate to the 1998 discovery.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble distance & linear term.** c/H₀ = ____×10⁵/70 = **____ Mpc**; cz/H₀ = ____·0.2 = **____ Mpc**.
+2. **ΛCDM (q₀ = −0.55).** [1 + (1−(−0.55))·0.2/2] = [1 + 1.55·0.1] = ____ ⟹ d_L = ____·____ = **____ Mpc**.
+3. **EdS (q₀ = +0.5).** [1 + (1−0.5)·0.1] = 1.05 ⟹ d_L = ____·1.05 = **____ Mpc**.
+4. **The 1998 result.** A supernova at z = 0.2 appearing **fainter** than the EdS prediction means a **larger** d_L, i.e. larger (1 − q₀), i.e. **more negative q₀** — an accelerating expansion. This favors ΛCDM / dark energy (Riess & Perlmutter 1998). q₀ < 0 signals acceleration.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{dl\_eds\_mpc}          &=  \\
+\mathrm{dl\_lcdm\_mpc}         &=  \\
+\mathrm{dl\_linear\_mpc}       &=  \\
+\mathrm{hubble\_distance\_mpc} &=  \\
+\end{aligned}
+\]",76208a64e2b20540c7b9b5abb7f4ea4d09db98b14ec6bd4d74073fb579408616
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,13,COS_DL_001,Luminosity distance - the q0 correction that revealed dark energy,Cosmology,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+Use the low-redshift expansion of the luminosity distance: $d_L = \frac{cz}{H_0}\left[1 + \frac{(1-q_0)z}{2}\right]$, with $H_0 = 70.0$ km/s/Mpc.
+
+Conventions: deceleration parameter $q_0 = \Omega_m/2 - \Omega_\Lambda$; LCDM (0.3, 0.7) gives $q_0 = -0.55$; Einstein-de Sitter gives $q_0 = +0.5$.
+
+Tasks:
+1. Evaluate the Hubble distance $c/H_0$ in Mpc and the linear term $cz/H_0$ at $z = 0.200$.
+2. Evaluate $d_L$ at $z = 0.2$ for LCDM ($q_0 = -0.55$).
+3. Evaluate $d_L$ at $z = 0.2$ for Einstein-de Sitter ($q_0 = +0.5$).
+4. A supernova at $z = 0.2$ appears FAINTER than the EdS prediction. Which model does that favor, and why? Relate to the 1998 discovery.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble distance & linear term.** c/H₀ = ____×10⁵/70 = **____ Mpc**; cz/H₀ = ____·0.2 = **____ Mpc**.
+2. **ΛCDM (q₀ = −0.55).** [1 + (1−(−0.55))·0.2/2] = [1 + 1.55·0.1] = ____ ⟹ d_L = ____·____ = **____ Mpc**.
+3. **EdS (q₀ = +0.5).** [1 + (1−0.5)·0.1] = 1.05 ⟹ d_L = ____·1.05 = **____ Mpc**.
+4. **The 1998 result.** A supernova at z = 0.2 appearing **fainter** than the EdS prediction means a **larger** d_L, i.e. larger (1 − q₀), i.e. **more negative q₀** — an accelerating expansion. This favors ΛCDM / dark energy (Riess & Perlmutter 1998). q₀ < 0 signals acceleration.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{dl\_eds\_mpc}          &=  \\
+\mathrm{dl\_lcdm\_mpc}         &=  \\
+\mathrm{dl\_linear\_mpc}       &=  \\
+\mathrm{hubble\_distance\_mpc} &=  \\
+\end{aligned}
+\]",76208a64e2b20540c7b9b5abb7f4ea4d09db98b14ec6bd4d74073fb579408616
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,14,COS_DL_001,Luminosity distance - the q0 correction that revealed dark energy,Cosmology,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+Use the low-redshift expansion of the luminosity distance: $d_L = \frac{cz}{H_0}\left[1 + \frac{(1-q_0)z}{2}\right]$, with $H_0 = 70.0$ km/s/Mpc.
+
+Conventions: deceleration parameter $q_0 = \Omega_m/2 - \Omega_\Lambda$; LCDM (0.3, 0.7) gives $q_0 = -0.55$; Einstein-de Sitter gives $q_0 = +0.5$.
+
+Tasks:
+1. Evaluate the Hubble distance $c/H_0$ in Mpc and the linear term $cz/H_0$ at $z = 0.200$.
+2. Evaluate $d_L$ at $z = 0.2$ for LCDM ($q_0 = -0.55$).
+3. Evaluate $d_L$ at $z = 0.2$ for Einstein-de Sitter ($q_0 = +0.5$).
+4. A supernova at $z = 0.2$ appears FAINTER than the EdS prediction. Which model does that favor, and why? Relate to the 1998 discovery.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble distance & linear term.** c/H₀ = ____×10⁵/70 = **____ Mpc**; cz/H₀ = ____·0.2 = **____ Mpc**.
+2. **ΛCDM (q₀ = −0.55).** [1 + (1−(−0.55))·0.2/2] = [1 + 1.55·0.1] = ____ ⟹ d_L = ____·____ = **____ Mpc**.
+3. **EdS (q₀ = +0.5).** [1 + (1−0.5)·0.1] = 1.05 ⟹ d_L = ____·1.05 = **____ Mpc**.
+4. **The 1998 result.** A supernova at z = 0.2 appearing **fainter** than the EdS prediction means a **larger** d_L, i.e. larger (1 − q₀), i.e. **more negative q₀** — an accelerating expansion. This favors ΛCDM / dark energy (Riess & Perlmutter 1998). q₀ < 0 signals acceleration.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{dl\_eds\_mpc}          &=  \\
+\mathrm{dl\_lcdm\_mpc}         &=  \\
+\mathrm{dl\_linear\_mpc}       &=  \\
+\mathrm{hubble\_distance\_mpc} &=  \\
+\end{aligned}
+\]",76208a64e2b20540c7b9b5abb7f4ea4d09db98b14ec6bd4d74073fb579408616
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,15,COS_DL_001,Luminosity distance - the q0 correction that revealed dark energy,Cosmology,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+Use the low-redshift expansion of the luminosity distance: $d_L = \frac{cz}{H_0}\left[1 + \frac{(1-q_0)z}{2}\right]$, with $H_0 = 70.0$ km/s/Mpc.
+
+Conventions: deceleration parameter $q_0 = \Omega_m/2 - \Omega_\Lambda$; LCDM (0.3, 0.7) gives $q_0 = -0.55$; Einstein-de Sitter gives $q_0 = +0.5$.
+
+Tasks:
+1. Evaluate the Hubble distance $c/H_0$ in Mpc and the linear term $cz/H_0$ at $z = 0.200$.
+2. Evaluate $d_L$ at $z = 0.2$ for LCDM ($q_0 = -0.55$).
+3. Evaluate $d_L$ at $z = 0.2$ for Einstein-de Sitter ($q_0 = +0.5$).
+4. A supernova at $z = 0.2$ appears FAINTER than the EdS prediction. Which model does that favor, and why? Relate to the 1998 discovery.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble distance & linear term.** c/H₀ = ____×10⁵/70 = **____ Mpc**; cz/H₀ = ____·0.2 = **____ Mpc**.
+2. **ΛCDM (q₀ = −0.55).** [1 + (1−(−0.55))·0.2/2] = [1 + 1.55·0.1] = ____ ⟹ d_L = ____·____ = **____ Mpc**.
+3. **EdS (q₀ = +0.5).** [1 + (1−0.5)·0.1] = 1.05 ⟹ d_L = ____·1.05 = **____ Mpc**.
+4. **The 1998 result.** A supernova at z = 0.2 appearing **fainter** than the EdS prediction means a **larger** d_L, i.e. larger (1 − q₀), i.e. **more negative q₀** — an accelerating expansion. This favors ΛCDM / dark energy (Riess & Perlmutter 1998). q₀ < 0 signals acceleration.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{dl\_eds\_mpc}          &=  \\
+\mathrm{dl\_lcdm\_mpc}         &=  \\
+\mathrm{dl\_linear\_mpc}       &=  \\
+\mathrm{hubble\_distance\_mpc} &=  \\
+\end{aligned}
+\]",76208a64e2b20540c7b9b5abb7f4ea4d09db98b14ec6bd4d74073fb579408616
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,16,COS_DL_001,Luminosity distance - the q0 correction that revealed dark energy,Cosmology,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+Use the low-redshift expansion of the luminosity distance: $d_L = \frac{cz}{H_0}\left[1 + \frac{(1-q_0)z}{2}\right]$, with $H_0 = 70.0$ km/s/Mpc.
+
+Conventions: deceleration parameter $q_0 = \Omega_m/2 - \Omega_\Lambda$; LCDM (0.3, 0.7) gives $q_0 = -0.55$; Einstein-de Sitter gives $q_0 = +0.5$.
+
+Tasks:
+1. Evaluate the Hubble distance $c/H_0$ in Mpc and the linear term $cz/H_0$ at $z = 0.200$.
+2. Evaluate $d_L$ at $z = 0.2$ for LCDM ($q_0 = -0.55$).
+3. Evaluate $d_L$ at $z = 0.2$ for Einstein-de Sitter ($q_0 = +0.5$).
+4. A supernova at $z = 0.2$ appears FAINTER than the EdS prediction. Which model does that favor, and why? Relate to the 1998 discovery.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble distance & linear term.** c/H₀ = ____×10⁵/70 = **____ Mpc**; cz/H₀ = ____·0.2 = **____ Mpc**.
+2. **ΛCDM (q₀ = −0.55).** [1 + (1−(−0.55))·0.2/2] = [1 + 1.55·0.1] = ____ ⟹ d_L = ____·____ = **____ Mpc**.
+3. **EdS (q₀ = +0.5).** [1 + (1−0.5)·0.1] = 1.05 ⟹ d_L = ____·1.05 = **____ Mpc**.
+4. **The 1998 result.** A supernova at z = 0.2 appearing **fainter** than the EdS prediction means a **larger** d_L, i.e. larger (1 − q₀), i.e. **more negative q₀** — an accelerating expansion. This favors ΛCDM / dark energy (Riess & Perlmutter 1998). q₀ < 0 signals acceleration.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{dl\_eds\_mpc}          &=  \\
+\mathrm{dl\_lcdm\_mpc}         &=  \\
+\mathrm{dl\_linear\_mpc}       &=  \\
+\mathrm{hubble\_distance\_mpc} &=  \\
+\end{aligned}
+\]",76208a64e2b20540c7b9b5abb7f4ea4d09db98b14ec6bd4d74073fb579408616
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,17,GR_GPS_001,GPS clock rates - gravitational vs velocity shift,General Relativity,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+GPS satellites orbit at $r = 26\,562$ km from Earth's center on nearly circular orbits. Earth: $GM_E = 3.986\times 10^{14}$ m$^3$/s$^2$, surface radius $R_E = 6371$ km. Ignore Earth's rotation and higher-order terms.
+
+Conventions: report each effect as microseconds per day of satellite-clock rate relative to a ground clock; ""gravitational"" = potential difference term; ""velocity"" = special-relativistic dilation with orbital speed $v^2 = GM_E/r$.
+
+Tasks:
+1. Compute the gravitational (blueshift) rate difference in microseconds/day. Which clock runs faster?
+2. Compute the velocity (time-dilation) rate difference in microseconds/day, and its sign.
+3. Compute the NET rate in microseconds/day, with sign.
+4. If uncorrected, how large a ranging error accumulates in one day? Explain why the two effects have opposite signs.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Gravitational.** Δrate_grav = GM_E(1/R_E − 1/r)/c². The satellite sits at higher (less negative) potential, so its clock runs **faster**: GM_E(1/____×10⁶ − 1/2.6562×10⁷)/c² = ____×10⁻¹⁰ → ×86400×10⁶ = **+____ μs/day (faster)**.
+2. **Velocity.** Δrate_vel = −v²/(2c²) with v² = GM_E/r. = −(GM_E/r)/(2c²) = −8.35×10⁻¹¹ → ×86400×10⁶ = **−____ μs/day (slower)** — magnitude ____.
+3. **Net.** +____ + (−____) = **+____ μs/day** (satellite fast). The two effects have **opposite sign**.
+4. **Consequence.** Uncorrected, the timing error maps to a ranging error ≈ c·____ μs ≈ **____**. Adding the two with the same sign gives 52.9 μs/day — the classic mistake.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{grav\_shift\_us\_day}     &=  \\
+\mathrm{net\_shift\_us\_day}      &=  \\
+\mathrm{velocity\_shift\_us\_day} &=  \\
+\end{aligned}
+\]",f39a5001b8319f22779d4288a7ece69d249b99ffb69d9d531a769c0b9565a37e
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,18,GR_GPS_001,GPS clock rates - gravitational vs velocity shift,General Relativity,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+GPS satellites orbit at $r = 26\,562$ km from Earth's center on nearly circular orbits. Earth: $GM_E = 3.986\times 10^{14}$ m$^3$/s$^2$, surface radius $R_E = 6371$ km. Ignore Earth's rotation and higher-order terms.
+
+Conventions: report each effect as microseconds per day of satellite-clock rate relative to a ground clock; ""gravitational"" = potential difference term; ""velocity"" = special-relativistic dilation with orbital speed $v^2 = GM_E/r$.
+
+Tasks:
+1. Compute the gravitational (blueshift) rate difference in microseconds/day. Which clock runs faster?
+2. Compute the velocity (time-dilation) rate difference in microseconds/day, and its sign.
+3. Compute the NET rate in microseconds/day, with sign.
+4. If uncorrected, how large a ranging error accumulates in one day? Explain why the two effects have opposite signs.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Gravitational.** Δrate_grav = GM_E(1/R_E − 1/r)/c². The satellite sits at higher (less negative) potential, so its clock runs **faster**: GM_E(1/____×10⁶ − 1/2.6562×10⁷)/c² = ____×10⁻¹⁰ → ×86400×10⁶ = **+____ μs/day (faster)**.
+2. **Velocity.** Δrate_vel = −v²/(2c²) with v² = GM_E/r. = −(GM_E/r)/(2c²) = −8.35×10⁻¹¹ → ×86400×10⁶ = **−____ μs/day (slower)** — magnitude ____.
+3. **Net.** +____ + (−____) = **+____ μs/day** (satellite fast). The two effects have **opposite sign**.
+4. **Consequence.** Uncorrected, the timing error maps to a ranging error ≈ c·____ μs ≈ **____**. Adding the two with the same sign gives 52.9 μs/day — the classic mistake.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{grav\_shift\_us\_day}     &=  \\
+\mathrm{net\_shift\_us\_day}      &=  \\
+\mathrm{velocity\_shift\_us\_day} &=  \\
+\end{aligned}
+\]",f39a5001b8319f22779d4288a7ece69d249b99ffb69d9d531a769c0b9565a37e
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,19,GR_GPS_001,GPS clock rates - gravitational vs velocity shift,General Relativity,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+GPS satellites orbit at $r = 26\,562$ km from Earth's center on nearly circular orbits. Earth: $GM_E = 3.986\times 10^{14}$ m$^3$/s$^2$, surface radius $R_E = 6371$ km. Ignore Earth's rotation and higher-order terms.
+
+Conventions: report each effect as microseconds per day of satellite-clock rate relative to a ground clock; ""gravitational"" = potential difference term; ""velocity"" = special-relativistic dilation with orbital speed $v^2 = GM_E/r$.
+
+Tasks:
+1. Compute the gravitational (blueshift) rate difference in microseconds/day. Which clock runs faster?
+2. Compute the velocity (time-dilation) rate difference in microseconds/day, and its sign.
+3. Compute the NET rate in microseconds/day, with sign.
+4. If uncorrected, how large a ranging error accumulates in one day? Explain why the two effects have opposite signs.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Gravitational.** Δrate_grav = GM_E(1/R_E − 1/r)/c². The satellite sits at higher (less negative) potential, so its clock runs **faster**: GM_E(1/____×10⁶ − 1/2.6562×10⁷)/c² = ____×10⁻¹⁰ → ×86400×10⁶ = **+____ μs/day (faster)**.
+2. **Velocity.** Δrate_vel = −v²/(2c²) with v² = GM_E/r. = −(GM_E/r)/(2c²) = −8.35×10⁻¹¹ → ×86400×10⁶ = **−____ μs/day (slower)** — magnitude ____.
+3. **Net.** +____ + (−____) = **+____ μs/day** (satellite fast). The two effects have **opposite sign**.
+4. **Consequence.** Uncorrected, the timing error maps to a ranging error ≈ c·____ μs ≈ **____**. Adding the two with the same sign gives 52.9 μs/day — the classic mistake.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{grav\_shift\_us\_day}     &=  \\
+\mathrm{net\_shift\_us\_day}      &=  \\
+\mathrm{velocity\_shift\_us\_day} &=  \\
+\end{aligned}
+\]",f39a5001b8319f22779d4288a7ece69d249b99ffb69d9d531a769c0b9565a37e
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,20,GR_GPS_001,GPS clock rates - gravitational vs velocity shift,General Relativity,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+GPS satellites orbit at $r = 26\,562$ km from Earth's center on nearly circular orbits. Earth: $GM_E = 3.986\times 10^{14}$ m$^3$/s$^2$, surface radius $R_E = 6371$ km. Ignore Earth's rotation and higher-order terms.
+
+Conventions: report each effect as microseconds per day of satellite-clock rate relative to a ground clock; ""gravitational"" = potential difference term; ""velocity"" = special-relativistic dilation with orbital speed $v^2 = GM_E/r$.
+
+Tasks:
+1. Compute the gravitational (blueshift) rate difference in microseconds/day. Which clock runs faster?
+2. Compute the velocity (time-dilation) rate difference in microseconds/day, and its sign.
+3. Compute the NET rate in microseconds/day, with sign.
+4. If uncorrected, how large a ranging error accumulates in one day? Explain why the two effects have opposite signs.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Gravitational.** Δrate_grav = GM_E(1/R_E − 1/r)/c². The satellite sits at higher (less negative) potential, so its clock runs **faster**: GM_E(1/____×10⁶ − 1/2.6562×10⁷)/c² = ____×10⁻¹⁰ → ×86400×10⁶ = **+____ μs/day (faster)**.
+2. **Velocity.** Δrate_vel = −v²/(2c²) with v² = GM_E/r. = −(GM_E/r)/(2c²) = −8.35×10⁻¹¹ → ×86400×10⁶ = **−____ μs/day (slower)** — magnitude ____.
+3. **Net.** +____ + (−____) = **+____ μs/day** (satellite fast). The two effects have **opposite sign**.
+4. **Consequence.** Uncorrected, the timing error maps to a ranging error ≈ c·____ μs ≈ **____**. Adding the two with the same sign gives 52.9 μs/day — the classic mistake.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{grav\_shift\_us\_day}     &=  \\
+\mathrm{net\_shift\_us\_day}      &=  \\
+\mathrm{velocity\_shift\_us\_day} &=  \\
+\end{aligned}
+\]",f39a5001b8319f22779d4288a7ece69d249b99ffb69d9d531a769c0b9565a37e
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,21,GR_GPS_001,GPS clock rates - gravitational vs velocity shift,General Relativity,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+GPS satellites orbit at $r = 26\,562$ km from Earth's center on nearly circular orbits. Earth: $GM_E = 3.986\times 10^{14}$ m$^3$/s$^2$, surface radius $R_E = 6371$ km. Ignore Earth's rotation and higher-order terms.
+
+Conventions: report each effect as microseconds per day of satellite-clock rate relative to a ground clock; ""gravitational"" = potential difference term; ""velocity"" = special-relativistic dilation with orbital speed $v^2 = GM_E/r$.
+
+Tasks:
+1. Compute the gravitational (blueshift) rate difference in microseconds/day. Which clock runs faster?
+2. Compute the velocity (time-dilation) rate difference in microseconds/day, and its sign.
+3. Compute the NET rate in microseconds/day, with sign.
+4. If uncorrected, how large a ranging error accumulates in one day? Explain why the two effects have opposite signs.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Gravitational.** Δrate_grav = GM_E(1/R_E − 1/r)/c². The satellite sits at higher (less negative) potential, so its clock runs **faster**: GM_E(1/____×10⁶ − 1/2.6562×10⁷)/c² = ____×10⁻¹⁰ → ×86400×10⁶ = **+____ μs/day (faster)**.
+2. **Velocity.** Δrate_vel = −v²/(2c²) with v² = GM_E/r. = −(GM_E/r)/(2c²) = −8.35×10⁻¹¹ → ×86400×10⁶ = **−____ μs/day (slower)** — magnitude ____.
+3. **Net.** +____ + (−____) = **+____ μs/day** (satellite fast). The two effects have **opposite sign**.
+4. **Consequence.** Uncorrected, the timing error maps to a ranging error ≈ c·____ μs ≈ **____**. Adding the two with the same sign gives 52.9 μs/day — the classic mistake.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{grav\_shift\_us\_day}     &=  \\
+\mathrm{net\_shift\_us\_day}      &=  \\
+\mathrm{velocity\_shift\_us\_day} &=  \\
+\end{aligned}
+\]",f39a5001b8319f22779d4288a7ece69d249b99ffb69d9d531a769c0b9565a37e
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,22,GR_GPS_001,GPS clock rates - gravitational vs velocity shift,General Relativity,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+GPS satellites orbit at $r = 26\,562$ km from Earth's center on nearly circular orbits. Earth: $GM_E = 3.986\times 10^{14}$ m$^3$/s$^2$, surface radius $R_E = 6371$ km. Ignore Earth's rotation and higher-order terms.
+
+Conventions: report each effect as microseconds per day of satellite-clock rate relative to a ground clock; ""gravitational"" = potential difference term; ""velocity"" = special-relativistic dilation with orbital speed $v^2 = GM_E/r$.
+
+Tasks:
+1. Compute the gravitational (blueshift) rate difference in microseconds/day. Which clock runs faster?
+2. Compute the velocity (time-dilation) rate difference in microseconds/day, and its sign.
+3. Compute the NET rate in microseconds/day, with sign.
+4. If uncorrected, how large a ranging error accumulates in one day? Explain why the two effects have opposite signs.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Gravitational.** Δrate_grav = GM_E(1/R_E − 1/r)/c². The satellite sits at higher (less negative) potential, so its clock runs **faster**: GM_E(1/____×10⁶ − 1/2.6562×10⁷)/c² = ____×10⁻¹⁰ → ×86400×10⁶ = **+____ μs/day (faster)**.
+2. **Velocity.** Δrate_vel = −v²/(2c²) with v² = GM_E/r. = −(GM_E/r)/(2c²) = −8.35×10⁻¹¹ → ×86400×10⁶ = **−____ μs/day (slower)** — magnitude ____.
+3. **Net.** +____ + (−____) = **+____ μs/day** (satellite fast). The two effects have **opposite sign**.
+4. **Consequence.** Uncorrected, the timing error maps to a ranging error ≈ c·____ μs ≈ **____**. Adding the two with the same sign gives 52.9 μs/day — the classic mistake.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{grav\_shift\_us\_day}     &=  \\
+\mathrm{net\_shift\_us\_day}      &=  \\
+\mathrm{velocity\_shift\_us\_day} &=  \\
+\end{aligned}
+\]",f39a5001b8319f22779d4288a7ece69d249b99ffb69d9d531a769c0b9565a37e
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,23,GR_GPS_001,GPS clock rates - gravitational vs velocity shift,General Relativity,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+GPS satellites orbit at $r = 26\,562$ km from Earth's center on nearly circular orbits. Earth: $GM_E = 3.986\times 10^{14}$ m$^3$/s$^2$, surface radius $R_E = 6371$ km. Ignore Earth's rotation and higher-order terms.
+
+Conventions: report each effect as microseconds per day of satellite-clock rate relative to a ground clock; ""gravitational"" = potential difference term; ""velocity"" = special-relativistic dilation with orbital speed $v^2 = GM_E/r$.
+
+Tasks:
+1. Compute the gravitational (blueshift) rate difference in microseconds/day. Which clock runs faster?
+2. Compute the velocity (time-dilation) rate difference in microseconds/day, and its sign.
+3. Compute the NET rate in microseconds/day, with sign.
+4. If uncorrected, how large a ranging error accumulates in one day? Explain why the two effects have opposite signs.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Gravitational.** Δrate_grav = GM_E(1/R_E − 1/r)/c². The satellite sits at higher (less negative) potential, so its clock runs **faster**: GM_E(1/____×10⁶ − 1/2.6562×10⁷)/c² = ____×10⁻¹⁰ → ×86400×10⁶ = **+____ μs/day (faster)**.
+2. **Velocity.** Δrate_vel = −v²/(2c²) with v² = GM_E/r. = −(GM_E/r)/(2c²) = −8.35×10⁻¹¹ → ×86400×10⁶ = **−____ μs/day (slower)** — magnitude ____.
+3. **Net.** +____ + (−____) = **+____ μs/day** (satellite fast). The two effects have **opposite sign**.
+4. **Consequence.** Uncorrected, the timing error maps to a ranging error ≈ c·____ μs ≈ **____**. Adding the two with the same sign gives 52.9 μs/day — the classic mistake.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{grav\_shift\_us\_day}     &=  \\
+\mathrm{net\_shift\_us\_day}      &=  \\
+\mathrm{velocity\_shift\_us\_day} &=  \\
+\end{aligned}
+\]",f39a5001b8319f22779d4288a7ece69d249b99ffb69d9d531a769c0b9565a37e
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,24,GR_GPS_001,GPS clock rates - gravitational vs velocity shift,General Relativity,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+GPS satellites orbit at $r = 26\,562$ km from Earth's center on nearly circular orbits. Earth: $GM_E = 3.986\times 10^{14}$ m$^3$/s$^2$, surface radius $R_E = 6371$ km. Ignore Earth's rotation and higher-order terms.
+
+Conventions: report each effect as microseconds per day of satellite-clock rate relative to a ground clock; ""gravitational"" = potential difference term; ""velocity"" = special-relativistic dilation with orbital speed $v^2 = GM_E/r$.
+
+Tasks:
+1. Compute the gravitational (blueshift) rate difference in microseconds/day. Which clock runs faster?
+2. Compute the velocity (time-dilation) rate difference in microseconds/day, and its sign.
+3. Compute the NET rate in microseconds/day, with sign.
+4. If uncorrected, how large a ranging error accumulates in one day? Explain why the two effects have opposite signs.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Gravitational.** Δrate_grav = GM_E(1/R_E − 1/r)/c². The satellite sits at higher (less negative) potential, so its clock runs **faster**: GM_E(1/____×10⁶ − 1/2.6562×10⁷)/c² = ____×10⁻¹⁰ → ×86400×10⁶ = **+____ μs/day (faster)**.
+2. **Velocity.** Δrate_vel = −v²/(2c²) with v² = GM_E/r. = −(GM_E/r)/(2c²) = −8.35×10⁻¹¹ → ×86400×10⁶ = **−____ μs/day (slower)** — magnitude ____.
+3. **Net.** +____ + (−____) = **+____ μs/day** (satellite fast). The two effects have **opposite sign**.
+4. **Consequence.** Uncorrected, the timing error maps to a ranging error ≈ c·____ μs ≈ **____**. Adding the two with the same sign gives 52.9 μs/day — the classic mistake.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{grav\_shift\_us\_day}     &=  \\
+\mathrm{net\_shift\_us\_day}      &=  \\
+\mathrm{velocity\_shift\_us\_day} &=  \\
+\end{aligned}
+\]",f39a5001b8319f22779d4288a7ece69d249b99ffb69d9d531a769c0b9565a37e
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,25,QFT_CASIMIR_001,Casimir pressure - vacuum energy between plates,Quantum Field Theory,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+Two parallel, ideal (perfectly conducting), neutral plates are separated by $d = 100$ nm in vacuum at $T = 0$.
+
+Conventions: report the magnitude of the attractive pressure $|P| = \pi^2\hbar c/(240 d^4)$ and the energy per unit area $|E/A| = \pi^2\hbar c/(720 d^3)$; state the sign (attractive/repulsive) separately in words.
+
+Tasks:
+1. Sketch the physical origin: which vacuum modes are excluded between the plates, and why regularization (e.g. zeta-function) is needed.
+2. Evaluate the Casimir pressure magnitude in Pa at $d = 100$ nm. Is it attractive or repulsive?
+3. Evaluate the energy per unit area magnitude in $\mu$J/m$^2$.
+4. How does the pressure change if $d$ doubles? Give the scaling law and the new value.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Origin.** Between the plates only discrete standing modes (k_z = nπ/d) are allowed; outside, a continuum. The zero-point sum Σ½ℏω diverges and must be **regularized** (zeta-function / cutoff); the finite difference between the constrained (inside) and free (outside) vacuum energies yields a net inward pressure.
+2. **Pressure.** |P| = π²ℏc/(240 d⁴), with ℏc = ____×10⁻²⁶ J·m and d⁴ = 10⁻²⁸ m⁴ ⟹ **|P| = ____ Pa**, and the force is **ATTRACTIVE** (plates pulled together).
+3. **Energy per area.** |E/A| = π²ℏc/(720 d³) = **____ μJ/m²**.
+4. **Scaling.** P ∝ 1/d⁴, so doubling d divides the pressure by 2⁴ = 16 ⟹ **____ Pa**.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_per\_area\_uJ\_m2} &=  \\
+\mathrm{pressure\_double\_d\_pa}   &=  \\
+\mathrm{pressure\_pa}              &=  \\
+\end{aligned}
+\]",fcda374371639b125056918d2509984d4ba65c6e50bf21b51e0dae151d6823a6
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,26,QFT_CASIMIR_001,Casimir pressure - vacuum energy between plates,Quantum Field Theory,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+Two parallel, ideal (perfectly conducting), neutral plates are separated by $d = 100$ nm in vacuum at $T = 0$.
+
+Conventions: report the magnitude of the attractive pressure $|P| = \pi^2\hbar c/(240 d^4)$ and the energy per unit area $|E/A| = \pi^2\hbar c/(720 d^3)$; state the sign (attractive/repulsive) separately in words.
+
+Tasks:
+1. Sketch the physical origin: which vacuum modes are excluded between the plates, and why regularization (e.g. zeta-function) is needed.
+2. Evaluate the Casimir pressure magnitude in Pa at $d = 100$ nm. Is it attractive or repulsive?
+3. Evaluate the energy per unit area magnitude in $\mu$J/m$^2$.
+4. How does the pressure change if $d$ doubles? Give the scaling law and the new value.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Origin.** Between the plates only discrete standing modes (k_z = nπ/d) are allowed; outside, a continuum. The zero-point sum Σ½ℏω diverges and must be **regularized** (zeta-function / cutoff); the finite difference between the constrained (inside) and free (outside) vacuum energies yields a net inward pressure.
+2. **Pressure.** |P| = π²ℏc/(240 d⁴), with ℏc = ____×10⁻²⁶ J·m and d⁴ = 10⁻²⁸ m⁴ ⟹ **|P| = ____ Pa**, and the force is **ATTRACTIVE** (plates pulled together).
+3. **Energy per area.** |E/A| = π²ℏc/(720 d³) = **____ μJ/m²**.
+4. **Scaling.** P ∝ 1/d⁴, so doubling d divides the pressure by 2⁴ = 16 ⟹ **____ Pa**.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_per\_area\_uJ\_m2} &=  \\
+\mathrm{pressure\_double\_d\_pa}   &=  \\
+\mathrm{pressure\_pa}              &=  \\
+\end{aligned}
+\]",fcda374371639b125056918d2509984d4ba65c6e50bf21b51e0dae151d6823a6
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,27,QFT_CASIMIR_001,Casimir pressure - vacuum energy between plates,Quantum Field Theory,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+Two parallel, ideal (perfectly conducting), neutral plates are separated by $d = 100$ nm in vacuum at $T = 0$.
+
+Conventions: report the magnitude of the attractive pressure $|P| = \pi^2\hbar c/(240 d^4)$ and the energy per unit area $|E/A| = \pi^2\hbar c/(720 d^3)$; state the sign (attractive/repulsive) separately in words.
+
+Tasks:
+1. Sketch the physical origin: which vacuum modes are excluded between the plates, and why regularization (e.g. zeta-function) is needed.
+2. Evaluate the Casimir pressure magnitude in Pa at $d = 100$ nm. Is it attractive or repulsive?
+3. Evaluate the energy per unit area magnitude in $\mu$J/m$^2$.
+4. How does the pressure change if $d$ doubles? Give the scaling law and the new value.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Origin.** Between the plates only discrete standing modes (k_z = nπ/d) are allowed; outside, a continuum. The zero-point sum Σ½ℏω diverges and must be **regularized** (zeta-function / cutoff); the finite difference between the constrained (inside) and free (outside) vacuum energies yields a net inward pressure.
+2. **Pressure.** |P| = π²ℏc/(240 d⁴), with ℏc = ____×10⁻²⁶ J·m and d⁴ = 10⁻²⁸ m⁴ ⟹ **|P| = ____ Pa**, and the force is **ATTRACTIVE** (plates pulled together).
+3. **Energy per area.** |E/A| = π²ℏc/(720 d³) = **____ μJ/m²**.
+4. **Scaling.** P ∝ 1/d⁴, so doubling d divides the pressure by 2⁴ = 16 ⟹ **____ Pa**.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_per\_area\_uJ\_m2} &=  \\
+\mathrm{pressure\_double\_d\_pa}   &=  \\
+\mathrm{pressure\_pa}              &=  \\
+\end{aligned}
+\]",fcda374371639b125056918d2509984d4ba65c6e50bf21b51e0dae151d6823a6
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,28,QFT_CASIMIR_001,Casimir pressure - vacuum energy between plates,Quantum Field Theory,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+Two parallel, ideal (perfectly conducting), neutral plates are separated by $d = 100$ nm in vacuum at $T = 0$.
+
+Conventions: report the magnitude of the attractive pressure $|P| = \pi^2\hbar c/(240 d^4)$ and the energy per unit area $|E/A| = \pi^2\hbar c/(720 d^3)$; state the sign (attractive/repulsive) separately in words.
+
+Tasks:
+1. Sketch the physical origin: which vacuum modes are excluded between the plates, and why regularization (e.g. zeta-function) is needed.
+2. Evaluate the Casimir pressure magnitude in Pa at $d = 100$ nm. Is it attractive or repulsive?
+3. Evaluate the energy per unit area magnitude in $\mu$J/m$^2$.
+4. How does the pressure change if $d$ doubles? Give the scaling law and the new value.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Origin.** Between the plates only discrete standing modes (k_z = nπ/d) are allowed; outside, a continuum. The zero-point sum Σ½ℏω diverges and must be **regularized** (zeta-function / cutoff); the finite difference between the constrained (inside) and free (outside) vacuum energies yields a net inward pressure.
+2. **Pressure.** |P| = π²ℏc/(240 d⁴), with ℏc = ____×10⁻²⁶ J·m and d⁴ = 10⁻²⁸ m⁴ ⟹ **|P| = ____ Pa**, and the force is **ATTRACTIVE** (plates pulled together).
+3. **Energy per area.** |E/A| = π²ℏc/(720 d³) = **____ μJ/m²**.
+4. **Scaling.** P ∝ 1/d⁴, so doubling d divides the pressure by 2⁴ = 16 ⟹ **____ Pa**.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_per\_area\_uJ\_m2} &=  \\
+\mathrm{pressure\_double\_d\_pa}   &=  \\
+\mathrm{pressure\_pa}              &=  \\
+\end{aligned}
+\]",fcda374371639b125056918d2509984d4ba65c6e50bf21b51e0dae151d6823a6
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,29,QFT_CASIMIR_001,Casimir pressure - vacuum energy between plates,Quantum Field Theory,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+Two parallel, ideal (perfectly conducting), neutral plates are separated by $d = 100$ nm in vacuum at $T = 0$.
+
+Conventions: report the magnitude of the attractive pressure $|P| = \pi^2\hbar c/(240 d^4)$ and the energy per unit area $|E/A| = \pi^2\hbar c/(720 d^3)$; state the sign (attractive/repulsive) separately in words.
+
+Tasks:
+1. Sketch the physical origin: which vacuum modes are excluded between the plates, and why regularization (e.g. zeta-function) is needed.
+2. Evaluate the Casimir pressure magnitude in Pa at $d = 100$ nm. Is it attractive or repulsive?
+3. Evaluate the energy per unit area magnitude in $\mu$J/m$^2$.
+4. How does the pressure change if $d$ doubles? Give the scaling law and the new value.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Origin.** Between the plates only discrete standing modes (k_z = nπ/d) are allowed; outside, a continuum. The zero-point sum Σ½ℏω diverges and must be **regularized** (zeta-function / cutoff); the finite difference between the constrained (inside) and free (outside) vacuum energies yields a net inward pressure.
+2. **Pressure.** |P| = π²ℏc/(240 d⁴), with ℏc = ____×10⁻²⁶ J·m and d⁴ = 10⁻²⁸ m⁴ ⟹ **|P| = ____ Pa**, and the force is **ATTRACTIVE** (plates pulled together).
+3. **Energy per area.** |E/A| = π²ℏc/(720 d³) = **____ μJ/m²**.
+4. **Scaling.** P ∝ 1/d⁴, so doubling d divides the pressure by 2⁴ = 16 ⟹ **____ Pa**.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_per\_area\_uJ\_m2} &=  \\
+\mathrm{pressure\_double\_d\_pa}   &=  \\
+\mathrm{pressure\_pa}              &=  \\
+\end{aligned}
+\]",fcda374371639b125056918d2509984d4ba65c6e50bf21b51e0dae151d6823a6
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,30,QFT_CASIMIR_001,Casimir pressure - vacuum energy between plates,Quantum Field Theory,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+Two parallel, ideal (perfectly conducting), neutral plates are separated by $d = 100$ nm in vacuum at $T = 0$.
+
+Conventions: report the magnitude of the attractive pressure $|P| = \pi^2\hbar c/(240 d^4)$ and the energy per unit area $|E/A| = \pi^2\hbar c/(720 d^3)$; state the sign (attractive/repulsive) separately in words.
+
+Tasks:
+1. Sketch the physical origin: which vacuum modes are excluded between the plates, and why regularization (e.g. zeta-function) is needed.
+2. Evaluate the Casimir pressure magnitude in Pa at $d = 100$ nm. Is it attractive or repulsive?
+3. Evaluate the energy per unit area magnitude in $\mu$J/m$^2$.
+4. How does the pressure change if $d$ doubles? Give the scaling law and the new value.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Origin.** Between the plates only discrete standing modes (k_z = nπ/d) are allowed; outside, a continuum. The zero-point sum Σ½ℏω diverges and must be **regularized** (zeta-function / cutoff); the finite difference between the constrained (inside) and free (outside) vacuum energies yields a net inward pressure.
+2. **Pressure.** |P| = π²ℏc/(240 d⁴), with ℏc = ____×10⁻²⁶ J·m and d⁴ = 10⁻²⁸ m⁴ ⟹ **|P| = ____ Pa**, and the force is **ATTRACTIVE** (plates pulled together).
+3. **Energy per area.** |E/A| = π²ℏc/(720 d³) = **____ μJ/m²**.
+4. **Scaling.** P ∝ 1/d⁴, so doubling d divides the pressure by 2⁴ = 16 ⟹ **____ Pa**.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_per\_area\_uJ\_m2} &=  \\
+\mathrm{pressure\_double\_d\_pa}   &=  \\
+\mathrm{pressure\_pa}              &=  \\
+\end{aligned}
+\]",fcda374371639b125056918d2509984d4ba65c6e50bf21b51e0dae151d6823a6
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,31,QFT_CASIMIR_001,Casimir pressure - vacuum energy between plates,Quantum Field Theory,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+Two parallel, ideal (perfectly conducting), neutral plates are separated by $d = 100$ nm in vacuum at $T = 0$.
+
+Conventions: report the magnitude of the attractive pressure $|P| = \pi^2\hbar c/(240 d^4)$ and the energy per unit area $|E/A| = \pi^2\hbar c/(720 d^3)$; state the sign (attractive/repulsive) separately in words.
+
+Tasks:
+1. Sketch the physical origin: which vacuum modes are excluded between the plates, and why regularization (e.g. zeta-function) is needed.
+2. Evaluate the Casimir pressure magnitude in Pa at $d = 100$ nm. Is it attractive or repulsive?
+3. Evaluate the energy per unit area magnitude in $\mu$J/m$^2$.
+4. How does the pressure change if $d$ doubles? Give the scaling law and the new value.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Origin.** Between the plates only discrete standing modes (k_z = nπ/d) are allowed; outside, a continuum. The zero-point sum Σ½ℏω diverges and must be **regularized** (zeta-function / cutoff); the finite difference between the constrained (inside) and free (outside) vacuum energies yields a net inward pressure.
+2. **Pressure.** |P| = π²ℏc/(240 d⁴), with ℏc = ____×10⁻²⁶ J·m and d⁴ = 10⁻²⁸ m⁴ ⟹ **|P| = ____ Pa**, and the force is **ATTRACTIVE** (plates pulled together).
+3. **Energy per area.** |E/A| = π²ℏc/(720 d³) = **____ μJ/m²**.
+4. **Scaling.** P ∝ 1/d⁴, so doubling d divides the pressure by 2⁴ = 16 ⟹ **____ Pa**.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_per\_area\_uJ\_m2} &=  \\
+\mathrm{pressure\_double\_d\_pa}   &=  \\
+\mathrm{pressure\_pa}              &=  \\
+\end{aligned}
+\]",fcda374371639b125056918d2509984d4ba65c6e50bf21b51e0dae151d6823a6
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,32,QFT_CASIMIR_001,Casimir pressure - vacuum energy between plates,Quantum Field Theory,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+Two parallel, ideal (perfectly conducting), neutral plates are separated by $d = 100$ nm in vacuum at $T = 0$.
+
+Conventions: report the magnitude of the attractive pressure $|P| = \pi^2\hbar c/(240 d^4)$ and the energy per unit area $|E/A| = \pi^2\hbar c/(720 d^3)$; state the sign (attractive/repulsive) separately in words.
+
+Tasks:
+1. Sketch the physical origin: which vacuum modes are excluded between the plates, and why regularization (e.g. zeta-function) is needed.
+2. Evaluate the Casimir pressure magnitude in Pa at $d = 100$ nm. Is it attractive or repulsive?
+3. Evaluate the energy per unit area magnitude in $\mu$J/m$^2$.
+4. How does the pressure change if $d$ doubles? Give the scaling law and the new value.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Origin.** Between the plates only discrete standing modes (k_z = nπ/d) are allowed; outside, a continuum. The zero-point sum Σ½ℏω diverges and must be **regularized** (zeta-function / cutoff); the finite difference between the constrained (inside) and free (outside) vacuum energies yields a net inward pressure.
+2. **Pressure.** |P| = π²ℏc/(240 d⁴), with ℏc = ____×10⁻²⁶ J·m and d⁴ = 10⁻²⁸ m⁴ ⟹ **|P| = ____ Pa**, and the force is **ATTRACTIVE** (plates pulled together).
+3. **Energy per area.** |E/A| = π²ℏc/(720 d³) = **____ μJ/m²**.
+4. **Scaling.** P ∝ 1/d⁴, so doubling d divides the pressure by 2⁴ = 16 ⟹ **____ Pa**.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_per\_area\_uJ\_m2} &=  \\
+\mathrm{pressure\_double\_d\_pa}   &=  \\
+\mathrm{pressure\_pa}              &=  \\
+\end{aligned}
+\]",fcda374371639b125056918d2509984d4ba65c6e50bf21b51e0dae151d6823a6
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,33,QI_WERNER_001,Werner state - entanglement without nonlocality,Quantum Information Theory,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+Consider the two-qubit Werner state $\rho = p\,|\Psi^-\rangle\langle\Psi^-| + (1-p)\,\mathbb{1}/4$ (singlet mixed with white noise).
+
+Conventions: 'entangled' = non-separable (PPT is exact for two qubits); 'CHSH-violating' = some settings give $S > 2$; the maximal quantum CHSH value for this state is $2\sqrt{2}\,p$.
+
+Tasks:
+1. For which $p$ is the state entangled? Give the exact threshold.
+2. For which $p$ does it violate CHSH? Give the exact threshold.
+3. At $p = 0.500$: compute the concurrence $C = \max(0, (3p-1)/2)$ and the maximal CHSH value $S$.
+4. At $p = 0.500$ the state is entangled but does not violate CHSH. Explain why entanglement and Bell nonlocality are NOT the same property (the point of Werner's 1989 paper).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Entanglement threshold.** For two qubits PPT is exact; the singlet-Werner state is non-separable iff its concurrence is positive: C = max(0, (3p−1)/2) > 0 ⟺ 3p−1 > 0 ⟺ **p > 1/3 = ____**.
+2. **CHSH threshold.** The optimal CHSH value for this family is S = 2√2·p (Horodecki criterion). Violation requires S > 2 ⟺ **p > 1/√2 = ____**.
+3. **At p = ____.** C = max(0, (3·0.5 − 1)/2) = max(0, ____) = **____** (positive → entangled). S = 2√2·0.5 = √2 = **____** (< 2 → no CHSH violation).
+4. **Interpretation.** Because 1/3 < 0.5 ≤ 1/√2, the state is entangled yet admits a local hidden-variable model for projective measurements. Entanglement does **not** imply Bell nonlocality — Werner's 1989 result.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chsh\_S\_at\_p05}        &=  \\
+\mathrm{chsh\_threshold}         &=  \\
+\mathrm{concurrence\_at\_p05}    &=  \\
+\mathrm{entanglement\_threshold} &=  \\
+\end{aligned}
+\]",a07c7c191f8be610e702854148a678884b6150fdcadc4102aa15151a30efaf19
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,34,QI_WERNER_001,Werner state - entanglement without nonlocality,Quantum Information Theory,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+Consider the two-qubit Werner state $\rho = p\,|\Psi^-\rangle\langle\Psi^-| + (1-p)\,\mathbb{1}/4$ (singlet mixed with white noise).
+
+Conventions: 'entangled' = non-separable (PPT is exact for two qubits); 'CHSH-violating' = some settings give $S > 2$; the maximal quantum CHSH value for this state is $2\sqrt{2}\,p$.
+
+Tasks:
+1. For which $p$ is the state entangled? Give the exact threshold.
+2. For which $p$ does it violate CHSH? Give the exact threshold.
+3. At $p = 0.500$: compute the concurrence $C = \max(0, (3p-1)/2)$ and the maximal CHSH value $S$.
+4. At $p = 0.500$ the state is entangled but does not violate CHSH. Explain why entanglement and Bell nonlocality are NOT the same property (the point of Werner's 1989 paper).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Entanglement threshold.** For two qubits PPT is exact; the singlet-Werner state is non-separable iff its concurrence is positive: C = max(0, (3p−1)/2) > 0 ⟺ 3p−1 > 0 ⟺ **p > 1/3 = ____**.
+2. **CHSH threshold.** The optimal CHSH value for this family is S = 2√2·p (Horodecki criterion). Violation requires S > 2 ⟺ **p > 1/√2 = ____**.
+3. **At p = ____.** C = max(0, (3·0.5 − 1)/2) = max(0, ____) = **____** (positive → entangled). S = 2√2·0.5 = √2 = **____** (< 2 → no CHSH violation).
+4. **Interpretation.** Because 1/3 < 0.5 ≤ 1/√2, the state is entangled yet admits a local hidden-variable model for projective measurements. Entanglement does **not** imply Bell nonlocality — Werner's 1989 result.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chsh\_S\_at\_p05}        &=  \\
+\mathrm{chsh\_threshold}         &=  \\
+\mathrm{concurrence\_at\_p05}    &=  \\
+\mathrm{entanglement\_threshold} &=  \\
+\end{aligned}
+\]",a07c7c191f8be610e702854148a678884b6150fdcadc4102aa15151a30efaf19
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,35,QI_WERNER_001,Werner state - entanglement without nonlocality,Quantum Information Theory,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+Consider the two-qubit Werner state $\rho = p\,|\Psi^-\rangle\langle\Psi^-| + (1-p)\,\mathbb{1}/4$ (singlet mixed with white noise).
+
+Conventions: 'entangled' = non-separable (PPT is exact for two qubits); 'CHSH-violating' = some settings give $S > 2$; the maximal quantum CHSH value for this state is $2\sqrt{2}\,p$.
+
+Tasks:
+1. For which $p$ is the state entangled? Give the exact threshold.
+2. For which $p$ does it violate CHSH? Give the exact threshold.
+3. At $p = 0.500$: compute the concurrence $C = \max(0, (3p-1)/2)$ and the maximal CHSH value $S$.
+4. At $p = 0.500$ the state is entangled but does not violate CHSH. Explain why entanglement and Bell nonlocality are NOT the same property (the point of Werner's 1989 paper).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Entanglement threshold.** For two qubits PPT is exact; the singlet-Werner state is non-separable iff its concurrence is positive: C = max(0, (3p−1)/2) > 0 ⟺ 3p−1 > 0 ⟺ **p > 1/3 = ____**.
+2. **CHSH threshold.** The optimal CHSH value for this family is S = 2√2·p (Horodecki criterion). Violation requires S > 2 ⟺ **p > 1/√2 = ____**.
+3. **At p = ____.** C = max(0, (3·0.5 − 1)/2) = max(0, ____) = **____** (positive → entangled). S = 2√2·0.5 = √2 = **____** (< 2 → no CHSH violation).
+4. **Interpretation.** Because 1/3 < 0.5 ≤ 1/√2, the state is entangled yet admits a local hidden-variable model for projective measurements. Entanglement does **not** imply Bell nonlocality — Werner's 1989 result.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chsh\_S\_at\_p05}        &=  \\
+\mathrm{chsh\_threshold}         &=  \\
+\mathrm{concurrence\_at\_p05}    &=  \\
+\mathrm{entanglement\_threshold} &=  \\
+\end{aligned}
+\]",a07c7c191f8be610e702854148a678884b6150fdcadc4102aa15151a30efaf19
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,36,QI_WERNER_001,Werner state - entanglement without nonlocality,Quantum Information Theory,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+Consider the two-qubit Werner state $\rho = p\,|\Psi^-\rangle\langle\Psi^-| + (1-p)\,\mathbb{1}/4$ (singlet mixed with white noise).
+
+Conventions: 'entangled' = non-separable (PPT is exact for two qubits); 'CHSH-violating' = some settings give $S > 2$; the maximal quantum CHSH value for this state is $2\sqrt{2}\,p$.
+
+Tasks:
+1. For which $p$ is the state entangled? Give the exact threshold.
+2. For which $p$ does it violate CHSH? Give the exact threshold.
+3. At $p = 0.500$: compute the concurrence $C = \max(0, (3p-1)/2)$ and the maximal CHSH value $S$.
+4. At $p = 0.500$ the state is entangled but does not violate CHSH. Explain why entanglement and Bell nonlocality are NOT the same property (the point of Werner's 1989 paper).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Entanglement threshold.** For two qubits PPT is exact; the singlet-Werner state is non-separable iff its concurrence is positive: C = max(0, (3p−1)/2) > 0 ⟺ 3p−1 > 0 ⟺ **p > 1/3 = ____**.
+2. **CHSH threshold.** The optimal CHSH value for this family is S = 2√2·p (Horodecki criterion). Violation requires S > 2 ⟺ **p > 1/√2 = ____**.
+3. **At p = ____.** C = max(0, (3·0.5 − 1)/2) = max(0, ____) = **____** (positive → entangled). S = 2√2·0.5 = √2 = **____** (< 2 → no CHSH violation).
+4. **Interpretation.** Because 1/3 < 0.5 ≤ 1/√2, the state is entangled yet admits a local hidden-variable model for projective measurements. Entanglement does **not** imply Bell nonlocality — Werner's 1989 result.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chsh\_S\_at\_p05}        &=  \\
+\mathrm{chsh\_threshold}         &=  \\
+\mathrm{concurrence\_at\_p05}    &=  \\
+\mathrm{entanglement\_threshold} &=  \\
+\end{aligned}
+\]",a07c7c191f8be610e702854148a678884b6150fdcadc4102aa15151a30efaf19
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,37,QI_WERNER_001,Werner state - entanglement without nonlocality,Quantum Information Theory,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+Consider the two-qubit Werner state $\rho = p\,|\Psi^-\rangle\langle\Psi^-| + (1-p)\,\mathbb{1}/4$ (singlet mixed with white noise).
+
+Conventions: 'entangled' = non-separable (PPT is exact for two qubits); 'CHSH-violating' = some settings give $S > 2$; the maximal quantum CHSH value for this state is $2\sqrt{2}\,p$.
+
+Tasks:
+1. For which $p$ is the state entangled? Give the exact threshold.
+2. For which $p$ does it violate CHSH? Give the exact threshold.
+3. At $p = 0.500$: compute the concurrence $C = \max(0, (3p-1)/2)$ and the maximal CHSH value $S$.
+4. At $p = 0.500$ the state is entangled but does not violate CHSH. Explain why entanglement and Bell nonlocality are NOT the same property (the point of Werner's 1989 paper).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Entanglement threshold.** For two qubits PPT is exact; the singlet-Werner state is non-separable iff its concurrence is positive: C = max(0, (3p−1)/2) > 0 ⟺ 3p−1 > 0 ⟺ **p > 1/3 = ____**.
+2. **CHSH threshold.** The optimal CHSH value for this family is S = 2√2·p (Horodecki criterion). Violation requires S > 2 ⟺ **p > 1/√2 = ____**.
+3. **At p = ____.** C = max(0, (3·0.5 − 1)/2) = max(0, ____) = **____** (positive → entangled). S = 2√2·0.5 = √2 = **____** (< 2 → no CHSH violation).
+4. **Interpretation.** Because 1/3 < 0.5 ≤ 1/√2, the state is entangled yet admits a local hidden-variable model for projective measurements. Entanglement does **not** imply Bell nonlocality — Werner's 1989 result.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chsh\_S\_at\_p05}        &=  \\
+\mathrm{chsh\_threshold}         &=  \\
+\mathrm{concurrence\_at\_p05}    &=  \\
+\mathrm{entanglement\_threshold} &=  \\
+\end{aligned}
+\]",a07c7c191f8be610e702854148a678884b6150fdcadc4102aa15151a30efaf19
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,38,QI_WERNER_001,Werner state - entanglement without nonlocality,Quantum Information Theory,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+Consider the two-qubit Werner state $\rho = p\,|\Psi^-\rangle\langle\Psi^-| + (1-p)\,\mathbb{1}/4$ (singlet mixed with white noise).
+
+Conventions: 'entangled' = non-separable (PPT is exact for two qubits); 'CHSH-violating' = some settings give $S > 2$; the maximal quantum CHSH value for this state is $2\sqrt{2}\,p$.
+
+Tasks:
+1. For which $p$ is the state entangled? Give the exact threshold.
+2. For which $p$ does it violate CHSH? Give the exact threshold.
+3. At $p = 0.500$: compute the concurrence $C = \max(0, (3p-1)/2)$ and the maximal CHSH value $S$.
+4. At $p = 0.500$ the state is entangled but does not violate CHSH. Explain why entanglement and Bell nonlocality are NOT the same property (the point of Werner's 1989 paper).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Entanglement threshold.** For two qubits PPT is exact; the singlet-Werner state is non-separable iff its concurrence is positive: C = max(0, (3p−1)/2) > 0 ⟺ 3p−1 > 0 ⟺ **p > 1/3 = ____**.
+2. **CHSH threshold.** The optimal CHSH value for this family is S = 2√2·p (Horodecki criterion). Violation requires S > 2 ⟺ **p > 1/√2 = ____**.
+3. **At p = ____.** C = max(0, (3·0.5 − 1)/2) = max(0, ____) = **____** (positive → entangled). S = 2√2·0.5 = √2 = **____** (< 2 → no CHSH violation).
+4. **Interpretation.** Because 1/3 < 0.5 ≤ 1/√2, the state is entangled yet admits a local hidden-variable model for projective measurements. Entanglement does **not** imply Bell nonlocality — Werner's 1989 result.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chsh\_S\_at\_p05}        &=  \\
+\mathrm{chsh\_threshold}         &=  \\
+\mathrm{concurrence\_at\_p05}    &=  \\
+\mathrm{entanglement\_threshold} &=  \\
+\end{aligned}
+\]",a07c7c191f8be610e702854148a678884b6150fdcadc4102aa15151a30efaf19
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,39,QI_WERNER_001,Werner state - entanglement without nonlocality,Quantum Information Theory,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+Consider the two-qubit Werner state $\rho = p\,|\Psi^-\rangle\langle\Psi^-| + (1-p)\,\mathbb{1}/4$ (singlet mixed with white noise).
+
+Conventions: 'entangled' = non-separable (PPT is exact for two qubits); 'CHSH-violating' = some settings give $S > 2$; the maximal quantum CHSH value for this state is $2\sqrt{2}\,p$.
+
+Tasks:
+1. For which $p$ is the state entangled? Give the exact threshold.
+2. For which $p$ does it violate CHSH? Give the exact threshold.
+3. At $p = 0.500$: compute the concurrence $C = \max(0, (3p-1)/2)$ and the maximal CHSH value $S$.
+4. At $p = 0.500$ the state is entangled but does not violate CHSH. Explain why entanglement and Bell nonlocality are NOT the same property (the point of Werner's 1989 paper).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Entanglement threshold.** For two qubits PPT is exact; the singlet-Werner state is non-separable iff its concurrence is positive: C = max(0, (3p−1)/2) > 0 ⟺ 3p−1 > 0 ⟺ **p > 1/3 = ____**.
+2. **CHSH threshold.** The optimal CHSH value for this family is S = 2√2·p (Horodecki criterion). Violation requires S > 2 ⟺ **p > 1/√2 = ____**.
+3. **At p = ____.** C = max(0, (3·0.5 − 1)/2) = max(0, ____) = **____** (positive → entangled). S = 2√2·0.5 = √2 = **____** (< 2 → no CHSH violation).
+4. **Interpretation.** Because 1/3 < 0.5 ≤ 1/√2, the state is entangled yet admits a local hidden-variable model for projective measurements. Entanglement does **not** imply Bell nonlocality — Werner's 1989 result.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chsh\_S\_at\_p05}        &=  \\
+\mathrm{chsh\_threshold}         &=  \\
+\mathrm{concurrence\_at\_p05}    &=  \\
+\mathrm{entanglement\_threshold} &=  \\
+\end{aligned}
+\]",a07c7c191f8be610e702854148a678884b6150fdcadc4102aa15151a30efaf19
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,40,QI_WERNER_001,Werner state - entanglement without nonlocality,Quantum Information Theory,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+Consider the two-qubit Werner state $\rho = p\,|\Psi^-\rangle\langle\Psi^-| + (1-p)\,\mathbb{1}/4$ (singlet mixed with white noise).
+
+Conventions: 'entangled' = non-separable (PPT is exact for two qubits); 'CHSH-violating' = some settings give $S > 2$; the maximal quantum CHSH value for this state is $2\sqrt{2}\,p$.
+
+Tasks:
+1. For which $p$ is the state entangled? Give the exact threshold.
+2. For which $p$ does it violate CHSH? Give the exact threshold.
+3. At $p = 0.500$: compute the concurrence $C = \max(0, (3p-1)/2)$ and the maximal CHSH value $S$.
+4. At $p = 0.500$ the state is entangled but does not violate CHSH. Explain why entanglement and Bell nonlocality are NOT the same property (the point of Werner's 1989 paper).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Entanglement threshold.** For two qubits PPT is exact; the singlet-Werner state is non-separable iff its concurrence is positive: C = max(0, (3p−1)/2) > 0 ⟺ 3p−1 > 0 ⟺ **p > 1/3 = ____**.
+2. **CHSH threshold.** The optimal CHSH value for this family is S = 2√2·p (Horodecki criterion). Violation requires S > 2 ⟺ **p > 1/√2 = ____**.
+3. **At p = ____.** C = max(0, (3·0.5 − 1)/2) = max(0, ____) = **____** (positive → entangled). S = 2√2·0.5 = √2 = **____** (< 2 → no CHSH violation).
+4. **Interpretation.** Because 1/3 < 0.5 ≤ 1/√2, the state is entangled yet admits a local hidden-variable model for projective measurements. Entanglement does **not** imply Bell nonlocality — Werner's 1989 result.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chsh\_S\_at\_p05}        &=  \\
+\mathrm{chsh\_threshold}         &=  \\
+\mathrm{concurrence\_at\_p05}    &=  \\
+\mathrm{entanglement\_threshold} &=  \\
+\end{aligned}
+\]",a07c7c191f8be610e702854148a678884b6150fdcadc4102aa15151a30efaf19
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,41,QM_TUNNEL_001,Opaque-barrier tunneling - exponent and prefactor,Quantum Mechanics,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+An electron of energy $E = 1.00$ eV tunnels through a rectangular barrier of height $V_0 = 5.00$ eV and width $L = 1.00$ nm.
+
+Conventions: opaque-barrier limit $T \approx \frac{16 E (V_0-E)}{V_0^2} e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$; report $\log_{10} T$.
+
+Tasks:
+1. Evaluate $\kappa$ in nm$^{-1}$ and the dimensionless product $\kappa L$.
+2. Evaluate the prefactor $16E(V_0-E)/V_0^2$.
+3. Evaluate $\log_{10} T$ including the prefactor.
+4. How does $T$ change if $L$ doubles? Give the new $\log_{10} T$ and comment on the exponential sensitivity.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Decay constant.** κ = √(2m(V₀−E))/ℏ uses **V₀ − E = 4 eV** (the height above the electron's energy, not V₀). κ = √(2·____×10⁻³¹·4·____×10⁻¹⁹)/____×10⁻³⁴ = ____×10¹⁰ m⁻¹ = **____ nm⁻¹**; with L = 1 nm, **κL = ____**.
+2. **Prefactor.** 16E(V₀−E)/V₀² = 16·1·4/25 = 64/25 = **____**.
+3. **log₁₀T.** The exponent is **2κL** (not κL): log₁₀T = log₁₀(____) − 2κL/ln 10 = ____ − ____/____ = ____ − ____ = **____**.
+4. **Doubling the width.** L → 2L doubles the exponent: log₁₀T = ____ − 4κL/ln 10 = **____**. Halving the width or doubling it changes T by ~8.9 orders of magnitude — the transmission is exponentially sensitive to L.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{kappa\_L}       &=  \\
+\mathrm{kappa\_per\_nm} &=  \\
+\mathrm{log10\_T}       &=  \\
+\mathrm{prefactor}      &=  \\
+\end{aligned}
+\]",7ef2d132729c7e9c234c710c44d2961a2609d72c2397673b3bea9b685c610ce2
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,42,QM_TUNNEL_001,Opaque-barrier tunneling - exponent and prefactor,Quantum Mechanics,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+An electron of energy $E = 1.00$ eV tunnels through a rectangular barrier of height $V_0 = 5.00$ eV and width $L = 1.00$ nm.
+
+Conventions: opaque-barrier limit $T \approx \frac{16 E (V_0-E)}{V_0^2} e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$; report $\log_{10} T$.
+
+Tasks:
+1. Evaluate $\kappa$ in nm$^{-1}$ and the dimensionless product $\kappa L$.
+2. Evaluate the prefactor $16E(V_0-E)/V_0^2$.
+3. Evaluate $\log_{10} T$ including the prefactor.
+4. How does $T$ change if $L$ doubles? Give the new $\log_{10} T$ and comment on the exponential sensitivity.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Decay constant.** κ = √(2m(V₀−E))/ℏ uses **V₀ − E = 4 eV** (the height above the electron's energy, not V₀). κ = √(2·____×10⁻³¹·4·____×10⁻¹⁹)/____×10⁻³⁴ = ____×10¹⁰ m⁻¹ = **____ nm⁻¹**; with L = 1 nm, **κL = ____**.
+2. **Prefactor.** 16E(V₀−E)/V₀² = 16·1·4/25 = 64/25 = **____**.
+3. **log₁₀T.** The exponent is **2κL** (not κL): log₁₀T = log₁₀(____) − 2κL/ln 10 = ____ − ____/____ = ____ − ____ = **____**.
+4. **Doubling the width.** L → 2L doubles the exponent: log₁₀T = ____ − 4κL/ln 10 = **____**. Halving the width or doubling it changes T by ~8.9 orders of magnitude — the transmission is exponentially sensitive to L.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{kappa\_L}       &=  \\
+\mathrm{kappa\_per\_nm} &=  \\
+\mathrm{log10\_T}       &=  \\
+\mathrm{prefactor}      &=  \\
+\end{aligned}
+\]",7ef2d132729c7e9c234c710c44d2961a2609d72c2397673b3bea9b685c610ce2
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,43,QM_TUNNEL_001,Opaque-barrier tunneling - exponent and prefactor,Quantum Mechanics,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+An electron of energy $E = 1.00$ eV tunnels through a rectangular barrier of height $V_0 = 5.00$ eV and width $L = 1.00$ nm.
+
+Conventions: opaque-barrier limit $T \approx \frac{16 E (V_0-E)}{V_0^2} e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$; report $\log_{10} T$.
+
+Tasks:
+1. Evaluate $\kappa$ in nm$^{-1}$ and the dimensionless product $\kappa L$.
+2. Evaluate the prefactor $16E(V_0-E)/V_0^2$.
+3. Evaluate $\log_{10} T$ including the prefactor.
+4. How does $T$ change if $L$ doubles? Give the new $\log_{10} T$ and comment on the exponential sensitivity.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Decay constant.** κ = √(2m(V₀−E))/ℏ uses **V₀ − E = 4 eV** (the height above the electron's energy, not V₀). κ = √(2·____×10⁻³¹·4·____×10⁻¹⁹)/____×10⁻³⁴ = ____×10¹⁰ m⁻¹ = **____ nm⁻¹**; with L = 1 nm, **κL = ____**.
+2. **Prefactor.** 16E(V₀−E)/V₀² = 16·1·4/25 = 64/25 = **____**.
+3. **log₁₀T.** The exponent is **2κL** (not κL): log₁₀T = log₁₀(____) − 2κL/ln 10 = ____ − ____/____ = ____ − ____ = **____**.
+4. **Doubling the width.** L → 2L doubles the exponent: log₁₀T = ____ − 4κL/ln 10 = **____**. Halving the width or doubling it changes T by ~8.9 orders of magnitude — the transmission is exponentially sensitive to L.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{kappa\_L}       &=  \\
+\mathrm{kappa\_per\_nm} &=  \\
+\mathrm{log10\_T}       &=  \\
+\mathrm{prefactor}      &=  \\
+\end{aligned}
+\]",7ef2d132729c7e9c234c710c44d2961a2609d72c2397673b3bea9b685c610ce2
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,44,QM_TUNNEL_001,Opaque-barrier tunneling - exponent and prefactor,Quantum Mechanics,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+An electron of energy $E = 1.00$ eV tunnels through a rectangular barrier of height $V_0 = 5.00$ eV and width $L = 1.00$ nm.
+
+Conventions: opaque-barrier limit $T \approx \frac{16 E (V_0-E)}{V_0^2} e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$; report $\log_{10} T$.
+
+Tasks:
+1. Evaluate $\kappa$ in nm$^{-1}$ and the dimensionless product $\kappa L$.
+2. Evaluate the prefactor $16E(V_0-E)/V_0^2$.
+3. Evaluate $\log_{10} T$ including the prefactor.
+4. How does $T$ change if $L$ doubles? Give the new $\log_{10} T$ and comment on the exponential sensitivity.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Decay constant.** κ = √(2m(V₀−E))/ℏ uses **V₀ − E = 4 eV** (the height above the electron's energy, not V₀). κ = √(2·____×10⁻³¹·4·____×10⁻¹⁹)/____×10⁻³⁴ = ____×10¹⁰ m⁻¹ = **____ nm⁻¹**; with L = 1 nm, **κL = ____**.
+2. **Prefactor.** 16E(V₀−E)/V₀² = 16·1·4/25 = 64/25 = **____**.
+3. **log₁₀T.** The exponent is **2κL** (not κL): log₁₀T = log₁₀(____) − 2κL/ln 10 = ____ − ____/____ = ____ − ____ = **____**.
+4. **Doubling the width.** L → 2L doubles the exponent: log₁₀T = ____ − 4κL/ln 10 = **____**. Halving the width or doubling it changes T by ~8.9 orders of magnitude — the transmission is exponentially sensitive to L.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{kappa\_L}       &=  \\
+\mathrm{kappa\_per\_nm} &=  \\
+\mathrm{log10\_T}       &=  \\
+\mathrm{prefactor}      &=  \\
+\end{aligned}
+\]",7ef2d132729c7e9c234c710c44d2961a2609d72c2397673b3bea9b685c610ce2
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,45,QM_TUNNEL_001,Opaque-barrier tunneling - exponent and prefactor,Quantum Mechanics,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+An electron of energy $E = 1.00$ eV tunnels through a rectangular barrier of height $V_0 = 5.00$ eV and width $L = 1.00$ nm.
+
+Conventions: opaque-barrier limit $T \approx \frac{16 E (V_0-E)}{V_0^2} e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$; report $\log_{10} T$.
+
+Tasks:
+1. Evaluate $\kappa$ in nm$^{-1}$ and the dimensionless product $\kappa L$.
+2. Evaluate the prefactor $16E(V_0-E)/V_0^2$.
+3. Evaluate $\log_{10} T$ including the prefactor.
+4. How does $T$ change if $L$ doubles? Give the new $\log_{10} T$ and comment on the exponential sensitivity.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Decay constant.** κ = √(2m(V₀−E))/ℏ uses **V₀ − E = 4 eV** (the height above the electron's energy, not V₀). κ = √(2·____×10⁻³¹·4·____×10⁻¹⁹)/____×10⁻³⁴ = ____×10¹⁰ m⁻¹ = **____ nm⁻¹**; with L = 1 nm, **κL = ____**.
+2. **Prefactor.** 16E(V₀−E)/V₀² = 16·1·4/25 = 64/25 = **____**.
+3. **log₁₀T.** The exponent is **2κL** (not κL): log₁₀T = log₁₀(____) − 2κL/ln 10 = ____ − ____/____ = ____ − ____ = **____**.
+4. **Doubling the width.** L → 2L doubles the exponent: log₁₀T = ____ − 4κL/ln 10 = **____**. Halving the width or doubling it changes T by ~8.9 orders of magnitude — the transmission is exponentially sensitive to L.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{kappa\_L}       &=  \\
+\mathrm{kappa\_per\_nm} &=  \\
+\mathrm{log10\_T}       &=  \\
+\mathrm{prefactor}      &=  \\
+\end{aligned}
+\]",7ef2d132729c7e9c234c710c44d2961a2609d72c2397673b3bea9b685c610ce2
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,46,QM_TUNNEL_001,Opaque-barrier tunneling - exponent and prefactor,Quantum Mechanics,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+An electron of energy $E = 1.00$ eV tunnels through a rectangular barrier of height $V_0 = 5.00$ eV and width $L = 1.00$ nm.
+
+Conventions: opaque-barrier limit $T \approx \frac{16 E (V_0-E)}{V_0^2} e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$; report $\log_{10} T$.
+
+Tasks:
+1. Evaluate $\kappa$ in nm$^{-1}$ and the dimensionless product $\kappa L$.
+2. Evaluate the prefactor $16E(V_0-E)/V_0^2$.
+3. Evaluate $\log_{10} T$ including the prefactor.
+4. How does $T$ change if $L$ doubles? Give the new $\log_{10} T$ and comment on the exponential sensitivity.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Decay constant.** κ = √(2m(V₀−E))/ℏ uses **V₀ − E = 4 eV** (the height above the electron's energy, not V₀). κ = √(2·____×10⁻³¹·4·____×10⁻¹⁹)/____×10⁻³⁴ = ____×10¹⁰ m⁻¹ = **____ nm⁻¹**; with L = 1 nm, **κL = ____**.
+2. **Prefactor.** 16E(V₀−E)/V₀² = 16·1·4/25 = 64/25 = **____**.
+3. **log₁₀T.** The exponent is **2κL** (not κL): log₁₀T = log₁₀(____) − 2κL/ln 10 = ____ − ____/____ = ____ − ____ = **____**.
+4. **Doubling the width.** L → 2L doubles the exponent: log₁₀T = ____ − 4κL/ln 10 = **____**. Halving the width or doubling it changes T by ~8.9 orders of magnitude — the transmission is exponentially sensitive to L.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{kappa\_L}       &=  \\
+\mathrm{kappa\_per\_nm} &=  \\
+\mathrm{log10\_T}       &=  \\
+\mathrm{prefactor}      &=  \\
+\end{aligned}
+\]",7ef2d132729c7e9c234c710c44d2961a2609d72c2397673b3bea9b685c610ce2
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,47,QM_TUNNEL_001,Opaque-barrier tunneling - exponent and prefactor,Quantum Mechanics,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+An electron of energy $E = 1.00$ eV tunnels through a rectangular barrier of height $V_0 = 5.00$ eV and width $L = 1.00$ nm.
+
+Conventions: opaque-barrier limit $T \approx \frac{16 E (V_0-E)}{V_0^2} e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$; report $\log_{10} T$.
+
+Tasks:
+1. Evaluate $\kappa$ in nm$^{-1}$ and the dimensionless product $\kappa L$.
+2. Evaluate the prefactor $16E(V_0-E)/V_0^2$.
+3. Evaluate $\log_{10} T$ including the prefactor.
+4. How does $T$ change if $L$ doubles? Give the new $\log_{10} T$ and comment on the exponential sensitivity.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Decay constant.** κ = √(2m(V₀−E))/ℏ uses **V₀ − E = 4 eV** (the height above the electron's energy, not V₀). κ = √(2·____×10⁻³¹·4·____×10⁻¹⁹)/____×10⁻³⁴ = ____×10¹⁰ m⁻¹ = **____ nm⁻¹**; with L = 1 nm, **κL = ____**.
+2. **Prefactor.** 16E(V₀−E)/V₀² = 16·1·4/25 = 64/25 = **____**.
+3. **log₁₀T.** The exponent is **2κL** (not κL): log₁₀T = log₁₀(____) − 2κL/ln 10 = ____ − ____/____ = ____ − ____ = **____**.
+4. **Doubling the width.** L → 2L doubles the exponent: log₁₀T = ____ − 4κL/ln 10 = **____**. Halving the width or doubling it changes T by ~8.9 orders of magnitude — the transmission is exponentially sensitive to L.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{kappa\_L}       &=  \\
+\mathrm{kappa\_per\_nm} &=  \\
+\mathrm{log10\_T}       &=  \\
+\mathrm{prefactor}      &=  \\
+\end{aligned}
+\]",7ef2d132729c7e9c234c710c44d2961a2609d72c2397673b3bea9b685c610ce2
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,48,QM_TUNNEL_001,Opaque-barrier tunneling - exponent and prefactor,Quantum Mechanics,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+An electron of energy $E = 1.00$ eV tunnels through a rectangular barrier of height $V_0 = 5.00$ eV and width $L = 1.00$ nm.
+
+Conventions: opaque-barrier limit $T \approx \frac{16 E (V_0-E)}{V_0^2} e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$; report $\log_{10} T$.
+
+Tasks:
+1. Evaluate $\kappa$ in nm$^{-1}$ and the dimensionless product $\kappa L$.
+2. Evaluate the prefactor $16E(V_0-E)/V_0^2$.
+3. Evaluate $\log_{10} T$ including the prefactor.
+4. How does $T$ change if $L$ doubles? Give the new $\log_{10} T$ and comment on the exponential sensitivity.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Decay constant.** κ = √(2m(V₀−E))/ℏ uses **V₀ − E = 4 eV** (the height above the electron's energy, not V₀). κ = √(2·____×10⁻³¹·4·____×10⁻¹⁹)/____×10⁻³⁴ = ____×10¹⁰ m⁻¹ = **____ nm⁻¹**; with L = 1 nm, **κL = ____**.
+2. **Prefactor.** 16E(V₀−E)/V₀² = 16·1·4/25 = 64/25 = **____**.
+3. **log₁₀T.** The exponent is **2κL** (not κL): log₁₀T = log₁₀(____) − 2κL/ln 10 = ____ − ____/____ = ____ − ____ = **____**.
+4. **Doubling the width.** L → 2L doubles the exponent: log₁₀T = ____ − 4κL/ln 10 = **____**. Halving the width or doubling it changes T by ~8.9 orders of magnitude — the transmission is exponentially sensitive to L.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{kappa\_L}       &=  \\
+\mathrm{kappa\_per\_nm} &=  \\
+\mathrm{log10\_T}       &=  \\
+\mathrm{prefactor}      &=  \\
+\end{aligned}
+\]",7ef2d132729c7e9c234c710c44d2961a2609d72c2397673b3bea9b685c610ce2
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,49,SR_BELL_001,Bell spaceship paradox - proper distance and the string,Special Relativity,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+Two identical rockets are at rest in the lab frame, one behind the other, separated by $L_0 = 100$ m. A fragile string of rest length $100$ m connects them. At $t=0$ (lab frame) both rockets begin identical acceleration programs - their velocities are equal at every lab-frame instant - until both coast at $v = 0.8c$.
+
+Conventions: ""lab separation"" means the distance between the rockets measured in the original rest frame after both are coasting; ""proper separation"" means the distance measured in the rockets' common final rest frame.
+
+Tasks:
+1. Compute the Lorentz factor $\gamma$ at $v=0.8c$.
+2. What is the lab-frame separation of the rockets after both reach $0.8c$? Explain why.
+3. What is the proper separation in the rockets' final rest frame? Evaluate numerically.
+4. Does the string break? State the physical reason carefully.
+5. A student argues: ""the separation is a length, so it length-contracts to $L_0/\gamma = 60$ m, and the string goes slack."" Identify precisely what is wrong with this argument.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Lorentz factor.** γ = 1/√(1 − 0.8²) = 1/√0.36 = 1/0.6 = **____**.
+2. **Lab separation.** Identical velocity-vs-lab-time programs ⟹ the rockets' lab positions differ by a constant, so the lab-frame separation stays **____ m** (unchanged).
+3. **Proper separation.** In the rockets' common final rest frame the separation is γ·L₀ = ____·____ = **____ m**. The fixed ____ m lab gap is the length-contracted image of this larger proper gap (proper = γ × lab).
+4. **The string.** Its rest length is ____ m but it must now span a proper distance of ____ m — it is stretched past its rest length and **breaks**. The ""60 m"" answer wrongly applies contraction L₀/γ to the separation; contraction applies to an object's rest length, not to the coordinate gap between two independently accelerated worldlines.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{gamma\_factor}         &=  \\
+\mathrm{lab\_separation\_m}    &=  \\
+\mathrm{proper\_separation\_m} &=  \\
+\end{aligned}
+\]",b3ec5a26f9ff79e06be425c807f9b2a890c018cbb35665f193bc1818ecdc0a75
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,50,SR_BELL_001,Bell spaceship paradox - proper distance and the string,Special Relativity,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+Two identical rockets are at rest in the lab frame, one behind the other, separated by $L_0 = 100$ m. A fragile string of rest length $100$ m connects them. At $t=0$ (lab frame) both rockets begin identical acceleration programs - their velocities are equal at every lab-frame instant - until both coast at $v = 0.8c$.
+
+Conventions: ""lab separation"" means the distance between the rockets measured in the original rest frame after both are coasting; ""proper separation"" means the distance measured in the rockets' common final rest frame.
+
+Tasks:
+1. Compute the Lorentz factor $\gamma$ at $v=0.8c$.
+2. What is the lab-frame separation of the rockets after both reach $0.8c$? Explain why.
+3. What is the proper separation in the rockets' final rest frame? Evaluate numerically.
+4. Does the string break? State the physical reason carefully.
+5. A student argues: ""the separation is a length, so it length-contracts to $L_0/\gamma = 60$ m, and the string goes slack."" Identify precisely what is wrong with this argument.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Lorentz factor.** γ = 1/√(1 − 0.8²) = 1/√0.36 = 1/0.6 = **____**.
+2. **Lab separation.** Identical velocity-vs-lab-time programs ⟹ the rockets' lab positions differ by a constant, so the lab-frame separation stays **____ m** (unchanged).
+3. **Proper separation.** In the rockets' common final rest frame the separation is γ·L₀ = ____·____ = **____ m**. The fixed ____ m lab gap is the length-contracted image of this larger proper gap (proper = γ × lab).
+4. **The string.** Its rest length is ____ m but it must now span a proper distance of ____ m — it is stretched past its rest length and **breaks**. The ""60 m"" answer wrongly applies contraction L₀/γ to the separation; contraction applies to an object's rest length, not to the coordinate gap between two independently accelerated worldlines.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{gamma\_factor}         &=  \\
+\mathrm{lab\_separation\_m}    &=  \\
+\mathrm{proper\_separation\_m} &=  \\
+\end{aligned}
+\]",b3ec5a26f9ff79e06be425c807f9b2a890c018cbb35665f193bc1818ecdc0a75
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,51,SR_BELL_001,Bell spaceship paradox - proper distance and the string,Special Relativity,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+Two identical rockets are at rest in the lab frame, one behind the other, separated by $L_0 = 100$ m. A fragile string of rest length $100$ m connects them. At $t=0$ (lab frame) both rockets begin identical acceleration programs - their velocities are equal at every lab-frame instant - until both coast at $v = 0.8c$.
+
+Conventions: ""lab separation"" means the distance between the rockets measured in the original rest frame after both are coasting; ""proper separation"" means the distance measured in the rockets' common final rest frame.
+
+Tasks:
+1. Compute the Lorentz factor $\gamma$ at $v=0.8c$.
+2. What is the lab-frame separation of the rockets after both reach $0.8c$? Explain why.
+3. What is the proper separation in the rockets' final rest frame? Evaluate numerically.
+4. Does the string break? State the physical reason carefully.
+5. A student argues: ""the separation is a length, so it length-contracts to $L_0/\gamma = 60$ m, and the string goes slack."" Identify precisely what is wrong with this argument.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Lorentz factor.** γ = 1/√(1 − 0.8²) = 1/√0.36 = 1/0.6 = **____**.
+2. **Lab separation.** Identical velocity-vs-lab-time programs ⟹ the rockets' lab positions differ by a constant, so the lab-frame separation stays **____ m** (unchanged).
+3. **Proper separation.** In the rockets' common final rest frame the separation is γ·L₀ = ____·____ = **____ m**. The fixed ____ m lab gap is the length-contracted image of this larger proper gap (proper = γ × lab).
+4. **The string.** Its rest length is ____ m but it must now span a proper distance of ____ m — it is stretched past its rest length and **breaks**. The ""60 m"" answer wrongly applies contraction L₀/γ to the separation; contraction applies to an object's rest length, not to the coordinate gap between two independently accelerated worldlines.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{gamma\_factor}         &=  \\
+\mathrm{lab\_separation\_m}    &=  \\
+\mathrm{proper\_separation\_m} &=  \\
+\end{aligned}
+\]",b3ec5a26f9ff79e06be425c807f9b2a890c018cbb35665f193bc1818ecdc0a75
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,52,SR_BELL_001,Bell spaceship paradox - proper distance and the string,Special Relativity,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+Two identical rockets are at rest in the lab frame, one behind the other, separated by $L_0 = 100$ m. A fragile string of rest length $100$ m connects them. At $t=0$ (lab frame) both rockets begin identical acceleration programs - their velocities are equal at every lab-frame instant - until both coast at $v = 0.8c$.
+
+Conventions: ""lab separation"" means the distance between the rockets measured in the original rest frame after both are coasting; ""proper separation"" means the distance measured in the rockets' common final rest frame.
+
+Tasks:
+1. Compute the Lorentz factor $\gamma$ at $v=0.8c$.
+2. What is the lab-frame separation of the rockets after both reach $0.8c$? Explain why.
+3. What is the proper separation in the rockets' final rest frame? Evaluate numerically.
+4. Does the string break? State the physical reason carefully.
+5. A student argues: ""the separation is a length, so it length-contracts to $L_0/\gamma = 60$ m, and the string goes slack."" Identify precisely what is wrong with this argument.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Lorentz factor.** γ = 1/√(1 − 0.8²) = 1/√0.36 = 1/0.6 = **____**.
+2. **Lab separation.** Identical velocity-vs-lab-time programs ⟹ the rockets' lab positions differ by a constant, so the lab-frame separation stays **____ m** (unchanged).
+3. **Proper separation.** In the rockets' common final rest frame the separation is γ·L₀ = ____·____ = **____ m**. The fixed ____ m lab gap is the length-contracted image of this larger proper gap (proper = γ × lab).
+4. **The string.** Its rest length is ____ m but it must now span a proper distance of ____ m — it is stretched past its rest length and **breaks**. The ""60 m"" answer wrongly applies contraction L₀/γ to the separation; contraction applies to an object's rest length, not to the coordinate gap between two independently accelerated worldlines.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{gamma\_factor}         &=  \\
+\mathrm{lab\_separation\_m}    &=  \\
+\mathrm{proper\_separation\_m} &=  \\
+\end{aligned}
+\]",b3ec5a26f9ff79e06be425c807f9b2a890c018cbb35665f193bc1818ecdc0a75
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,53,SR_BELL_001,Bell spaceship paradox - proper distance and the string,Special Relativity,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+Two identical rockets are at rest in the lab frame, one behind the other, separated by $L_0 = 100$ m. A fragile string of rest length $100$ m connects them. At $t=0$ (lab frame) both rockets begin identical acceleration programs - their velocities are equal at every lab-frame instant - until both coast at $v = 0.8c$.
+
+Conventions: ""lab separation"" means the distance between the rockets measured in the original rest frame after both are coasting; ""proper separation"" means the distance measured in the rockets' common final rest frame.
+
+Tasks:
+1. Compute the Lorentz factor $\gamma$ at $v=0.8c$.
+2. What is the lab-frame separation of the rockets after both reach $0.8c$? Explain why.
+3. What is the proper separation in the rockets' final rest frame? Evaluate numerically.
+4. Does the string break? State the physical reason carefully.
+5. A student argues: ""the separation is a length, so it length-contracts to $L_0/\gamma = 60$ m, and the string goes slack."" Identify precisely what is wrong with this argument.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Lorentz factor.** γ = 1/√(1 − 0.8²) = 1/√0.36 = 1/0.6 = **____**.
+2. **Lab separation.** Identical velocity-vs-lab-time programs ⟹ the rockets' lab positions differ by a constant, so the lab-frame separation stays **____ m** (unchanged).
+3. **Proper separation.** In the rockets' common final rest frame the separation is γ·L₀ = ____·____ = **____ m**. The fixed ____ m lab gap is the length-contracted image of this larger proper gap (proper = γ × lab).
+4. **The string.** Its rest length is ____ m but it must now span a proper distance of ____ m — it is stretched past its rest length and **breaks**. The ""60 m"" answer wrongly applies contraction L₀/γ to the separation; contraction applies to an object's rest length, not to the coordinate gap between two independently accelerated worldlines.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{gamma\_factor}         &=  \\
+\mathrm{lab\_separation\_m}    &=  \\
+\mathrm{proper\_separation\_m} &=  \\
+\end{aligned}
+\]",b3ec5a26f9ff79e06be425c807f9b2a890c018cbb35665f193bc1818ecdc0a75
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,54,SR_BELL_001,Bell spaceship paradox - proper distance and the string,Special Relativity,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+Two identical rockets are at rest in the lab frame, one behind the other, separated by $L_0 = 100$ m. A fragile string of rest length $100$ m connects them. At $t=0$ (lab frame) both rockets begin identical acceleration programs - their velocities are equal at every lab-frame instant - until both coast at $v = 0.8c$.
+
+Conventions: ""lab separation"" means the distance between the rockets measured in the original rest frame after both are coasting; ""proper separation"" means the distance measured in the rockets' common final rest frame.
+
+Tasks:
+1. Compute the Lorentz factor $\gamma$ at $v=0.8c$.
+2. What is the lab-frame separation of the rockets after both reach $0.8c$? Explain why.
+3. What is the proper separation in the rockets' final rest frame? Evaluate numerically.
+4. Does the string break? State the physical reason carefully.
+5. A student argues: ""the separation is a length, so it length-contracts to $L_0/\gamma = 60$ m, and the string goes slack."" Identify precisely what is wrong with this argument.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Lorentz factor.** γ = 1/√(1 − 0.8²) = 1/√0.36 = 1/0.6 = **____**.
+2. **Lab separation.** Identical velocity-vs-lab-time programs ⟹ the rockets' lab positions differ by a constant, so the lab-frame separation stays **____ m** (unchanged).
+3. **Proper separation.** In the rockets' common final rest frame the separation is γ·L₀ = ____·____ = **____ m**. The fixed ____ m lab gap is the length-contracted image of this larger proper gap (proper = γ × lab).
+4. **The string.** Its rest length is ____ m but it must now span a proper distance of ____ m — it is stretched past its rest length and **breaks**. The ""60 m"" answer wrongly applies contraction L₀/γ to the separation; contraction applies to an object's rest length, not to the coordinate gap between two independently accelerated worldlines.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{gamma\_factor}         &=  \\
+\mathrm{lab\_separation\_m}    &=  \\
+\mathrm{proper\_separation\_m} &=  \\
+\end{aligned}
+\]",b3ec5a26f9ff79e06be425c807f9b2a890c018cbb35665f193bc1818ecdc0a75
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,55,SR_BELL_001,Bell spaceship paradox - proper distance and the string,Special Relativity,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+Two identical rockets are at rest in the lab frame, one behind the other, separated by $L_0 = 100$ m. A fragile string of rest length $100$ m connects them. At $t=0$ (lab frame) both rockets begin identical acceleration programs - their velocities are equal at every lab-frame instant - until both coast at $v = 0.8c$.
+
+Conventions: ""lab separation"" means the distance between the rockets measured in the original rest frame after both are coasting; ""proper separation"" means the distance measured in the rockets' common final rest frame.
+
+Tasks:
+1. Compute the Lorentz factor $\gamma$ at $v=0.8c$.
+2. What is the lab-frame separation of the rockets after both reach $0.8c$? Explain why.
+3. What is the proper separation in the rockets' final rest frame? Evaluate numerically.
+4. Does the string break? State the physical reason carefully.
+5. A student argues: ""the separation is a length, so it length-contracts to $L_0/\gamma = 60$ m, and the string goes slack."" Identify precisely what is wrong with this argument.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Lorentz factor.** γ = 1/√(1 − 0.8²) = 1/√0.36 = 1/0.6 = **____**.
+2. **Lab separation.** Identical velocity-vs-lab-time programs ⟹ the rockets' lab positions differ by a constant, so the lab-frame separation stays **____ m** (unchanged).
+3. **Proper separation.** In the rockets' common final rest frame the separation is γ·L₀ = ____·____ = **____ m**. The fixed ____ m lab gap is the length-contracted image of this larger proper gap (proper = γ × lab).
+4. **The string.** Its rest length is ____ m but it must now span a proper distance of ____ m — it is stretched past its rest length and **breaks**. The ""60 m"" answer wrongly applies contraction L₀/γ to the separation; contraction applies to an object's rest length, not to the coordinate gap between two independently accelerated worldlines.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{gamma\_factor}         &=  \\
+\mathrm{lab\_separation\_m}    &=  \\
+\mathrm{proper\_separation\_m} &=  \\
+\end{aligned}
+\]",b3ec5a26f9ff79e06be425c807f9b2a890c018cbb35665f193bc1818ecdc0a75
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,56,SR_BELL_001,Bell spaceship paradox - proper distance and the string,Special Relativity,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+Two identical rockets are at rest in the lab frame, one behind the other, separated by $L_0 = 100$ m. A fragile string of rest length $100$ m connects them. At $t=0$ (lab frame) both rockets begin identical acceleration programs - their velocities are equal at every lab-frame instant - until both coast at $v = 0.8c$.
+
+Conventions: ""lab separation"" means the distance between the rockets measured in the original rest frame after both are coasting; ""proper separation"" means the distance measured in the rockets' common final rest frame.
+
+Tasks:
+1. Compute the Lorentz factor $\gamma$ at $v=0.8c$.
+2. What is the lab-frame separation of the rockets after both reach $0.8c$? Explain why.
+3. What is the proper separation in the rockets' final rest frame? Evaluate numerically.
+4. Does the string break? State the physical reason carefully.
+5. A student argues: ""the separation is a length, so it length-contracts to $L_0/\gamma = 60$ m, and the string goes slack."" Identify precisely what is wrong with this argument.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Lorentz factor.** γ = 1/√(1 − 0.8²) = 1/√0.36 = 1/0.6 = **____**.
+2. **Lab separation.** Identical velocity-vs-lab-time programs ⟹ the rockets' lab positions differ by a constant, so the lab-frame separation stays **____ m** (unchanged).
+3. **Proper separation.** In the rockets' common final rest frame the separation is γ·L₀ = ____·____ = **____ m**. The fixed ____ m lab gap is the length-contracted image of this larger proper gap (proper = γ × lab).
+4. **The string.** Its rest length is ____ m but it must now span a proper distance of ____ m — it is stretched past its rest length and **breaks**. The ""60 m"" answer wrongly applies contraction L₀/γ to the separation; contraction applies to an object's rest length, not to the coordinate gap between two independently accelerated worldlines.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{gamma\_factor}         &=  \\
+\mathrm{lab\_separation\_m}    &=  \\
+\mathrm{proper\_separation\_m} &=  \\
+\end{aligned}
+\]",b3ec5a26f9ff79e06be425c807f9b2a890c018cbb35665f193bc1818ecdc0a75
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,57,STAT_BEC_001,BEC critical temperature - where the zeta function bites,Statistical Mechanics,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+An ideal gas of $^{87}$Rb atoms (mass $1.443\times 10^{-25}$ kg) is held at uniform density $n = 1.00\times 10^{19}$ m$^{-3}$.
+
+Conventions: ideal uniform Bose gas; $T_c$ from $n\lambda_T^3 = \zeta(3/2) = 2.612$ with $\lambda_T = \sqrt{2\pi\hbar^2/(m k_B T)}$; report nanokelvin.
+
+Tasks:
+1. Derive $k_B T_c = \frac{2\pi\hbar^2}{m}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ from the degeneracy condition.
+2. Evaluate $T_c$ in nK.
+3. Evaluate the phase-space density $n\lambda_T^3$ AT $T_c$ (trivially), and at $2T_c$.
+4. A student drops $\zeta(3/2)$ (sets $n\lambda^3 = 1$). Evaluate their $T_c$ and explain the physical meaning of the 2.612.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derive T_c.** At T_c, nλ_T³ = ζ(3/2). With λ_T³ = (2πℏ²/(m k_B T_c))^{3/2}: n(2πℏ²/(m k_B T_c))^{3/2} = ζ ⟹ (m k_B T_c/(2πℏ²))^{3/2} = n/ζ ⟹ **____**.
+2. **Evaluate.** T_c = (2πℏ²/(m k_B))(n/ζ)^{2/3} = **____ nK**.
+3. **Phase-space density.** At T_c it is ζ(3/2) = **____** by definition. Since nλ_T³ ∝ T^{−3/2}, at 2T_c it is ____/2^{3/2} = ____/____ = **____**.
+4. **Dropping ζ.** Setting nλ³ = 1 gives T_c' = (2πℏ²/(m k_B))·n^{2/3} = T_c·ζ^{2/3} = ____·____ = **____ nK** — an overestimate by ζ^{2/3} ≈ 1.90×. ζ(3/2) sums the Bose occupation over all excited states; ignoring it overstates the degeneracy required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{phase\_space\_density\_tc} &=  \\
+\mathrm{psd\_at\_2tc}              &=  \\
+\mathrm{tc\_nK}                    &=  \\
+\mathrm{tc\_no\_zeta\_nK}          &=  \\
+\end{aligned}
+\]",807867d325e90c638b61cb536499feb06872464545931ca084650fea364d2f14
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,58,STAT_BEC_001,BEC critical temperature - where the zeta function bites,Statistical Mechanics,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+An ideal gas of $^{87}$Rb atoms (mass $1.443\times 10^{-25}$ kg) is held at uniform density $n = 1.00\times 10^{19}$ m$^{-3}$.
+
+Conventions: ideal uniform Bose gas; $T_c$ from $n\lambda_T^3 = \zeta(3/2) = 2.612$ with $\lambda_T = \sqrt{2\pi\hbar^2/(m k_B T)}$; report nanokelvin.
+
+Tasks:
+1. Derive $k_B T_c = \frac{2\pi\hbar^2}{m}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ from the degeneracy condition.
+2. Evaluate $T_c$ in nK.
+3. Evaluate the phase-space density $n\lambda_T^3$ AT $T_c$ (trivially), and at $2T_c$.
+4. A student drops $\zeta(3/2)$ (sets $n\lambda^3 = 1$). Evaluate their $T_c$ and explain the physical meaning of the 2.612.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derive T_c.** At T_c, nλ_T³ = ζ(3/2). With λ_T³ = (2πℏ²/(m k_B T_c))^{3/2}: n(2πℏ²/(m k_B T_c))^{3/2} = ζ ⟹ (m k_B T_c/(2πℏ²))^{3/2} = n/ζ ⟹ **____**.
+2. **Evaluate.** T_c = (2πℏ²/(m k_B))(n/ζ)^{2/3} = **____ nK**.
+3. **Phase-space density.** At T_c it is ζ(3/2) = **____** by definition. Since nλ_T³ ∝ T^{−3/2}, at 2T_c it is ____/2^{3/2} = ____/____ = **____**.
+4. **Dropping ζ.** Setting nλ³ = 1 gives T_c' = (2πℏ²/(m k_B))·n^{2/3} = T_c·ζ^{2/3} = ____·____ = **____ nK** — an overestimate by ζ^{2/3} ≈ 1.90×. ζ(3/2) sums the Bose occupation over all excited states; ignoring it overstates the degeneracy required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{phase\_space\_density\_tc} &=  \\
+\mathrm{psd\_at\_2tc}              &=  \\
+\mathrm{tc\_nK}                    &=  \\
+\mathrm{tc\_no\_zeta\_nK}          &=  \\
+\end{aligned}
+\]",807867d325e90c638b61cb536499feb06872464545931ca084650fea364d2f14
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,59,STAT_BEC_001,BEC critical temperature - where the zeta function bites,Statistical Mechanics,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+An ideal gas of $^{87}$Rb atoms (mass $1.443\times 10^{-25}$ kg) is held at uniform density $n = 1.00\times 10^{19}$ m$^{-3}$.
+
+Conventions: ideal uniform Bose gas; $T_c$ from $n\lambda_T^3 = \zeta(3/2) = 2.612$ with $\lambda_T = \sqrt{2\pi\hbar^2/(m k_B T)}$; report nanokelvin.
+
+Tasks:
+1. Derive $k_B T_c = \frac{2\pi\hbar^2}{m}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ from the degeneracy condition.
+2. Evaluate $T_c$ in nK.
+3. Evaluate the phase-space density $n\lambda_T^3$ AT $T_c$ (trivially), and at $2T_c$.
+4. A student drops $\zeta(3/2)$ (sets $n\lambda^3 = 1$). Evaluate their $T_c$ and explain the physical meaning of the 2.612.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derive T_c.** At T_c, nλ_T³ = ζ(3/2). With λ_T³ = (2πℏ²/(m k_B T_c))^{3/2}: n(2πℏ²/(m k_B T_c))^{3/2} = ζ ⟹ (m k_B T_c/(2πℏ²))^{3/2} = n/ζ ⟹ **____**.
+2. **Evaluate.** T_c = (2πℏ²/(m k_B))(n/ζ)^{2/3} = **____ nK**.
+3. **Phase-space density.** At T_c it is ζ(3/2) = **____** by definition. Since nλ_T³ ∝ T^{−3/2}, at 2T_c it is ____/2^{3/2} = ____/____ = **____**.
+4. **Dropping ζ.** Setting nλ³ = 1 gives T_c' = (2πℏ²/(m k_B))·n^{2/3} = T_c·ζ^{2/3} = ____·____ = **____ nK** — an overestimate by ζ^{2/3} ≈ 1.90×. ζ(3/2) sums the Bose occupation over all excited states; ignoring it overstates the degeneracy required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{phase\_space\_density\_tc} &=  \\
+\mathrm{psd\_at\_2tc}              &=  \\
+\mathrm{tc\_nK}                    &=  \\
+\mathrm{tc\_no\_zeta\_nK}          &=  \\
+\end{aligned}
+\]",807867d325e90c638b61cb536499feb06872464545931ca084650fea364d2f14
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,60,STAT_BEC_001,BEC critical temperature - where the zeta function bites,Statistical Mechanics,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+An ideal gas of $^{87}$Rb atoms (mass $1.443\times 10^{-25}$ kg) is held at uniform density $n = 1.00\times 10^{19}$ m$^{-3}$.
+
+Conventions: ideal uniform Bose gas; $T_c$ from $n\lambda_T^3 = \zeta(3/2) = 2.612$ with $\lambda_T = \sqrt{2\pi\hbar^2/(m k_B T)}$; report nanokelvin.
+
+Tasks:
+1. Derive $k_B T_c = \frac{2\pi\hbar^2}{m}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ from the degeneracy condition.
+2. Evaluate $T_c$ in nK.
+3. Evaluate the phase-space density $n\lambda_T^3$ AT $T_c$ (trivially), and at $2T_c$.
+4. A student drops $\zeta(3/2)$ (sets $n\lambda^3 = 1$). Evaluate their $T_c$ and explain the physical meaning of the 2.612.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derive T_c.** At T_c, nλ_T³ = ζ(3/2). With λ_T³ = (2πℏ²/(m k_B T_c))^{3/2}: n(2πℏ²/(m k_B T_c))^{3/2} = ζ ⟹ (m k_B T_c/(2πℏ²))^{3/2} = n/ζ ⟹ **____**.
+2. **Evaluate.** T_c = (2πℏ²/(m k_B))(n/ζ)^{2/3} = **____ nK**.
+3. **Phase-space density.** At T_c it is ζ(3/2) = **____** by definition. Since nλ_T³ ∝ T^{−3/2}, at 2T_c it is ____/2^{3/2} = ____/____ = **____**.
+4. **Dropping ζ.** Setting nλ³ = 1 gives T_c' = (2πℏ²/(m k_B))·n^{2/3} = T_c·ζ^{2/3} = ____·____ = **____ nK** — an overestimate by ζ^{2/3} ≈ 1.90×. ζ(3/2) sums the Bose occupation over all excited states; ignoring it overstates the degeneracy required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{phase\_space\_density\_tc} &=  \\
+\mathrm{psd\_at\_2tc}              &=  \\
+\mathrm{tc\_nK}                    &=  \\
+\mathrm{tc\_no\_zeta\_nK}          &=  \\
+\end{aligned}
+\]",807867d325e90c638b61cb536499feb06872464545931ca084650fea364d2f14
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,61,STAT_BEC_001,BEC critical temperature - where the zeta function bites,Statistical Mechanics,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+An ideal gas of $^{87}$Rb atoms (mass $1.443\times 10^{-25}$ kg) is held at uniform density $n = 1.00\times 10^{19}$ m$^{-3}$.
+
+Conventions: ideal uniform Bose gas; $T_c$ from $n\lambda_T^3 = \zeta(3/2) = 2.612$ with $\lambda_T = \sqrt{2\pi\hbar^2/(m k_B T)}$; report nanokelvin.
+
+Tasks:
+1. Derive $k_B T_c = \frac{2\pi\hbar^2}{m}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ from the degeneracy condition.
+2. Evaluate $T_c$ in nK.
+3. Evaluate the phase-space density $n\lambda_T^3$ AT $T_c$ (trivially), and at $2T_c$.
+4. A student drops $\zeta(3/2)$ (sets $n\lambda^3 = 1$). Evaluate their $T_c$ and explain the physical meaning of the 2.612.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derive T_c.** At T_c, nλ_T³ = ζ(3/2). With λ_T³ = (2πℏ²/(m k_B T_c))^{3/2}: n(2πℏ²/(m k_B T_c))^{3/2} = ζ ⟹ (m k_B T_c/(2πℏ²))^{3/2} = n/ζ ⟹ **____**.
+2. **Evaluate.** T_c = (2πℏ²/(m k_B))(n/ζ)^{2/3} = **____ nK**.
+3. **Phase-space density.** At T_c it is ζ(3/2) = **____** by definition. Since nλ_T³ ∝ T^{−3/2}, at 2T_c it is ____/2^{3/2} = ____/____ = **____**.
+4. **Dropping ζ.** Setting nλ³ = 1 gives T_c' = (2πℏ²/(m k_B))·n^{2/3} = T_c·ζ^{2/3} = ____·____ = **____ nK** — an overestimate by ζ^{2/3} ≈ 1.90×. ζ(3/2) sums the Bose occupation over all excited states; ignoring it overstates the degeneracy required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{phase\_space\_density\_tc} &=  \\
+\mathrm{psd\_at\_2tc}              &=  \\
+\mathrm{tc\_nK}                    &=  \\
+\mathrm{tc\_no\_zeta\_nK}          &=  \\
+\end{aligned}
+\]",807867d325e90c638b61cb536499feb06872464545931ca084650fea364d2f14
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,62,STAT_BEC_001,BEC critical temperature - where the zeta function bites,Statistical Mechanics,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+An ideal gas of $^{87}$Rb atoms (mass $1.443\times 10^{-25}$ kg) is held at uniform density $n = 1.00\times 10^{19}$ m$^{-3}$.
+
+Conventions: ideal uniform Bose gas; $T_c$ from $n\lambda_T^3 = \zeta(3/2) = 2.612$ with $\lambda_T = \sqrt{2\pi\hbar^2/(m k_B T)}$; report nanokelvin.
+
+Tasks:
+1. Derive $k_B T_c = \frac{2\pi\hbar^2}{m}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ from the degeneracy condition.
+2. Evaluate $T_c$ in nK.
+3. Evaluate the phase-space density $n\lambda_T^3$ AT $T_c$ (trivially), and at $2T_c$.
+4. A student drops $\zeta(3/2)$ (sets $n\lambda^3 = 1$). Evaluate their $T_c$ and explain the physical meaning of the 2.612.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derive T_c.** At T_c, nλ_T³ = ζ(3/2). With λ_T³ = (2πℏ²/(m k_B T_c))^{3/2}: n(2πℏ²/(m k_B T_c))^{3/2} = ζ ⟹ (m k_B T_c/(2πℏ²))^{3/2} = n/ζ ⟹ **____**.
+2. **Evaluate.** T_c = (2πℏ²/(m k_B))(n/ζ)^{2/3} = **____ nK**.
+3. **Phase-space density.** At T_c it is ζ(3/2) = **____** by definition. Since nλ_T³ ∝ T^{−3/2}, at 2T_c it is ____/2^{3/2} = ____/____ = **____**.
+4. **Dropping ζ.** Setting nλ³ = 1 gives T_c' = (2πℏ²/(m k_B))·n^{2/3} = T_c·ζ^{2/3} = ____·____ = **____ nK** — an overestimate by ζ^{2/3} ≈ 1.90×. ζ(3/2) sums the Bose occupation over all excited states; ignoring it overstates the degeneracy required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{phase\_space\_density\_tc} &=  \\
+\mathrm{psd\_at\_2tc}              &=  \\
+\mathrm{tc\_nK}                    &=  \\
+\mathrm{tc\_no\_zeta\_nK}          &=  \\
+\end{aligned}
+\]",807867d325e90c638b61cb536499feb06872464545931ca084650fea364d2f14
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,63,STAT_BEC_001,BEC critical temperature - where the zeta function bites,Statistical Mechanics,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+An ideal gas of $^{87}$Rb atoms (mass $1.443\times 10^{-25}$ kg) is held at uniform density $n = 1.00\times 10^{19}$ m$^{-3}$.
+
+Conventions: ideal uniform Bose gas; $T_c$ from $n\lambda_T^3 = \zeta(3/2) = 2.612$ with $\lambda_T = \sqrt{2\pi\hbar^2/(m k_B T)}$; report nanokelvin.
+
+Tasks:
+1. Derive $k_B T_c = \frac{2\pi\hbar^2}{m}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ from the degeneracy condition.
+2. Evaluate $T_c$ in nK.
+3. Evaluate the phase-space density $n\lambda_T^3$ AT $T_c$ (trivially), and at $2T_c$.
+4. A student drops $\zeta(3/2)$ (sets $n\lambda^3 = 1$). Evaluate their $T_c$ and explain the physical meaning of the 2.612.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derive T_c.** At T_c, nλ_T³ = ζ(3/2). With λ_T³ = (2πℏ²/(m k_B T_c))^{3/2}: n(2πℏ²/(m k_B T_c))^{3/2} = ζ ⟹ (m k_B T_c/(2πℏ²))^{3/2} = n/ζ ⟹ **____**.
+2. **Evaluate.** T_c = (2πℏ²/(m k_B))(n/ζ)^{2/3} = **____ nK**.
+3. **Phase-space density.** At T_c it is ζ(3/2) = **____** by definition. Since nλ_T³ ∝ T^{−3/2}, at 2T_c it is ____/2^{3/2} = ____/____ = **____**.
+4. **Dropping ζ.** Setting nλ³ = 1 gives T_c' = (2πℏ²/(m k_B))·n^{2/3} = T_c·ζ^{2/3} = ____·____ = **____ nK** — an overestimate by ζ^{2/3} ≈ 1.90×. ζ(3/2) sums the Bose occupation over all excited states; ignoring it overstates the degeneracy required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{phase\_space\_density\_tc} &=  \\
+\mathrm{psd\_at\_2tc}              &=  \\
+\mathrm{tc\_nK}                    &=  \\
+\mathrm{tc\_no\_zeta\_nK}          &=  \\
+\end{aligned}
+\]",807867d325e90c638b61cb536499feb06872464545931ca084650fea364d2f14
+structured_prompt_pilot_v3,structured_prompt_pilot_v3,64,STAT_BEC_001,BEC critical temperature - where the zeta function bites,Statistical Mechanics,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+An ideal gas of $^{87}$Rb atoms (mass $1.443\times 10^{-25}$ kg) is held at uniform density $n = 1.00\times 10^{19}$ m$^{-3}$.
+
+Conventions: ideal uniform Bose gas; $T_c$ from $n\lambda_T^3 = \zeta(3/2) = 2.612$ with $\lambda_T = \sqrt{2\pi\hbar^2/(m k_B T)}$; report nanokelvin.
+
+Tasks:
+1. Derive $k_B T_c = \frac{2\pi\hbar^2}{m}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ from the degeneracy condition.
+2. Evaluate $T_c$ in nK.
+3. Evaluate the phase-space density $n\lambda_T^3$ AT $T_c$ (trivially), and at $2T_c$.
+4. A student drops $\zeta(3/2)$ (sets $n\lambda^3 = 1$). Evaluate their $T_c$ and explain the physical meaning of the 2.612.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derive T_c.** At T_c, nλ_T³ = ζ(3/2). With λ_T³ = (2πℏ²/(m k_B T_c))^{3/2}: n(2πℏ²/(m k_B T_c))^{3/2} = ζ ⟹ (m k_B T_c/(2πℏ²))^{3/2} = n/ζ ⟹ **____**.
+2. **Evaluate.** T_c = (2πℏ²/(m k_B))(n/ζ)^{2/3} = **____ nK**.
+3. **Phase-space density.** At T_c it is ζ(3/2) = **____** by definition. Since nλ_T³ ∝ T^{−3/2}, at 2T_c it is ____/2^{3/2} = ____/____ = **____**.
+4. **Dropping ζ.** Setting nλ³ = 1 gives T_c' = (2πℏ²/(m k_B))·n^{2/3} = T_c·ζ^{2/3} = ____·____ = **____ nK** — an overestimate by ζ^{2/3} ≈ 1.90×. ζ(3/2) sums the Bose occupation over all excited states; ignoring it overstates the degeneracy required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{phase\_space\_density\_tc} &=  \\
+\mathrm{psd\_at\_2tc}              &=  \\
+\mathrm{tc\_nK}                    &=  \\
+\mathrm{tc\_no\_zeta\_nK}          &=  \\
+\end{aligned}
+\]",807867d325e90c638b61cb536499feb06872464545931ca084650fea364d2f14

@@ -1,0 +1,136 @@
+batch,scenario_id,model_name,deterministic_grade,error_tags,failed_fields,contains_mismatch,contains_not_found,contains_unparseable,contains_gold_data_issue,would_be_not_gradeable_under_phase2_rule,reason
+V2,CM_FOUCAULT_001,Mistral NeMo 12B,FAIL,period_hours:MISMATCH;rate_deg_per_day:MISMATCH;rate_deg_per_hour:MISMATCH,period_hours;rate_deg_per_day;rate_deg_per_hour,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,COS_CMB_001,Llama 3.1 8B Instruct,FAIL,T_rec_K:MISMATCH;log10_energy_ratio:MISMATCH;log10_number_ratio:MISMATCH,T_rec_K;log10_energy_ratio;log10_number_ratio,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,COS_CMB_001,Mistral NeMo 12B,FAIL,log10_energy_ratio:MISMATCH;log10_number_ratio:MISMATCH,log10_energy_ratio;log10_number_ratio,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,COS_CMB_001,Mistral Small 3.2 24B Instruct,FAIL,log10_energy_ratio:MISMATCH;log10_number_ratio:MISMATCH,log10_energy_ratio;log10_number_ratio,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,GR_ISCO_001,Gemma 3 12B IT,FAIL,f_gw_hz:MISMATCH;f_orbital_hz:MISMATCH;r_isco_km:MISMATCH,f_gw_hz;f_orbital_hz;r_isco_km,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,GR_ISCO_001,Gemma 3 27B IT,FAIL,f_gw_hz:MISMATCH;f_orbital_hz:MISMATCH,f_gw_hz;f_orbital_hz,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,GR_ISCO_001,Gemma 4 31B IT,FAIL,f_gw_hz:MISMATCH;f_orbital_hz:MISMATCH,f_gw_hz;f_orbital_hz,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,GR_ISCO_001,Granite 4.1 8B,FAIL,f_gw_hz:MISMATCH;f_orbital_hz:MISMATCH,f_gw_hz;f_orbital_hz,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,GR_ISCO_001,Llama 3.1 8B Instruct,FAIL,f_gw_hz:MISMATCH;f_orbital_hz:MISMATCH;r_isco_km:MISMATCH,f_gw_hz;f_orbital_hz;r_isco_km,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,GR_ISCO_001,Ministral 3 8B,FAIL,f_gw_hz:MISMATCH;f_orbital_hz:MISMATCH;r_isco_km:MISMATCH,f_gw_hz;f_orbital_hz;r_isco_km,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,GR_ISCO_001,Mistral NeMo 12B,FAIL,f_gw_hz:MISMATCH;f_orbital_hz:MISMATCH;r_isco_km:MISMATCH,f_gw_hz;f_orbital_hz;r_isco_km,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,GR_ISCO_001,Mistral Small 3.2 24B Instruct,FAIL,f_gw_hz:MISMATCH;f_orbital_hz:MISMATCH;r_isco_km:MISMATCH,f_gw_hz;f_orbital_hz;r_isco_km,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,QI_TELEPORT_001,Ministral 3 8B,FAIL,classical_limit:UNPARSEABLE:parse-fail:TokenError,classical_limit,False,False,True,False,True,UNPARSEABLE
+V2,QI_TELEPORT_001,Mistral NeMo 12B,FAIL,teleport_fidelity:MISMATCH,teleport_fidelity,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,QFT_G2_001,Gemma 3 12B IT,FAIL,anomaly_times_1e3:MISMATCH,anomaly_times_1e3,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,QFT_G2_001,Llama 3.1 8B Instruct,FAIL,anomaly_times_1e3:MISMATCH,anomaly_times_1e3,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,QFT_G2_001,Ministral 3 8B,FAIL,anomaly_times_1e3:MISMATCH,anomaly_times_1e3,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,QFT_G2_001,Mistral NeMo 12B,FAIL,anomaly_times_1e3:MISMATCH,anomaly_times_1e3,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,QFT_G2_001,Mistral Small 3.2 24B Instruct,FAIL,anomaly_times_1e3:MISMATCH,anomaly_times_1e3,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,SR_ROCKET_001,Gemma 3 12B IT,FAIL,distance_ly:MISMATCH;final_beta:MISMATCH;lab_time_yr:MISMATCH,distance_ly;final_beta;lab_time_yr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,SR_ROCKET_001,Gemma 3 27B IT,FAIL,distance_ly:MISMATCH;final_beta:MISMATCH;lab_time_yr:MISMATCH,distance_ly;final_beta;lab_time_yr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,SR_ROCKET_001,Granite 4.1 8B,FAIL,distance_ly:MISMATCH;lab_time_yr:MISMATCH,distance_ly;lab_time_yr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,SR_ROCKET_001,Llama 3.1 8B Instruct,FAIL,distance_ly:MISMATCH;final_beta:MISMATCH;lab_time_yr:MISMATCH,distance_ly;final_beta;lab_time_yr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,SR_ROCKET_001,Ministral 3 8B,FAIL,distance_ly:MISMATCH;final_beta:MISMATCH;lab_time_yr:MISMATCH,distance_ly;final_beta;lab_time_yr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,SR_ROCKET_001,Mistral NeMo 12B,FAIL,distance_ly:UNPARSEABLE:parse-fail:TokenError;final_beta:MISMATCH;lab_time_yr:UNPARSEABLE:parse-fail:TokenError,distance_ly;final_beta;lab_time_yr,True,False,True,False,True,UNPARSEABLE
+V2,SR_ROCKET_001,Mistral Small 3.2 24B Instruct,FAIL,distance_ly:MISMATCH;final_beta:MISMATCH;lab_time_yr:MISMATCH,distance_ly;final_beta;lab_time_yr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V2,STAT_ISING_001,Mistral NeMo 12B,FAIL,ratio_exact_mf:MISMATCH;tc_exact:MISMATCH,ratio_exact_mf;tc_exact,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,CM_APSIDAL_001,Gemma 3 12B IT,FAIL,apsidal_n_minus1_deg:MISMATCH;precession_per_period_deg:MISMATCH,apsidal_n_minus1_deg;precession_per_period_deg,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,CM_APSIDAL_001,Gemma 3 27B IT,FAIL,apsidal_n_minus1_deg:MISMATCH;precession_per_period_deg:MISMATCH,apsidal_n_minus1_deg;precession_per_period_deg,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,CM_APSIDAL_001,Llama 3.1 8B Instruct,FAIL,apsidal_n_minus1_deg:MISMATCH;precession_per_period_deg:MISMATCH,apsidal_n_minus1_deg;precession_per_period_deg,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,CM_APSIDAL_001,Ministral 3 8B,FAIL,apsidal_n_minus1_deg:MISMATCH;precession_per_period_deg:MISMATCH,apsidal_n_minus1_deg;precession_per_period_deg,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,CM_APSIDAL_001,Mistral NeMo 12B,FAIL,apsidal_n_minus1_deg:MISMATCH;precession_per_period_deg:MISMATCH,apsidal_n_minus1_deg;precession_per_period_deg,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,COS_DL_001,Gemma 3 12B IT,FAIL,hubble_distance_mpc:MISMATCH,hubble_distance_mpc,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,COS_DL_001,Ministral 3 8B,FAIL,dl_eds_mpc:MISMATCH;dl_lcdm_mpc:MISMATCH;dl_linear_mpc:MISMATCH;hubble_distance_mpc:MISMATCH,dl_eds_mpc;dl_lcdm_mpc;dl_linear_mpc;hubble_distance_mpc,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,COS_DL_001,Mistral NeMo 12B,FAIL,dl_eds_mpc:MISMATCH;dl_lcdm_mpc:MISMATCH;dl_linear_mpc:MISMATCH;hubble_distance_mpc:MISMATCH,dl_eds_mpc;dl_lcdm_mpc;dl_linear_mpc;hubble_distance_mpc,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,GR_GPS_001,Gemma 3 12B IT,FAIL,grav_shift_us_day:MISMATCH;net_shift_us_day:MISMATCH;velocity_shift_us_day:MISMATCH,grav_shift_us_day;net_shift_us_day;velocity_shift_us_day,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,GR_GPS_001,Gemma 3 27B IT,FAIL,grav_shift_us_day:MISMATCH;net_shift_us_day:MISMATCH;velocity_shift_us_day:MISMATCH,grav_shift_us_day;net_shift_us_day;velocity_shift_us_day,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,GR_GPS_001,Gemma 4 31B IT,FAIL,velocity_shift_us_day:MISMATCH,velocity_shift_us_day,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,GR_GPS_001,Granite 4.1 8B,FAIL,velocity_shift_us_day:MISMATCH,velocity_shift_us_day,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,GR_GPS_001,Llama 3.1 8B Instruct,FAIL,grav_shift_us_day:MISMATCH;net_shift_us_day:MISMATCH;velocity_shift_us_day:MISMATCH,grav_shift_us_day;net_shift_us_day;velocity_shift_us_day,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,GR_GPS_001,Ministral 3 8B,FAIL,grav_shift_us_day:MISMATCH;net_shift_us_day:MISMATCH;velocity_shift_us_day:MISMATCH,grav_shift_us_day;net_shift_us_day;velocity_shift_us_day,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,GR_GPS_001,Mistral NeMo 12B,FAIL,grav_shift_us_day:MISMATCH;net_shift_us_day:MISMATCH;velocity_shift_us_day:MISMATCH,grav_shift_us_day;net_shift_us_day;velocity_shift_us_day,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,GR_GPS_001,Mistral Small 3.2 24B Instruct,FAIL,grav_shift_us_day:MISMATCH;net_shift_us_day:MISMATCH;velocity_shift_us_day:MISMATCH,grav_shift_us_day;net_shift_us_day;velocity_shift_us_day,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QFT_CASIMIR_001,Gemma 3 12B IT,FAIL,energy_per_area_uJ_m2:MISMATCH;pressure_double_d_pa:MISMATCH;pressure_pa:MISMATCH,energy_per_area_uJ_m2;pressure_double_d_pa;pressure_pa,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QFT_CASIMIR_001,Gemma 3 27B IT,FAIL,energy_per_area_uJ_m2:MISMATCH;pressure_double_d_pa:MISMATCH;pressure_pa:MISMATCH,energy_per_area_uJ_m2;pressure_double_d_pa;pressure_pa,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QFT_CASIMIR_001,Gemma 4 31B IT,FAIL,energy_per_area_uJ_m2:MISMATCH;pressure_double_d_pa:MISMATCH;pressure_pa:MISMATCH,energy_per_area_uJ_m2;pressure_double_d_pa;pressure_pa,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QFT_CASIMIR_001,Llama 3.1 8B Instruct,FAIL,energy_per_area_uJ_m2:MISMATCH;pressure_double_d_pa:MISMATCH;pressure_pa:MISMATCH,energy_per_area_uJ_m2;pressure_double_d_pa;pressure_pa,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QFT_CASIMIR_001,Ministral 3 8B,FAIL,energy_per_area_uJ_m2:MISMATCH;pressure_double_d_pa:MISMATCH;pressure_pa:MISMATCH,energy_per_area_uJ_m2;pressure_double_d_pa;pressure_pa,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QFT_CASIMIR_001,Mistral NeMo 12B,FAIL,energy_per_area_uJ_m2:MISMATCH;pressure_double_d_pa:MISMATCH;pressure_pa:MISMATCH,energy_per_area_uJ_m2;pressure_double_d_pa;pressure_pa,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QFT_CASIMIR_001,Mistral Small 3.2 24B Instruct,FAIL,energy_per_area_uJ_m2:MISMATCH;pressure_double_d_pa:MISMATCH;pressure_pa:MISMATCH,energy_per_area_uJ_m2;pressure_double_d_pa;pressure_pa,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QI_WERNER_001,Llama 3.1 8B Instruct,FAIL,concurrence_at_p05:MISMATCH,concurrence_at_p05,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QI_WERNER_001,Mistral NeMo 12B,FAIL,concurrence_at_p05:MISMATCH,concurrence_at_p05,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QM_TUNNEL_001,Gemma 3 12B IT,FAIL,kappa_L:MISMATCH;kappa_per_nm:MISMATCH;log10_T:MISMATCH,kappa_L;kappa_per_nm;log10_T,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QM_TUNNEL_001,Gemma 3 27B IT,FAIL,kappa_L:MISMATCH;kappa_per_nm:MISMATCH;log10_T:MISMATCH,kappa_L;kappa_per_nm;log10_T,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QM_TUNNEL_001,Llama 3.1 8B Instruct,FAIL,kappa_L:MISMATCH;kappa_per_nm:MISMATCH;log10_T:MISMATCH,kappa_L;kappa_per_nm;log10_T,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QM_TUNNEL_001,Ministral 3 8B,FAIL,kappa_L:MISMATCH;kappa_per_nm:MISMATCH;log10_T:MISMATCH,kappa_L;kappa_per_nm;log10_T,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,QM_TUNNEL_001,Mistral NeMo 12B,FAIL,kappa_L:MISMATCH;kappa_per_nm:UNPARSEABLE:parse-fail:SympifyError;log10_T:MISMATCH;prefactor:MISMATCH,kappa_L;kappa_per_nm;log10_T;prefactor,True,False,True,False,True,UNPARSEABLE
+V3,QM_TUNNEL_001,Mistral Small 3.2 24B Instruct,FAIL,kappa_L:MISMATCH;kappa_per_nm:MISMATCH;log10_T:MISMATCH,kappa_L;kappa_per_nm;log10_T,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,STAT_BEC_001,Gemma 3 12B IT,FAIL,tc_nK:MISMATCH;tc_no_zeta_nK:MISMATCH,tc_nK;tc_no_zeta_nK,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,STAT_BEC_001,Gemma 3 27B IT,FAIL,tc_nK:MISMATCH;tc_no_zeta_nK:MISMATCH,tc_nK;tc_no_zeta_nK,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,STAT_BEC_001,Gemma 4 31B IT,FAIL,tc_nK:MISMATCH;tc_no_zeta_nK:MISMATCH,tc_nK;tc_no_zeta_nK,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,STAT_BEC_001,Ministral 3 8B,FAIL,tc_nK:MISMATCH;tc_no_zeta_nK:MISMATCH,tc_nK;tc_no_zeta_nK,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,STAT_BEC_001,Mistral NeMo 12B,FAIL,psd_at_2tc:MISMATCH;tc_nK:MISMATCH;tc_no_zeta_nK:MISMATCH,psd_at_2tc;tc_nK;tc_no_zeta_nK,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V3,STAT_BEC_001,Mistral Small 3.2 24B Instruct,FAIL,tc_nK:MISMATCH;tc_no_zeta_nK:MISMATCH,tc_nK;tc_no_zeta_nK,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,CM_KAPITZA_001,Gemma 3 12B IT,FAIL,f_min_hz:MISMATCH;omega_min_rad_s:MISMATCH,f_min_hz;omega_min_rad_s,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,CM_KAPITZA_001,Gemma 3 27B IT,FAIL,f_min_hz:MISMATCH;omega_min_rad_s:MISMATCH,f_min_hz;omega_min_rad_s,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,CM_KAPITZA_001,Granite 4.1 8B,FAIL,f_min_hz:MISMATCH;omega_min_rad_s:MISMATCH,f_min_hz;omega_min_rad_s,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,CM_KAPITZA_001,Llama 3.1 8B Instruct,FAIL,f_min_hz:MISMATCH,f_min_hz,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,CM_KAPITZA_001,Ministral 3 8B,FAIL,f_min_hz:MISMATCH;omega_min_rad_s:MISMATCH,f_min_hz;omega_min_rad_s,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,CM_KAPITZA_001,Mistral NeMo 12B,FAIL,f_min_hz:MISMATCH;omega_min_rad_s:MISMATCH,f_min_hz;omega_min_rad_s,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,CM_KAPITZA_001,Mistral Small 3.2 24B Instruct,FAIL,f_min_hz:MISMATCH;omega_min_rad_s:MISMATCH,f_min_hz;omega_min_rad_s,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,COS_DESITTER_001,Gemma 3 12B IT,FAIL,efolds_to_gh:MISMATCH;gh_temp_e30_K:MISMATCH;horizon_gpc:MISMATCH,efolds_to_gh;gh_temp_e30_K;horizon_gpc,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,COS_DESITTER_001,Gemma 3 27B IT,FAIL,efolds_to_gh:MISMATCH;gh_temp_e30_K:MISMATCH;horizon_gpc:MISMATCH,efolds_to_gh;gh_temp_e30_K;horizon_gpc,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,COS_DESITTER_001,Granite 4.1 8B,FAIL,efolds_to_gh:MISMATCH,efolds_to_gh,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,COS_DESITTER_001,Llama 3.1 8B Instruct,FAIL,efolds_to_gh:MISMATCH;gh_temp_e30_K:MISMATCH;horizon_gpc:MISMATCH,efolds_to_gh;gh_temp_e30_K;horizon_gpc,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,COS_DESITTER_001,Ministral 3 8B,FAIL,gh_temp_e30_K:MISMATCH;horizon_gpc:MISMATCH,gh_temp_e30_K;horizon_gpc,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,COS_DESITTER_001,Mistral NeMo 12B,FAIL,efolds_to_gh:MISMATCH;gh_temp_e30_K:MISMATCH,efolds_to_gh;gh_temp_e30_K,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,COS_DESITTER_001,Mistral Small 3.2 24B Instruct,FAIL,efolds_to_gh:MISMATCH;gh_temp_e30_K:MISMATCH;horizon_gpc:MISMATCH,efolds_to_gh;gh_temp_e30_K;horizon_gpc,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,GR_PERI_001,Gemma 3 12B IT,FAIL,advance_arcsec_orbit:MISMATCH,advance_arcsec_orbit,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,GR_PERI_001,Gemma 3 27B IT,FAIL,advance_arcsec_century:MISMATCH;advance_arcsec_orbit:MISMATCH,advance_arcsec_century;advance_arcsec_orbit,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,GR_PERI_001,Granite 4.1 8B,FAIL,advance_arcsec_orbit:MISMATCH,advance_arcsec_orbit,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,GR_PERI_001,Llama 3.1 8B Instruct,FAIL,advance_arcsec_century:MISMATCH;advance_arcsec_orbit:MISMATCH,advance_arcsec_century;advance_arcsec_orbit,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,GR_PERI_001,Ministral 3 8B,FAIL,advance_arcsec_orbit:MISMATCH,advance_arcsec_orbit,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,GR_PERI_001,Mistral NeMo 12B,FAIL,advance_arcsec_century:MISMATCH;advance_arcsec_orbit:MISMATCH,advance_arcsec_century;advance_arcsec_orbit,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,GR_PERI_001,Mistral Small 3.2 24B Instruct,FAIL,advance_arcsec_orbit:MISMATCH,advance_arcsec_orbit,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QFT_UNRUH_001,Gemma 3 12B IT,FAIL,accel_for_1K_e20:MISMATCH;unruh_temp_K:MISMATCH,accel_for_1K_e20;unruh_temp_K,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QFT_UNRUH_001,Llama 3.1 8B Instruct,FAIL,accel_for_1K_e20:MISMATCH;unruh_temp_K:MISMATCH,accel_for_1K_e20;unruh_temp_K,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QFT_UNRUH_001,Ministral 3 8B,FAIL,accel_for_1K_e20:MISMATCH;unruh_temp_K:MISMATCH,accel_for_1K_e20;unruh_temp_K,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QFT_UNRUH_001,Mistral NeMo 12B,FAIL,accel_for_1K_e20:MISMATCH;unruh_temp_K:MISMATCH,accel_for_1K_e20;unruh_temp_K,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QFT_UNRUH_001,Mistral Small 3.2 24B Instruct,FAIL,accel_for_1K_e20:MISMATCH;unruh_temp_K:MISMATCH,accel_for_1K_e20;unruh_temp_K,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QI_HOLEVO_001,Gemma 3 27B IT,FAIL,avg_state_purity:MISMATCH;eigenvalue_large:MISMATCH;holevo_chi_bits:MISMATCH,avg_state_purity;eigenvalue_large;holevo_chi_bits,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QI_HOLEVO_001,Granite 4.1 8B,FAIL,avg_state_purity:MISMATCH;eigenvalue_large:MISMATCH;holevo_chi_bits:MISMATCH,avg_state_purity;eigenvalue_large;holevo_chi_bits,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QI_HOLEVO_001,Llama 3.1 8B Instruct,FAIL,avg_state_purity:MISMATCH;eigenvalue_large:MISMATCH;holevo_chi_bits:MISMATCH,avg_state_purity;eigenvalue_large;holevo_chi_bits,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QI_HOLEVO_001,Ministral 3 8B,FAIL,avg_state_purity:MISMATCH;eigenvalue_large:MISMATCH;holevo_chi_bits:UNPARSEABLE:parse-fail:TokenError,avg_state_purity;eigenvalue_large;holevo_chi_bits,True,False,True,False,True,UNPARSEABLE
+V4,QI_HOLEVO_001,Mistral NeMo 12B,FAIL,avg_state_purity:MISMATCH;eigenvalue_large:MISMATCH;holevo_chi_bits:MISMATCH,avg_state_purity;eigenvalue_large;holevo_chi_bits,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QI_HOLEVO_001,Mistral Small 3.2 24B Instruct,FAIL,avg_state_purity:MISMATCH;holevo_chi_bits:MISMATCH,avg_state_purity;holevo_chi_bits,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QM_AB_001,Llama 3.1 8B Instruct,FAIL,flux_quanta:MISMATCH;fringe_shift:MISMATCH;total_phase_rad:MISMATCH,flux_quanta;fringe_shift;total_phase_rad,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QM_AB_001,Ministral 3 8B,FAIL,flux_quanta:MISMATCH;fringe_shift:MISMATCH;total_phase_rad:MISMATCH,flux_quanta;fringe_shift;total_phase_rad,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QM_AB_001,Mistral NeMo 12B,FAIL,flux_quanta:MISMATCH;fringe_shift:MISMATCH;total_phase_rad:MISMATCH,flux_quanta;fringe_shift;total_phase_rad,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,QM_AB_001,Mistral Small 3.2 24B Instruct,FAIL,flux_quanta:MISMATCH;fringe_shift:MISMATCH;total_phase_rad:MISMATCH,flux_quanta;fringe_shift;total_phase_rad,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,SR_TWIN_001,Gemma 3 27B IT,FAIL,earth_time_yr:MISMATCH;traveler_time_yr:MISMATCH,earth_time_yr;traveler_time_yr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,SR_TWIN_001,Mistral NeMo 12B,FAIL,traveler_time_yr:MISMATCH,traveler_time_yr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,STAT_LANDAUER_001,Gemma 3 12B IT,FAIL,landauer_meV:MISMATCH;landauer_zJ:MISMATCH,landauer_meV;landauer_zJ,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,STAT_LANDAUER_001,Gemma 3 27B IT,FAIL,landauer_meV:MISMATCH,landauer_meV,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,STAT_LANDAUER_001,Llama 3.1 8B Instruct,FAIL,landauer_meV:MISMATCH;landauer_zJ:MISMATCH,landauer_meV;landauer_zJ,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,STAT_LANDAUER_001,Ministral 3 8B,FAIL,landauer_meV:MISMATCH,landauer_meV,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,STAT_LANDAUER_001,Mistral NeMo 12B,FAIL,landauer_meV:MISMATCH;landauer_zJ:MISMATCH,landauer_meV;landauer_zJ,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V4,STAT_LANDAUER_001,Mistral Small 3.2 24B Instruct,FAIL,landauer_meV:MISMATCH;landauer_zJ:MISMATCH,landauer_meV;landauer_zJ,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,CM_TOP_001,Llama 3.1 8B Instruct,FAIL,precession_double_spin:MISMATCH;precession_period_s:MISMATCH;precession_rad_s:MISMATCH,precession_double_spin;precession_period_s;precession_rad_s,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,CM_TOP_001,Mistral NeMo 12B,FAIL,precession_double_spin:MISMATCH;precession_period_s:MISMATCH;precession_rad_s:MISMATCH,precession_double_spin;precession_period_s;precession_rad_s,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,COS_AGE_001,Gemma 3 12B IT,FAIL,hubble_time_gyr:MISMATCH;lcdm_age_gyr:MISMATCH;matter_age_gyr:MISMATCH,hubble_time_gyr;lcdm_age_gyr;matter_age_gyr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,COS_AGE_001,Gemma 3 27B IT,FAIL,lcdm_age_gyr:MISMATCH,lcdm_age_gyr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,COS_AGE_001,Granite 4.1 8B,FAIL,lcdm_age_gyr:MISMATCH,lcdm_age_gyr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,COS_AGE_001,Llama 3.1 8B Instruct,FAIL,hubble_time_gyr:UNPARSEABLE:parse-fail:SympifyError;lcdm_age_gyr:MISMATCH;matter_age_gyr:MISMATCH,hubble_time_gyr;lcdm_age_gyr;matter_age_gyr,True,False,True,False,True,UNPARSEABLE
+V5,COS_AGE_001,Ministral 3 8B,FAIL,lcdm_age_gyr:MISMATCH,lcdm_age_gyr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,COS_AGE_001,Mistral NeMo 12B,FAIL,hubble_time_gyr:MISMATCH;lcdm_age_gyr:MISMATCH;matter_age_gyr:MISMATCH,hubble_time_gyr;lcdm_age_gyr;matter_age_gyr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,COS_AGE_001,Mistral Small 3.2 24B Instruct,FAIL,lcdm_age_gyr:MISMATCH,lcdm_age_gyr,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,GR_CHIRP_001,Gemma 3 12B IT,FAIL,chirp_mass_msun:MISMATCH;each_mass_msun:MISMATCH;total_mass_msun:MISMATCH,chirp_mass_msun;each_mass_msun;total_mass_msun,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,GR_CHIRP_001,Gemma 3 27B IT,FAIL,chirp_mass_msun:MISMATCH;each_mass_msun:MISMATCH;total_mass_msun:MISMATCH,chirp_mass_msun;each_mass_msun;total_mass_msun,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,GR_CHIRP_001,Gemma 4 31B IT,FAIL,chirp_mass_msun:MISMATCH;each_mass_msun:MISMATCH;total_mass_msun:MISMATCH,chirp_mass_msun;each_mass_msun;total_mass_msun,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,GR_CHIRP_001,Granite 4.1 8B,FAIL,chirp_mass_msun:MISMATCH;each_mass_msun:MISMATCH;total_mass_msun:MISMATCH,chirp_mass_msun;each_mass_msun;total_mass_msun,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,GR_CHIRP_001,Llama 3.1 8B Instruct,FAIL,chirp_mass_msun:MISMATCH;each_mass_msun:MISMATCH;total_mass_msun:MISMATCH,chirp_mass_msun;each_mass_msun;total_mass_msun,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,GR_CHIRP_001,Ministral 3 8B,FAIL,chirp_mass_msun:MISMATCH;each_mass_msun:MISMATCH;total_mass_msun:MISMATCH,chirp_mass_msun;each_mass_msun;total_mass_msun,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,GR_CHIRP_001,Mistral NeMo 12B,FAIL,chirp_mass_msun:MISMATCH;each_mass_msun:MISMATCH;total_mass_msun:MISMATCH,chirp_mass_msun;each_mass_msun;total_mass_msun,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,GR_CHIRP_001,Mistral Small 3.2 24B Instruct,FAIL,chirp_mass_msun:MISMATCH;each_mass_msun:MISMATCH;total_mass_msun:MISMATCH,chirp_mass_msun;each_mass_msun;total_mass_msun,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,QFT_YUKAWA_001,Mistral NeMo 12B,FAIL,nonreduced_fm:MISMATCH,nonreduced_fm,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,QM_RT_001,Gemma 3 12B IT,FAIL,energy_unit_ev:MISMATCH;first_resonance_ev:MISMATCH,energy_unit_ev;first_resonance_ev,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,QM_RT_001,Gemma 3 27B IT,FAIL,energy_unit_ev:MISMATCH;first_resonance_ev:MISMATCH,energy_unit_ev;first_resonance_ev,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,QM_RT_001,Granite 4.1 8B,FAIL,energy_unit_ev:MISMATCH;first_resonance_ev:MISMATCH;n_lowest:MISMATCH,energy_unit_ev;first_resonance_ev;n_lowest,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,QM_RT_001,Llama 3.1 8B Instruct,FAIL,energy_unit_ev:MISMATCH;first_resonance_ev:MISMATCH,energy_unit_ev;first_resonance_ev,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,QM_RT_001,Ministral 3 8B,FAIL,energy_unit_ev:MISMATCH;first_resonance_ev:MISMATCH,energy_unit_ev;first_resonance_ev,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,QM_RT_001,Mistral NeMo 12B,FAIL,energy_unit_ev:MISMATCH;first_resonance_ev:MISMATCH,energy_unit_ev;first_resonance_ev,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,QM_RT_001,Mistral Small 3.2 24B Instruct,FAIL,energy_unit_ev:MISMATCH;first_resonance_ev:MISMATCH,energy_unit_ev;first_resonance_ev,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,STAT_NEGT_001,Llama 3.1 8B Instruct,FAIL,abs_temperature_K:MISMATCH;temperature_K:MISMATCH,abs_temperature_K;temperature_K,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch
+V5,STAT_NEGT_001,Mistral NeMo 12B,FAIL,abs_temperature_K:MISMATCH;temperature_K:MISMATCH,abs_temperature_K;temperature_K,True,False,False,False,False,all_failed_fields_are_gradeable_mismatch

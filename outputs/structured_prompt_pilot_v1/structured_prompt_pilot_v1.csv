@@ -1,0 +1,1288 @@
+pilot_name,prompt_sequence,scenario_id,scenario_title,category,model_name,prompt,prompt_sha256
+structured_prompt_pilot_v1,1,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Gemma 3 12B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{rate_deg_per_day}  &=  \
+\mathrm{rate_deg_per_hour} &=  \
+\mathrm{period_hours}       &=
+\end{aligned}
+]",58b6d5527d7eae072ee86fef75dfa1b90ef09d5a9da1f83b0afce28bb35ab5a3
+structured_prompt_pilot_v1,2,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Gemma 3 27B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{rate_deg_per_day}  &=  \
+\mathrm{rate_deg_per_hour} &=  \
+\mathrm{period_hours}       &=
+\end{aligned}
+]",58b6d5527d7eae072ee86fef75dfa1b90ef09d5a9da1f83b0afce28bb35ab5a3
+structured_prompt_pilot_v1,3,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Gemma 4 31B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{rate_deg_per_day}  &=  \
+\mathrm{rate_deg_per_hour} &=  \
+\mathrm{period_hours}       &=
+\end{aligned}
+]",58b6d5527d7eae072ee86fef75dfa1b90ef09d5a9da1f83b0afce28bb35ab5a3
+structured_prompt_pilot_v1,4,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Granite 4.1 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{rate_deg_per_day}  &=  \
+\mathrm{rate_deg_per_hour} &=  \
+\mathrm{period_hours}       &=
+\end{aligned}
+]",58b6d5527d7eae072ee86fef75dfa1b90ef09d5a9da1f83b0afce28bb35ab5a3
+structured_prompt_pilot_v1,5,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Llama 3.1 8B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{rate_deg_per_day}  &=  \
+\mathrm{rate_deg_per_hour} &=  \
+\mathrm{period_hours}       &=
+\end{aligned}
+]",58b6d5527d7eae072ee86fef75dfa1b90ef09d5a9da1f83b0afce28bb35ab5a3
+structured_prompt_pilot_v1,6,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Ministral 3 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{rate_deg_per_day}  &=  \
+\mathrm{rate_deg_per_hour} &=  \
+\mathrm{period_hours}       &=
+\end{aligned}
+]",58b6d5527d7eae072ee86fef75dfa1b90ef09d5a9da1f83b0afce28bb35ab5a3
+structured_prompt_pilot_v1,7,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Mistral NeMo 12B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{rate_deg_per_day}  &=  \
+\mathrm{rate_deg_per_hour} &=  \
+\mathrm{period_hours}       &=
+\end{aligned}
+]",58b6d5527d7eae072ee86fef75dfa1b90ef09d5a9da1f83b0afce28bb35ab5a3
+structured_prompt_pilot_v1,8,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Mistral Small 3.2 24B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{rate_deg_per_day}  &=  \
+\mathrm{rate_deg_per_hour} &=  \
+\mathrm{period_hours}       &=
+\end{aligned}
+]",58b6d5527d7eae072ee86fef75dfa1b90ef09d5a9da1f83b0afce28bb35ab5a3
+structured_prompt_pilot_v1,9,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{rate_deg_per_day}  &=  \
+\mathrm{rate_deg_per_hour} &=  \
+\mathrm{period_hours}       &=
+\end{aligned}
+]",58b6d5527d7eae072ee86fef75dfa1b90ef09d5a9da1f83b0afce28bb35ab5a3
+structured_prompt_pilot_v1,10,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Gemma 3 12B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{T_rec_K}            &=  \
+\mathrm{log10_number_ratio} &=  \
+\mathrm{log10_energy_ratio} &=
+\end{aligned}
+]",88aefd581a3caa636a1bbd543f196a1ad3b9662d2b408c1686d63aecf2bd527d
+structured_prompt_pilot_v1,11,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Gemma 3 27B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{T_rec_K}            &=  \
+\mathrm{log10_number_ratio} &=  \
+\mathrm{log10_energy_ratio} &=
+\end{aligned}
+]",88aefd581a3caa636a1bbd543f196a1ad3b9662d2b408c1686d63aecf2bd527d
+structured_prompt_pilot_v1,12,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Gemma 4 31B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{T_rec_K}            &=  \
+\mathrm{log10_number_ratio} &=  \
+\mathrm{log10_energy_ratio} &=
+\end{aligned}
+]",88aefd581a3caa636a1bbd543f196a1ad3b9662d2b408c1686d63aecf2bd527d
+structured_prompt_pilot_v1,13,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Granite 4.1 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{T_rec_K}            &=  \
+\mathrm{log10_number_ratio} &=  \
+\mathrm{log10_energy_ratio} &=
+\end{aligned}
+]",88aefd581a3caa636a1bbd543f196a1ad3b9662d2b408c1686d63aecf2bd527d
+structured_prompt_pilot_v1,14,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Llama 3.1 8B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{T_rec_K}            &=  \
+\mathrm{log10_number_ratio} &=  \
+\mathrm{log10_energy_ratio} &=
+\end{aligned}
+]",88aefd581a3caa636a1bbd543f196a1ad3b9662d2b408c1686d63aecf2bd527d
+structured_prompt_pilot_v1,15,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Ministral 3 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{T_rec_K}            &=  \
+\mathrm{log10_number_ratio} &=  \
+\mathrm{log10_energy_ratio} &=
+\end{aligned}
+]",88aefd581a3caa636a1bbd543f196a1ad3b9662d2b408c1686d63aecf2bd527d
+structured_prompt_pilot_v1,16,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Mistral NeMo 12B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{T_rec_K}            &=  \
+\mathrm{log10_number_ratio} &=  \
+\mathrm{log10_energy_ratio} &=
+\end{aligned}
+]",88aefd581a3caa636a1bbd543f196a1ad3b9662d2b408c1686d63aecf2bd527d
+structured_prompt_pilot_v1,17,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Mistral Small 3.2 24B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{T_rec_K}            &=  \
+\mathrm{log10_number_ratio} &=  \
+\mathrm{log10_energy_ratio} &=
+\end{aligned}
+]",88aefd581a3caa636a1bbd543f196a1ad3b9662d2b408c1686d63aecf2bd527d
+structured_prompt_pilot_v1,18,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{T_rec_K}            &=  \
+\mathrm{log10_number_ratio} &=  \
+\mathrm{log10_energy_ratio} &=
+\end{aligned}
+]",88aefd581a3caa636a1bbd543f196a1ad3b9662d2b408c1686d63aecf2bd527d
+structured_prompt_pilot_v1,19,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Gemma 3 12B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{r_isco_km}    &=  \
+\mathrm{f_orbital_hz} &=  \
+\mathrm{f_gw_hz}      &=
+\end{aligned}
+]",7ea6f7089b034b6d62e74c46595fedb07b2805f4eb18895079d393140c0f9482
+structured_prompt_pilot_v1,20,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Gemma 3 27B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{r_isco_km}    &=  \
+\mathrm{f_orbital_hz} &=  \
+\mathrm{f_gw_hz}      &=
+\end{aligned}
+]",7ea6f7089b034b6d62e74c46595fedb07b2805f4eb18895079d393140c0f9482
+structured_prompt_pilot_v1,21,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Gemma 4 31B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{r_isco_km}    &=  \
+\mathrm{f_orbital_hz} &=  \
+\mathrm{f_gw_hz}      &=
+\end{aligned}
+]",7ea6f7089b034b6d62e74c46595fedb07b2805f4eb18895079d393140c0f9482
+structured_prompt_pilot_v1,22,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Granite 4.1 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{r_isco_km}    &=  \
+\mathrm{f_orbital_hz} &=  \
+\mathrm{f_gw_hz}      &=
+\end{aligned}
+]",7ea6f7089b034b6d62e74c46595fedb07b2805f4eb18895079d393140c0f9482
+structured_prompt_pilot_v1,23,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Llama 3.1 8B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{r_isco_km}    &=  \
+\mathrm{f_orbital_hz} &=  \
+\mathrm{f_gw_hz}      &=
+\end{aligned}
+]",7ea6f7089b034b6d62e74c46595fedb07b2805f4eb18895079d393140c0f9482
+structured_prompt_pilot_v1,24,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Ministral 3 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{r_isco_km}    &=  \
+\mathrm{f_orbital_hz} &=  \
+\mathrm{f_gw_hz}      &=
+\end{aligned}
+]",7ea6f7089b034b6d62e74c46595fedb07b2805f4eb18895079d393140c0f9482
+structured_prompt_pilot_v1,25,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Mistral NeMo 12B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{r_isco_km}    &=  \
+\mathrm{f_orbital_hz} &=  \
+\mathrm{f_gw_hz}      &=
+\end{aligned}
+]",7ea6f7089b034b6d62e74c46595fedb07b2805f4eb18895079d393140c0f9482
+structured_prompt_pilot_v1,26,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Mistral Small 3.2 24B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{r_isco_km}    &=  \
+\mathrm{f_orbital_hz} &=  \
+\mathrm{f_gw_hz}      &=
+\end{aligned}
+]",7ea6f7089b034b6d62e74c46595fedb07b2805f4eb18895079d393140c0f9482
+structured_prompt_pilot_v1,27,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{r_isco_km}    &=  \
+\mathrm{f_orbital_hz} &=  \
+\mathrm{f_gw_hz}      &=
+\end{aligned}
+]",7ea6f7089b034b6d62e74c46595fedb07b2805f4eb18895079d393140c0f9482
+structured_prompt_pilot_v1,28,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Gemma 3 12B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{teleport_fidelity} &=  \
+\mathrm{classical_limit}   &=  \
+\mathrm{f_threshold}       &=
+\end{aligned}
+]",7ec5ea72181f42f6673f84d8012e30e8f83d328a5b0a9c05d946de00feb465f1
+structured_prompt_pilot_v1,29,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Gemma 3 27B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{teleport_fidelity} &=  \
+\mathrm{classical_limit}   &=  \
+\mathrm{f_threshold}       &=
+\end{aligned}
+]",7ec5ea72181f42f6673f84d8012e30e8f83d328a5b0a9c05d946de00feb465f1
+structured_prompt_pilot_v1,30,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Gemma 4 31B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{teleport_fidelity} &=  \
+\mathrm{classical_limit}   &=  \
+\mathrm{f_threshold}       &=
+\end{aligned}
+]",7ec5ea72181f42f6673f84d8012e30e8f83d328a5b0a9c05d946de00feb465f1
+structured_prompt_pilot_v1,31,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Granite 4.1 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{teleport_fidelity} &=  \
+\mathrm{classical_limit}   &=  \
+\mathrm{f_threshold}       &=
+\end{aligned}
+]",7ec5ea72181f42f6673f84d8012e30e8f83d328a5b0a9c05d946de00feb465f1
+structured_prompt_pilot_v1,32,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Llama 3.1 8B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{teleport_fidelity} &=  \
+\mathrm{classical_limit}   &=  \
+\mathrm{f_threshold}       &=
+\end{aligned}
+]",7ec5ea72181f42f6673f84d8012e30e8f83d328a5b0a9c05d946de00feb465f1
+structured_prompt_pilot_v1,33,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Ministral 3 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{teleport_fidelity} &=  \
+\mathrm{classical_limit}   &=  \
+\mathrm{f_threshold}       &=
+\end{aligned}
+]",7ec5ea72181f42f6673f84d8012e30e8f83d328a5b0a9c05d946de00feb465f1
+structured_prompt_pilot_v1,34,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Mistral NeMo 12B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{teleport_fidelity} &=  \
+\mathrm{classical_limit}   &=  \
+\mathrm{f_threshold}       &=
+\end{aligned}
+]",7ec5ea72181f42f6673f84d8012e30e8f83d328a5b0a9c05d946de00feb465f1
+structured_prompt_pilot_v1,35,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Mistral Small 3.2 24B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{teleport_fidelity} &=  \
+\mathrm{classical_limit}   &=  \
+\mathrm{f_threshold}       &=
+\end{aligned}
+]",7ec5ea72181f42f6673f84d8012e30e8f83d328a5b0a9c05d946de00feb465f1
+structured_prompt_pilot_v1,36,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{teleport_fidelity} &=  \
+\mathrm{classical_limit}   &=  \
+\mathrm{f_threshold}       &=
+\end{aligned}
+]",7ec5ea72181f42f6673f84d8012e30e8f83d328a5b0a9c05d946de00feb465f1
+structured_prompt_pilot_v1,37,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Gemma 3 12B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{solid_angle_sr}  &=  \
+\mathrm{berry_phase_rad} &=
+\end{aligned}
+]",3afeab2cf55e7598139caf34b22ae2f972162c549861552c70a442fc9a6e69bb
+structured_prompt_pilot_v1,38,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Gemma 3 27B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{solid_angle_sr}  &=  \
+\mathrm{berry_phase_rad} &=
+\end{aligned}
+]",3afeab2cf55e7598139caf34b22ae2f972162c549861552c70a442fc9a6e69bb
+structured_prompt_pilot_v1,39,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Gemma 4 31B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{solid_angle_sr}  &=  \
+\mathrm{berry_phase_rad} &=
+\end{aligned}
+]",3afeab2cf55e7598139caf34b22ae2f972162c549861552c70a442fc9a6e69bb
+structured_prompt_pilot_v1,40,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Granite 4.1 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{solid_angle_sr}  &=  \
+\mathrm{berry_phase_rad} &=
+\end{aligned}
+]",3afeab2cf55e7598139caf34b22ae2f972162c549861552c70a442fc9a6e69bb
+structured_prompt_pilot_v1,41,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Llama 3.1 8B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{solid_angle_sr}  &=  \
+\mathrm{berry_phase_rad} &=
+\end{aligned}
+]",3afeab2cf55e7598139caf34b22ae2f972162c549861552c70a442fc9a6e69bb
+structured_prompt_pilot_v1,42,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Ministral 3 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{solid_angle_sr}  &=  \
+\mathrm{berry_phase_rad} &=
+\end{aligned}
+]",3afeab2cf55e7598139caf34b22ae2f972162c549861552c70a442fc9a6e69bb
+structured_prompt_pilot_v1,43,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Mistral NeMo 12B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{solid_angle_sr}  &=  \
+\mathrm{berry_phase_rad} &=
+\end{aligned}
+]",3afeab2cf55e7598139caf34b22ae2f972162c549861552c70a442fc9a6e69bb
+structured_prompt_pilot_v1,44,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Mistral Small 3.2 24B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{solid_angle_sr}  &=  \
+\mathrm{berry_phase_rad} &=
+\end{aligned}
+]",3afeab2cf55e7598139caf34b22ae2f972162c549861552c70a442fc9a6e69bb
+structured_prompt_pilot_v1,45,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{solid_angle_sr}  &=  \
+\mathrm{berry_phase_rad} &=
+\end{aligned}
+]",3afeab2cf55e7598139caf34b22ae2f972162c549861552c70a442fc9a6e69bb
+structured_prompt_pilot_v1,46,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Gemma 3 12B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{anomaly_times_1e3} &=  \
+\mathrm{g_factor}           &=
+\end{aligned}
+]",1f043a218459d04558e332fc06572f60b91049bd075d8077df87d5c8648b9b94
+structured_prompt_pilot_v1,47,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Gemma 3 27B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{anomaly_times_1e3} &=  \
+\mathrm{g_factor}           &=
+\end{aligned}
+]",1f043a218459d04558e332fc06572f60b91049bd075d8077df87d5c8648b9b94
+structured_prompt_pilot_v1,48,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Gemma 4 31B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{anomaly_times_1e3} &=  \
+\mathrm{g_factor}           &=
+\end{aligned}
+]",1f043a218459d04558e332fc06572f60b91049bd075d8077df87d5c8648b9b94
+structured_prompt_pilot_v1,49,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Granite 4.1 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{anomaly_times_1e3} &=  \
+\mathrm{g_factor}           &=
+\end{aligned}
+]",1f043a218459d04558e332fc06572f60b91049bd075d8077df87d5c8648b9b94
+structured_prompt_pilot_v1,50,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Llama 3.1 8B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{anomaly_times_1e3} &=  \
+\mathrm{g_factor}           &=
+\end{aligned}
+]",1f043a218459d04558e332fc06572f60b91049bd075d8077df87d5c8648b9b94
+structured_prompt_pilot_v1,51,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Ministral 3 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{anomaly_times_1e3} &=  \
+\mathrm{g_factor}           &=
+\end{aligned}
+]",1f043a218459d04558e332fc06572f60b91049bd075d8077df87d5c8648b9b94
+structured_prompt_pilot_v1,52,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Mistral NeMo 12B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{anomaly_times_1e3} &=  \
+\mathrm{g_factor}           &=
+\end{aligned}
+]",1f043a218459d04558e332fc06572f60b91049bd075d8077df87d5c8648b9b94
+structured_prompt_pilot_v1,53,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Mistral Small 3.2 24B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{anomaly_times_1e3} &=  \
+\mathrm{g_factor}           &=
+\end{aligned}
+]",1f043a218459d04558e332fc06572f60b91049bd075d8077df87d5c8648b9b94
+structured_prompt_pilot_v1,54,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{anomaly_times_1e3} &=  \
+\mathrm{g_factor}           &=
+\end{aligned}
+]",1f043a218459d04558e332fc06572f60b91049bd075d8077df87d5c8648b9b94
+structured_prompt_pilot_v1,55,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Gemma 3 12B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{lab_time_yr}  &=  \
+\mathrm{distance_ly}   &=  \
+\mathrm{final_beta}    &=
+\end{aligned}
+]",aaa05433fbb2947a34e2e6d3e2497bcf099a80bc0e538c6b121c893599cd8f05
+structured_prompt_pilot_v1,56,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Gemma 3 27B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{lab_time_yr}  &=  \
+\mathrm{distance_ly}   &=  \
+\mathrm{final_beta}    &=
+\end{aligned}
+]",aaa05433fbb2947a34e2e6d3e2497bcf099a80bc0e538c6b121c893599cd8f05
+structured_prompt_pilot_v1,57,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Gemma 4 31B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{lab_time_yr}  &=  \
+\mathrm{distance_ly}   &=  \
+\mathrm{final_beta}    &=
+\end{aligned}
+]",aaa05433fbb2947a34e2e6d3e2497bcf099a80bc0e538c6b121c893599cd8f05
+structured_prompt_pilot_v1,58,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Granite 4.1 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{lab_time_yr}  &=  \
+\mathrm{distance_ly}   &=  \
+\mathrm{final_beta}    &=
+\end{aligned}
+]",aaa05433fbb2947a34e2e6d3e2497bcf099a80bc0e538c6b121c893599cd8f05
+structured_prompt_pilot_v1,59,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Llama 3.1 8B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{lab_time_yr}  &=  \
+\mathrm{distance_ly}   &=  \
+\mathrm{final_beta}    &=
+\end{aligned}
+]",aaa05433fbb2947a34e2e6d3e2497bcf099a80bc0e538c6b121c893599cd8f05
+structured_prompt_pilot_v1,60,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Ministral 3 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{lab_time_yr}  &=  \
+\mathrm{distance_ly}   &=  \
+\mathrm{final_beta}    &=
+\end{aligned}
+]",aaa05433fbb2947a34e2e6d3e2497bcf099a80bc0e538c6b121c893599cd8f05
+structured_prompt_pilot_v1,61,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Mistral NeMo 12B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{lab_time_yr}  &=  \
+\mathrm{distance_ly}   &=  \
+\mathrm{final_beta}    &=
+\end{aligned}
+]",aaa05433fbb2947a34e2e6d3e2497bcf099a80bc0e538c6b121c893599cd8f05
+structured_prompt_pilot_v1,62,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Mistral Small 3.2 24B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{lab_time_yr}  &=  \
+\mathrm{distance_ly}   &=  \
+\mathrm{final_beta}    &=
+\end{aligned}
+]",aaa05433fbb2947a34e2e6d3e2497bcf099a80bc0e538c6b121c893599cd8f05
+structured_prompt_pilot_v1,63,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{lab_time_yr}  &=  \
+\mathrm{distance_ly}   &=  \
+\mathrm{final_beta}    &=
+\end{aligned}
+]",aaa05433fbb2947a34e2e6d3e2497bcf099a80bc0e538c6b121c893599cd8f05
+structured_prompt_pilot_v1,64,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Gemma 3 12B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{tc_exact}      &=  \
+\mathrm{tc_meanfield}  &=  \
+\mathrm{ratio_exact_mf} &=
+\end{aligned}
+]",53dc270396d9f5adc9d52e1aae09af6b6cd43951147966bc41c7bb61388c9c6c
+structured_prompt_pilot_v1,65,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Gemma 3 27B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{tc_exact}      &=  \
+\mathrm{tc_meanfield}  &=  \
+\mathrm{ratio_exact_mf} &=
+\end{aligned}
+]",53dc270396d9f5adc9d52e1aae09af6b6cd43951147966bc41c7bb61388c9c6c
+structured_prompt_pilot_v1,66,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Gemma 4 31B IT,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{tc_exact}      &=  \
+\mathrm{tc_meanfield}  &=  \
+\mathrm{ratio_exact_mf} &=
+\end{aligned}
+]",53dc270396d9f5adc9d52e1aae09af6b6cd43951147966bc41c7bb61388c9c6c
+structured_prompt_pilot_v1,67,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Granite 4.1 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{tc_exact}      &=  \
+\mathrm{tc_meanfield}  &=  \
+\mathrm{ratio_exact_mf} &=
+\end{aligned}
+]",53dc270396d9f5adc9d52e1aae09af6b6cd43951147966bc41c7bb61388c9c6c
+structured_prompt_pilot_v1,68,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Llama 3.1 8B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{tc_exact}      &=  \
+\mathrm{tc_meanfield}  &=  \
+\mathrm{ratio_exact_mf} &=
+\end{aligned}
+]",53dc270396d9f5adc9d52e1aae09af6b6cd43951147966bc41c7bb61388c9c6c
+structured_prompt_pilot_v1,69,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Ministral 3 8B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{tc_exact}      &=  \
+\mathrm{tc_meanfield}  &=  \
+\mathrm{ratio_exact_mf} &=
+\end{aligned}
+]",53dc270396d9f5adc9d52e1aae09af6b6cd43951147966bc41c7bb61388c9c6c
+structured_prompt_pilot_v1,70,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Mistral NeMo 12B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{tc_exact}      &=  \
+\mathrm{tc_meanfield}  &=  \
+\mathrm{ratio_exact_mf} &=
+\end{aligned}
+]",53dc270396d9f5adc9d52e1aae09af6b6cd43951147966bc41c7bb61388c9c6c
+structured_prompt_pilot_v1,71,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Mistral Small 3.2 24B Instruct,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{tc_exact}      &=  \
+\mathrm{tc_meanfield}  &=  \
+\mathrm{ratio_exact_mf} &=
+\end{aligned}
+]",53dc270396d9f5adc9d52e1aae09af6b6cd43951147966bc41c7bb61388c9c6c
+structured_prompt_pilot_v1,72,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the scenario. Use the following answer structure. Keep the same sections, step order, field names, and final-answer block format. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+[
+\begin{aligned}
+\mathrm{tc_exact}      &=  \
+\mathrm{tc_meanfield}  &=  \
+\mathrm{ratio_exact_mf} &=
+\end{aligned}
+]",53dc270396d9f5adc9d52e1aae09af6b6cd43951147966bc41c7bb61388c9c6c

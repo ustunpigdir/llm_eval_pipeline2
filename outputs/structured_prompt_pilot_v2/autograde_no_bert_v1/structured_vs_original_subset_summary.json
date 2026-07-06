@@ -1,0 +1,206 @@
+{
+  "status": "not_generated: original subset is not a clean 1:1 scenario/model match (missing_pairs=0, non_singleton_pairs=40)",
+  "missing_pairs": [],
+  "non_singleton_pairs": [
+    [
+      "CM_FOUCAULT_001",
+      "Gemma 3 12B IT",
+      3
+    ],
+    [
+      "CM_FOUCAULT_001",
+      "Granite 4.1 8B",
+      3
+    ],
+    [
+      "CM_FOUCAULT_001",
+      "Llama 3.1 8B Instruct",
+      3
+    ],
+    [
+      "CM_FOUCAULT_001",
+      "Ministral 3 8B",
+      3
+    ],
+    [
+      "CM_FOUCAULT_001",
+      "Mistral NeMo 12B",
+      3
+    ],
+    [
+      "COS_CMB_001",
+      "Gemma 3 12B IT",
+      3
+    ],
+    [
+      "COS_CMB_001",
+      "Granite 4.1 8B",
+      3
+    ],
+    [
+      "COS_CMB_001",
+      "Llama 3.1 8B Instruct",
+      3
+    ],
+    [
+      "COS_CMB_001",
+      "Ministral 3 8B",
+      3
+    ],
+    [
+      "COS_CMB_001",
+      "Mistral NeMo 12B",
+      3
+    ],
+    [
+      "GR_ISCO_001",
+      "Gemma 3 12B IT",
+      3
+    ],
+    [
+      "GR_ISCO_001",
+      "Granite 4.1 8B",
+      3
+    ],
+    [
+      "GR_ISCO_001",
+      "Llama 3.1 8B Instruct",
+      3
+    ],
+    [
+      "GR_ISCO_001",
+      "Ministral 3 8B",
+      3
+    ],
+    [
+      "GR_ISCO_001",
+      "Mistral NeMo 12B",
+      3
+    ],
+    [
+      "QFT_G2_001",
+      "Gemma 3 12B IT",
+      3
+    ],
+    [
+      "QFT_G2_001",
+      "Granite 4.1 8B",
+      3
+    ],
+    [
+      "QFT_G2_001",
+      "Llama 3.1 8B Instruct",
+      3
+    ],
+    [
+      "QFT_G2_001",
+      "Ministral 3 8B",
+      3
+    ],
+    [
+      "QFT_G2_001",
+      "Mistral NeMo 12B",
+      3
+    ],
+    [
+      "QI_TELEPORT_001",
+      "Gemma 3 12B IT",
+      3
+    ],
+    [
+      "QI_TELEPORT_001",
+      "Granite 4.1 8B",
+      3
+    ],
+    [
+      "QI_TELEPORT_001",
+      "Llama 3.1 8B Instruct",
+      3
+    ],
+    [
+      "QI_TELEPORT_001",
+      "Ministral 3 8B",
+      3
+    ],
+    [
+      "QI_TELEPORT_001",
+      "Mistral NeMo 12B",
+      3
+    ],
+    [
+      "QM_BERRY_001",
+      "Gemma 3 12B IT",
+      3
+    ],
+    [
+      "QM_BERRY_001",
+      "Granite 4.1 8B",
+      3
+    ],
+    [
+      "QM_BERRY_001",
+      "Llama 3.1 8B Instruct",
+      3
+    ],
+    [
+      "QM_BERRY_001",
+      "Ministral 3 8B",
+      3
+    ],
+    [
+      "QM_BERRY_001",
+      "Mistral NeMo 12B",
+      3
+    ],
+    [
+      "SR_ROCKET_001",
+      "Gemma 3 12B IT",
+      4
+    ],
+    [
+      "SR_ROCKET_001",
+      "Granite 4.1 8B",
+      4
+    ],
+    [
+      "SR_ROCKET_001",
+      "Llama 3.1 8B Instruct",
+      4
+    ],
+    [
+      "SR_ROCKET_001",
+      "Ministral 3 8B",
+      4
+    ],
+    [
+      "SR_ROCKET_001",
+      "Mistral NeMo 12B",
+      4
+    ],
+    [
+      "STAT_ISING_001",
+      "Gemma 3 12B IT",
+      3
+    ],
+    [
+      "STAT_ISING_001",
+      "Granite 4.1 8B",
+      3
+    ],
+    [
+      "STAT_ISING_001",
+      "Llama 3.1 8B Instruct",
+      3
+    ],
+    [
+      "STAT_ISING_001",
+      "Ministral 3 8B",
+      3
+    ],
+    [
+      "STAT_ISING_001",
+      "Mistral NeMo 12B",
+      3
+    ]
+  ]
+}

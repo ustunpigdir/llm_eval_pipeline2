@@ -1,0 +1,66 @@
+{
+  "artifact_name": "roscoe_smoke_test_v2_py310_or_311",
+  "created_at": "2026-07-05T23:32:32.865374+00:00",
+  "smoke_test_status": "passed",
+  "smoke_pairs_attempted": 3,
+  "smoke_pairs_scored": 3,
+  "metrics_available": [
+    "informativeness_chain",
+    "informativeness_step",
+    "reasoning_alignment",
+    "repetition_step",
+    "semantic_coverage_chain",
+    "semantic_coverage_step"
+  ],
+  "selected_semantic_metric_if_any": "reasoning_alignment",
+  "pairs": [
+    {
+      "pair_id": "A_good_equivalent_reasoning",
+      "candidate_text": "First compute x = 2. Then compute y = x + 3 = 5. Therefore the final value is 5.",
+      "reference_text": "Set x equal to 2. Add 3 to x, giving y = 5. Therefore the answer is 5.",
+      "input_format_used": "simple_sentence_boundary_split",
+      "roscoe_scoring_status": "scored",
+      "metrics": {
+        "informativeness_step": 0.8535476326942444,
+        "informativeness_chain": 0.9459940195083618,
+        "repetition_step": 0.10895252227783203,
+        "reasoning_alignment": 0.8535476326942444,
+        "semantic_coverage_step": 0.8535476326942444,
+        "semantic_coverage_chain": 0.9459940195083618
+      },
+      "error_if_any": ""
+    },
+    {
+      "pair_id": "B_arithmetic_contradiction",
+      "candidate_text": "First compute x = 2. Then compute y = x + 3 = 9. Therefore the final value is 9.",
+      "reference_text": "Set x equal to 2. Add 3 to x, giving y = 5. Therefore the answer is 5.",
+      "input_format_used": "simple_sentence_boundary_split",
+      "roscoe_scoring_status": "scored",
+      "metrics": {
+        "informativeness_step": 0.8100435137748718,
+        "informativeness_chain": 0.9086617231369019,
+        "repetition_step": 0.10459795594215393,
+        "reasoning_alignment": 0.8100435137748718,
+        "semantic_coverage_step": 0.8100435137748718,
+        "semantic_coverage_chain": 0.9086617231369019
+      },
+      "error_if_any": ""
+    },
+    {
+      "pair_id": "C_unrelated_reasoning",
+      "candidate_text": "The capital city is discussed first. Then the weather is described. Therefore the answer is about geography.",
+      "reference_text": "Set x equal to 2. Add 3 to x, giving y = 5. Therefore the answer is 5.",
+      "input_format_used": "simple_sentence_boundary_split",
+      "roscoe_scoring_status": "scored",
+      "metrics": {
+        "informativeness_step": 0.6223092079162598,
+        "informativeness_chain": 0.7687054872512817,
+        "repetition_step": 0.14709004759788513,
+        "reasoning_alignment": 0.6356005668640137,
+        "semantic_coverage_step": 0.6356005668640137,
+        "semantic_coverage_chain": 0.7687054872512817
+      },
+      "error_if_any": ""
+    }
+  ]
+}

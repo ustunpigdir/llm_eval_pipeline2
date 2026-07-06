@@ -1,0 +1,2161 @@
+pilot_name,prompt_sequence,scenario_id,scenario_title,category,model_name,prompt,prompt_sha256
+structured_prompt_pilot_v2,1,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Gemma 3 12B IT,"Solve the following scenario.
+A Foucault pendulum swings at latitude $\lambda = 48.85^\circ$ N (Paris). Treat Earth's rotation rate as $360^\circ$ per 24 h (ignore the sidereal correction).
+
+Conventions: precession rate of the swing plane $= \Omega_E \sin\lambda$, clockwise viewed from above in the northern hemisphere.
+
+Tasks:
+1. Derive the $\sin\lambda$ factor from the vertical component of Earth's angular velocity (Coriolis effect on the swing plane).
+2. Evaluate the precession rate in degrees per hour and degrees per day.
+3. Evaluate the full-turn period in hours.
+4. What happens at the equator and at the pole? A student uses $\cos\lambda$ - identify what physical component of $\vec\Omega_E$ they took, and why it is the wrong one for plane precession.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{period\_hours}        &=  \\
+\mathrm{rate\_deg\_per\_day}  &=  \\
+\mathrm{rate\_deg\_per\_hour} &=  \\
+\end{aligned}
+\]",5b21ed329c5b3588d960bb05d77b99dbc534e5b288d2d73d5b4729bafd9633f6
+structured_prompt_pilot_v2,2,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Gemma 3 27B IT,"Solve the following scenario.
+A Foucault pendulum swings at latitude $\lambda = 48.85^\circ$ N (Paris). Treat Earth's rotation rate as $360^\circ$ per 24 h (ignore the sidereal correction).
+
+Conventions: precession rate of the swing plane $= \Omega_E \sin\lambda$, clockwise viewed from above in the northern hemisphere.
+
+Tasks:
+1. Derive the $\sin\lambda$ factor from the vertical component of Earth's angular velocity (Coriolis effect on the swing plane).
+2. Evaluate the precession rate in degrees per hour and degrees per day.
+3. Evaluate the full-turn period in hours.
+4. What happens at the equator and at the pole? A student uses $\cos\lambda$ - identify what physical component of $\vec\Omega_E$ they took, and why it is the wrong one for plane precession.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{period\_hours}        &=  \\
+\mathrm{rate\_deg\_per\_day}  &=  \\
+\mathrm{rate\_deg\_per\_hour} &=  \\
+\end{aligned}
+\]",5b21ed329c5b3588d960bb05d77b99dbc534e5b288d2d73d5b4729bafd9633f6
+structured_prompt_pilot_v2,3,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Gemma 4 31B IT,"Solve the following scenario.
+A Foucault pendulum swings at latitude $\lambda = 48.85^\circ$ N (Paris). Treat Earth's rotation rate as $360^\circ$ per 24 h (ignore the sidereal correction).
+
+Conventions: precession rate of the swing plane $= \Omega_E \sin\lambda$, clockwise viewed from above in the northern hemisphere.
+
+Tasks:
+1. Derive the $\sin\lambda$ factor from the vertical component of Earth's angular velocity (Coriolis effect on the swing plane).
+2. Evaluate the precession rate in degrees per hour and degrees per day.
+3. Evaluate the full-turn period in hours.
+4. What happens at the equator and at the pole? A student uses $\cos\lambda$ - identify what physical component of $\vec\Omega_E$ they took, and why it is the wrong one for plane precession.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{period\_hours}        &=  \\
+\mathrm{rate\_deg\_per\_day}  &=  \\
+\mathrm{rate\_deg\_per\_hour} &=  \\
+\end{aligned}
+\]",5b21ed329c5b3588d960bb05d77b99dbc534e5b288d2d73d5b4729bafd9633f6
+structured_prompt_pilot_v2,4,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Granite 4.1 8B,"Solve the following scenario.
+A Foucault pendulum swings at latitude $\lambda = 48.85^\circ$ N (Paris). Treat Earth's rotation rate as $360^\circ$ per 24 h (ignore the sidereal correction).
+
+Conventions: precession rate of the swing plane $= \Omega_E \sin\lambda$, clockwise viewed from above in the northern hemisphere.
+
+Tasks:
+1. Derive the $\sin\lambda$ factor from the vertical component of Earth's angular velocity (Coriolis effect on the swing plane).
+2. Evaluate the precession rate in degrees per hour and degrees per day.
+3. Evaluate the full-turn period in hours.
+4. What happens at the equator and at the pole? A student uses $\cos\lambda$ - identify what physical component of $\vec\Omega_E$ they took, and why it is the wrong one for plane precession.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{period\_hours}        &=  \\
+\mathrm{rate\_deg\_per\_day}  &=  \\
+\mathrm{rate\_deg\_per\_hour} &=  \\
+\end{aligned}
+\]",5b21ed329c5b3588d960bb05d77b99dbc534e5b288d2d73d5b4729bafd9633f6
+structured_prompt_pilot_v2,5,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Llama 3.1 8B Instruct,"Solve the following scenario.
+A Foucault pendulum swings at latitude $\lambda = 48.85^\circ$ N (Paris). Treat Earth's rotation rate as $360^\circ$ per 24 h (ignore the sidereal correction).
+
+Conventions: precession rate of the swing plane $= \Omega_E \sin\lambda$, clockwise viewed from above in the northern hemisphere.
+
+Tasks:
+1. Derive the $\sin\lambda$ factor from the vertical component of Earth's angular velocity (Coriolis effect on the swing plane).
+2. Evaluate the precession rate in degrees per hour and degrees per day.
+3. Evaluate the full-turn period in hours.
+4. What happens at the equator and at the pole? A student uses $\cos\lambda$ - identify what physical component of $\vec\Omega_E$ they took, and why it is the wrong one for plane precession.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{period\_hours}        &=  \\
+\mathrm{rate\_deg\_per\_day}  &=  \\
+\mathrm{rate\_deg\_per\_hour} &=  \\
+\end{aligned}
+\]",5b21ed329c5b3588d960bb05d77b99dbc534e5b288d2d73d5b4729bafd9633f6
+structured_prompt_pilot_v2,6,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Ministral 3 8B,"Solve the following scenario.
+A Foucault pendulum swings at latitude $\lambda = 48.85^\circ$ N (Paris). Treat Earth's rotation rate as $360^\circ$ per 24 h (ignore the sidereal correction).
+
+Conventions: precession rate of the swing plane $= \Omega_E \sin\lambda$, clockwise viewed from above in the northern hemisphere.
+
+Tasks:
+1. Derive the $\sin\lambda$ factor from the vertical component of Earth's angular velocity (Coriolis effect on the swing plane).
+2. Evaluate the precession rate in degrees per hour and degrees per day.
+3. Evaluate the full-turn period in hours.
+4. What happens at the equator and at the pole? A student uses $\cos\lambda$ - identify what physical component of $\vec\Omega_E$ they took, and why it is the wrong one for plane precession.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{period\_hours}        &=  \\
+\mathrm{rate\_deg\_per\_day}  &=  \\
+\mathrm{rate\_deg\_per\_hour} &=  \\
+\end{aligned}
+\]",5b21ed329c5b3588d960bb05d77b99dbc534e5b288d2d73d5b4729bafd9633f6
+structured_prompt_pilot_v2,7,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Mistral NeMo 12B,"Solve the following scenario.
+A Foucault pendulum swings at latitude $\lambda = 48.85^\circ$ N (Paris). Treat Earth's rotation rate as $360^\circ$ per 24 h (ignore the sidereal correction).
+
+Conventions: precession rate of the swing plane $= \Omega_E \sin\lambda$, clockwise viewed from above in the northern hemisphere.
+
+Tasks:
+1. Derive the $\sin\lambda$ factor from the vertical component of Earth's angular velocity (Coriolis effect on the swing plane).
+2. Evaluate the precession rate in degrees per hour and degrees per day.
+3. Evaluate the full-turn period in hours.
+4. What happens at the equator and at the pole? A student uses $\cos\lambda$ - identify what physical component of $\vec\Omega_E$ they took, and why it is the wrong one for plane precession.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{period\_hours}        &=  \\
+\mathrm{rate\_deg\_per\_day}  &=  \\
+\mathrm{rate\_deg\_per\_hour} &=  \\
+\end{aligned}
+\]",5b21ed329c5b3588d960bb05d77b99dbc534e5b288d2d73d5b4729bafd9633f6
+structured_prompt_pilot_v2,8,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,Mistral Small 3.2 24B Instruct,"Solve the following scenario.
+A Foucault pendulum swings at latitude $\lambda = 48.85^\circ$ N (Paris). Treat Earth's rotation rate as $360^\circ$ per 24 h (ignore the sidereal correction).
+
+Conventions: precession rate of the swing plane $= \Omega_E \sin\lambda$, clockwise viewed from above in the northern hemisphere.
+
+Tasks:
+1. Derive the $\sin\lambda$ factor from the vertical component of Earth's angular velocity (Coriolis effect on the swing plane).
+2. Evaluate the precession rate in degrees per hour and degrees per day.
+3. Evaluate the full-turn period in hours.
+4. What happens at the equator and at the pole? A student uses $\cos\lambda$ - identify what physical component of $\vec\Omega_E$ they took, and why it is the wrong one for plane precession.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{period\_hours}        &=  \\
+\mathrm{rate\_deg\_per\_day}  &=  \\
+\mathrm{rate\_deg\_per\_hour} &=  \\
+\end{aligned}
+\]",5b21ed329c5b3588d960bb05d77b99dbc534e5b288d2d73d5b4729bafd9633f6
+structured_prompt_pilot_v2,9,CM_FOUCAULT_001,Foucault pendulum - precession at Paris,Classical Mechanics,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the following scenario.
+A Foucault pendulum swings at latitude $\lambda = 48.85^\circ$ N (Paris). Treat Earth's rotation rate as $360^\circ$ per 24 h (ignore the sidereal correction).
+
+Conventions: precession rate of the swing plane $= \Omega_E \sin\lambda$, clockwise viewed from above in the northern hemisphere.
+
+Tasks:
+1. Derive the $\sin\lambda$ factor from the vertical component of Earth's angular velocity (Coriolis effect on the swing plane).
+2. Evaluate the precession rate in degrees per hour and degrees per day.
+3. Evaluate the full-turn period in hours.
+4. What happens at the equator and at the pole? A student uses $\cos\lambda$ - identify what physical component of $\vec\Omega_E$ they took, and why it is the wrong one for plane precession.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **The sin λ factor.** The Coriolis coupling that rotates the swing plane is the **vertical** component of Earth's angular velocity, Ω_E sin λ. (The horizontal component Ω_E cos λ tilts the local vertical; it does not precess the plane.)
+2. **Rate.** Ω_E = 360°/24 h = 15°/h. sin(48.85°) = ____. Rate = 15·____ = **____°/h**; ×24 = **____°/day**.
+3. **Period.** Full turn = 360°/(____°/h) = **____ h**.
+4. **Limits.** Equator (λ = 0): sin λ = 0 → no precession. Pole (λ = 90°): 15°/h → 24 h period. A student using cos λ takes the horizontal component — wrong; it tilts, it does not precess the plane.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{period\_hours}        &=  \\
+\mathrm{rate\_deg\_per\_day}  &=  \\
+\mathrm{rate\_deg\_per\_hour} &=  \\
+\end{aligned}
+\]",5b21ed329c5b3588d960bb05d77b99dbc534e5b288d2d73d5b4729bafd9633f6
+structured_prompt_pilot_v2,10,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Gemma 3 12B IT,"Solve the following scenario.
+The CMB today has $T_0 = 2.725$ K. Recombination occurred at redshift $z = 1100$.
+
+Conventions: adiabatic expansion of a blackbody photon gas; report $\log_{10}$ for the density ratios (recombination relative to today).
+
+Tasks:
+1. How does the photon temperature scale with redshift? Evaluate $T$ at recombination in K.
+2. How does the photon NUMBER density scale? Give $\log_{10}$ of the ratio $n(z_{rec})/n_0$.
+3. How does the photon ENERGY density scale? Give $\log_{10}$ of the ratio, and explain where the extra factor of $(1+z)$ relative to number density comes from.
+4. Why does the CMB remain a perfect blackbody as it redshifts, without any rethermalization?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{T\_rec\_K}            &=  \\
+\mathrm{log10\_energy\_ratio} &=  \\
+\mathrm{log10\_number\_ratio} &=  \\
+\end{aligned}
+\]",d11b88f97d92cf12811c5a496f913d58b8677d13e6c6bdd5a8b34dc9e2184d8b
+structured_prompt_pilot_v2,11,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Gemma 3 27B IT,"Solve the following scenario.
+The CMB today has $T_0 = 2.725$ K. Recombination occurred at redshift $z = 1100$.
+
+Conventions: adiabatic expansion of a blackbody photon gas; report $\log_{10}$ for the density ratios (recombination relative to today).
+
+Tasks:
+1. How does the photon temperature scale with redshift? Evaluate $T$ at recombination in K.
+2. How does the photon NUMBER density scale? Give $\log_{10}$ of the ratio $n(z_{rec})/n_0$.
+3. How does the photon ENERGY density scale? Give $\log_{10}$ of the ratio, and explain where the extra factor of $(1+z)$ relative to number density comes from.
+4. Why does the CMB remain a perfect blackbody as it redshifts, without any rethermalization?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{T\_rec\_K}            &=  \\
+\mathrm{log10\_energy\_ratio} &=  \\
+\mathrm{log10\_number\_ratio} &=  \\
+\end{aligned}
+\]",d11b88f97d92cf12811c5a496f913d58b8677d13e6c6bdd5a8b34dc9e2184d8b
+structured_prompt_pilot_v2,12,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Gemma 4 31B IT,"Solve the following scenario.
+The CMB today has $T_0 = 2.725$ K. Recombination occurred at redshift $z = 1100$.
+
+Conventions: adiabatic expansion of a blackbody photon gas; report $\log_{10}$ for the density ratios (recombination relative to today).
+
+Tasks:
+1. How does the photon temperature scale with redshift? Evaluate $T$ at recombination in K.
+2. How does the photon NUMBER density scale? Give $\log_{10}$ of the ratio $n(z_{rec})/n_0$.
+3. How does the photon ENERGY density scale? Give $\log_{10}$ of the ratio, and explain where the extra factor of $(1+z)$ relative to number density comes from.
+4. Why does the CMB remain a perfect blackbody as it redshifts, without any rethermalization?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{T\_rec\_K}            &=  \\
+\mathrm{log10\_energy\_ratio} &=  \\
+\mathrm{log10\_number\_ratio} &=  \\
+\end{aligned}
+\]",d11b88f97d92cf12811c5a496f913d58b8677d13e6c6bdd5a8b34dc9e2184d8b
+structured_prompt_pilot_v2,13,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Granite 4.1 8B,"Solve the following scenario.
+The CMB today has $T_0 = 2.725$ K. Recombination occurred at redshift $z = 1100$.
+
+Conventions: adiabatic expansion of a blackbody photon gas; report $\log_{10}$ for the density ratios (recombination relative to today).
+
+Tasks:
+1. How does the photon temperature scale with redshift? Evaluate $T$ at recombination in K.
+2. How does the photon NUMBER density scale? Give $\log_{10}$ of the ratio $n(z_{rec})/n_0$.
+3. How does the photon ENERGY density scale? Give $\log_{10}$ of the ratio, and explain where the extra factor of $(1+z)$ relative to number density comes from.
+4. Why does the CMB remain a perfect blackbody as it redshifts, without any rethermalization?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{T\_rec\_K}            &=  \\
+\mathrm{log10\_energy\_ratio} &=  \\
+\mathrm{log10\_number\_ratio} &=  \\
+\end{aligned}
+\]",d11b88f97d92cf12811c5a496f913d58b8677d13e6c6bdd5a8b34dc9e2184d8b
+structured_prompt_pilot_v2,14,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Llama 3.1 8B Instruct,"Solve the following scenario.
+The CMB today has $T_0 = 2.725$ K. Recombination occurred at redshift $z = 1100$.
+
+Conventions: adiabatic expansion of a blackbody photon gas; report $\log_{10}$ for the density ratios (recombination relative to today).
+
+Tasks:
+1. How does the photon temperature scale with redshift? Evaluate $T$ at recombination in K.
+2. How does the photon NUMBER density scale? Give $\log_{10}$ of the ratio $n(z_{rec})/n_0$.
+3. How does the photon ENERGY density scale? Give $\log_{10}$ of the ratio, and explain where the extra factor of $(1+z)$ relative to number density comes from.
+4. Why does the CMB remain a perfect blackbody as it redshifts, without any rethermalization?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{T\_rec\_K}            &=  \\
+\mathrm{log10\_energy\_ratio} &=  \\
+\mathrm{log10\_number\_ratio} &=  \\
+\end{aligned}
+\]",d11b88f97d92cf12811c5a496f913d58b8677d13e6c6bdd5a8b34dc9e2184d8b
+structured_prompt_pilot_v2,15,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Ministral 3 8B,"Solve the following scenario.
+The CMB today has $T_0 = 2.725$ K. Recombination occurred at redshift $z = 1100$.
+
+Conventions: adiabatic expansion of a blackbody photon gas; report $\log_{10}$ for the density ratios (recombination relative to today).
+
+Tasks:
+1. How does the photon temperature scale with redshift? Evaluate $T$ at recombination in K.
+2. How does the photon NUMBER density scale? Give $\log_{10}$ of the ratio $n(z_{rec})/n_0$.
+3. How does the photon ENERGY density scale? Give $\log_{10}$ of the ratio, and explain where the extra factor of $(1+z)$ relative to number density comes from.
+4. Why does the CMB remain a perfect blackbody as it redshifts, without any rethermalization?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{T\_rec\_K}            &=  \\
+\mathrm{log10\_energy\_ratio} &=  \\
+\mathrm{log10\_number\_ratio} &=  \\
+\end{aligned}
+\]",d11b88f97d92cf12811c5a496f913d58b8677d13e6c6bdd5a8b34dc9e2184d8b
+structured_prompt_pilot_v2,16,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Mistral NeMo 12B,"Solve the following scenario.
+The CMB today has $T_0 = 2.725$ K. Recombination occurred at redshift $z = 1100$.
+
+Conventions: adiabatic expansion of a blackbody photon gas; report $\log_{10}$ for the density ratios (recombination relative to today).
+
+Tasks:
+1. How does the photon temperature scale with redshift? Evaluate $T$ at recombination in K.
+2. How does the photon NUMBER density scale? Give $\log_{10}$ of the ratio $n(z_{rec})/n_0$.
+3. How does the photon ENERGY density scale? Give $\log_{10}$ of the ratio, and explain where the extra factor of $(1+z)$ relative to number density comes from.
+4. Why does the CMB remain a perfect blackbody as it redshifts, without any rethermalization?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{T\_rec\_K}            &=  \\
+\mathrm{log10\_energy\_ratio} &=  \\
+\mathrm{log10\_number\_ratio} &=  \\
+\end{aligned}
+\]",d11b88f97d92cf12811c5a496f913d58b8677d13e6c6bdd5a8b34dc9e2184d8b
+structured_prompt_pilot_v2,17,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,Mistral Small 3.2 24B Instruct,"Solve the following scenario.
+The CMB today has $T_0 = 2.725$ K. Recombination occurred at redshift $z = 1100$.
+
+Conventions: adiabatic expansion of a blackbody photon gas; report $\log_{10}$ for the density ratios (recombination relative to today).
+
+Tasks:
+1. How does the photon temperature scale with redshift? Evaluate $T$ at recombination in K.
+2. How does the photon NUMBER density scale? Give $\log_{10}$ of the ratio $n(z_{rec})/n_0$.
+3. How does the photon ENERGY density scale? Give $\log_{10}$ of the ratio, and explain where the extra factor of $(1+z)$ relative to number density comes from.
+4. Why does the CMB remain a perfect blackbody as it redshifts, without any rethermalization?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{T\_rec\_K}            &=  \\
+\mathrm{log10\_energy\_ratio} &=  \\
+\mathrm{log10\_number\_ratio} &=  \\
+\end{aligned}
+\]",d11b88f97d92cf12811c5a496f913d58b8677d13e6c6bdd5a8b34dc9e2184d8b
+structured_prompt_pilot_v2,18,COS_CMB_001,"CMB scaling - temperature, number, and energy densities",Cosmology,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the following scenario.
+The CMB today has $T_0 = 2.725$ K. Recombination occurred at redshift $z = 1100$.
+
+Conventions: adiabatic expansion of a blackbody photon gas; report $\log_{10}$ for the density ratios (recombination relative to today).
+
+Tasks:
+1. How does the photon temperature scale with redshift? Evaluate $T$ at recombination in K.
+2. How does the photon NUMBER density scale? Give $\log_{10}$ of the ratio $n(z_{rec})/n_0$.
+3. How does the photon ENERGY density scale? Give $\log_{10}$ of the ratio, and explain where the extra factor of $(1+z)$ relative to number density comes from.
+4. Why does the CMB remain a perfect blackbody as it redshifts, without any rethermalization?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Temperature.** T ∝ (1+z): T_rec = 2.725·1101 = **____ K**.
+2. **Number density.** n ∝ (1+z)³: log₁₀(n_rec/n₀) = 3·log₁₀(1101) = **____**.
+3. **Energy density.** u ∝ (1+z)⁴: log₁₀(u_rec/u₀) = 4·log₁₀(1101) = **____**. The extra factor of (1+z) over the number density is the **per-photon energy redshift** — each photon's energy scales as (1+z).
+4. **Blackbody preserved.** T ∝ 1/a keeps the Planck spectrum form-invariant: redshifting a Planck spectrum at T yields a Planck spectrum at T/(1+z). No scattering or rethermalization is required.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{T\_rec\_K}            &=  \\
+\mathrm{log10\_energy\_ratio} &=  \\
+\mathrm{log10\_number\_ratio} &=  \\
+\end{aligned}
+\]",d11b88f97d92cf12811c5a496f913d58b8677d13e6c6bdd5a8b34dc9e2184d8b
+structured_prompt_pilot_v2,19,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Gemma 3 12B IT,"Solve the following scenario.
+A test particle orbits a Schwarzschild black hole of mass $M = 10\,M_\odot$. Use $M_\odot = 1.989\times 10^{30}$ kg, $G = 6.674\times 10^{-11}$ SI, $c = 2.998\times 10^{8}$ m/s.
+
+Conventions: Schwarzschild coordinates; orbital frequency means $\Omega = d\phi/dt$ with respect to coordinate time (frequency measured at infinity). For circular equatorial orbits in Schwarzschild, $\Omega^2 = GM/r^3$ holds EXACTLY in these coordinates.
+
+Tasks:
+1. Give the radii of the event horizon, the photon sphere, and the ISCO in units of $GM/c^2$, and evaluate the ISCO radius in km.
+2. Evaluate the orbital frequency $f = \Omega/2\pi$ at the ISCO in Hz.
+3. The dominant gravitational-wave emission is at twice the orbital frequency. Evaluate $f_{GW}$ at the ISCO.
+4. Explain why a compact binary's GW signal 'shuts off' near this frequency, and how the ISCO frequency scales with $M$.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{f\_gw\_hz}      &=  \\
+\mathrm{f\_orbital\_hz} &=  \\
+\mathrm{r\_isco\_km}    &=  \\
+\end{aligned}
+\]",f569db2af57d5ec9726586a9904cb8200c41ebdd1b08900048d42e624de193f7
+structured_prompt_pilot_v2,20,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Gemma 3 27B IT,"Solve the following scenario.
+A test particle orbits a Schwarzschild black hole of mass $M = 10\,M_\odot$. Use $M_\odot = 1.989\times 10^{30}$ kg, $G = 6.674\times 10^{-11}$ SI, $c = 2.998\times 10^{8}$ m/s.
+
+Conventions: Schwarzschild coordinates; orbital frequency means $\Omega = d\phi/dt$ with respect to coordinate time (frequency measured at infinity). For circular equatorial orbits in Schwarzschild, $\Omega^2 = GM/r^3$ holds EXACTLY in these coordinates.
+
+Tasks:
+1. Give the radii of the event horizon, the photon sphere, and the ISCO in units of $GM/c^2$, and evaluate the ISCO radius in km.
+2. Evaluate the orbital frequency $f = \Omega/2\pi$ at the ISCO in Hz.
+3. The dominant gravitational-wave emission is at twice the orbital frequency. Evaluate $f_{GW}$ at the ISCO.
+4. Explain why a compact binary's GW signal 'shuts off' near this frequency, and how the ISCO frequency scales with $M$.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{f\_gw\_hz}      &=  \\
+\mathrm{f\_orbital\_hz} &=  \\
+\mathrm{r\_isco\_km}    &=  \\
+\end{aligned}
+\]",f569db2af57d5ec9726586a9904cb8200c41ebdd1b08900048d42e624de193f7
+structured_prompt_pilot_v2,21,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Gemma 4 31B IT,"Solve the following scenario.
+A test particle orbits a Schwarzschild black hole of mass $M = 10\,M_\odot$. Use $M_\odot = 1.989\times 10^{30}$ kg, $G = 6.674\times 10^{-11}$ SI, $c = 2.998\times 10^{8}$ m/s.
+
+Conventions: Schwarzschild coordinates; orbital frequency means $\Omega = d\phi/dt$ with respect to coordinate time (frequency measured at infinity). For circular equatorial orbits in Schwarzschild, $\Omega^2 = GM/r^3$ holds EXACTLY in these coordinates.
+
+Tasks:
+1. Give the radii of the event horizon, the photon sphere, and the ISCO in units of $GM/c^2$, and evaluate the ISCO radius in km.
+2. Evaluate the orbital frequency $f = \Omega/2\pi$ at the ISCO in Hz.
+3. The dominant gravitational-wave emission is at twice the orbital frequency. Evaluate $f_{GW}$ at the ISCO.
+4. Explain why a compact binary's GW signal 'shuts off' near this frequency, and how the ISCO frequency scales with $M$.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{f\_gw\_hz}      &=  \\
+\mathrm{f\_orbital\_hz} &=  \\
+\mathrm{r\_isco\_km}    &=  \\
+\end{aligned}
+\]",f569db2af57d5ec9726586a9904cb8200c41ebdd1b08900048d42e624de193f7
+structured_prompt_pilot_v2,22,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Granite 4.1 8B,"Solve the following scenario.
+A test particle orbits a Schwarzschild black hole of mass $M = 10\,M_\odot$. Use $M_\odot = 1.989\times 10^{30}$ kg, $G = 6.674\times 10^{-11}$ SI, $c = 2.998\times 10^{8}$ m/s.
+
+Conventions: Schwarzschild coordinates; orbital frequency means $\Omega = d\phi/dt$ with respect to coordinate time (frequency measured at infinity). For circular equatorial orbits in Schwarzschild, $\Omega^2 = GM/r^3$ holds EXACTLY in these coordinates.
+
+Tasks:
+1. Give the radii of the event horizon, the photon sphere, and the ISCO in units of $GM/c^2$, and evaluate the ISCO radius in km.
+2. Evaluate the orbital frequency $f = \Omega/2\pi$ at the ISCO in Hz.
+3. The dominant gravitational-wave emission is at twice the orbital frequency. Evaluate $f_{GW}$ at the ISCO.
+4. Explain why a compact binary's GW signal 'shuts off' near this frequency, and how the ISCO frequency scales with $M$.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{f\_gw\_hz}      &=  \\
+\mathrm{f\_orbital\_hz} &=  \\
+\mathrm{r\_isco\_km}    &=  \\
+\end{aligned}
+\]",f569db2af57d5ec9726586a9904cb8200c41ebdd1b08900048d42e624de193f7
+structured_prompt_pilot_v2,23,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Llama 3.1 8B Instruct,"Solve the following scenario.
+A test particle orbits a Schwarzschild black hole of mass $M = 10\,M_\odot$. Use $M_\odot = 1.989\times 10^{30}$ kg, $G = 6.674\times 10^{-11}$ SI, $c = 2.998\times 10^{8}$ m/s.
+
+Conventions: Schwarzschild coordinates; orbital frequency means $\Omega = d\phi/dt$ with respect to coordinate time (frequency measured at infinity). For circular equatorial orbits in Schwarzschild, $\Omega^2 = GM/r^3$ holds EXACTLY in these coordinates.
+
+Tasks:
+1. Give the radii of the event horizon, the photon sphere, and the ISCO in units of $GM/c^2$, and evaluate the ISCO radius in km.
+2. Evaluate the orbital frequency $f = \Omega/2\pi$ at the ISCO in Hz.
+3. The dominant gravitational-wave emission is at twice the orbital frequency. Evaluate $f_{GW}$ at the ISCO.
+4. Explain why a compact binary's GW signal 'shuts off' near this frequency, and how the ISCO frequency scales with $M$.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{f\_gw\_hz}      &=  \\
+\mathrm{f\_orbital\_hz} &=  \\
+\mathrm{r\_isco\_km}    &=  \\
+\end{aligned}
+\]",f569db2af57d5ec9726586a9904cb8200c41ebdd1b08900048d42e624de193f7
+structured_prompt_pilot_v2,24,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Ministral 3 8B,"Solve the following scenario.
+A test particle orbits a Schwarzschild black hole of mass $M = 10\,M_\odot$. Use $M_\odot = 1.989\times 10^{30}$ kg, $G = 6.674\times 10^{-11}$ SI, $c = 2.998\times 10^{8}$ m/s.
+
+Conventions: Schwarzschild coordinates; orbital frequency means $\Omega = d\phi/dt$ with respect to coordinate time (frequency measured at infinity). For circular equatorial orbits in Schwarzschild, $\Omega^2 = GM/r^3$ holds EXACTLY in these coordinates.
+
+Tasks:
+1. Give the radii of the event horizon, the photon sphere, and the ISCO in units of $GM/c^2$, and evaluate the ISCO radius in km.
+2. Evaluate the orbital frequency $f = \Omega/2\pi$ at the ISCO in Hz.
+3. The dominant gravitational-wave emission is at twice the orbital frequency. Evaluate $f_{GW}$ at the ISCO.
+4. Explain why a compact binary's GW signal 'shuts off' near this frequency, and how the ISCO frequency scales with $M$.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{f\_gw\_hz}      &=  \\
+\mathrm{f\_orbital\_hz} &=  \\
+\mathrm{r\_isco\_km}    &=  \\
+\end{aligned}
+\]",f569db2af57d5ec9726586a9904cb8200c41ebdd1b08900048d42e624de193f7
+structured_prompt_pilot_v2,25,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Mistral NeMo 12B,"Solve the following scenario.
+A test particle orbits a Schwarzschild black hole of mass $M = 10\,M_\odot$. Use $M_\odot = 1.989\times 10^{30}$ kg, $G = 6.674\times 10^{-11}$ SI, $c = 2.998\times 10^{8}$ m/s.
+
+Conventions: Schwarzschild coordinates; orbital frequency means $\Omega = d\phi/dt$ with respect to coordinate time (frequency measured at infinity). For circular equatorial orbits in Schwarzschild, $\Omega^2 = GM/r^3$ holds EXACTLY in these coordinates.
+
+Tasks:
+1. Give the radii of the event horizon, the photon sphere, and the ISCO in units of $GM/c^2$, and evaluate the ISCO radius in km.
+2. Evaluate the orbital frequency $f = \Omega/2\pi$ at the ISCO in Hz.
+3. The dominant gravitational-wave emission is at twice the orbital frequency. Evaluate $f_{GW}$ at the ISCO.
+4. Explain why a compact binary's GW signal 'shuts off' near this frequency, and how the ISCO frequency scales with $M$.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{f\_gw\_hz}      &=  \\
+\mathrm{f\_orbital\_hz} &=  \\
+\mathrm{r\_isco\_km}    &=  \\
+\end{aligned}
+\]",f569db2af57d5ec9726586a9904cb8200c41ebdd1b08900048d42e624de193f7
+structured_prompt_pilot_v2,26,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,Mistral Small 3.2 24B Instruct,"Solve the following scenario.
+A test particle orbits a Schwarzschild black hole of mass $M = 10\,M_\odot$. Use $M_\odot = 1.989\times 10^{30}$ kg, $G = 6.674\times 10^{-11}$ SI, $c = 2.998\times 10^{8}$ m/s.
+
+Conventions: Schwarzschild coordinates; orbital frequency means $\Omega = d\phi/dt$ with respect to coordinate time (frequency measured at infinity). For circular equatorial orbits in Schwarzschild, $\Omega^2 = GM/r^3$ holds EXACTLY in these coordinates.
+
+Tasks:
+1. Give the radii of the event horizon, the photon sphere, and the ISCO in units of $GM/c^2$, and evaluate the ISCO radius in km.
+2. Evaluate the orbital frequency $f = \Omega/2\pi$ at the ISCO in Hz.
+3. The dominant gravitational-wave emission is at twice the orbital frequency. Evaluate $f_{GW}$ at the ISCO.
+4. Explain why a compact binary's GW signal 'shuts off' near this frequency, and how the ISCO frequency scales with $M$.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{f\_gw\_hz}      &=  \\
+\mathrm{f\_orbital\_hz} &=  \\
+\mathrm{r\_isco\_km}    &=  \\
+\end{aligned}
+\]",f569db2af57d5ec9726586a9904cb8200c41ebdd1b08900048d42e624de193f7
+structured_prompt_pilot_v2,27,GR_ISCO_001,Schwarzschild ISCO - radius and GW frequency,General Relativity,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the following scenario.
+A test particle orbits a Schwarzschild black hole of mass $M = 10\,M_\odot$. Use $M_\odot = 1.989\times 10^{30}$ kg, $G = 6.674\times 10^{-11}$ SI, $c = 2.998\times 10^{8}$ m/s.
+
+Conventions: Schwarzschild coordinates; orbital frequency means $\Omega = d\phi/dt$ with respect to coordinate time (frequency measured at infinity). For circular equatorial orbits in Schwarzschild, $\Omega^2 = GM/r^3$ holds EXACTLY in these coordinates.
+
+Tasks:
+1. Give the radii of the event horizon, the photon sphere, and the ISCO in units of $GM/c^2$, and evaluate the ISCO radius in km.
+2. Evaluate the orbital frequency $f = \Omega/2\pi$ at the ISCO in Hz.
+3. The dominant gravitational-wave emission is at twice the orbital frequency. Evaluate $f_{GW}$ at the ISCO.
+4. Explain why a compact binary's GW signal 'shuts off' near this frequency, and how the ISCO frequency scales with $M$.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Characteristic radii** (units of GM/c²): event horizon 2GM/c², photon sphere 3GM/c², **ISCO 6GM/c²** — three distinct radii. With GM/c² = G·10M_⊙/c² ≈ ____ km: horizon ____ km, photon sphere ____ km, **r_ISCO = 6·____ ≈ ____ km**.
+2. **Orbital frequency.** f = Ω/2π = (1/2π)√(GM/r_ISCO³), GM = ____ m³/s², r_ISCO = ____ m ⟹ **f_orb = ____ Hz**.
+3. **GW frequency.** Dominant emission at twice the orbital frequency: **f_GW = 2·____ = ____ Hz**.
+4. **Interpretation.** No stable circular orbit exists inside r_ISCO, so the inspiral transitions to plunge/merger there — the quasi-periodic chirp ""shuts off."" Since r_ISCO ∝ M and f ∝ M⁻¹, heavier binaries merge at **lower** frequency (f_ISCO ∝ 1/M).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{f\_gw\_hz}      &=  \\
+\mathrm{f\_orbital\_hz} &=  \\
+\mathrm{r\_isco\_km}    &=  \\
+\end{aligned}
+\]",f569db2af57d5ec9726586a9904cb8200c41ebdd1b08900048d42e624de193f7
+structured_prompt_pilot_v2,28,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Gemma 3 12B IT,"Solve the following scenario.
+Standard teleportation is performed with a noisy shared resource of singlet fidelity $f = \langle\Psi^-|\chi|\Psi^-\rangle = 0.900$ (isotropic noise). Inputs are uniformly random pure qubits.
+
+Conventions: average teleportation fidelity for an isotropic resource is $F = (2f+1)/3$; 'classical limit' = best average fidelity with measure-and-send and no entanglement.
+
+Tasks:
+1. Evaluate the average teleportation fidelity $F$ for $f = 0.900$.
+2. State and evaluate the classical limit.
+3. What minimum singlet fidelity $f$ beats the classical limit?
+4. Explain why $f > 1/2$ relates to entanglement of the isotropic resource, and why beating 2/3 certifies a quantum channel.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_limit}   &=  \\
+\mathrm{f\_threshold}       &=  \\
+\mathrm{teleport\_fidelity} &=  \\
+\end{aligned}
+\]",fd5119c7464214c7057f455b0124a8177f0e35b5126231aba5dabaafc4cf145e
+structured_prompt_pilot_v2,29,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Gemma 3 27B IT,"Solve the following scenario.
+Standard teleportation is performed with a noisy shared resource of singlet fidelity $f = \langle\Psi^-|\chi|\Psi^-\rangle = 0.900$ (isotropic noise). Inputs are uniformly random pure qubits.
+
+Conventions: average teleportation fidelity for an isotropic resource is $F = (2f+1)/3$; 'classical limit' = best average fidelity with measure-and-send and no entanglement.
+
+Tasks:
+1. Evaluate the average teleportation fidelity $F$ for $f = 0.900$.
+2. State and evaluate the classical limit.
+3. What minimum singlet fidelity $f$ beats the classical limit?
+4. Explain why $f > 1/2$ relates to entanglement of the isotropic resource, and why beating 2/3 certifies a quantum channel.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_limit}   &=  \\
+\mathrm{f\_threshold}       &=  \\
+\mathrm{teleport\_fidelity} &=  \\
+\end{aligned}
+\]",fd5119c7464214c7057f455b0124a8177f0e35b5126231aba5dabaafc4cf145e
+structured_prompt_pilot_v2,30,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Gemma 4 31B IT,"Solve the following scenario.
+Standard teleportation is performed with a noisy shared resource of singlet fidelity $f = \langle\Psi^-|\chi|\Psi^-\rangle = 0.900$ (isotropic noise). Inputs are uniformly random pure qubits.
+
+Conventions: average teleportation fidelity for an isotropic resource is $F = (2f+1)/3$; 'classical limit' = best average fidelity with measure-and-send and no entanglement.
+
+Tasks:
+1. Evaluate the average teleportation fidelity $F$ for $f = 0.900$.
+2. State and evaluate the classical limit.
+3. What minimum singlet fidelity $f$ beats the classical limit?
+4. Explain why $f > 1/2$ relates to entanglement of the isotropic resource, and why beating 2/3 certifies a quantum channel.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_limit}   &=  \\
+\mathrm{f\_threshold}       &=  \\
+\mathrm{teleport\_fidelity} &=  \\
+\end{aligned}
+\]",fd5119c7464214c7057f455b0124a8177f0e35b5126231aba5dabaafc4cf145e
+structured_prompt_pilot_v2,31,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Granite 4.1 8B,"Solve the following scenario.
+Standard teleportation is performed with a noisy shared resource of singlet fidelity $f = \langle\Psi^-|\chi|\Psi^-\rangle = 0.900$ (isotropic noise). Inputs are uniformly random pure qubits.
+
+Conventions: average teleportation fidelity for an isotropic resource is $F = (2f+1)/3$; 'classical limit' = best average fidelity with measure-and-send and no entanglement.
+
+Tasks:
+1. Evaluate the average teleportation fidelity $F$ for $f = 0.900$.
+2. State and evaluate the classical limit.
+3. What minimum singlet fidelity $f$ beats the classical limit?
+4. Explain why $f > 1/2$ relates to entanglement of the isotropic resource, and why beating 2/3 certifies a quantum channel.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_limit}   &=  \\
+\mathrm{f\_threshold}       &=  \\
+\mathrm{teleport\_fidelity} &=  \\
+\end{aligned}
+\]",fd5119c7464214c7057f455b0124a8177f0e35b5126231aba5dabaafc4cf145e
+structured_prompt_pilot_v2,32,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Llama 3.1 8B Instruct,"Solve the following scenario.
+Standard teleportation is performed with a noisy shared resource of singlet fidelity $f = \langle\Psi^-|\chi|\Psi^-\rangle = 0.900$ (isotropic noise). Inputs are uniformly random pure qubits.
+
+Conventions: average teleportation fidelity for an isotropic resource is $F = (2f+1)/3$; 'classical limit' = best average fidelity with measure-and-send and no entanglement.
+
+Tasks:
+1. Evaluate the average teleportation fidelity $F$ for $f = 0.900$.
+2. State and evaluate the classical limit.
+3. What minimum singlet fidelity $f$ beats the classical limit?
+4. Explain why $f > 1/2$ relates to entanglement of the isotropic resource, and why beating 2/3 certifies a quantum channel.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_limit}   &=  \\
+\mathrm{f\_threshold}       &=  \\
+\mathrm{teleport\_fidelity} &=  \\
+\end{aligned}
+\]",fd5119c7464214c7057f455b0124a8177f0e35b5126231aba5dabaafc4cf145e
+structured_prompt_pilot_v2,33,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Ministral 3 8B,"Solve the following scenario.
+Standard teleportation is performed with a noisy shared resource of singlet fidelity $f = \langle\Psi^-|\chi|\Psi^-\rangle = 0.900$ (isotropic noise). Inputs are uniformly random pure qubits.
+
+Conventions: average teleportation fidelity for an isotropic resource is $F = (2f+1)/3$; 'classical limit' = best average fidelity with measure-and-send and no entanglement.
+
+Tasks:
+1. Evaluate the average teleportation fidelity $F$ for $f = 0.900$.
+2. State and evaluate the classical limit.
+3. What minimum singlet fidelity $f$ beats the classical limit?
+4. Explain why $f > 1/2$ relates to entanglement of the isotropic resource, and why beating 2/3 certifies a quantum channel.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_limit}   &=  \\
+\mathrm{f\_threshold}       &=  \\
+\mathrm{teleport\_fidelity} &=  \\
+\end{aligned}
+\]",fd5119c7464214c7057f455b0124a8177f0e35b5126231aba5dabaafc4cf145e
+structured_prompt_pilot_v2,34,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Mistral NeMo 12B,"Solve the following scenario.
+Standard teleportation is performed with a noisy shared resource of singlet fidelity $f = \langle\Psi^-|\chi|\Psi^-\rangle = 0.900$ (isotropic noise). Inputs are uniformly random pure qubits.
+
+Conventions: average teleportation fidelity for an isotropic resource is $F = (2f+1)/3$; 'classical limit' = best average fidelity with measure-and-send and no entanglement.
+
+Tasks:
+1. Evaluate the average teleportation fidelity $F$ for $f = 0.900$.
+2. State and evaluate the classical limit.
+3. What minimum singlet fidelity $f$ beats the classical limit?
+4. Explain why $f > 1/2$ relates to entanglement of the isotropic resource, and why beating 2/3 certifies a quantum channel.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_limit}   &=  \\
+\mathrm{f\_threshold}       &=  \\
+\mathrm{teleport\_fidelity} &=  \\
+\end{aligned}
+\]",fd5119c7464214c7057f455b0124a8177f0e35b5126231aba5dabaafc4cf145e
+structured_prompt_pilot_v2,35,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,Mistral Small 3.2 24B Instruct,"Solve the following scenario.
+Standard teleportation is performed with a noisy shared resource of singlet fidelity $f = \langle\Psi^-|\chi|\Psi^-\rangle = 0.900$ (isotropic noise). Inputs are uniformly random pure qubits.
+
+Conventions: average teleportation fidelity for an isotropic resource is $F = (2f+1)/3$; 'classical limit' = best average fidelity with measure-and-send and no entanglement.
+
+Tasks:
+1. Evaluate the average teleportation fidelity $F$ for $f = 0.900$.
+2. State and evaluate the classical limit.
+3. What minimum singlet fidelity $f$ beats the classical limit?
+4. Explain why $f > 1/2$ relates to entanglement of the isotropic resource, and why beating 2/3 certifies a quantum channel.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_limit}   &=  \\
+\mathrm{f\_threshold}       &=  \\
+\mathrm{teleport\_fidelity} &=  \\
+\end{aligned}
+\]",fd5119c7464214c7057f455b0124a8177f0e35b5126231aba5dabaafc4cf145e
+structured_prompt_pilot_v2,36,QI_TELEPORT_001,Teleportation with a noisy resource - fidelity bookkeeping,Quantum Information Theory,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the following scenario.
+Standard teleportation is performed with a noisy shared resource of singlet fidelity $f = \langle\Psi^-|\chi|\Psi^-\rangle = 0.900$ (isotropic noise). Inputs are uniformly random pure qubits.
+
+Conventions: average teleportation fidelity for an isotropic resource is $F = (2f+1)/3$; 'classical limit' = best average fidelity with measure-and-send and no entanglement.
+
+Tasks:
+1. Evaluate the average teleportation fidelity $F$ for $f = 0.900$.
+2. State and evaluate the classical limit.
+3. What minimum singlet fidelity $f$ beats the classical limit?
+4. Explain why $f > 1/2$ relates to entanglement of the isotropic resource, and why beating 2/3 certifies a quantum channel.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Output fidelity.** F = (2·0.900 + 1)/3 = ____/3 = **____**.
+2. **Classical limit.** Best measure-and-send strategy with no shared entanglement: **F_cl = 2/3 = ____** (Massar–Popescu).
+3. **Threshold to beat it.** (2f+1)/3 > 2/3 ⟹ 2f+1 > 2 ⟹ **f > 1/2 = ____**.
+4. **Interpretation.** f > 1/2 is exactly the entanglement threshold of the isotropic resource; since no classical strategy exceeds 2/3, any F > 2/3 certifies a genuinely quantum (entanglement-assisted) channel. Note the bookkeeping: the resource quality f = 0.900 is **not** the teleportation fidelity F = ____.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_limit}   &=  \\
+\mathrm{f\_threshold}       &=  \\
+\mathrm{teleport\_fidelity} &=  \\
+\end{aligned}
+\]",fd5119c7464214c7057f455b0124a8177f0e35b5126231aba5dabaafc4cf145e
+structured_prompt_pilot_v2,37,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Gemma 3 12B IT,"Solve the following scenario.
+A spin-1/2 particle is in the instantaneous aligned state of a magnetic field $\vec B(t)$ whose direction traces, adiabatically and once, a cone of half-angle $\theta = 60^\circ$ about the $z$-axis.
+
+Conventions: 'Berry phase' means the geometric phase of the adiabatically transported aligned state after one full cycle; report its magnitude in radians.
+
+Tasks:
+1. Compute the solid angle $\Omega$ subtended by the cone at the origin.
+2. State the Berry phase for a spin-1/2 aligned state in terms of $\Omega$, and evaluate its magnitude.
+3. How would the result change for total spin $S = 1$ (aligned, $m = 1$)?
+4. Explain why this phase is geometric: what does it NOT depend on?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{berry\_phase\_rad} &=  \\
+\mathrm{solid\_angle\_sr}  &=  \\
+\end{aligned}
+\]",4e6d80ddae74f6417c79db54a8b99550d9438a4f0771ba44ce322ba103ad1a1b
+structured_prompt_pilot_v2,38,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Gemma 3 27B IT,"Solve the following scenario.
+A spin-1/2 particle is in the instantaneous aligned state of a magnetic field $\vec B(t)$ whose direction traces, adiabatically and once, a cone of half-angle $\theta = 60^\circ$ about the $z$-axis.
+
+Conventions: 'Berry phase' means the geometric phase of the adiabatically transported aligned state after one full cycle; report its magnitude in radians.
+
+Tasks:
+1. Compute the solid angle $\Omega$ subtended by the cone at the origin.
+2. State the Berry phase for a spin-1/2 aligned state in terms of $\Omega$, and evaluate its magnitude.
+3. How would the result change for total spin $S = 1$ (aligned, $m = 1$)?
+4. Explain why this phase is geometric: what does it NOT depend on?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{berry\_phase\_rad} &=  \\
+\mathrm{solid\_angle\_sr}  &=  \\
+\end{aligned}
+\]",4e6d80ddae74f6417c79db54a8b99550d9438a4f0771ba44ce322ba103ad1a1b
+structured_prompt_pilot_v2,39,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Gemma 4 31B IT,"Solve the following scenario.
+A spin-1/2 particle is in the instantaneous aligned state of a magnetic field $\vec B(t)$ whose direction traces, adiabatically and once, a cone of half-angle $\theta = 60^\circ$ about the $z$-axis.
+
+Conventions: 'Berry phase' means the geometric phase of the adiabatically transported aligned state after one full cycle; report its magnitude in radians.
+
+Tasks:
+1. Compute the solid angle $\Omega$ subtended by the cone at the origin.
+2. State the Berry phase for a spin-1/2 aligned state in terms of $\Omega$, and evaluate its magnitude.
+3. How would the result change for total spin $S = 1$ (aligned, $m = 1$)?
+4. Explain why this phase is geometric: what does it NOT depend on?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{berry\_phase\_rad} &=  \\
+\mathrm{solid\_angle\_sr}  &=  \\
+\end{aligned}
+\]",4e6d80ddae74f6417c79db54a8b99550d9438a4f0771ba44ce322ba103ad1a1b
+structured_prompt_pilot_v2,40,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Granite 4.1 8B,"Solve the following scenario.
+A spin-1/2 particle is in the instantaneous aligned state of a magnetic field $\vec B(t)$ whose direction traces, adiabatically and once, a cone of half-angle $\theta = 60^\circ$ about the $z$-axis.
+
+Conventions: 'Berry phase' means the geometric phase of the adiabatically transported aligned state after one full cycle; report its magnitude in radians.
+
+Tasks:
+1. Compute the solid angle $\Omega$ subtended by the cone at the origin.
+2. State the Berry phase for a spin-1/2 aligned state in terms of $\Omega$, and evaluate its magnitude.
+3. How would the result change for total spin $S = 1$ (aligned, $m = 1$)?
+4. Explain why this phase is geometric: what does it NOT depend on?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{berry\_phase\_rad} &=  \\
+\mathrm{solid\_angle\_sr}  &=  \\
+\end{aligned}
+\]",4e6d80ddae74f6417c79db54a8b99550d9438a4f0771ba44ce322ba103ad1a1b
+structured_prompt_pilot_v2,41,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Llama 3.1 8B Instruct,"Solve the following scenario.
+A spin-1/2 particle is in the instantaneous aligned state of a magnetic field $\vec B(t)$ whose direction traces, adiabatically and once, a cone of half-angle $\theta = 60^\circ$ about the $z$-axis.
+
+Conventions: 'Berry phase' means the geometric phase of the adiabatically transported aligned state after one full cycle; report its magnitude in radians.
+
+Tasks:
+1. Compute the solid angle $\Omega$ subtended by the cone at the origin.
+2. State the Berry phase for a spin-1/2 aligned state in terms of $\Omega$, and evaluate its magnitude.
+3. How would the result change for total spin $S = 1$ (aligned, $m = 1$)?
+4. Explain why this phase is geometric: what does it NOT depend on?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{berry\_phase\_rad} &=  \\
+\mathrm{solid\_angle\_sr}  &=  \\
+\end{aligned}
+\]",4e6d80ddae74f6417c79db54a8b99550d9438a4f0771ba44ce322ba103ad1a1b
+structured_prompt_pilot_v2,42,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Ministral 3 8B,"Solve the following scenario.
+A spin-1/2 particle is in the instantaneous aligned state of a magnetic field $\vec B(t)$ whose direction traces, adiabatically and once, a cone of half-angle $\theta = 60^\circ$ about the $z$-axis.
+
+Conventions: 'Berry phase' means the geometric phase of the adiabatically transported aligned state after one full cycle; report its magnitude in radians.
+
+Tasks:
+1. Compute the solid angle $\Omega$ subtended by the cone at the origin.
+2. State the Berry phase for a spin-1/2 aligned state in terms of $\Omega$, and evaluate its magnitude.
+3. How would the result change for total spin $S = 1$ (aligned, $m = 1$)?
+4. Explain why this phase is geometric: what does it NOT depend on?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{berry\_phase\_rad} &=  \\
+\mathrm{solid\_angle\_sr}  &=  \\
+\end{aligned}
+\]",4e6d80ddae74f6417c79db54a8b99550d9438a4f0771ba44ce322ba103ad1a1b
+structured_prompt_pilot_v2,43,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Mistral NeMo 12B,"Solve the following scenario.
+A spin-1/2 particle is in the instantaneous aligned state of a magnetic field $\vec B(t)$ whose direction traces, adiabatically and once, a cone of half-angle $\theta = 60^\circ$ about the $z$-axis.
+
+Conventions: 'Berry phase' means the geometric phase of the adiabatically transported aligned state after one full cycle; report its magnitude in radians.
+
+Tasks:
+1. Compute the solid angle $\Omega$ subtended by the cone at the origin.
+2. State the Berry phase for a spin-1/2 aligned state in terms of $\Omega$, and evaluate its magnitude.
+3. How would the result change for total spin $S = 1$ (aligned, $m = 1$)?
+4. Explain why this phase is geometric: what does it NOT depend on?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{berry\_phase\_rad} &=  \\
+\mathrm{solid\_angle\_sr}  &=  \\
+\end{aligned}
+\]",4e6d80ddae74f6417c79db54a8b99550d9438a4f0771ba44ce322ba103ad1a1b
+structured_prompt_pilot_v2,44,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,Mistral Small 3.2 24B Instruct,"Solve the following scenario.
+A spin-1/2 particle is in the instantaneous aligned state of a magnetic field $\vec B(t)$ whose direction traces, adiabatically and once, a cone of half-angle $\theta = 60^\circ$ about the $z$-axis.
+
+Conventions: 'Berry phase' means the geometric phase of the adiabatically transported aligned state after one full cycle; report its magnitude in radians.
+
+Tasks:
+1. Compute the solid angle $\Omega$ subtended by the cone at the origin.
+2. State the Berry phase for a spin-1/2 aligned state in terms of $\Omega$, and evaluate its magnitude.
+3. How would the result change for total spin $S = 1$ (aligned, $m = 1$)?
+4. Explain why this phase is geometric: what does it NOT depend on?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{berry\_phase\_rad} &=  \\
+\mathrm{solid\_angle\_sr}  &=  \\
+\end{aligned}
+\]",4e6d80ddae74f6417c79db54a8b99550d9438a4f0771ba44ce322ba103ad1a1b
+structured_prompt_pilot_v2,45,QM_BERRY_001,Berry phase - spin-1/2 on a cone,Quantum Mechanics,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the following scenario.
+A spin-1/2 particle is in the instantaneous aligned state of a magnetic field $\vec B(t)$ whose direction traces, adiabatically and once, a cone of half-angle $\theta = 60^\circ$ about the $z$-axis.
+
+Conventions: 'Berry phase' means the geometric phase of the adiabatically transported aligned state after one full cycle; report its magnitude in radians.
+
+Tasks:
+1. Compute the solid angle $\Omega$ subtended by the cone at the origin.
+2. State the Berry phase for a spin-1/2 aligned state in terms of $\Omega$, and evaluate its magnitude.
+3. How would the result change for total spin $S = 1$ (aligned, $m = 1$)?
+4. Explain why this phase is geometric: what does it NOT depend on?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Solid angle.** Ω = 2π(1 − cos θ) = 2π(1 − cos 60°) = 2π(1 − 0.5) = **π = ____ sr**.
+2. **Berry phase (spin-½).** γ = −½ Ω, so |γ| = Ω/2 = π/2 = **____ rad**. The factor ½ is the spin.
+3. **Spin-1 (m = 1).** In general |γ| = m·Ω for the aligned |S,m⟩ state, so spin-1 m = 1 gives |γ| = π (scales with m).
+4. **Why geometric.** γ depends only on the solid angle Ω enclosed by the field's path — **not** on the traversal speed (as long as adiabatic), the field magnitude, or elapsed time. It is distinct from the dynamical phase (∝ energy × time).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{berry\_phase\_rad} &=  \\
+\mathrm{solid\_angle\_sr}  &=  \\
+\end{aligned}
+\]",4e6d80ddae74f6417c79db54a8b99550d9438a4f0771ba44ce322ba103ad1a1b
+structured_prompt_pilot_v2,46,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Gemma 3 12B IT,"Solve the following scenario.
+Compute the leading QED correction to the electron's magnetic moment. Use $\alpha = 1/137.036$.
+
+Conventions: anomaly $a_e = (g-2)/2$; report $a_e \times 10^3$ (i.e. in units of $10^{-3}$) and the $g$-factor itself.
+
+Tasks:
+1. State the one-loop (Schwinger) result for $a_e$ in terms of $\alpha$.
+2. Evaluate $a_e \times 10^3$.
+3. Evaluate the $g$-factor to 6 decimal places.
+4. Explain physically what the anomaly measures (tree-level Dirac vs loop corrections), and why the SAME leading coefficient applies to the muon.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{anomaly\_times\_1e3} &=  \\
+\mathrm{g\_factor}           &=  \\
+\end{aligned}
+\]",b4d0cdcde59559860cfc1357fa3b51139c0351f4fc8c7a2e43f506036fb636eb
+structured_prompt_pilot_v2,47,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Gemma 3 27B IT,"Solve the following scenario.
+Compute the leading QED correction to the electron's magnetic moment. Use $\alpha = 1/137.036$.
+
+Conventions: anomaly $a_e = (g-2)/2$; report $a_e \times 10^3$ (i.e. in units of $10^{-3}$) and the $g$-factor itself.
+
+Tasks:
+1. State the one-loop (Schwinger) result for $a_e$ in terms of $\alpha$.
+2. Evaluate $a_e \times 10^3$.
+3. Evaluate the $g$-factor to 6 decimal places.
+4. Explain physically what the anomaly measures (tree-level Dirac vs loop corrections), and why the SAME leading coefficient applies to the muon.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{anomaly\_times\_1e3} &=  \\
+\mathrm{g\_factor}           &=  \\
+\end{aligned}
+\]",b4d0cdcde59559860cfc1357fa3b51139c0351f4fc8c7a2e43f506036fb636eb
+structured_prompt_pilot_v2,48,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Gemma 4 31B IT,"Solve the following scenario.
+Compute the leading QED correction to the electron's magnetic moment. Use $\alpha = 1/137.036$.
+
+Conventions: anomaly $a_e = (g-2)/2$; report $a_e \times 10^3$ (i.e. in units of $10^{-3}$) and the $g$-factor itself.
+
+Tasks:
+1. State the one-loop (Schwinger) result for $a_e$ in terms of $\alpha$.
+2. Evaluate $a_e \times 10^3$.
+3. Evaluate the $g$-factor to 6 decimal places.
+4. Explain physically what the anomaly measures (tree-level Dirac vs loop corrections), and why the SAME leading coefficient applies to the muon.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{anomaly\_times\_1e3} &=  \\
+\mathrm{g\_factor}           &=  \\
+\end{aligned}
+\]",b4d0cdcde59559860cfc1357fa3b51139c0351f4fc8c7a2e43f506036fb636eb
+structured_prompt_pilot_v2,49,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Granite 4.1 8B,"Solve the following scenario.
+Compute the leading QED correction to the electron's magnetic moment. Use $\alpha = 1/137.036$.
+
+Conventions: anomaly $a_e = (g-2)/2$; report $a_e \times 10^3$ (i.e. in units of $10^{-3}$) and the $g$-factor itself.
+
+Tasks:
+1. State the one-loop (Schwinger) result for $a_e$ in terms of $\alpha$.
+2. Evaluate $a_e \times 10^3$.
+3. Evaluate the $g$-factor to 6 decimal places.
+4. Explain physically what the anomaly measures (tree-level Dirac vs loop corrections), and why the SAME leading coefficient applies to the muon.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{anomaly\_times\_1e3} &=  \\
+\mathrm{g\_factor}           &=  \\
+\end{aligned}
+\]",b4d0cdcde59559860cfc1357fa3b51139c0351f4fc8c7a2e43f506036fb636eb
+structured_prompt_pilot_v2,50,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Llama 3.1 8B Instruct,"Solve the following scenario.
+Compute the leading QED correction to the electron's magnetic moment. Use $\alpha = 1/137.036$.
+
+Conventions: anomaly $a_e = (g-2)/2$; report $a_e \times 10^3$ (i.e. in units of $10^{-3}$) and the $g$-factor itself.
+
+Tasks:
+1. State the one-loop (Schwinger) result for $a_e$ in terms of $\alpha$.
+2. Evaluate $a_e \times 10^3$.
+3. Evaluate the $g$-factor to 6 decimal places.
+4. Explain physically what the anomaly measures (tree-level Dirac vs loop corrections), and why the SAME leading coefficient applies to the muon.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{anomaly\_times\_1e3} &=  \\
+\mathrm{g\_factor}           &=  \\
+\end{aligned}
+\]",b4d0cdcde59559860cfc1357fa3b51139c0351f4fc8c7a2e43f506036fb636eb
+structured_prompt_pilot_v2,51,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Ministral 3 8B,"Solve the following scenario.
+Compute the leading QED correction to the electron's magnetic moment. Use $\alpha = 1/137.036$.
+
+Conventions: anomaly $a_e = (g-2)/2$; report $a_e \times 10^3$ (i.e. in units of $10^{-3}$) and the $g$-factor itself.
+
+Tasks:
+1. State the one-loop (Schwinger) result for $a_e$ in terms of $\alpha$.
+2. Evaluate $a_e \times 10^3$.
+3. Evaluate the $g$-factor to 6 decimal places.
+4. Explain physically what the anomaly measures (tree-level Dirac vs loop corrections), and why the SAME leading coefficient applies to the muon.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{anomaly\_times\_1e3} &=  \\
+\mathrm{g\_factor}           &=  \\
+\end{aligned}
+\]",b4d0cdcde59559860cfc1357fa3b51139c0351f4fc8c7a2e43f506036fb636eb
+structured_prompt_pilot_v2,52,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Mistral NeMo 12B,"Solve the following scenario.
+Compute the leading QED correction to the electron's magnetic moment. Use $\alpha = 1/137.036$.
+
+Conventions: anomaly $a_e = (g-2)/2$; report $a_e \times 10^3$ (i.e. in units of $10^{-3}$) and the $g$-factor itself.
+
+Tasks:
+1. State the one-loop (Schwinger) result for $a_e$ in terms of $\alpha$.
+2. Evaluate $a_e \times 10^3$.
+3. Evaluate the $g$-factor to 6 decimal places.
+4. Explain physically what the anomaly measures (tree-level Dirac vs loop corrections), and why the SAME leading coefficient applies to the muon.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{anomaly\_times\_1e3} &=  \\
+\mathrm{g\_factor}           &=  \\
+\end{aligned}
+\]",b4d0cdcde59559860cfc1357fa3b51139c0351f4fc8c7a2e43f506036fb636eb
+structured_prompt_pilot_v2,53,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,Mistral Small 3.2 24B Instruct,"Solve the following scenario.
+Compute the leading QED correction to the electron's magnetic moment. Use $\alpha = 1/137.036$.
+
+Conventions: anomaly $a_e = (g-2)/2$; report $a_e \times 10^3$ (i.e. in units of $10^{-3}$) and the $g$-factor itself.
+
+Tasks:
+1. State the one-loop (Schwinger) result for $a_e$ in terms of $\alpha$.
+2. Evaluate $a_e \times 10^3$.
+3. Evaluate the $g$-factor to 6 decimal places.
+4. Explain physically what the anomaly measures (tree-level Dirac vs loop corrections), and why the SAME leading coefficient applies to the muon.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{anomaly\_times\_1e3} &=  \\
+\mathrm{g\_factor}           &=  \\
+\end{aligned}
+\]",b4d0cdcde59559860cfc1357fa3b51139c0351f4fc8c7a2e43f506036fb636eb
+structured_prompt_pilot_v2,54,QFT_G2_001,Electron g-2 - the Schwinger term,Quantum Field Theory,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the following scenario.
+Compute the leading QED correction to the electron's magnetic moment. Use $\alpha = 1/137.036$.
+
+Conventions: anomaly $a_e = (g-2)/2$; report $a_e \times 10^3$ (i.e. in units of $10^{-3}$) and the $g$-factor itself.
+
+Tasks:
+1. State the one-loop (Schwinger) result for $a_e$ in terms of $\alpha$.
+2. Evaluate $a_e \times 10^3$.
+3. Evaluate the $g$-factor to 6 decimal places.
+4. Explain physically what the anomaly measures (tree-level Dirac vs loop corrections), and why the SAME leading coefficient applies to the muon.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Schwinger one-loop.** a_e = α/(2π).
+2. **Anomaly.** a_e = (1/137.036)/(2π) = ____/____ = ____×10⁻³ ⟹ **a_e×10³ = ____**.
+3. **g-factor.** g = 2(1 + a_e) = 2·____ = **____**.
+4. **Meaning.** The anomaly is the deviation from the tree-level Dirac value g = 2, produced by the electron emitting and reabsorbing a virtual photon (one loop). The leading coefficient α/(2π) is **mass-independent**, so the muon receives the same α/(2π) at leading order; mass-dependent contributions enter only at higher order.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{anomaly\_times\_1e3} &=  \\
+\mathrm{g\_factor}           &=  \\
+\end{aligned}
+\]",b4d0cdcde59559860cfc1357fa3b51139c0351f4fc8c7a2e43f506036fb636eb
+structured_prompt_pilot_v2,55,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Gemma 3 12B IT,"Solve the following scenario.
+A rocket maintains constant proper acceleration $a = 9.8$ m/s$^2$ (as measured by an on-board accelerometer), starting from rest. Use 1 yr $= 3.15576\times 10^7$ s and 1 ly $= c \times 1$ yr.
+
+Conventions: hyperbolic (Rindler) motion; $\tau$ is proper time on the rocket.
+
+Tasks:
+1. Write the exact expressions for lab time $t(\tau)$, lab distance $x(\tau)$, and velocity $\beta(\tau)$ for constant proper acceleration.
+2. After $\tau = 1.00$ proper year, evaluate the elapsed lab time in years.
+3. Evaluate the distance covered in light-years.
+4. Evaluate the final speed $\beta = v/c$.
+5. A student uses $v = a\tau$ and gets $\beta > 1$. Explain the error and why the correct $\beta$ stays below 1.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{distance\_ly}  &=  \\
+\mathrm{final\_beta}   &=  \\
+\mathrm{lab\_time\_yr} &=  \\
+\end{aligned}
+\]",5375b974b192d134e3585ee865dc4c57d7e3a7e241aa0c2b649ce5cb89844cf8
+structured_prompt_pilot_v2,56,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Gemma 3 27B IT,"Solve the following scenario.
+A rocket maintains constant proper acceleration $a = 9.8$ m/s$^2$ (as measured by an on-board accelerometer), starting from rest. Use 1 yr $= 3.15576\times 10^7$ s and 1 ly $= c \times 1$ yr.
+
+Conventions: hyperbolic (Rindler) motion; $\tau$ is proper time on the rocket.
+
+Tasks:
+1. Write the exact expressions for lab time $t(\tau)$, lab distance $x(\tau)$, and velocity $\beta(\tau)$ for constant proper acceleration.
+2. After $\tau = 1.00$ proper year, evaluate the elapsed lab time in years.
+3. Evaluate the distance covered in light-years.
+4. Evaluate the final speed $\beta = v/c$.
+5. A student uses $v = a\tau$ and gets $\beta > 1$. Explain the error and why the correct $\beta$ stays below 1.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{distance\_ly}  &=  \\
+\mathrm{final\_beta}   &=  \\
+\mathrm{lab\_time\_yr} &=  \\
+\end{aligned}
+\]",5375b974b192d134e3585ee865dc4c57d7e3a7e241aa0c2b649ce5cb89844cf8
+structured_prompt_pilot_v2,57,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Gemma 4 31B IT,"Solve the following scenario.
+A rocket maintains constant proper acceleration $a = 9.8$ m/s$^2$ (as measured by an on-board accelerometer), starting from rest. Use 1 yr $= 3.15576\times 10^7$ s and 1 ly $= c \times 1$ yr.
+
+Conventions: hyperbolic (Rindler) motion; $\tau$ is proper time on the rocket.
+
+Tasks:
+1. Write the exact expressions for lab time $t(\tau)$, lab distance $x(\tau)$, and velocity $\beta(\tau)$ for constant proper acceleration.
+2. After $\tau = 1.00$ proper year, evaluate the elapsed lab time in years.
+3. Evaluate the distance covered in light-years.
+4. Evaluate the final speed $\beta = v/c$.
+5. A student uses $v = a\tau$ and gets $\beta > 1$. Explain the error and why the correct $\beta$ stays below 1.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{distance\_ly}  &=  \\
+\mathrm{final\_beta}   &=  \\
+\mathrm{lab\_time\_yr} &=  \\
+\end{aligned}
+\]",5375b974b192d134e3585ee865dc4c57d7e3a7e241aa0c2b649ce5cb89844cf8
+structured_prompt_pilot_v2,58,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Granite 4.1 8B,"Solve the following scenario.
+A rocket maintains constant proper acceleration $a = 9.8$ m/s$^2$ (as measured by an on-board accelerometer), starting from rest. Use 1 yr $= 3.15576\times 10^7$ s and 1 ly $= c \times 1$ yr.
+
+Conventions: hyperbolic (Rindler) motion; $\tau$ is proper time on the rocket.
+
+Tasks:
+1. Write the exact expressions for lab time $t(\tau)$, lab distance $x(\tau)$, and velocity $\beta(\tau)$ for constant proper acceleration.
+2. After $\tau = 1.00$ proper year, evaluate the elapsed lab time in years.
+3. Evaluate the distance covered in light-years.
+4. Evaluate the final speed $\beta = v/c$.
+5. A student uses $v = a\tau$ and gets $\beta > 1$. Explain the error and why the correct $\beta$ stays below 1.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{distance\_ly}  &=  \\
+\mathrm{final\_beta}   &=  \\
+\mathrm{lab\_time\_yr} &=  \\
+\end{aligned}
+\]",5375b974b192d134e3585ee865dc4c57d7e3a7e241aa0c2b649ce5cb89844cf8
+structured_prompt_pilot_v2,59,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Llama 3.1 8B Instruct,"Solve the following scenario.
+A rocket maintains constant proper acceleration $a = 9.8$ m/s$^2$ (as measured by an on-board accelerometer), starting from rest. Use 1 yr $= 3.15576\times 10^7$ s and 1 ly $= c \times 1$ yr.
+
+Conventions: hyperbolic (Rindler) motion; $\tau$ is proper time on the rocket.
+
+Tasks:
+1. Write the exact expressions for lab time $t(\tau)$, lab distance $x(\tau)$, and velocity $\beta(\tau)$ for constant proper acceleration.
+2. After $\tau = 1.00$ proper year, evaluate the elapsed lab time in years.
+3. Evaluate the distance covered in light-years.
+4. Evaluate the final speed $\beta = v/c$.
+5. A student uses $v = a\tau$ and gets $\beta > 1$. Explain the error and why the correct $\beta$ stays below 1.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{distance\_ly}  &=  \\
+\mathrm{final\_beta}   &=  \\
+\mathrm{lab\_time\_yr} &=  \\
+\end{aligned}
+\]",5375b974b192d134e3585ee865dc4c57d7e3a7e241aa0c2b649ce5cb89844cf8
+structured_prompt_pilot_v2,60,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Ministral 3 8B,"Solve the following scenario.
+A rocket maintains constant proper acceleration $a = 9.8$ m/s$^2$ (as measured by an on-board accelerometer), starting from rest. Use 1 yr $= 3.15576\times 10^7$ s and 1 ly $= c \times 1$ yr.
+
+Conventions: hyperbolic (Rindler) motion; $\tau$ is proper time on the rocket.
+
+Tasks:
+1. Write the exact expressions for lab time $t(\tau)$, lab distance $x(\tau)$, and velocity $\beta(\tau)$ for constant proper acceleration.
+2. After $\tau = 1.00$ proper year, evaluate the elapsed lab time in years.
+3. Evaluate the distance covered in light-years.
+4. Evaluate the final speed $\beta = v/c$.
+5. A student uses $v = a\tau$ and gets $\beta > 1$. Explain the error and why the correct $\beta$ stays below 1.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{distance\_ly}  &=  \\
+\mathrm{final\_beta}   &=  \\
+\mathrm{lab\_time\_yr} &=  \\
+\end{aligned}
+\]",5375b974b192d134e3585ee865dc4c57d7e3a7e241aa0c2b649ce5cb89844cf8
+structured_prompt_pilot_v2,61,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Mistral NeMo 12B,"Solve the following scenario.
+A rocket maintains constant proper acceleration $a = 9.8$ m/s$^2$ (as measured by an on-board accelerometer), starting from rest. Use 1 yr $= 3.15576\times 10^7$ s and 1 ly $= c \times 1$ yr.
+
+Conventions: hyperbolic (Rindler) motion; $\tau$ is proper time on the rocket.
+
+Tasks:
+1. Write the exact expressions for lab time $t(\tau)$, lab distance $x(\tau)$, and velocity $\beta(\tau)$ for constant proper acceleration.
+2. After $\tau = 1.00$ proper year, evaluate the elapsed lab time in years.
+3. Evaluate the distance covered in light-years.
+4. Evaluate the final speed $\beta = v/c$.
+5. A student uses $v = a\tau$ and gets $\beta > 1$. Explain the error and why the correct $\beta$ stays below 1.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{distance\_ly}  &=  \\
+\mathrm{final\_beta}   &=  \\
+\mathrm{lab\_time\_yr} &=  \\
+\end{aligned}
+\]",5375b974b192d134e3585ee865dc4c57d7e3a7e241aa0c2b649ce5cb89844cf8
+structured_prompt_pilot_v2,62,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,Mistral Small 3.2 24B Instruct,"Solve the following scenario.
+A rocket maintains constant proper acceleration $a = 9.8$ m/s$^2$ (as measured by an on-board accelerometer), starting from rest. Use 1 yr $= 3.15576\times 10^7$ s and 1 ly $= c \times 1$ yr.
+
+Conventions: hyperbolic (Rindler) motion; $\tau$ is proper time on the rocket.
+
+Tasks:
+1. Write the exact expressions for lab time $t(\tau)$, lab distance $x(\tau)$, and velocity $\beta(\tau)$ for constant proper acceleration.
+2. After $\tau = 1.00$ proper year, evaluate the elapsed lab time in years.
+3. Evaluate the distance covered in light-years.
+4. Evaluate the final speed $\beta = v/c$.
+5. A student uses $v = a\tau$ and gets $\beta > 1$. Explain the error and why the correct $\beta$ stays below 1.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{distance\_ly}  &=  \\
+\mathrm{final\_beta}   &=  \\
+\mathrm{lab\_time\_yr} &=  \\
+\end{aligned}
+\]",5375b974b192d134e3585ee865dc4c57d7e3a7e241aa0c2b649ce5cb89844cf8
+structured_prompt_pilot_v2,63,SR_ROCKET_001,Relativistic rocket - one proper year at 1 g,Special Relativity,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the following scenario.
+A rocket maintains constant proper acceleration $a = 9.8$ m/s$^2$ (as measured by an on-board accelerometer), starting from rest. Use 1 yr $= 3.15576\times 10^7$ s and 1 ly $= c \times 1$ yr.
+
+Conventions: hyperbolic (Rindler) motion; $\tau$ is proper time on the rocket.
+
+Tasks:
+1. Write the exact expressions for lab time $t(\tau)$, lab distance $x(\tau)$, and velocity $\beta(\tau)$ for constant proper acceleration.
+2. After $\tau = 1.00$ proper year, evaluate the elapsed lab time in years.
+3. Evaluate the distance covered in light-years.
+4. Evaluate the final speed $\beta = v/c$.
+5. A student uses $v = a\tau$ and gets $\beta > 1$. Explain the error and why the correct $\beta$ stays below 1.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Exact hyperbolic motion.** t(τ) = (c/a) sinh(aτ/c), x(τ) = (c²/a)(cosh(aτ/c) − 1), β(τ) = tanh(aτ/c). The dimensionless combination aτ/c is the **rapidity**.
+2. **Rapidity & lab time.** aτ/c = 9.8·3.15576×10⁷ / 2.99792458×10⁸ = ____. Lab time = (c/a) sinh(____) ⟹ **____ yr** (> 1 proper year — the correct dilation direction).
+3. **Distance.** x = (c²/a)(cosh ____ − 1) ⟹ **____ ly**.
+4. **Final speed.** β = tanh(____) = **____**.
+5. **The student's error.** v = aτ gives β = aτ/c = ____ > 1 (superluminal). The resolution: the **rapidity** aτ/c grows linearly, but velocity β = tanh(rapidity) saturates below 1. Newtonian kinematics wrongly adds velocities instead of rapidities.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{distance\_ly}  &=  \\
+\mathrm{final\_beta}   &=  \\
+\mathrm{lab\_time\_yr} &=  \\
+\end{aligned}
+\]",5375b974b192d134e3585ee865dc4c57d7e3a7e241aa0c2b649ce5cb89844cf8
+structured_prompt_pilot_v2,64,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Gemma 3 12B IT,"Solve the following scenario.
+Consider the ferromagnetic Ising model on the square lattice (coordination number $z = 4$), coupling $J > 0$, zero field.
+
+Conventions: report critical temperatures as the dimensionless ratio $k_B T_c/J$.
+
+Tasks:
+1. Write down the mean-field estimate $k_B T_c^{MF}/J = z$ and evaluate it.
+2. State Onsager's exact result $k_B T_c/J = 2/\ln(1+\sqrt2)$ and evaluate it.
+3. Compute the ratio $T_c^{exact}/T_c^{MF}$. Why does mean field OVERestimate $T_c$?
+4. What happens in one dimension, and why? (State the exact 1D result and the physical reason.)
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{ratio\_exact\_mf} &=  \\
+\mathrm{tc\_exact}        &=  \\
+\mathrm{tc\_meanfield}    &=  \\
+\end{aligned}
+\]",6e41bc92e2a3ddd0d71950dafd1310ad1fb42624cc60ab0908141543e0978c10
+structured_prompt_pilot_v2,65,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Gemma 3 27B IT,"Solve the following scenario.
+Consider the ferromagnetic Ising model on the square lattice (coordination number $z = 4$), coupling $J > 0$, zero field.
+
+Conventions: report critical temperatures as the dimensionless ratio $k_B T_c/J$.
+
+Tasks:
+1. Write down the mean-field estimate $k_B T_c^{MF}/J = z$ and evaluate it.
+2. State Onsager's exact result $k_B T_c/J = 2/\ln(1+\sqrt2)$ and evaluate it.
+3. Compute the ratio $T_c^{exact}/T_c^{MF}$. Why does mean field OVERestimate $T_c$?
+4. What happens in one dimension, and why? (State the exact 1D result and the physical reason.)
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{ratio\_exact\_mf} &=  \\
+\mathrm{tc\_exact}        &=  \\
+\mathrm{tc\_meanfield}    &=  \\
+\end{aligned}
+\]",6e41bc92e2a3ddd0d71950dafd1310ad1fb42624cc60ab0908141543e0978c10
+structured_prompt_pilot_v2,66,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Gemma 4 31B IT,"Solve the following scenario.
+Consider the ferromagnetic Ising model on the square lattice (coordination number $z = 4$), coupling $J > 0$, zero field.
+
+Conventions: report critical temperatures as the dimensionless ratio $k_B T_c/J$.
+
+Tasks:
+1. Write down the mean-field estimate $k_B T_c^{MF}/J = z$ and evaluate it.
+2. State Onsager's exact result $k_B T_c/J = 2/\ln(1+\sqrt2)$ and evaluate it.
+3. Compute the ratio $T_c^{exact}/T_c^{MF}$. Why does mean field OVERestimate $T_c$?
+4. What happens in one dimension, and why? (State the exact 1D result and the physical reason.)
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{ratio\_exact\_mf} &=  \\
+\mathrm{tc\_exact}        &=  \\
+\mathrm{tc\_meanfield}    &=  \\
+\end{aligned}
+\]",6e41bc92e2a3ddd0d71950dafd1310ad1fb42624cc60ab0908141543e0978c10
+structured_prompt_pilot_v2,67,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Granite 4.1 8B,"Solve the following scenario.
+Consider the ferromagnetic Ising model on the square lattice (coordination number $z = 4$), coupling $J > 0$, zero field.
+
+Conventions: report critical temperatures as the dimensionless ratio $k_B T_c/J$.
+
+Tasks:
+1. Write down the mean-field estimate $k_B T_c^{MF}/J = z$ and evaluate it.
+2. State Onsager's exact result $k_B T_c/J = 2/\ln(1+\sqrt2)$ and evaluate it.
+3. Compute the ratio $T_c^{exact}/T_c^{MF}$. Why does mean field OVERestimate $T_c$?
+4. What happens in one dimension, and why? (State the exact 1D result and the physical reason.)
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{ratio\_exact\_mf} &=  \\
+\mathrm{tc\_exact}        &=  \\
+\mathrm{tc\_meanfield}    &=  \\
+\end{aligned}
+\]",6e41bc92e2a3ddd0d71950dafd1310ad1fb42624cc60ab0908141543e0978c10
+structured_prompt_pilot_v2,68,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Llama 3.1 8B Instruct,"Solve the following scenario.
+Consider the ferromagnetic Ising model on the square lattice (coordination number $z = 4$), coupling $J > 0$, zero field.
+
+Conventions: report critical temperatures as the dimensionless ratio $k_B T_c/J$.
+
+Tasks:
+1. Write down the mean-field estimate $k_B T_c^{MF}/J = z$ and evaluate it.
+2. State Onsager's exact result $k_B T_c/J = 2/\ln(1+\sqrt2)$ and evaluate it.
+3. Compute the ratio $T_c^{exact}/T_c^{MF}$. Why does mean field OVERestimate $T_c$?
+4. What happens in one dimension, and why? (State the exact 1D result and the physical reason.)
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{ratio\_exact\_mf} &=  \\
+\mathrm{tc\_exact}        &=  \\
+\mathrm{tc\_meanfield}    &=  \\
+\end{aligned}
+\]",6e41bc92e2a3ddd0d71950dafd1310ad1fb42624cc60ab0908141543e0978c10
+structured_prompt_pilot_v2,69,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Ministral 3 8B,"Solve the following scenario.
+Consider the ferromagnetic Ising model on the square lattice (coordination number $z = 4$), coupling $J > 0$, zero field.
+
+Conventions: report critical temperatures as the dimensionless ratio $k_B T_c/J$.
+
+Tasks:
+1. Write down the mean-field estimate $k_B T_c^{MF}/J = z$ and evaluate it.
+2. State Onsager's exact result $k_B T_c/J = 2/\ln(1+\sqrt2)$ and evaluate it.
+3. Compute the ratio $T_c^{exact}/T_c^{MF}$. Why does mean field OVERestimate $T_c$?
+4. What happens in one dimension, and why? (State the exact 1D result and the physical reason.)
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{ratio\_exact\_mf} &=  \\
+\mathrm{tc\_exact}        &=  \\
+\mathrm{tc\_meanfield}    &=  \\
+\end{aligned}
+\]",6e41bc92e2a3ddd0d71950dafd1310ad1fb42624cc60ab0908141543e0978c10
+structured_prompt_pilot_v2,70,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Mistral NeMo 12B,"Solve the following scenario.
+Consider the ferromagnetic Ising model on the square lattice (coordination number $z = 4$), coupling $J > 0$, zero field.
+
+Conventions: report critical temperatures as the dimensionless ratio $k_B T_c/J$.
+
+Tasks:
+1. Write down the mean-field estimate $k_B T_c^{MF}/J = z$ and evaluate it.
+2. State Onsager's exact result $k_B T_c/J = 2/\ln(1+\sqrt2)$ and evaluate it.
+3. Compute the ratio $T_c^{exact}/T_c^{MF}$. Why does mean field OVERestimate $T_c$?
+4. What happens in one dimension, and why? (State the exact 1D result and the physical reason.)
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{ratio\_exact\_mf} &=  \\
+\mathrm{tc\_exact}        &=  \\
+\mathrm{tc\_meanfield}    &=  \\
+\end{aligned}
+\]",6e41bc92e2a3ddd0d71950dafd1310ad1fb42624cc60ab0908141543e0978c10
+structured_prompt_pilot_v2,71,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,Mistral Small 3.2 24B Instruct,"Solve the following scenario.
+Consider the ferromagnetic Ising model on the square lattice (coordination number $z = 4$), coupling $J > 0$, zero field.
+
+Conventions: report critical temperatures as the dimensionless ratio $k_B T_c/J$.
+
+Tasks:
+1. Write down the mean-field estimate $k_B T_c^{MF}/J = z$ and evaluate it.
+2. State Onsager's exact result $k_B T_c/J = 2/\ln(1+\sqrt2)$ and evaluate it.
+3. Compute the ratio $T_c^{exact}/T_c^{MF}$. Why does mean field OVERestimate $T_c$?
+4. What happens in one dimension, and why? (State the exact 1D result and the physical reason.)
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{ratio\_exact\_mf} &=  \\
+\mathrm{tc\_exact}        &=  \\
+\mathrm{tc\_meanfield}    &=  \\
+\end{aligned}
+\]",6e41bc92e2a3ddd0d71950dafd1310ad1fb42624cc60ab0908141543e0978c10
+structured_prompt_pilot_v2,72,STAT_ISING_001,2D Ising - Onsager's exact Tc vs mean field,Statistical Mechanics,NVIDIA Nemotron 3 Nano 30B-A3B,"Solve the following scenario.
+Consider the ferromagnetic Ising model on the square lattice (coordination number $z = 4$), coupling $J > 0$, zero field.
+
+Conventions: report critical temperatures as the dimensionless ratio $k_B T_c/J$.
+
+Tasks:
+1. Write down the mean-field estimate $k_B T_c^{MF}/J = z$ and evaluate it.
+2. State Onsager's exact result $k_B T_c/J = 2/\ln(1+\sqrt2)$ and evaluate it.
+3. Compute the ratio $T_c^{exact}/T_c^{MF}$. Why does mean field OVERestimate $T_c$?
+4. What happens in one dimension, and why? (State the exact 1D result and the physical reason.)
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Mean field.** k_B T_c^{MF}/J = z = **____**.
+2. **Onsager exact.** k_B T_c/J = 2/ln(1+√2) = 2/____ = **____**.
+3. **Ratio.** T_c^{exact}/T_c^{MF} = ____/____ = **____**. Mean field **overestimates** T_c because it replaces each spin's neighbors by their average and ignores fluctuations; thermal fluctuations destroy long-range order at a lower temperature than the mean-field estimate.
+4. **One dimension.** T_c = 0 — no finite-temperature transition. A single domain wall costs energy 2J but gains entropy k ln N; for any T > 0 the free-energy term −TΔS wins for large N, so order is always destroyed (Peierls / domain-wall argument).
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{ratio\_exact\_mf} &=  \\
+\mathrm{tc\_exact}        &=  \\
+\mathrm{tc\_meanfield}    &=  \\
+\end{aligned}
+\]",6e41bc92e2a3ddd0d71950dafd1310ad1fb42624cc60ab0908141543e0978c10

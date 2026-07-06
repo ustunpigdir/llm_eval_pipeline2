@@ -1,0 +1,13 @@
+batch,scenario_id,model_name,helper_status,review_reason,candidate_recovery_type,evidence,safe_to_recover_candidate
+V2,CM_FOUCAULT_001,NVIDIA Nemotron 3 Nano 30B-A3B,ALL_BLANK,nemotron_tail_loop_or_multi_block_risk,all_blank,final_answer_blocks=1,False
+V2,COS_CMB_001,NVIDIA Nemotron 3 Nano 30B-A3B,CONFLICT,nemotron_tail_loop_or_multi_block_risk,true_conflict,final_answer_blocks=6;unique_canonical_blocks=2,False
+V2,GR_ISCO_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,nemotron_tail_loop_or_multi_block_risk,blank_template_after_filled_block,final_answer_blocks=7,False
+V2,QI_TELEPORT_001,NVIDIA Nemotron 3 Nano 30B-A3B,ALL_BLANK,nemotron_tail_loop_or_multi_block_risk,all_blank,final_answer_blocks=1,False
+V2,QM_BERRY_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,nemotron_tail_loop_or_multi_block_risk,unknown,final_answer_blocks=1,False
+V2,QFT_G2_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,nemotron_tail_loop_or_multi_block_risk,unknown,final_answer_blocks=1,False
+V2,SR_ROCKET_001,NVIDIA Nemotron 3 Nano 30B-A3B,NO_VALID_BLOCK,nemotron_tail_loop_or_multi_block_risk,no_valid_block,final_answer_blocks=0,False
+V2,STAT_ISING_001,NVIDIA Nemotron 3 Nano 30B-A3B,OK,nemotron_tail_loop_or_multi_block_risk,blank_template_after_filled_block,final_answer_blocks=3,False
+V3,QM_TUNNEL_001,Granite 4.1 8B,NO_VALID_BLOCK,non_clean_helper_status,no_valid_block,final_answer_blocks=1,False
+V3,STAT_BEC_001,Granite 4.1 8B,NO_VALID_BLOCK,non_clean_helper_status,no_valid_block,final_answer_blocks=1,False
+V3,STAT_BEC_001,Llama 3.1 8B Instruct,NO_VALID_BLOCK,non_clean_helper_status,no_valid_block,final_answer_blocks=0,False
+V4,QFT_UNRUH_001,Granite 4.1 8B,NO_VALID_BLOCK,non_clean_helper_status,no_valid_block,final_answer_blocks=1,False

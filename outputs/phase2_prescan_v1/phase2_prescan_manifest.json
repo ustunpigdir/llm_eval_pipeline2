@@ -1,0 +1,62 @@
+{
+  "bertscore_block_removal_mismatches": 5,
+  "bertscore_run": false,
+  "counts_reconciled": {
+    "CLEAN": true,
+    "FAIL": true,
+    "PASS": true,
+    "REVIEW": true,
+    "scenario_count": true,
+    "total_structured_runs": true
+  },
+  "created_at": "2026-07-05T22:13:40+00:00",
+  "duplicate_field_candidates": 0,
+  "explicit_base_log_candidates": 13,
+  "external_api_calls": false,
+  "fail_count": 135,
+  "fail_error_tag_distribution": {
+    "": 309,
+    "MISMATCH": 606,
+    "UNPARSEABLE": 12,
+    "UNPARSEABLE:parse-fail": 6,
+    "UNPARSEABLE:parse-fail:SympifyError": 2,
+    "UNPARSEABLE:parse-fail:TokenError": 4
+  },
+  "gold_data_issues": 0,
+  "input_folders": [
+    "outputs/structured_prompt_pilot_v2/",
+    "outputs/structured_prompt_pilot_v3/",
+    "outputs/structured_prompt_pilot_v4/",
+    "outputs/structured_prompt_pilot_v5/",
+    "outputs/structured_prompt_all32_summary_phase1_hardened/",
+    "outputs/bertscore_structured_all32_phase1_hardened_no_final_block_v1/"
+  ],
+  "learning_db_modified": false,
+  "output_files": [
+    "PHASE2_PRESCAN_REPORT.md",
+    "phase2_prescan_fail_error_tags.csv",
+    "phase2_prescan_fail_to_not_gradeable_candidates.csv",
+    "phase2_prescan_review_recovery_candidates.csv",
+    "phase2_prescan_duplicate_field_candidates.csv",
+    "phase2_prescan_gold_data_issues.csv",
+    "phase2_prescan_tolerance_modes.csv",
+    "phase2_prescan_bertscore_final_block_removal_mismatches.csv",
+    "phase2_prescan_manifest.json",
+    "phase2_prescan_additional_findings.json"
+  ],
+  "pass_count": 117,
+  "percent_ellipsis_risks": 0,
+  "phase2_semantics_implemented": false,
+  "predicted_fail_count_after_phase2": 130,
+  "predicted_gradeable_denominator": 247,
+  "predicted_not_gradeable_count": 5,
+  "predicted_pass_count_after_phase2": 117,
+  "predicted_phase2_pass_rate_if_only_NOT_GRADEABLE_semantics_change": 0.47368421052631576,
+  "raw_outputs_modified": false,
+  "read_only": true,
+  "review_recovery_candidates_safe": 0,
+  "script": "scripts/prescan_phase2_impact.py",
+  "total_clean_rows": 252,
+  "total_review_rows": 12,
+  "total_structured_runs": 264
+}

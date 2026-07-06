@@ -1,0 +1,1905 @@
+pilot_name,prompt_mode,prompt_sequence,scenario_id,scenario_title,category,model_id,model_label,provider,model,trial,prompt,prompt_sha256
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,1,CM_TOP_001,Fast top - gyroscopic precession rate,Classical Mechanics,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+A symmetric top has mass $m = 0.500$ kg, center of mass at $l = 0.0500$ m along the symmetry axis from the fixed pivot, spin moment of inertia $I_3 = 2.00\times 10^{-4}$ kg m$^2$, and spins at $\omega_3 = 300$ rad/s. Take $g = 9.81$ m/s$^2$. The axis is nearly horizontal... use the fast-top (gyroscopic) approximation, which is independent of the tilt angle.
+
+Conventions: fast-top limit $I_3\omega_3 \gg$ precession angular momentum; steady precession rate $\Omega = mgl/(I_3\omega_3)$.
+
+Tasks:
+1. Derive $\Omega = mgl/(I_3\omega_3)$ from torque = rate of change of angular momentum.
+2. Evaluate $\Omega$ in rad/s and the precession period in seconds.
+3. If the spin $\omega_3$ DOUBLES, what happens to the precession rate? State the scaling and the new value.
+4. Explain why the top precesses instead of falling, and what the small nutation superimposed on steady precession is.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derivation of Ω.** Gravity exerts torque τ = mgl sin θ, horizontal and perpendicular to the (nearly axial) spin angular momentum L ≈ I₃ω₃. With τ = dL/dt rotating L horizontally at rate Ω: mgl sin θ = Ω·(I₃ω₃ sin θ) ⟹ **Ω = mgl/(I₃ω₃)**, independent of θ.
+2. **Evaluate.** Ω = 0.5·9.81·0.05/(2×10⁻⁴·300) = ____/0.06 = **____ rad/s**; period = 2π/Ω = **____ s**.
+3. **Spin scaling.** Ω ∝ 1/ω₃, so doubling the spin **halves** the precession: Ω = **____ rad/s**.
+4. **Physics.** Precession changes the **direction** of L, not its magnitude; a superimposed wobble is nutation. Counterintuitively, faster spin gives **slower** precession.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{precession\_double\_spin} &=  \\
+\mathrm{precession\_period\_s}    &=  \\
+\mathrm{precession\_rad\_s}       &=  \\
+\end{aligned}
+\]",d0946219c623d51cebebe723763427461e43f8eb7c0137105cc97e9232f17022
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,2,CM_TOP_001,Fast top - gyroscopic precession rate,Classical Mechanics,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+A symmetric top has mass $m = 0.500$ kg, center of mass at $l = 0.0500$ m along the symmetry axis from the fixed pivot, spin moment of inertia $I_3 = 2.00\times 10^{-4}$ kg m$^2$, and spins at $\omega_3 = 300$ rad/s. Take $g = 9.81$ m/s$^2$. The axis is nearly horizontal... use the fast-top (gyroscopic) approximation, which is independent of the tilt angle.
+
+Conventions: fast-top limit $I_3\omega_3 \gg$ precession angular momentum; steady precession rate $\Omega = mgl/(I_3\omega_3)$.
+
+Tasks:
+1. Derive $\Omega = mgl/(I_3\omega_3)$ from torque = rate of change of angular momentum.
+2. Evaluate $\Omega$ in rad/s and the precession period in seconds.
+3. If the spin $\omega_3$ DOUBLES, what happens to the precession rate? State the scaling and the new value.
+4. Explain why the top precesses instead of falling, and what the small nutation superimposed on steady precession is.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derivation of Ω.** Gravity exerts torque τ = mgl sin θ, horizontal and perpendicular to the (nearly axial) spin angular momentum L ≈ I₃ω₃. With τ = dL/dt rotating L horizontally at rate Ω: mgl sin θ = Ω·(I₃ω₃ sin θ) ⟹ **Ω = mgl/(I₃ω₃)**, independent of θ.
+2. **Evaluate.** Ω = 0.5·9.81·0.05/(2×10⁻⁴·300) = ____/0.06 = **____ rad/s**; period = 2π/Ω = **____ s**.
+3. **Spin scaling.** Ω ∝ 1/ω₃, so doubling the spin **halves** the precession: Ω = **____ rad/s**.
+4. **Physics.** Precession changes the **direction** of L, not its magnitude; a superimposed wobble is nutation. Counterintuitively, faster spin gives **slower** precession.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{precession\_double\_spin} &=  \\
+\mathrm{precession\_period\_s}    &=  \\
+\mathrm{precession\_rad\_s}       &=  \\
+\end{aligned}
+\]",d0946219c623d51cebebe723763427461e43f8eb7c0137105cc97e9232f17022
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,3,CM_TOP_001,Fast top - gyroscopic precession rate,Classical Mechanics,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+A symmetric top has mass $m = 0.500$ kg, center of mass at $l = 0.0500$ m along the symmetry axis from the fixed pivot, spin moment of inertia $I_3 = 2.00\times 10^{-4}$ kg m$^2$, and spins at $\omega_3 = 300$ rad/s. Take $g = 9.81$ m/s$^2$. The axis is nearly horizontal... use the fast-top (gyroscopic) approximation, which is independent of the tilt angle.
+
+Conventions: fast-top limit $I_3\omega_3 \gg$ precession angular momentum; steady precession rate $\Omega = mgl/(I_3\omega_3)$.
+
+Tasks:
+1. Derive $\Omega = mgl/(I_3\omega_3)$ from torque = rate of change of angular momentum.
+2. Evaluate $\Omega$ in rad/s and the precession period in seconds.
+3. If the spin $\omega_3$ DOUBLES, what happens to the precession rate? State the scaling and the new value.
+4. Explain why the top precesses instead of falling, and what the small nutation superimposed on steady precession is.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derivation of Ω.** Gravity exerts torque τ = mgl sin θ, horizontal and perpendicular to the (nearly axial) spin angular momentum L ≈ I₃ω₃. With τ = dL/dt rotating L horizontally at rate Ω: mgl sin θ = Ω·(I₃ω₃ sin θ) ⟹ **Ω = mgl/(I₃ω₃)**, independent of θ.
+2. **Evaluate.** Ω = 0.5·9.81·0.05/(2×10⁻⁴·300) = ____/0.06 = **____ rad/s**; period = 2π/Ω = **____ s**.
+3. **Spin scaling.** Ω ∝ 1/ω₃, so doubling the spin **halves** the precession: Ω = **____ rad/s**.
+4. **Physics.** Precession changes the **direction** of L, not its magnitude; a superimposed wobble is nutation. Counterintuitively, faster spin gives **slower** precession.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{precession\_double\_spin} &=  \\
+\mathrm{precession\_period\_s}    &=  \\
+\mathrm{precession\_rad\_s}       &=  \\
+\end{aligned}
+\]",d0946219c623d51cebebe723763427461e43f8eb7c0137105cc97e9232f17022
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,4,CM_TOP_001,Fast top - gyroscopic precession rate,Classical Mechanics,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+A symmetric top has mass $m = 0.500$ kg, center of mass at $l = 0.0500$ m along the symmetry axis from the fixed pivot, spin moment of inertia $I_3 = 2.00\times 10^{-4}$ kg m$^2$, and spins at $\omega_3 = 300$ rad/s. Take $g = 9.81$ m/s$^2$. The axis is nearly horizontal... use the fast-top (gyroscopic) approximation, which is independent of the tilt angle.
+
+Conventions: fast-top limit $I_3\omega_3 \gg$ precession angular momentum; steady precession rate $\Omega = mgl/(I_3\omega_3)$.
+
+Tasks:
+1. Derive $\Omega = mgl/(I_3\omega_3)$ from torque = rate of change of angular momentum.
+2. Evaluate $\Omega$ in rad/s and the precession period in seconds.
+3. If the spin $\omega_3$ DOUBLES, what happens to the precession rate? State the scaling and the new value.
+4. Explain why the top precesses instead of falling, and what the small nutation superimposed on steady precession is.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derivation of Ω.** Gravity exerts torque τ = mgl sin θ, horizontal and perpendicular to the (nearly axial) spin angular momentum L ≈ I₃ω₃. With τ = dL/dt rotating L horizontally at rate Ω: mgl sin θ = Ω·(I₃ω₃ sin θ) ⟹ **Ω = mgl/(I₃ω₃)**, independent of θ.
+2. **Evaluate.** Ω = 0.5·9.81·0.05/(2×10⁻⁴·300) = ____/0.06 = **____ rad/s**; period = 2π/Ω = **____ s**.
+3. **Spin scaling.** Ω ∝ 1/ω₃, so doubling the spin **halves** the precession: Ω = **____ rad/s**.
+4. **Physics.** Precession changes the **direction** of L, not its magnitude; a superimposed wobble is nutation. Counterintuitively, faster spin gives **slower** precession.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{precession\_double\_spin} &=  \\
+\mathrm{precession\_period\_s}    &=  \\
+\mathrm{precession\_rad\_s}       &=  \\
+\end{aligned}
+\]",d0946219c623d51cebebe723763427461e43f8eb7c0137105cc97e9232f17022
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,5,CM_TOP_001,Fast top - gyroscopic precession rate,Classical Mechanics,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+A symmetric top has mass $m = 0.500$ kg, center of mass at $l = 0.0500$ m along the symmetry axis from the fixed pivot, spin moment of inertia $I_3 = 2.00\times 10^{-4}$ kg m$^2$, and spins at $\omega_3 = 300$ rad/s. Take $g = 9.81$ m/s$^2$. The axis is nearly horizontal... use the fast-top (gyroscopic) approximation, which is independent of the tilt angle.
+
+Conventions: fast-top limit $I_3\omega_3 \gg$ precession angular momentum; steady precession rate $\Omega = mgl/(I_3\omega_3)$.
+
+Tasks:
+1. Derive $\Omega = mgl/(I_3\omega_3)$ from torque = rate of change of angular momentum.
+2. Evaluate $\Omega$ in rad/s and the precession period in seconds.
+3. If the spin $\omega_3$ DOUBLES, what happens to the precession rate? State the scaling and the new value.
+4. Explain why the top precesses instead of falling, and what the small nutation superimposed on steady precession is.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derivation of Ω.** Gravity exerts torque τ = mgl sin θ, horizontal and perpendicular to the (nearly axial) spin angular momentum L ≈ I₃ω₃. With τ = dL/dt rotating L horizontally at rate Ω: mgl sin θ = Ω·(I₃ω₃ sin θ) ⟹ **Ω = mgl/(I₃ω₃)**, independent of θ.
+2. **Evaluate.** Ω = 0.5·9.81·0.05/(2×10⁻⁴·300) = ____/0.06 = **____ rad/s**; period = 2π/Ω = **____ s**.
+3. **Spin scaling.** Ω ∝ 1/ω₃, so doubling the spin **halves** the precession: Ω = **____ rad/s**.
+4. **Physics.** Precession changes the **direction** of L, not its magnitude; a superimposed wobble is nutation. Counterintuitively, faster spin gives **slower** precession.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{precession\_double\_spin} &=  \\
+\mathrm{precession\_period\_s}    &=  \\
+\mathrm{precession\_rad\_s}       &=  \\
+\end{aligned}
+\]",d0946219c623d51cebebe723763427461e43f8eb7c0137105cc97e9232f17022
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,6,CM_TOP_001,Fast top - gyroscopic precession rate,Classical Mechanics,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+A symmetric top has mass $m = 0.500$ kg, center of mass at $l = 0.0500$ m along the symmetry axis from the fixed pivot, spin moment of inertia $I_3 = 2.00\times 10^{-4}$ kg m$^2$, and spins at $\omega_3 = 300$ rad/s. Take $g = 9.81$ m/s$^2$. The axis is nearly horizontal... use the fast-top (gyroscopic) approximation, which is independent of the tilt angle.
+
+Conventions: fast-top limit $I_3\omega_3 \gg$ precession angular momentum; steady precession rate $\Omega = mgl/(I_3\omega_3)$.
+
+Tasks:
+1. Derive $\Omega = mgl/(I_3\omega_3)$ from torque = rate of change of angular momentum.
+2. Evaluate $\Omega$ in rad/s and the precession period in seconds.
+3. If the spin $\omega_3$ DOUBLES, what happens to the precession rate? State the scaling and the new value.
+4. Explain why the top precesses instead of falling, and what the small nutation superimposed on steady precession is.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derivation of Ω.** Gravity exerts torque τ = mgl sin θ, horizontal and perpendicular to the (nearly axial) spin angular momentum L ≈ I₃ω₃. With τ = dL/dt rotating L horizontally at rate Ω: mgl sin θ = Ω·(I₃ω₃ sin θ) ⟹ **Ω = mgl/(I₃ω₃)**, independent of θ.
+2. **Evaluate.** Ω = 0.5·9.81·0.05/(2×10⁻⁴·300) = ____/0.06 = **____ rad/s**; period = 2π/Ω = **____ s**.
+3. **Spin scaling.** Ω ∝ 1/ω₃, so doubling the spin **halves** the precession: Ω = **____ rad/s**.
+4. **Physics.** Precession changes the **direction** of L, not its magnitude; a superimposed wobble is nutation. Counterintuitively, faster spin gives **slower** precession.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{precession\_double\_spin} &=  \\
+\mathrm{precession\_period\_s}    &=  \\
+\mathrm{precession\_rad\_s}       &=  \\
+\end{aligned}
+\]",d0946219c623d51cebebe723763427461e43f8eb7c0137105cc97e9232f17022
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,7,CM_TOP_001,Fast top - gyroscopic precession rate,Classical Mechanics,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+A symmetric top has mass $m = 0.500$ kg, center of mass at $l = 0.0500$ m along the symmetry axis from the fixed pivot, spin moment of inertia $I_3 = 2.00\times 10^{-4}$ kg m$^2$, and spins at $\omega_3 = 300$ rad/s. Take $g = 9.81$ m/s$^2$. The axis is nearly horizontal... use the fast-top (gyroscopic) approximation, which is independent of the tilt angle.
+
+Conventions: fast-top limit $I_3\omega_3 \gg$ precession angular momentum; steady precession rate $\Omega = mgl/(I_3\omega_3)$.
+
+Tasks:
+1. Derive $\Omega = mgl/(I_3\omega_3)$ from torque = rate of change of angular momentum.
+2. Evaluate $\Omega$ in rad/s and the precession period in seconds.
+3. If the spin $\omega_3$ DOUBLES, what happens to the precession rate? State the scaling and the new value.
+4. Explain why the top precesses instead of falling, and what the small nutation superimposed on steady precession is.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derivation of Ω.** Gravity exerts torque τ = mgl sin θ, horizontal and perpendicular to the (nearly axial) spin angular momentum L ≈ I₃ω₃. With τ = dL/dt rotating L horizontally at rate Ω: mgl sin θ = Ω·(I₃ω₃ sin θ) ⟹ **Ω = mgl/(I₃ω₃)**, independent of θ.
+2. **Evaluate.** Ω = 0.5·9.81·0.05/(2×10⁻⁴·300) = ____/0.06 = **____ rad/s**; period = 2π/Ω = **____ s**.
+3. **Spin scaling.** Ω ∝ 1/ω₃, so doubling the spin **halves** the precession: Ω = **____ rad/s**.
+4. **Physics.** Precession changes the **direction** of L, not its magnitude; a superimposed wobble is nutation. Counterintuitively, faster spin gives **slower** precession.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{precession\_double\_spin} &=  \\
+\mathrm{precession\_period\_s}    &=  \\
+\mathrm{precession\_rad\_s}       &=  \\
+\end{aligned}
+\]",d0946219c623d51cebebe723763427461e43f8eb7c0137105cc97e9232f17022
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,8,CM_TOP_001,Fast top - gyroscopic precession rate,Classical Mechanics,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+A symmetric top has mass $m = 0.500$ kg, center of mass at $l = 0.0500$ m along the symmetry axis from the fixed pivot, spin moment of inertia $I_3 = 2.00\times 10^{-4}$ kg m$^2$, and spins at $\omega_3 = 300$ rad/s. Take $g = 9.81$ m/s$^2$. The axis is nearly horizontal... use the fast-top (gyroscopic) approximation, which is independent of the tilt angle.
+
+Conventions: fast-top limit $I_3\omega_3 \gg$ precession angular momentum; steady precession rate $\Omega = mgl/(I_3\omega_3)$.
+
+Tasks:
+1. Derive $\Omega = mgl/(I_3\omega_3)$ from torque = rate of change of angular momentum.
+2. Evaluate $\Omega$ in rad/s and the precession period in seconds.
+3. If the spin $\omega_3$ DOUBLES, what happens to the precession rate? State the scaling and the new value.
+4. Explain why the top precesses instead of falling, and what the small nutation superimposed on steady precession is.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Derivation of Ω.** Gravity exerts torque τ = mgl sin θ, horizontal and perpendicular to the (nearly axial) spin angular momentum L ≈ I₃ω₃. With τ = dL/dt rotating L horizontally at rate Ω: mgl sin θ = Ω·(I₃ω₃ sin θ) ⟹ **Ω = mgl/(I₃ω₃)**, independent of θ.
+2. **Evaluate.** Ω = 0.5·9.81·0.05/(2×10⁻⁴·300) = ____/0.06 = **____ rad/s**; period = 2π/Ω = **____ s**.
+3. **Spin scaling.** Ω ∝ 1/ω₃, so doubling the spin **halves** the precession: Ω = **____ rad/s**.
+4. **Physics.** Precession changes the **direction** of L, not its magnitude; a superimposed wobble is nutation. Counterintuitively, faster spin gives **slower** precession.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{precession\_double\_spin} &=  \\
+\mathrm{precession\_period\_s}    &=  \\
+\mathrm{precession\_rad\_s}       &=  \\
+\end{aligned}
+\]",d0946219c623d51cebebe723763427461e43f8eb7c0137105cc97e9232f17022
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,9,COS_AGE_001,Age of the universe - Hubble time vs real ages,Cosmology,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+Take $H_0 = 70.0$ km/s/Mpc (1 Mpc $= 3.0857\times 10^{19}$ km).
+
+Conventions: 'Hubble time' $= 1/H_0$; matter-only means flat Einstein-de Sitter; LCDM means flat with $\Omega_m = 0.3$, $\Omega_\Lambda = 0.7$, for which $t_0 = \frac{2}{3H_0\sqrt{\Omega_\Lambda}}\,\mathrm{asinh}\sqrt{\Omega_\Lambda/\Omega_m}$.
+
+Tasks:
+1. Evaluate the Hubble time in Gyr.
+2. Evaluate the age of a flat matter-only universe in Gyr, and explain why it is LESS than $1/H_0$.
+3. Evaluate the LCDM age in Gyr with the given formula.
+4. Explain why the LCDM age comes out close to $1/H_0$ (the roles of early deceleration and late acceleration).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble time.** 1/H₀ = (____×10¹⁹ km)/(70 km/s) = ____×10¹⁷ s = **____ Gyr**.
+2. **Matter-only (EdS).** a ∝ t^{2/3} ⟹ t₀ = (2/3)/H₀ = (2/3)·____ = **____ Gyr**. It is **less** than 1/H₀ because matter decelerates the expansion — the universe expanded faster in the past, so it reached today's size in less time.
+3. **ΛCDM.** t₀ = (2/(3√0.7))·asinh(√(0.7/0.3))·(1/H₀) = ____·____ = **____ Gyr**.
+4. **Near-coincidence.** Early matter domination decelerates (pulling the age below 1/H₀); late Λ domination accelerates (pushing it back up). At Ω_m ≈ 0.3 these nearly cancel, so t₀ ≈ 1/H₀ — an accident of the present epoch, not a law.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{hubble\_time\_gyr} &=  \\
+\mathrm{lcdm\_age\_gyr}    &=  \\
+\mathrm{matter\_age\_gyr}  &=  \\
+\end{aligned}
+\]",7f4efa655382bfce04c07d7a5c52678d68fb341855999fb5d3f41b397f273b90
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,10,COS_AGE_001,Age of the universe - Hubble time vs real ages,Cosmology,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+Take $H_0 = 70.0$ km/s/Mpc (1 Mpc $= 3.0857\times 10^{19}$ km).
+
+Conventions: 'Hubble time' $= 1/H_0$; matter-only means flat Einstein-de Sitter; LCDM means flat with $\Omega_m = 0.3$, $\Omega_\Lambda = 0.7$, for which $t_0 = \frac{2}{3H_0\sqrt{\Omega_\Lambda}}\,\mathrm{asinh}\sqrt{\Omega_\Lambda/\Omega_m}$.
+
+Tasks:
+1. Evaluate the Hubble time in Gyr.
+2. Evaluate the age of a flat matter-only universe in Gyr, and explain why it is LESS than $1/H_0$.
+3. Evaluate the LCDM age in Gyr with the given formula.
+4. Explain why the LCDM age comes out close to $1/H_0$ (the roles of early deceleration and late acceleration).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble time.** 1/H₀ = (____×10¹⁹ km)/(70 km/s) = ____×10¹⁷ s = **____ Gyr**.
+2. **Matter-only (EdS).** a ∝ t^{2/3} ⟹ t₀ = (2/3)/H₀ = (2/3)·____ = **____ Gyr**. It is **less** than 1/H₀ because matter decelerates the expansion — the universe expanded faster in the past, so it reached today's size in less time.
+3. **ΛCDM.** t₀ = (2/(3√0.7))·asinh(√(0.7/0.3))·(1/H₀) = ____·____ = **____ Gyr**.
+4. **Near-coincidence.** Early matter domination decelerates (pulling the age below 1/H₀); late Λ domination accelerates (pushing it back up). At Ω_m ≈ 0.3 these nearly cancel, so t₀ ≈ 1/H₀ — an accident of the present epoch, not a law.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{hubble\_time\_gyr} &=  \\
+\mathrm{lcdm\_age\_gyr}    &=  \\
+\mathrm{matter\_age\_gyr}  &=  \\
+\end{aligned}
+\]",7f4efa655382bfce04c07d7a5c52678d68fb341855999fb5d3f41b397f273b90
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,11,COS_AGE_001,Age of the universe - Hubble time vs real ages,Cosmology,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+Take $H_0 = 70.0$ km/s/Mpc (1 Mpc $= 3.0857\times 10^{19}$ km).
+
+Conventions: 'Hubble time' $= 1/H_0$; matter-only means flat Einstein-de Sitter; LCDM means flat with $\Omega_m = 0.3$, $\Omega_\Lambda = 0.7$, for which $t_0 = \frac{2}{3H_0\sqrt{\Omega_\Lambda}}\,\mathrm{asinh}\sqrt{\Omega_\Lambda/\Omega_m}$.
+
+Tasks:
+1. Evaluate the Hubble time in Gyr.
+2. Evaluate the age of a flat matter-only universe in Gyr, and explain why it is LESS than $1/H_0$.
+3. Evaluate the LCDM age in Gyr with the given formula.
+4. Explain why the LCDM age comes out close to $1/H_0$ (the roles of early deceleration and late acceleration).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble time.** 1/H₀ = (____×10¹⁹ km)/(70 km/s) = ____×10¹⁷ s = **____ Gyr**.
+2. **Matter-only (EdS).** a ∝ t^{2/3} ⟹ t₀ = (2/3)/H₀ = (2/3)·____ = **____ Gyr**. It is **less** than 1/H₀ because matter decelerates the expansion — the universe expanded faster in the past, so it reached today's size in less time.
+3. **ΛCDM.** t₀ = (2/(3√0.7))·asinh(√(0.7/0.3))·(1/H₀) = ____·____ = **____ Gyr**.
+4. **Near-coincidence.** Early matter domination decelerates (pulling the age below 1/H₀); late Λ domination accelerates (pushing it back up). At Ω_m ≈ 0.3 these nearly cancel, so t₀ ≈ 1/H₀ — an accident of the present epoch, not a law.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{hubble\_time\_gyr} &=  \\
+\mathrm{lcdm\_age\_gyr}    &=  \\
+\mathrm{matter\_age\_gyr}  &=  \\
+\end{aligned}
+\]",7f4efa655382bfce04c07d7a5c52678d68fb341855999fb5d3f41b397f273b90
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,12,COS_AGE_001,Age of the universe - Hubble time vs real ages,Cosmology,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+Take $H_0 = 70.0$ km/s/Mpc (1 Mpc $= 3.0857\times 10^{19}$ km).
+
+Conventions: 'Hubble time' $= 1/H_0$; matter-only means flat Einstein-de Sitter; LCDM means flat with $\Omega_m = 0.3$, $\Omega_\Lambda = 0.7$, for which $t_0 = \frac{2}{3H_0\sqrt{\Omega_\Lambda}}\,\mathrm{asinh}\sqrt{\Omega_\Lambda/\Omega_m}$.
+
+Tasks:
+1. Evaluate the Hubble time in Gyr.
+2. Evaluate the age of a flat matter-only universe in Gyr, and explain why it is LESS than $1/H_0$.
+3. Evaluate the LCDM age in Gyr with the given formula.
+4. Explain why the LCDM age comes out close to $1/H_0$ (the roles of early deceleration and late acceleration).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble time.** 1/H₀ = (____×10¹⁹ km)/(70 km/s) = ____×10¹⁷ s = **____ Gyr**.
+2. **Matter-only (EdS).** a ∝ t^{2/3} ⟹ t₀ = (2/3)/H₀ = (2/3)·____ = **____ Gyr**. It is **less** than 1/H₀ because matter decelerates the expansion — the universe expanded faster in the past, so it reached today's size in less time.
+3. **ΛCDM.** t₀ = (2/(3√0.7))·asinh(√(0.7/0.3))·(1/H₀) = ____·____ = **____ Gyr**.
+4. **Near-coincidence.** Early matter domination decelerates (pulling the age below 1/H₀); late Λ domination accelerates (pushing it back up). At Ω_m ≈ 0.3 these nearly cancel, so t₀ ≈ 1/H₀ — an accident of the present epoch, not a law.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{hubble\_time\_gyr} &=  \\
+\mathrm{lcdm\_age\_gyr}    &=  \\
+\mathrm{matter\_age\_gyr}  &=  \\
+\end{aligned}
+\]",7f4efa655382bfce04c07d7a5c52678d68fb341855999fb5d3f41b397f273b90
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,13,COS_AGE_001,Age of the universe - Hubble time vs real ages,Cosmology,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+Take $H_0 = 70.0$ km/s/Mpc (1 Mpc $= 3.0857\times 10^{19}$ km).
+
+Conventions: 'Hubble time' $= 1/H_0$; matter-only means flat Einstein-de Sitter; LCDM means flat with $\Omega_m = 0.3$, $\Omega_\Lambda = 0.7$, for which $t_0 = \frac{2}{3H_0\sqrt{\Omega_\Lambda}}\,\mathrm{asinh}\sqrt{\Omega_\Lambda/\Omega_m}$.
+
+Tasks:
+1. Evaluate the Hubble time in Gyr.
+2. Evaluate the age of a flat matter-only universe in Gyr, and explain why it is LESS than $1/H_0$.
+3. Evaluate the LCDM age in Gyr with the given formula.
+4. Explain why the LCDM age comes out close to $1/H_0$ (the roles of early deceleration and late acceleration).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble time.** 1/H₀ = (____×10¹⁹ km)/(70 km/s) = ____×10¹⁷ s = **____ Gyr**.
+2. **Matter-only (EdS).** a ∝ t^{2/3} ⟹ t₀ = (2/3)/H₀ = (2/3)·____ = **____ Gyr**. It is **less** than 1/H₀ because matter decelerates the expansion — the universe expanded faster in the past, so it reached today's size in less time.
+3. **ΛCDM.** t₀ = (2/(3√0.7))·asinh(√(0.7/0.3))·(1/H₀) = ____·____ = **____ Gyr**.
+4. **Near-coincidence.** Early matter domination decelerates (pulling the age below 1/H₀); late Λ domination accelerates (pushing it back up). At Ω_m ≈ 0.3 these nearly cancel, so t₀ ≈ 1/H₀ — an accident of the present epoch, not a law.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{hubble\_time\_gyr} &=  \\
+\mathrm{lcdm\_age\_gyr}    &=  \\
+\mathrm{matter\_age\_gyr}  &=  \\
+\end{aligned}
+\]",7f4efa655382bfce04c07d7a5c52678d68fb341855999fb5d3f41b397f273b90
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,14,COS_AGE_001,Age of the universe - Hubble time vs real ages,Cosmology,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+Take $H_0 = 70.0$ km/s/Mpc (1 Mpc $= 3.0857\times 10^{19}$ km).
+
+Conventions: 'Hubble time' $= 1/H_0$; matter-only means flat Einstein-de Sitter; LCDM means flat with $\Omega_m = 0.3$, $\Omega_\Lambda = 0.7$, for which $t_0 = \frac{2}{3H_0\sqrt{\Omega_\Lambda}}\,\mathrm{asinh}\sqrt{\Omega_\Lambda/\Omega_m}$.
+
+Tasks:
+1. Evaluate the Hubble time in Gyr.
+2. Evaluate the age of a flat matter-only universe in Gyr, and explain why it is LESS than $1/H_0$.
+3. Evaluate the LCDM age in Gyr with the given formula.
+4. Explain why the LCDM age comes out close to $1/H_0$ (the roles of early deceleration and late acceleration).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble time.** 1/H₀ = (____×10¹⁹ km)/(70 km/s) = ____×10¹⁷ s = **____ Gyr**.
+2. **Matter-only (EdS).** a ∝ t^{2/3} ⟹ t₀ = (2/3)/H₀ = (2/3)·____ = **____ Gyr**. It is **less** than 1/H₀ because matter decelerates the expansion — the universe expanded faster in the past, so it reached today's size in less time.
+3. **ΛCDM.** t₀ = (2/(3√0.7))·asinh(√(0.7/0.3))·(1/H₀) = ____·____ = **____ Gyr**.
+4. **Near-coincidence.** Early matter domination decelerates (pulling the age below 1/H₀); late Λ domination accelerates (pushing it back up). At Ω_m ≈ 0.3 these nearly cancel, so t₀ ≈ 1/H₀ — an accident of the present epoch, not a law.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{hubble\_time\_gyr} &=  \\
+\mathrm{lcdm\_age\_gyr}    &=  \\
+\mathrm{matter\_age\_gyr}  &=  \\
+\end{aligned}
+\]",7f4efa655382bfce04c07d7a5c52678d68fb341855999fb5d3f41b397f273b90
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,15,COS_AGE_001,Age of the universe - Hubble time vs real ages,Cosmology,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+Take $H_0 = 70.0$ km/s/Mpc (1 Mpc $= 3.0857\times 10^{19}$ km).
+
+Conventions: 'Hubble time' $= 1/H_0$; matter-only means flat Einstein-de Sitter; LCDM means flat with $\Omega_m = 0.3$, $\Omega_\Lambda = 0.7$, for which $t_0 = \frac{2}{3H_0\sqrt{\Omega_\Lambda}}\,\mathrm{asinh}\sqrt{\Omega_\Lambda/\Omega_m}$.
+
+Tasks:
+1. Evaluate the Hubble time in Gyr.
+2. Evaluate the age of a flat matter-only universe in Gyr, and explain why it is LESS than $1/H_0$.
+3. Evaluate the LCDM age in Gyr with the given formula.
+4. Explain why the LCDM age comes out close to $1/H_0$ (the roles of early deceleration and late acceleration).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble time.** 1/H₀ = (____×10¹⁹ km)/(70 km/s) = ____×10¹⁷ s = **____ Gyr**.
+2. **Matter-only (EdS).** a ∝ t^{2/3} ⟹ t₀ = (2/3)/H₀ = (2/3)·____ = **____ Gyr**. It is **less** than 1/H₀ because matter decelerates the expansion — the universe expanded faster in the past, so it reached today's size in less time.
+3. **ΛCDM.** t₀ = (2/(3√0.7))·asinh(√(0.7/0.3))·(1/H₀) = ____·____ = **____ Gyr**.
+4. **Near-coincidence.** Early matter domination decelerates (pulling the age below 1/H₀); late Λ domination accelerates (pushing it back up). At Ω_m ≈ 0.3 these nearly cancel, so t₀ ≈ 1/H₀ — an accident of the present epoch, not a law.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{hubble\_time\_gyr} &=  \\
+\mathrm{lcdm\_age\_gyr}    &=  \\
+\mathrm{matter\_age\_gyr}  &=  \\
+\end{aligned}
+\]",7f4efa655382bfce04c07d7a5c52678d68fb341855999fb5d3f41b397f273b90
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,16,COS_AGE_001,Age of the universe - Hubble time vs real ages,Cosmology,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+Take $H_0 = 70.0$ km/s/Mpc (1 Mpc $= 3.0857\times 10^{19}$ km).
+
+Conventions: 'Hubble time' $= 1/H_0$; matter-only means flat Einstein-de Sitter; LCDM means flat with $\Omega_m = 0.3$, $\Omega_\Lambda = 0.7$, for which $t_0 = \frac{2}{3H_0\sqrt{\Omega_\Lambda}}\,\mathrm{asinh}\sqrt{\Omega_\Lambda/\Omega_m}$.
+
+Tasks:
+1. Evaluate the Hubble time in Gyr.
+2. Evaluate the age of a flat matter-only universe in Gyr, and explain why it is LESS than $1/H_0$.
+3. Evaluate the LCDM age in Gyr with the given formula.
+4. Explain why the LCDM age comes out close to $1/H_0$ (the roles of early deceleration and late acceleration).
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Hubble time.** 1/H₀ = (____×10¹⁹ km)/(70 km/s) = ____×10¹⁷ s = **____ Gyr**.
+2. **Matter-only (EdS).** a ∝ t^{2/3} ⟹ t₀ = (2/3)/H₀ = (2/3)·____ = **____ Gyr**. It is **less** than 1/H₀ because matter decelerates the expansion — the universe expanded faster in the past, so it reached today's size in less time.
+3. **ΛCDM.** t₀ = (2/(3√0.7))·asinh(√(0.7/0.3))·(1/H₀) = ____·____ = **____ Gyr**.
+4. **Near-coincidence.** Early matter domination decelerates (pulling the age below 1/H₀); late Λ domination accelerates (pushing it back up). At Ω_m ≈ 0.3 these nearly cancel, so t₀ ≈ 1/H₀ — an accident of the present epoch, not a law.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{hubble\_time\_gyr} &=  \\
+\mathrm{lcdm\_age\_gyr}    &=  \\
+\mathrm{matter\_age\_gyr}  &=  \\
+\end{aligned}
+\]",7f4efa655382bfce04c07d7a5c52678d68fb341855999fb5d3f41b397f273b90
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,17,GR_CHIRP_001,GW chirp - chirp mass from f and f-dot,General Relativity,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+A detector measures a compact-binary inspiral: at GW frequency $f_{GW} = 35.0$ Hz the frequency increases at $\dot f_{GW} = 68.678$ Hz/s. Use $G M_\odot/c^3 = 4.925\times 10^{-6}$ s.
+
+Conventions: leading (quadrupole) order; $f_{GW}$ is the GW frequency (twice the orbital frequency); chirp mass $\mathcal{M} = (m_1 m_2)^{3/5}/(m_1+m_2)^{1/5}$.
+
+Tasks:
+1. Write the leading-order relation between $\dot f_{GW}$, $f_{GW}$, and the chirp mass.
+2. Solve it for $\mathcal{M}$ and evaluate in solar masses.
+3. Assuming equal masses, evaluate each mass and the total mass in solar masses.
+4. Explain why the leading-order waveform measures the CHIRP mass rather than the total mass.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Leading-order relation.** ḟ = (96/5) π^{8/3} (G𝓜/c³)^{5/3} f^{11/3}.
+2. **Invert for 𝓜.** G𝓜/c³ = [ ḟ / ((96/5) π^{8/3} f^{11/3}) ]^{3/5} ≈ ____×10⁻⁴ s ⟹ 𝓜 = (G𝓜/c³)/(GM_⊙/c³) = ____×10⁻⁴ / ____×10⁻⁶ ≈ **____ M_⊙**.
+3. **Equal masses.** With m₁ = m₂ = m, 𝓜 = m/2^{1/5}, so m = 𝓜·2^{1/5} = ____·____ = **____ M_⊙ each**, total **____ M_⊙**.
+4. **Why chirp mass.** The leading-order (quadrupole) inspiral phasing depends only on the combination 𝓜; the individual masses / mass ratio enter only at higher post-Newtonian order. So a leading-order chirp measures **𝓜**, not the total mass.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chirp\_mass\_msun} &=  \\
+\mathrm{each\_mass\_msun}  &=  \\
+\mathrm{total\_mass\_msun} &=  \\
+\end{aligned}
+\]",0a9a26d3096a7528748cdb2729cfcd7b5c4f4c6ef0b5d87db96561c8e87351ac
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,18,GR_CHIRP_001,GW chirp - chirp mass from f and f-dot,General Relativity,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+A detector measures a compact-binary inspiral: at GW frequency $f_{GW} = 35.0$ Hz the frequency increases at $\dot f_{GW} = 68.678$ Hz/s. Use $G M_\odot/c^3 = 4.925\times 10^{-6}$ s.
+
+Conventions: leading (quadrupole) order; $f_{GW}$ is the GW frequency (twice the orbital frequency); chirp mass $\mathcal{M} = (m_1 m_2)^{3/5}/(m_1+m_2)^{1/5}$.
+
+Tasks:
+1. Write the leading-order relation between $\dot f_{GW}$, $f_{GW}$, and the chirp mass.
+2. Solve it for $\mathcal{M}$ and evaluate in solar masses.
+3. Assuming equal masses, evaluate each mass and the total mass in solar masses.
+4. Explain why the leading-order waveform measures the CHIRP mass rather than the total mass.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Leading-order relation.** ḟ = (96/5) π^{8/3} (G𝓜/c³)^{5/3} f^{11/3}.
+2. **Invert for 𝓜.** G𝓜/c³ = [ ḟ / ((96/5) π^{8/3} f^{11/3}) ]^{3/5} ≈ ____×10⁻⁴ s ⟹ 𝓜 = (G𝓜/c³)/(GM_⊙/c³) = ____×10⁻⁴ / ____×10⁻⁶ ≈ **____ M_⊙**.
+3. **Equal masses.** With m₁ = m₂ = m, 𝓜 = m/2^{1/5}, so m = 𝓜·2^{1/5} = ____·____ = **____ M_⊙ each**, total **____ M_⊙**.
+4. **Why chirp mass.** The leading-order (quadrupole) inspiral phasing depends only on the combination 𝓜; the individual masses / mass ratio enter only at higher post-Newtonian order. So a leading-order chirp measures **𝓜**, not the total mass.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chirp\_mass\_msun} &=  \\
+\mathrm{each\_mass\_msun}  &=  \\
+\mathrm{total\_mass\_msun} &=  \\
+\end{aligned}
+\]",0a9a26d3096a7528748cdb2729cfcd7b5c4f4c6ef0b5d87db96561c8e87351ac
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,19,GR_CHIRP_001,GW chirp - chirp mass from f and f-dot,General Relativity,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+A detector measures a compact-binary inspiral: at GW frequency $f_{GW} = 35.0$ Hz the frequency increases at $\dot f_{GW} = 68.678$ Hz/s. Use $G M_\odot/c^3 = 4.925\times 10^{-6}$ s.
+
+Conventions: leading (quadrupole) order; $f_{GW}$ is the GW frequency (twice the orbital frequency); chirp mass $\mathcal{M} = (m_1 m_2)^{3/5}/(m_1+m_2)^{1/5}$.
+
+Tasks:
+1. Write the leading-order relation between $\dot f_{GW}$, $f_{GW}$, and the chirp mass.
+2. Solve it for $\mathcal{M}$ and evaluate in solar masses.
+3. Assuming equal masses, evaluate each mass and the total mass in solar masses.
+4. Explain why the leading-order waveform measures the CHIRP mass rather than the total mass.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Leading-order relation.** ḟ = (96/5) π^{8/3} (G𝓜/c³)^{5/3} f^{11/3}.
+2. **Invert for 𝓜.** G𝓜/c³ = [ ḟ / ((96/5) π^{8/3} f^{11/3}) ]^{3/5} ≈ ____×10⁻⁴ s ⟹ 𝓜 = (G𝓜/c³)/(GM_⊙/c³) = ____×10⁻⁴ / ____×10⁻⁶ ≈ **____ M_⊙**.
+3. **Equal masses.** With m₁ = m₂ = m, 𝓜 = m/2^{1/5}, so m = 𝓜·2^{1/5} = ____·____ = **____ M_⊙ each**, total **____ M_⊙**.
+4. **Why chirp mass.** The leading-order (quadrupole) inspiral phasing depends only on the combination 𝓜; the individual masses / mass ratio enter only at higher post-Newtonian order. So a leading-order chirp measures **𝓜**, not the total mass.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chirp\_mass\_msun} &=  \\
+\mathrm{each\_mass\_msun}  &=  \\
+\mathrm{total\_mass\_msun} &=  \\
+\end{aligned}
+\]",0a9a26d3096a7528748cdb2729cfcd7b5c4f4c6ef0b5d87db96561c8e87351ac
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,20,GR_CHIRP_001,GW chirp - chirp mass from f and f-dot,General Relativity,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+A detector measures a compact-binary inspiral: at GW frequency $f_{GW} = 35.0$ Hz the frequency increases at $\dot f_{GW} = 68.678$ Hz/s. Use $G M_\odot/c^3 = 4.925\times 10^{-6}$ s.
+
+Conventions: leading (quadrupole) order; $f_{GW}$ is the GW frequency (twice the orbital frequency); chirp mass $\mathcal{M} = (m_1 m_2)^{3/5}/(m_1+m_2)^{1/5}$.
+
+Tasks:
+1. Write the leading-order relation between $\dot f_{GW}$, $f_{GW}$, and the chirp mass.
+2. Solve it for $\mathcal{M}$ and evaluate in solar masses.
+3. Assuming equal masses, evaluate each mass and the total mass in solar masses.
+4. Explain why the leading-order waveform measures the CHIRP mass rather than the total mass.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Leading-order relation.** ḟ = (96/5) π^{8/3} (G𝓜/c³)^{5/3} f^{11/3}.
+2. **Invert for 𝓜.** G𝓜/c³ = [ ḟ / ((96/5) π^{8/3} f^{11/3}) ]^{3/5} ≈ ____×10⁻⁴ s ⟹ 𝓜 = (G𝓜/c³)/(GM_⊙/c³) = ____×10⁻⁴ / ____×10⁻⁶ ≈ **____ M_⊙**.
+3. **Equal masses.** With m₁ = m₂ = m, 𝓜 = m/2^{1/5}, so m = 𝓜·2^{1/5} = ____·____ = **____ M_⊙ each**, total **____ M_⊙**.
+4. **Why chirp mass.** The leading-order (quadrupole) inspiral phasing depends only on the combination 𝓜; the individual masses / mass ratio enter only at higher post-Newtonian order. So a leading-order chirp measures **𝓜**, not the total mass.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chirp\_mass\_msun} &=  \\
+\mathrm{each\_mass\_msun}  &=  \\
+\mathrm{total\_mass\_msun} &=  \\
+\end{aligned}
+\]",0a9a26d3096a7528748cdb2729cfcd7b5c4f4c6ef0b5d87db96561c8e87351ac
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,21,GR_CHIRP_001,GW chirp - chirp mass from f and f-dot,General Relativity,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+A detector measures a compact-binary inspiral: at GW frequency $f_{GW} = 35.0$ Hz the frequency increases at $\dot f_{GW} = 68.678$ Hz/s. Use $G M_\odot/c^3 = 4.925\times 10^{-6}$ s.
+
+Conventions: leading (quadrupole) order; $f_{GW}$ is the GW frequency (twice the orbital frequency); chirp mass $\mathcal{M} = (m_1 m_2)^{3/5}/(m_1+m_2)^{1/5}$.
+
+Tasks:
+1. Write the leading-order relation between $\dot f_{GW}$, $f_{GW}$, and the chirp mass.
+2. Solve it for $\mathcal{M}$ and evaluate in solar masses.
+3. Assuming equal masses, evaluate each mass and the total mass in solar masses.
+4. Explain why the leading-order waveform measures the CHIRP mass rather than the total mass.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Leading-order relation.** ḟ = (96/5) π^{8/3} (G𝓜/c³)^{5/3} f^{11/3}.
+2. **Invert for 𝓜.** G𝓜/c³ = [ ḟ / ((96/5) π^{8/3} f^{11/3}) ]^{3/5} ≈ ____×10⁻⁴ s ⟹ 𝓜 = (G𝓜/c³)/(GM_⊙/c³) = ____×10⁻⁴ / ____×10⁻⁶ ≈ **____ M_⊙**.
+3. **Equal masses.** With m₁ = m₂ = m, 𝓜 = m/2^{1/5}, so m = 𝓜·2^{1/5} = ____·____ = **____ M_⊙ each**, total **____ M_⊙**.
+4. **Why chirp mass.** The leading-order (quadrupole) inspiral phasing depends only on the combination 𝓜; the individual masses / mass ratio enter only at higher post-Newtonian order. So a leading-order chirp measures **𝓜**, not the total mass.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chirp\_mass\_msun} &=  \\
+\mathrm{each\_mass\_msun}  &=  \\
+\mathrm{total\_mass\_msun} &=  \\
+\end{aligned}
+\]",0a9a26d3096a7528748cdb2729cfcd7b5c4f4c6ef0b5d87db96561c8e87351ac
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,22,GR_CHIRP_001,GW chirp - chirp mass from f and f-dot,General Relativity,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+A detector measures a compact-binary inspiral: at GW frequency $f_{GW} = 35.0$ Hz the frequency increases at $\dot f_{GW} = 68.678$ Hz/s. Use $G M_\odot/c^3 = 4.925\times 10^{-6}$ s.
+
+Conventions: leading (quadrupole) order; $f_{GW}$ is the GW frequency (twice the orbital frequency); chirp mass $\mathcal{M} = (m_1 m_2)^{3/5}/(m_1+m_2)^{1/5}$.
+
+Tasks:
+1. Write the leading-order relation between $\dot f_{GW}$, $f_{GW}$, and the chirp mass.
+2. Solve it for $\mathcal{M}$ and evaluate in solar masses.
+3. Assuming equal masses, evaluate each mass and the total mass in solar masses.
+4. Explain why the leading-order waveform measures the CHIRP mass rather than the total mass.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Leading-order relation.** ḟ = (96/5) π^{8/3} (G𝓜/c³)^{5/3} f^{11/3}.
+2. **Invert for 𝓜.** G𝓜/c³ = [ ḟ / ((96/5) π^{8/3} f^{11/3}) ]^{3/5} ≈ ____×10⁻⁴ s ⟹ 𝓜 = (G𝓜/c³)/(GM_⊙/c³) = ____×10⁻⁴ / ____×10⁻⁶ ≈ **____ M_⊙**.
+3. **Equal masses.** With m₁ = m₂ = m, 𝓜 = m/2^{1/5}, so m = 𝓜·2^{1/5} = ____·____ = **____ M_⊙ each**, total **____ M_⊙**.
+4. **Why chirp mass.** The leading-order (quadrupole) inspiral phasing depends only on the combination 𝓜; the individual masses / mass ratio enter only at higher post-Newtonian order. So a leading-order chirp measures **𝓜**, not the total mass.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chirp\_mass\_msun} &=  \\
+\mathrm{each\_mass\_msun}  &=  \\
+\mathrm{total\_mass\_msun} &=  \\
+\end{aligned}
+\]",0a9a26d3096a7528748cdb2729cfcd7b5c4f4c6ef0b5d87db96561c8e87351ac
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,23,GR_CHIRP_001,GW chirp - chirp mass from f and f-dot,General Relativity,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+A detector measures a compact-binary inspiral: at GW frequency $f_{GW} = 35.0$ Hz the frequency increases at $\dot f_{GW} = 68.678$ Hz/s. Use $G M_\odot/c^3 = 4.925\times 10^{-6}$ s.
+
+Conventions: leading (quadrupole) order; $f_{GW}$ is the GW frequency (twice the orbital frequency); chirp mass $\mathcal{M} = (m_1 m_2)^{3/5}/(m_1+m_2)^{1/5}$.
+
+Tasks:
+1. Write the leading-order relation between $\dot f_{GW}$, $f_{GW}$, and the chirp mass.
+2. Solve it for $\mathcal{M}$ and evaluate in solar masses.
+3. Assuming equal masses, evaluate each mass and the total mass in solar masses.
+4. Explain why the leading-order waveform measures the CHIRP mass rather than the total mass.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Leading-order relation.** ḟ = (96/5) π^{8/3} (G𝓜/c³)^{5/3} f^{11/3}.
+2. **Invert for 𝓜.** G𝓜/c³ = [ ḟ / ((96/5) π^{8/3} f^{11/3}) ]^{3/5} ≈ ____×10⁻⁴ s ⟹ 𝓜 = (G𝓜/c³)/(GM_⊙/c³) = ____×10⁻⁴ / ____×10⁻⁶ ≈ **____ M_⊙**.
+3. **Equal masses.** With m₁ = m₂ = m, 𝓜 = m/2^{1/5}, so m = 𝓜·2^{1/5} = ____·____ = **____ M_⊙ each**, total **____ M_⊙**.
+4. **Why chirp mass.** The leading-order (quadrupole) inspiral phasing depends only on the combination 𝓜; the individual masses / mass ratio enter only at higher post-Newtonian order. So a leading-order chirp measures **𝓜**, not the total mass.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chirp\_mass\_msun} &=  \\
+\mathrm{each\_mass\_msun}  &=  \\
+\mathrm{total\_mass\_msun} &=  \\
+\end{aligned}
+\]",0a9a26d3096a7528748cdb2729cfcd7b5c4f4c6ef0b5d87db96561c8e87351ac
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,24,GR_CHIRP_001,GW chirp - chirp mass from f and f-dot,General Relativity,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+A detector measures a compact-binary inspiral: at GW frequency $f_{GW} = 35.0$ Hz the frequency increases at $\dot f_{GW} = 68.678$ Hz/s. Use $G M_\odot/c^3 = 4.925\times 10^{-6}$ s.
+
+Conventions: leading (quadrupole) order; $f_{GW}$ is the GW frequency (twice the orbital frequency); chirp mass $\mathcal{M} = (m_1 m_2)^{3/5}/(m_1+m_2)^{1/5}$.
+
+Tasks:
+1. Write the leading-order relation between $\dot f_{GW}$, $f_{GW}$, and the chirp mass.
+2. Solve it for $\mathcal{M}$ and evaluate in solar masses.
+3. Assuming equal masses, evaluate each mass and the total mass in solar masses.
+4. Explain why the leading-order waveform measures the CHIRP mass rather than the total mass.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Leading-order relation.** ḟ = (96/5) π^{8/3} (G𝓜/c³)^{5/3} f^{11/3}.
+2. **Invert for 𝓜.** G𝓜/c³ = [ ḟ / ((96/5) π^{8/3} f^{11/3}) ]^{3/5} ≈ ____×10⁻⁴ s ⟹ 𝓜 = (G𝓜/c³)/(GM_⊙/c³) = ____×10⁻⁴ / ____×10⁻⁶ ≈ **____ M_⊙**.
+3. **Equal masses.** With m₁ = m₂ = m, 𝓜 = m/2^{1/5}, so m = 𝓜·2^{1/5} = ____·____ = **____ M_⊙ each**, total **____ M_⊙**.
+4. **Why chirp mass.** The leading-order (quadrupole) inspiral phasing depends only on the combination 𝓜; the individual masses / mass ratio enter only at higher post-Newtonian order. So a leading-order chirp measures **𝓜**, not the total mass.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{chirp\_mass\_msun} &=  \\
+\mathrm{each\_mass\_msun}  &=  \\
+\mathrm{total\_mass\_msun} &=  \\
+\end{aligned}
+\]",0a9a26d3096a7528748cdb2729cfcd7b5c4f4c6ef0b5d87db96561c8e87351ac
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,25,QFT_YUKAWA_001,Yukawa range - pion mass sets the nuclear force reach,Quantum Field Theory,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+The nuclear force between nucleons is mediated (in Yukawa's picture) by pion exchange. Use $m_{\pi^\pm} c^2 = 139.57$ MeV and $\hbar c = 197.327$ MeV fm.
+
+Conventions: the range is the REDUCED Compton wavelength $\lambda = \hbar/(m_\pi c)$; report femtometers.
+
+Tasks:
+1. Write the Yukawa potential and identify how the mediator mass enters the exponential.
+2. Evaluate the range $\hbar/(m_\pi c)$ in fm.
+3. A student uses the full (non-reduced) Compton wavelength $h/(m_\pi c)$. Evaluate that and explain which one belongs in the Yukawa exponential and why.
+4. Historically, Yukawa inverted this logic in 1935: from a ~2 fm force range he predicted a new particle. What mass scale (in MeV) does a 2.0 fm range imply?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Potential.** V(r) ∝ e^{−r/λ}/r with λ = ℏ/(mc); the mediator mass sets the exponential decay length — the force range.
+2. **Range.** λ = ℏ/(m_π c) = ℏc/(m_π c²) = ____/139.57 = **____ fm**.
+3. **Non-reduced (the trap).** h/(m_π c) = 2π·ℏ/(m_π c) = 2π·____ = **____ fm**. The Yukawa exponential uses the **reduced** wavelength ℏ/(mc) (the propagator 1/(q²+m²) Fourier-transforms to e^{−mr}/r, with m = 1/λ_reduced in natural units); the full h/(mc) is 2π too large.
+4. **Yukawa's inversion (1935).** A 2.0 fm range implies m c² = ℏc/range = ____/2.0 = **____ MeV** — his ~100 MeV prediction of the pion. Heavier mediator ⟹ shorter range.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{mass\_for\_2fm\_mev} &=  \\
+\mathrm{nonreduced\_fm}      &=  \\
+\mathrm{range\_fm}           &=  \\
+\end{aligned}
+\]",29abd85d7fcfbe8db841805f201daedd7b2177154b9fdb9032044ecb2a0473b1
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,26,QFT_YUKAWA_001,Yukawa range - pion mass sets the nuclear force reach,Quantum Field Theory,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+The nuclear force between nucleons is mediated (in Yukawa's picture) by pion exchange. Use $m_{\pi^\pm} c^2 = 139.57$ MeV and $\hbar c = 197.327$ MeV fm.
+
+Conventions: the range is the REDUCED Compton wavelength $\lambda = \hbar/(m_\pi c)$; report femtometers.
+
+Tasks:
+1. Write the Yukawa potential and identify how the mediator mass enters the exponential.
+2. Evaluate the range $\hbar/(m_\pi c)$ in fm.
+3. A student uses the full (non-reduced) Compton wavelength $h/(m_\pi c)$. Evaluate that and explain which one belongs in the Yukawa exponential and why.
+4. Historically, Yukawa inverted this logic in 1935: from a ~2 fm force range he predicted a new particle. What mass scale (in MeV) does a 2.0 fm range imply?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Potential.** V(r) ∝ e^{−r/λ}/r with λ = ℏ/(mc); the mediator mass sets the exponential decay length — the force range.
+2. **Range.** λ = ℏ/(m_π c) = ℏc/(m_π c²) = ____/139.57 = **____ fm**.
+3. **Non-reduced (the trap).** h/(m_π c) = 2π·ℏ/(m_π c) = 2π·____ = **____ fm**. The Yukawa exponential uses the **reduced** wavelength ℏ/(mc) (the propagator 1/(q²+m²) Fourier-transforms to e^{−mr}/r, with m = 1/λ_reduced in natural units); the full h/(mc) is 2π too large.
+4. **Yukawa's inversion (1935).** A 2.0 fm range implies m c² = ℏc/range = ____/2.0 = **____ MeV** — his ~100 MeV prediction of the pion. Heavier mediator ⟹ shorter range.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{mass\_for\_2fm\_mev} &=  \\
+\mathrm{nonreduced\_fm}      &=  \\
+\mathrm{range\_fm}           &=  \\
+\end{aligned}
+\]",29abd85d7fcfbe8db841805f201daedd7b2177154b9fdb9032044ecb2a0473b1
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,27,QFT_YUKAWA_001,Yukawa range - pion mass sets the nuclear force reach,Quantum Field Theory,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+The nuclear force between nucleons is mediated (in Yukawa's picture) by pion exchange. Use $m_{\pi^\pm} c^2 = 139.57$ MeV and $\hbar c = 197.327$ MeV fm.
+
+Conventions: the range is the REDUCED Compton wavelength $\lambda = \hbar/(m_\pi c)$; report femtometers.
+
+Tasks:
+1. Write the Yukawa potential and identify how the mediator mass enters the exponential.
+2. Evaluate the range $\hbar/(m_\pi c)$ in fm.
+3. A student uses the full (non-reduced) Compton wavelength $h/(m_\pi c)$. Evaluate that and explain which one belongs in the Yukawa exponential and why.
+4. Historically, Yukawa inverted this logic in 1935: from a ~2 fm force range he predicted a new particle. What mass scale (in MeV) does a 2.0 fm range imply?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Potential.** V(r) ∝ e^{−r/λ}/r with λ = ℏ/(mc); the mediator mass sets the exponential decay length — the force range.
+2. **Range.** λ = ℏ/(m_π c) = ℏc/(m_π c²) = ____/139.57 = **____ fm**.
+3. **Non-reduced (the trap).** h/(m_π c) = 2π·ℏ/(m_π c) = 2π·____ = **____ fm**. The Yukawa exponential uses the **reduced** wavelength ℏ/(mc) (the propagator 1/(q²+m²) Fourier-transforms to e^{−mr}/r, with m = 1/λ_reduced in natural units); the full h/(mc) is 2π too large.
+4. **Yukawa's inversion (1935).** A 2.0 fm range implies m c² = ℏc/range = ____/2.0 = **____ MeV** — his ~100 MeV prediction of the pion. Heavier mediator ⟹ shorter range.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{mass\_for\_2fm\_mev} &=  \\
+\mathrm{nonreduced\_fm}      &=  \\
+\mathrm{range\_fm}           &=  \\
+\end{aligned}
+\]",29abd85d7fcfbe8db841805f201daedd7b2177154b9fdb9032044ecb2a0473b1
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,28,QFT_YUKAWA_001,Yukawa range - pion mass sets the nuclear force reach,Quantum Field Theory,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+The nuclear force between nucleons is mediated (in Yukawa's picture) by pion exchange. Use $m_{\pi^\pm} c^2 = 139.57$ MeV and $\hbar c = 197.327$ MeV fm.
+
+Conventions: the range is the REDUCED Compton wavelength $\lambda = \hbar/(m_\pi c)$; report femtometers.
+
+Tasks:
+1. Write the Yukawa potential and identify how the mediator mass enters the exponential.
+2. Evaluate the range $\hbar/(m_\pi c)$ in fm.
+3. A student uses the full (non-reduced) Compton wavelength $h/(m_\pi c)$. Evaluate that and explain which one belongs in the Yukawa exponential and why.
+4. Historically, Yukawa inverted this logic in 1935: from a ~2 fm force range he predicted a new particle. What mass scale (in MeV) does a 2.0 fm range imply?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Potential.** V(r) ∝ e^{−r/λ}/r with λ = ℏ/(mc); the mediator mass sets the exponential decay length — the force range.
+2. **Range.** λ = ℏ/(m_π c) = ℏc/(m_π c²) = ____/139.57 = **____ fm**.
+3. **Non-reduced (the trap).** h/(m_π c) = 2π·ℏ/(m_π c) = 2π·____ = **____ fm**. The Yukawa exponential uses the **reduced** wavelength ℏ/(mc) (the propagator 1/(q²+m²) Fourier-transforms to e^{−mr}/r, with m = 1/λ_reduced in natural units); the full h/(mc) is 2π too large.
+4. **Yukawa's inversion (1935).** A 2.0 fm range implies m c² = ℏc/range = ____/2.0 = **____ MeV** — his ~100 MeV prediction of the pion. Heavier mediator ⟹ shorter range.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{mass\_for\_2fm\_mev} &=  \\
+\mathrm{nonreduced\_fm}      &=  \\
+\mathrm{range\_fm}           &=  \\
+\end{aligned}
+\]",29abd85d7fcfbe8db841805f201daedd7b2177154b9fdb9032044ecb2a0473b1
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,29,QFT_YUKAWA_001,Yukawa range - pion mass sets the nuclear force reach,Quantum Field Theory,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+The nuclear force between nucleons is mediated (in Yukawa's picture) by pion exchange. Use $m_{\pi^\pm} c^2 = 139.57$ MeV and $\hbar c = 197.327$ MeV fm.
+
+Conventions: the range is the REDUCED Compton wavelength $\lambda = \hbar/(m_\pi c)$; report femtometers.
+
+Tasks:
+1. Write the Yukawa potential and identify how the mediator mass enters the exponential.
+2. Evaluate the range $\hbar/(m_\pi c)$ in fm.
+3. A student uses the full (non-reduced) Compton wavelength $h/(m_\pi c)$. Evaluate that and explain which one belongs in the Yukawa exponential and why.
+4. Historically, Yukawa inverted this logic in 1935: from a ~2 fm force range he predicted a new particle. What mass scale (in MeV) does a 2.0 fm range imply?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Potential.** V(r) ∝ e^{−r/λ}/r with λ = ℏ/(mc); the mediator mass sets the exponential decay length — the force range.
+2. **Range.** λ = ℏ/(m_π c) = ℏc/(m_π c²) = ____/139.57 = **____ fm**.
+3. **Non-reduced (the trap).** h/(m_π c) = 2π·ℏ/(m_π c) = 2π·____ = **____ fm**. The Yukawa exponential uses the **reduced** wavelength ℏ/(mc) (the propagator 1/(q²+m²) Fourier-transforms to e^{−mr}/r, with m = 1/λ_reduced in natural units); the full h/(mc) is 2π too large.
+4. **Yukawa's inversion (1935).** A 2.0 fm range implies m c² = ℏc/range = ____/2.0 = **____ MeV** — his ~100 MeV prediction of the pion. Heavier mediator ⟹ shorter range.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{mass\_for\_2fm\_mev} &=  \\
+\mathrm{nonreduced\_fm}      &=  \\
+\mathrm{range\_fm}           &=  \\
+\end{aligned}
+\]",29abd85d7fcfbe8db841805f201daedd7b2177154b9fdb9032044ecb2a0473b1
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,30,QFT_YUKAWA_001,Yukawa range - pion mass sets the nuclear force reach,Quantum Field Theory,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+The nuclear force between nucleons is mediated (in Yukawa's picture) by pion exchange. Use $m_{\pi^\pm} c^2 = 139.57$ MeV and $\hbar c = 197.327$ MeV fm.
+
+Conventions: the range is the REDUCED Compton wavelength $\lambda = \hbar/(m_\pi c)$; report femtometers.
+
+Tasks:
+1. Write the Yukawa potential and identify how the mediator mass enters the exponential.
+2. Evaluate the range $\hbar/(m_\pi c)$ in fm.
+3. A student uses the full (non-reduced) Compton wavelength $h/(m_\pi c)$. Evaluate that and explain which one belongs in the Yukawa exponential and why.
+4. Historically, Yukawa inverted this logic in 1935: from a ~2 fm force range he predicted a new particle. What mass scale (in MeV) does a 2.0 fm range imply?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Potential.** V(r) ∝ e^{−r/λ}/r with λ = ℏ/(mc); the mediator mass sets the exponential decay length — the force range.
+2. **Range.** λ = ℏ/(m_π c) = ℏc/(m_π c²) = ____/139.57 = **____ fm**.
+3. **Non-reduced (the trap).** h/(m_π c) = 2π·ℏ/(m_π c) = 2π·____ = **____ fm**. The Yukawa exponential uses the **reduced** wavelength ℏ/(mc) (the propagator 1/(q²+m²) Fourier-transforms to e^{−mr}/r, with m = 1/λ_reduced in natural units); the full h/(mc) is 2π too large.
+4. **Yukawa's inversion (1935).** A 2.0 fm range implies m c² = ℏc/range = ____/2.0 = **____ MeV** — his ~100 MeV prediction of the pion. Heavier mediator ⟹ shorter range.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{mass\_for\_2fm\_mev} &=  \\
+\mathrm{nonreduced\_fm}      &=  \\
+\mathrm{range\_fm}           &=  \\
+\end{aligned}
+\]",29abd85d7fcfbe8db841805f201daedd7b2177154b9fdb9032044ecb2a0473b1
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,31,QFT_YUKAWA_001,Yukawa range - pion mass sets the nuclear force reach,Quantum Field Theory,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+The nuclear force between nucleons is mediated (in Yukawa's picture) by pion exchange. Use $m_{\pi^\pm} c^2 = 139.57$ MeV and $\hbar c = 197.327$ MeV fm.
+
+Conventions: the range is the REDUCED Compton wavelength $\lambda = \hbar/(m_\pi c)$; report femtometers.
+
+Tasks:
+1. Write the Yukawa potential and identify how the mediator mass enters the exponential.
+2. Evaluate the range $\hbar/(m_\pi c)$ in fm.
+3. A student uses the full (non-reduced) Compton wavelength $h/(m_\pi c)$. Evaluate that and explain which one belongs in the Yukawa exponential and why.
+4. Historically, Yukawa inverted this logic in 1935: from a ~2 fm force range he predicted a new particle. What mass scale (in MeV) does a 2.0 fm range imply?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Potential.** V(r) ∝ e^{−r/λ}/r with λ = ℏ/(mc); the mediator mass sets the exponential decay length — the force range.
+2. **Range.** λ = ℏ/(m_π c) = ℏc/(m_π c²) = ____/139.57 = **____ fm**.
+3. **Non-reduced (the trap).** h/(m_π c) = 2π·ℏ/(m_π c) = 2π·____ = **____ fm**. The Yukawa exponential uses the **reduced** wavelength ℏ/(mc) (the propagator 1/(q²+m²) Fourier-transforms to e^{−mr}/r, with m = 1/λ_reduced in natural units); the full h/(mc) is 2π too large.
+4. **Yukawa's inversion (1935).** A 2.0 fm range implies m c² = ℏc/range = ____/2.0 = **____ MeV** — his ~100 MeV prediction of the pion. Heavier mediator ⟹ shorter range.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{mass\_for\_2fm\_mev} &=  \\
+\mathrm{nonreduced\_fm}      &=  \\
+\mathrm{range\_fm}           &=  \\
+\end{aligned}
+\]",29abd85d7fcfbe8db841805f201daedd7b2177154b9fdb9032044ecb2a0473b1
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,32,QFT_YUKAWA_001,Yukawa range - pion mass sets the nuclear force reach,Quantum Field Theory,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+The nuclear force between nucleons is mediated (in Yukawa's picture) by pion exchange. Use $m_{\pi^\pm} c^2 = 139.57$ MeV and $\hbar c = 197.327$ MeV fm.
+
+Conventions: the range is the REDUCED Compton wavelength $\lambda = \hbar/(m_\pi c)$; report femtometers.
+
+Tasks:
+1. Write the Yukawa potential and identify how the mediator mass enters the exponential.
+2. Evaluate the range $\hbar/(m_\pi c)$ in fm.
+3. A student uses the full (non-reduced) Compton wavelength $h/(m_\pi c)$. Evaluate that and explain which one belongs in the Yukawa exponential and why.
+4. Historically, Yukawa inverted this logic in 1935: from a ~2 fm force range he predicted a new particle. What mass scale (in MeV) does a 2.0 fm range imply?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Potential.** V(r) ∝ e^{−r/λ}/r with λ = ℏ/(mc); the mediator mass sets the exponential decay length — the force range.
+2. **Range.** λ = ℏ/(m_π c) = ℏc/(m_π c²) = ____/139.57 = **____ fm**.
+3. **Non-reduced (the trap).** h/(m_π c) = 2π·ℏ/(m_π c) = 2π·____ = **____ fm**. The Yukawa exponential uses the **reduced** wavelength ℏ/(mc) (the propagator 1/(q²+m²) Fourier-transforms to e^{−mr}/r, with m = 1/λ_reduced in natural units); the full h/(mc) is 2π too large.
+4. **Yukawa's inversion (1935).** A 2.0 fm range implies m c² = ℏc/range = ____/2.0 = **____ MeV** — his ~100 MeV prediction of the pion. Heavier mediator ⟹ shorter range.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{mass\_for\_2fm\_mev} &=  \\
+\mathrm{nonreduced\_fm}      &=  \\
+\mathrm{range\_fm}           &=  \\
+\end{aligned}
+\]",29abd85d7fcfbe8db841805f201daedd7b2177154b9fdb9032044ecb2a0473b1
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,33,QI_CLONE_001,"Optimal universal cloning - 5/6, not 1, not 1/2",Quantum Information Theory,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+A 1-to-2 universal quantum cloning machine takes one unknown pure qubit $|\psi\rangle$ and outputs two identical approximate copies with fidelity $F = \langle\psi|\rho_{out}|\psi\rangle$ independent of $|\psi\rangle$.
+
+Conventions: 'optimal UQCM' = Buzek-Hillery symmetric universal machine; 'classical strategy' = measure the qubit and prepare copies of the outcome, averaged over uniformly random inputs.
+
+Tasks:
+1. State why perfect cloning ($F=1$ for both copies) is impossible, and what linearity has to do with it.
+2. Give the optimal universal cloning fidelity per copy, exactly and as a decimal.
+3. Give the best classical measure-and-prepare fidelity, exactly and as a decimal.
+4. Compute the quantum advantage (difference), and explain why beating measure-and-prepare is possible despite no-cloning.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Why not F = 1.** A perfect cloner would need a unitary mapping |ψ⟩|0⟩ → |ψ⟩|ψ⟩ for all |ψ⟩; that map is quadratic in |ψ⟩, hence not linear, so no unitary implements it (Wootters–Zurek 1982). No-cloning forbids **only** F = 1.
+2. **Optimal universal fidelity.** The Bužek–Hillery machine (optimality proven by Gisin–Massar 1997) achieves **F = 5/6 = ____** per copy.
+3. **Classical bound.** Measure the unknown qubit in a random basis and prepare copies of the outcome; averaged over uniform inputs the fidelity is **F = 2/3 = ____**.
+4. **Quantum advantage.** 5/6 − 2/3 = **____**. Beating measure-and-prepare is allowed precisely because 5/6 < 1 — no-cloning is not violated.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_fidelity} &=  \\
+\mathrm{optimal\_fidelity}   &=  \\
+\mathrm{quantum\_advantage}  &=  \\
+\end{aligned}
+\]",b4a6d7025edae33b4b7fae838d02dea74b1f8f9d61d369b675a6dec31f1215de
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,34,QI_CLONE_001,"Optimal universal cloning - 5/6, not 1, not 1/2",Quantum Information Theory,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+A 1-to-2 universal quantum cloning machine takes one unknown pure qubit $|\psi\rangle$ and outputs two identical approximate copies with fidelity $F = \langle\psi|\rho_{out}|\psi\rangle$ independent of $|\psi\rangle$.
+
+Conventions: 'optimal UQCM' = Buzek-Hillery symmetric universal machine; 'classical strategy' = measure the qubit and prepare copies of the outcome, averaged over uniformly random inputs.
+
+Tasks:
+1. State why perfect cloning ($F=1$ for both copies) is impossible, and what linearity has to do with it.
+2. Give the optimal universal cloning fidelity per copy, exactly and as a decimal.
+3. Give the best classical measure-and-prepare fidelity, exactly and as a decimal.
+4. Compute the quantum advantage (difference), and explain why beating measure-and-prepare is possible despite no-cloning.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Why not F = 1.** A perfect cloner would need a unitary mapping |ψ⟩|0⟩ → |ψ⟩|ψ⟩ for all |ψ⟩; that map is quadratic in |ψ⟩, hence not linear, so no unitary implements it (Wootters–Zurek 1982). No-cloning forbids **only** F = 1.
+2. **Optimal universal fidelity.** The Bužek–Hillery machine (optimality proven by Gisin–Massar 1997) achieves **F = 5/6 = ____** per copy.
+3. **Classical bound.** Measure the unknown qubit in a random basis and prepare copies of the outcome; averaged over uniform inputs the fidelity is **F = 2/3 = ____**.
+4. **Quantum advantage.** 5/6 − 2/3 = **____**. Beating measure-and-prepare is allowed precisely because 5/6 < 1 — no-cloning is not violated.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_fidelity} &=  \\
+\mathrm{optimal\_fidelity}   &=  \\
+\mathrm{quantum\_advantage}  &=  \\
+\end{aligned}
+\]",b4a6d7025edae33b4b7fae838d02dea74b1f8f9d61d369b675a6dec31f1215de
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,35,QI_CLONE_001,"Optimal universal cloning - 5/6, not 1, not 1/2",Quantum Information Theory,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+A 1-to-2 universal quantum cloning machine takes one unknown pure qubit $|\psi\rangle$ and outputs two identical approximate copies with fidelity $F = \langle\psi|\rho_{out}|\psi\rangle$ independent of $|\psi\rangle$.
+
+Conventions: 'optimal UQCM' = Buzek-Hillery symmetric universal machine; 'classical strategy' = measure the qubit and prepare copies of the outcome, averaged over uniformly random inputs.
+
+Tasks:
+1. State why perfect cloning ($F=1$ for both copies) is impossible, and what linearity has to do with it.
+2. Give the optimal universal cloning fidelity per copy, exactly and as a decimal.
+3. Give the best classical measure-and-prepare fidelity, exactly and as a decimal.
+4. Compute the quantum advantage (difference), and explain why beating measure-and-prepare is possible despite no-cloning.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Why not F = 1.** A perfect cloner would need a unitary mapping |ψ⟩|0⟩ → |ψ⟩|ψ⟩ for all |ψ⟩; that map is quadratic in |ψ⟩, hence not linear, so no unitary implements it (Wootters–Zurek 1982). No-cloning forbids **only** F = 1.
+2. **Optimal universal fidelity.** The Bužek–Hillery machine (optimality proven by Gisin–Massar 1997) achieves **F = 5/6 = ____** per copy.
+3. **Classical bound.** Measure the unknown qubit in a random basis and prepare copies of the outcome; averaged over uniform inputs the fidelity is **F = 2/3 = ____**.
+4. **Quantum advantage.** 5/6 − 2/3 = **____**. Beating measure-and-prepare is allowed precisely because 5/6 < 1 — no-cloning is not violated.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_fidelity} &=  \\
+\mathrm{optimal\_fidelity}   &=  \\
+\mathrm{quantum\_advantage}  &=  \\
+\end{aligned}
+\]",b4a6d7025edae33b4b7fae838d02dea74b1f8f9d61d369b675a6dec31f1215de
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,36,QI_CLONE_001,"Optimal universal cloning - 5/6, not 1, not 1/2",Quantum Information Theory,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+A 1-to-2 universal quantum cloning machine takes one unknown pure qubit $|\psi\rangle$ and outputs two identical approximate copies with fidelity $F = \langle\psi|\rho_{out}|\psi\rangle$ independent of $|\psi\rangle$.
+
+Conventions: 'optimal UQCM' = Buzek-Hillery symmetric universal machine; 'classical strategy' = measure the qubit and prepare copies of the outcome, averaged over uniformly random inputs.
+
+Tasks:
+1. State why perfect cloning ($F=1$ for both copies) is impossible, and what linearity has to do with it.
+2. Give the optimal universal cloning fidelity per copy, exactly and as a decimal.
+3. Give the best classical measure-and-prepare fidelity, exactly and as a decimal.
+4. Compute the quantum advantage (difference), and explain why beating measure-and-prepare is possible despite no-cloning.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Why not F = 1.** A perfect cloner would need a unitary mapping |ψ⟩|0⟩ → |ψ⟩|ψ⟩ for all |ψ⟩; that map is quadratic in |ψ⟩, hence not linear, so no unitary implements it (Wootters–Zurek 1982). No-cloning forbids **only** F = 1.
+2. **Optimal universal fidelity.** The Bužek–Hillery machine (optimality proven by Gisin–Massar 1997) achieves **F = 5/6 = ____** per copy.
+3. **Classical bound.** Measure the unknown qubit in a random basis and prepare copies of the outcome; averaged over uniform inputs the fidelity is **F = 2/3 = ____**.
+4. **Quantum advantage.** 5/6 − 2/3 = **____**. Beating measure-and-prepare is allowed precisely because 5/6 < 1 — no-cloning is not violated.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_fidelity} &=  \\
+\mathrm{optimal\_fidelity}   &=  \\
+\mathrm{quantum\_advantage}  &=  \\
+\end{aligned}
+\]",b4a6d7025edae33b4b7fae838d02dea74b1f8f9d61d369b675a6dec31f1215de
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,37,QI_CLONE_001,"Optimal universal cloning - 5/6, not 1, not 1/2",Quantum Information Theory,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+A 1-to-2 universal quantum cloning machine takes one unknown pure qubit $|\psi\rangle$ and outputs two identical approximate copies with fidelity $F = \langle\psi|\rho_{out}|\psi\rangle$ independent of $|\psi\rangle$.
+
+Conventions: 'optimal UQCM' = Buzek-Hillery symmetric universal machine; 'classical strategy' = measure the qubit and prepare copies of the outcome, averaged over uniformly random inputs.
+
+Tasks:
+1. State why perfect cloning ($F=1$ for both copies) is impossible, and what linearity has to do with it.
+2. Give the optimal universal cloning fidelity per copy, exactly and as a decimal.
+3. Give the best classical measure-and-prepare fidelity, exactly and as a decimal.
+4. Compute the quantum advantage (difference), and explain why beating measure-and-prepare is possible despite no-cloning.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Why not F = 1.** A perfect cloner would need a unitary mapping |ψ⟩|0⟩ → |ψ⟩|ψ⟩ for all |ψ⟩; that map is quadratic in |ψ⟩, hence not linear, so no unitary implements it (Wootters–Zurek 1982). No-cloning forbids **only** F = 1.
+2. **Optimal universal fidelity.** The Bužek–Hillery machine (optimality proven by Gisin–Massar 1997) achieves **F = 5/6 = ____** per copy.
+3. **Classical bound.** Measure the unknown qubit in a random basis and prepare copies of the outcome; averaged over uniform inputs the fidelity is **F = 2/3 = ____**.
+4. **Quantum advantage.** 5/6 − 2/3 = **____**. Beating measure-and-prepare is allowed precisely because 5/6 < 1 — no-cloning is not violated.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_fidelity} &=  \\
+\mathrm{optimal\_fidelity}   &=  \\
+\mathrm{quantum\_advantage}  &=  \\
+\end{aligned}
+\]",b4a6d7025edae33b4b7fae838d02dea74b1f8f9d61d369b675a6dec31f1215de
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,38,QI_CLONE_001,"Optimal universal cloning - 5/6, not 1, not 1/2",Quantum Information Theory,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+A 1-to-2 universal quantum cloning machine takes one unknown pure qubit $|\psi\rangle$ and outputs two identical approximate copies with fidelity $F = \langle\psi|\rho_{out}|\psi\rangle$ independent of $|\psi\rangle$.
+
+Conventions: 'optimal UQCM' = Buzek-Hillery symmetric universal machine; 'classical strategy' = measure the qubit and prepare copies of the outcome, averaged over uniformly random inputs.
+
+Tasks:
+1. State why perfect cloning ($F=1$ for both copies) is impossible, and what linearity has to do with it.
+2. Give the optimal universal cloning fidelity per copy, exactly and as a decimal.
+3. Give the best classical measure-and-prepare fidelity, exactly and as a decimal.
+4. Compute the quantum advantage (difference), and explain why beating measure-and-prepare is possible despite no-cloning.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Why not F = 1.** A perfect cloner would need a unitary mapping |ψ⟩|0⟩ → |ψ⟩|ψ⟩ for all |ψ⟩; that map is quadratic in |ψ⟩, hence not linear, so no unitary implements it (Wootters–Zurek 1982). No-cloning forbids **only** F = 1.
+2. **Optimal universal fidelity.** The Bužek–Hillery machine (optimality proven by Gisin–Massar 1997) achieves **F = 5/6 = ____** per copy.
+3. **Classical bound.** Measure the unknown qubit in a random basis and prepare copies of the outcome; averaged over uniform inputs the fidelity is **F = 2/3 = ____**.
+4. **Quantum advantage.** 5/6 − 2/3 = **____**. Beating measure-and-prepare is allowed precisely because 5/6 < 1 — no-cloning is not violated.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_fidelity} &=  \\
+\mathrm{optimal\_fidelity}   &=  \\
+\mathrm{quantum\_advantage}  &=  \\
+\end{aligned}
+\]",b4a6d7025edae33b4b7fae838d02dea74b1f8f9d61d369b675a6dec31f1215de
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,39,QI_CLONE_001,"Optimal universal cloning - 5/6, not 1, not 1/2",Quantum Information Theory,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+A 1-to-2 universal quantum cloning machine takes one unknown pure qubit $|\psi\rangle$ and outputs two identical approximate copies with fidelity $F = \langle\psi|\rho_{out}|\psi\rangle$ independent of $|\psi\rangle$.
+
+Conventions: 'optimal UQCM' = Buzek-Hillery symmetric universal machine; 'classical strategy' = measure the qubit and prepare copies of the outcome, averaged over uniformly random inputs.
+
+Tasks:
+1. State why perfect cloning ($F=1$ for both copies) is impossible, and what linearity has to do with it.
+2. Give the optimal universal cloning fidelity per copy, exactly and as a decimal.
+3. Give the best classical measure-and-prepare fidelity, exactly and as a decimal.
+4. Compute the quantum advantage (difference), and explain why beating measure-and-prepare is possible despite no-cloning.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Why not F = 1.** A perfect cloner would need a unitary mapping |ψ⟩|0⟩ → |ψ⟩|ψ⟩ for all |ψ⟩; that map is quadratic in |ψ⟩, hence not linear, so no unitary implements it (Wootters–Zurek 1982). No-cloning forbids **only** F = 1.
+2. **Optimal universal fidelity.** The Bužek–Hillery machine (optimality proven by Gisin–Massar 1997) achieves **F = 5/6 = ____** per copy.
+3. **Classical bound.** Measure the unknown qubit in a random basis and prepare copies of the outcome; averaged over uniform inputs the fidelity is **F = 2/3 = ____**.
+4. **Quantum advantage.** 5/6 − 2/3 = **____**. Beating measure-and-prepare is allowed precisely because 5/6 < 1 — no-cloning is not violated.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_fidelity} &=  \\
+\mathrm{optimal\_fidelity}   &=  \\
+\mathrm{quantum\_advantage}  &=  \\
+\end{aligned}
+\]",b4a6d7025edae33b4b7fae838d02dea74b1f8f9d61d369b675a6dec31f1215de
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,40,QI_CLONE_001,"Optimal universal cloning - 5/6, not 1, not 1/2",Quantum Information Theory,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+A 1-to-2 universal quantum cloning machine takes one unknown pure qubit $|\psi\rangle$ and outputs two identical approximate copies with fidelity $F = \langle\psi|\rho_{out}|\psi\rangle$ independent of $|\psi\rangle$.
+
+Conventions: 'optimal UQCM' = Buzek-Hillery symmetric universal machine; 'classical strategy' = measure the qubit and prepare copies of the outcome, averaged over uniformly random inputs.
+
+Tasks:
+1. State why perfect cloning ($F=1$ for both copies) is impossible, and what linearity has to do with it.
+2. Give the optimal universal cloning fidelity per copy, exactly and as a decimal.
+3. Give the best classical measure-and-prepare fidelity, exactly and as a decimal.
+4. Compute the quantum advantage (difference), and explain why beating measure-and-prepare is possible despite no-cloning.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Why not F = 1.** A perfect cloner would need a unitary mapping |ψ⟩|0⟩ → |ψ⟩|ψ⟩ for all |ψ⟩; that map is quadratic in |ψ⟩, hence not linear, so no unitary implements it (Wootters–Zurek 1982). No-cloning forbids **only** F = 1.
+2. **Optimal universal fidelity.** The Bužek–Hillery machine (optimality proven by Gisin–Massar 1997) achieves **F = 5/6 = ____** per copy.
+3. **Classical bound.** Measure the unknown qubit in a random basis and prepare copies of the outcome; averaged over uniform inputs the fidelity is **F = 2/3 = ____**.
+4. **Quantum advantage.** 5/6 − 2/3 = **____**. Beating measure-and-prepare is allowed precisely because 5/6 < 1 — no-cloning is not violated.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{classical\_fidelity} &=  \\
+\mathrm{optimal\_fidelity}   &=  \\
+\mathrm{quantum\_advantage}  &=  \\
+\end{aligned}
+\]",b4a6d7025edae33b4b7fae838d02dea74b1f8f9d61d369b675a6dec31f1215de
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,41,QM_RT_001,Ramsauer-Townsend - transmission resonance over a well,Quantum Mechanics,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+An electron with energy $E > 0$ scatters across a 1D square well of depth $V_0 = 10.0$ eV and width $L = 0.400$ nm (potential $-V_0$ inside, 0 outside).
+
+Conventions: perfect transmission ($T = 1$) occurs when $k' L = n\pi$, where $k' = \sqrt{2m(E+V_0)}/\hbar$ is the wavevector INSIDE the well; report the lowest resonance with $E > 0$.
+
+Tasks:
+1. Derive the resonance condition and give $E_n = n^2 \pi^2\hbar^2/(2 m L^2) - V_0$.
+2. Evaluate the energy unit $\pi^2\hbar^2/(2mL^2)$ in eV.
+3. Find the smallest integer $n$ giving $E_n > 0$, and evaluate that resonance energy in eV.
+4. Relate this to the Ramsauer-Townsend minimum in electron-noble-gas scattering: why does the electron transmit perfectly at special energies?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Resonance condition.** T = 1 when an integer number of interior half-wavelengths spans the well: k′L = nπ. With k′ = √(2m(E+V₀))/ℏ ⟹ E + V₀ = n²π²ℏ²/(2mL²), i.e. **Eₙ = n²π²ℏ²/(2mL²) − V₀**.
+2. **Energy unit.** π²ℏ²/(2mL²) = π²(____×10⁻³⁴)² / (2·____×10⁻³¹·(0.4×10⁻⁹)²) = ____×10⁻¹⁹ J = **____ eV**.
+3. **Lowest valid mode.** Eₙ = n²·____ − 10. n = 1: −7.65 eV; n = 2: −0.60 eV (both < 0 — bound, not scattering states, discard). n = ____: 9·____ − 10 = **+____ eV** > 0 ⟹ **n = ____**, E₃ = ____ eV.
+4. **Physics.** At these energies the internal reflections interfere destructively and the well is transparent (T = 1) — the Ramsauer–Townsend minimum in electron–noble-gas scattering (Ramsauer 1921). The interior wavevector uses E + V₀ (the well deepens k inside), and the n = 1, 2 solutions with E < 0 are not scattering states.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_unit\_ev}     &=  \\
+\mathrm{first\_resonance\_ev} &=  \\
+\mathrm{n\_lowest}            &=  \\
+\end{aligned}
+\]",3f7fba4761ab746ae82e9a36d5f553b94f8dcddedb01fcf7cfc6473a5ec27291
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,42,QM_RT_001,Ramsauer-Townsend - transmission resonance over a well,Quantum Mechanics,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+An electron with energy $E > 0$ scatters across a 1D square well of depth $V_0 = 10.0$ eV and width $L = 0.400$ nm (potential $-V_0$ inside, 0 outside).
+
+Conventions: perfect transmission ($T = 1$) occurs when $k' L = n\pi$, where $k' = \sqrt{2m(E+V_0)}/\hbar$ is the wavevector INSIDE the well; report the lowest resonance with $E > 0$.
+
+Tasks:
+1. Derive the resonance condition and give $E_n = n^2 \pi^2\hbar^2/(2 m L^2) - V_0$.
+2. Evaluate the energy unit $\pi^2\hbar^2/(2mL^2)$ in eV.
+3. Find the smallest integer $n$ giving $E_n > 0$, and evaluate that resonance energy in eV.
+4. Relate this to the Ramsauer-Townsend minimum in electron-noble-gas scattering: why does the electron transmit perfectly at special energies?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Resonance condition.** T = 1 when an integer number of interior half-wavelengths spans the well: k′L = nπ. With k′ = √(2m(E+V₀))/ℏ ⟹ E + V₀ = n²π²ℏ²/(2mL²), i.e. **Eₙ = n²π²ℏ²/(2mL²) − V₀**.
+2. **Energy unit.** π²ℏ²/(2mL²) = π²(____×10⁻³⁴)² / (2·____×10⁻³¹·(0.4×10⁻⁹)²) = ____×10⁻¹⁹ J = **____ eV**.
+3. **Lowest valid mode.** Eₙ = n²·____ − 10. n = 1: −7.65 eV; n = 2: −0.60 eV (both < 0 — bound, not scattering states, discard). n = ____: 9·____ − 10 = **+____ eV** > 0 ⟹ **n = ____**, E₃ = ____ eV.
+4. **Physics.** At these energies the internal reflections interfere destructively and the well is transparent (T = 1) — the Ramsauer–Townsend minimum in electron–noble-gas scattering (Ramsauer 1921). The interior wavevector uses E + V₀ (the well deepens k inside), and the n = 1, 2 solutions with E < 0 are not scattering states.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_unit\_ev}     &=  \\
+\mathrm{first\_resonance\_ev} &=  \\
+\mathrm{n\_lowest}            &=  \\
+\end{aligned}
+\]",3f7fba4761ab746ae82e9a36d5f553b94f8dcddedb01fcf7cfc6473a5ec27291
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,43,QM_RT_001,Ramsauer-Townsend - transmission resonance over a well,Quantum Mechanics,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+An electron with energy $E > 0$ scatters across a 1D square well of depth $V_0 = 10.0$ eV and width $L = 0.400$ nm (potential $-V_0$ inside, 0 outside).
+
+Conventions: perfect transmission ($T = 1$) occurs when $k' L = n\pi$, where $k' = \sqrt{2m(E+V_0)}/\hbar$ is the wavevector INSIDE the well; report the lowest resonance with $E > 0$.
+
+Tasks:
+1. Derive the resonance condition and give $E_n = n^2 \pi^2\hbar^2/(2 m L^2) - V_0$.
+2. Evaluate the energy unit $\pi^2\hbar^2/(2mL^2)$ in eV.
+3. Find the smallest integer $n$ giving $E_n > 0$, and evaluate that resonance energy in eV.
+4. Relate this to the Ramsauer-Townsend minimum in electron-noble-gas scattering: why does the electron transmit perfectly at special energies?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Resonance condition.** T = 1 when an integer number of interior half-wavelengths spans the well: k′L = nπ. With k′ = √(2m(E+V₀))/ℏ ⟹ E + V₀ = n²π²ℏ²/(2mL²), i.e. **Eₙ = n²π²ℏ²/(2mL²) − V₀**.
+2. **Energy unit.** π²ℏ²/(2mL²) = π²(____×10⁻³⁴)² / (2·____×10⁻³¹·(0.4×10⁻⁹)²) = ____×10⁻¹⁹ J = **____ eV**.
+3. **Lowest valid mode.** Eₙ = n²·____ − 10. n = 1: −7.65 eV; n = 2: −0.60 eV (both < 0 — bound, not scattering states, discard). n = ____: 9·____ − 10 = **+____ eV** > 0 ⟹ **n = ____**, E₃ = ____ eV.
+4. **Physics.** At these energies the internal reflections interfere destructively and the well is transparent (T = 1) — the Ramsauer–Townsend minimum in electron–noble-gas scattering (Ramsauer 1921). The interior wavevector uses E + V₀ (the well deepens k inside), and the n = 1, 2 solutions with E < 0 are not scattering states.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_unit\_ev}     &=  \\
+\mathrm{first\_resonance\_ev} &=  \\
+\mathrm{n\_lowest}            &=  \\
+\end{aligned}
+\]",3f7fba4761ab746ae82e9a36d5f553b94f8dcddedb01fcf7cfc6473a5ec27291
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,44,QM_RT_001,Ramsauer-Townsend - transmission resonance over a well,Quantum Mechanics,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+An electron with energy $E > 0$ scatters across a 1D square well of depth $V_0 = 10.0$ eV and width $L = 0.400$ nm (potential $-V_0$ inside, 0 outside).
+
+Conventions: perfect transmission ($T = 1$) occurs when $k' L = n\pi$, where $k' = \sqrt{2m(E+V_0)}/\hbar$ is the wavevector INSIDE the well; report the lowest resonance with $E > 0$.
+
+Tasks:
+1. Derive the resonance condition and give $E_n = n^2 \pi^2\hbar^2/(2 m L^2) - V_0$.
+2. Evaluate the energy unit $\pi^2\hbar^2/(2mL^2)$ in eV.
+3. Find the smallest integer $n$ giving $E_n > 0$, and evaluate that resonance energy in eV.
+4. Relate this to the Ramsauer-Townsend minimum in electron-noble-gas scattering: why does the electron transmit perfectly at special energies?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Resonance condition.** T = 1 when an integer number of interior half-wavelengths spans the well: k′L = nπ. With k′ = √(2m(E+V₀))/ℏ ⟹ E + V₀ = n²π²ℏ²/(2mL²), i.e. **Eₙ = n²π²ℏ²/(2mL²) − V₀**.
+2. **Energy unit.** π²ℏ²/(2mL²) = π²(____×10⁻³⁴)² / (2·____×10⁻³¹·(0.4×10⁻⁹)²) = ____×10⁻¹⁹ J = **____ eV**.
+3. **Lowest valid mode.** Eₙ = n²·____ − 10. n = 1: −7.65 eV; n = 2: −0.60 eV (both < 0 — bound, not scattering states, discard). n = ____: 9·____ − 10 = **+____ eV** > 0 ⟹ **n = ____**, E₃ = ____ eV.
+4. **Physics.** At these energies the internal reflections interfere destructively and the well is transparent (T = 1) — the Ramsauer–Townsend minimum in electron–noble-gas scattering (Ramsauer 1921). The interior wavevector uses E + V₀ (the well deepens k inside), and the n = 1, 2 solutions with E < 0 are not scattering states.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_unit\_ev}     &=  \\
+\mathrm{first\_resonance\_ev} &=  \\
+\mathrm{n\_lowest}            &=  \\
+\end{aligned}
+\]",3f7fba4761ab746ae82e9a36d5f553b94f8dcddedb01fcf7cfc6473a5ec27291
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,45,QM_RT_001,Ramsauer-Townsend - transmission resonance over a well,Quantum Mechanics,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+An electron with energy $E > 0$ scatters across a 1D square well of depth $V_0 = 10.0$ eV and width $L = 0.400$ nm (potential $-V_0$ inside, 0 outside).
+
+Conventions: perfect transmission ($T = 1$) occurs when $k' L = n\pi$, where $k' = \sqrt{2m(E+V_0)}/\hbar$ is the wavevector INSIDE the well; report the lowest resonance with $E > 0$.
+
+Tasks:
+1. Derive the resonance condition and give $E_n = n^2 \pi^2\hbar^2/(2 m L^2) - V_0$.
+2. Evaluate the energy unit $\pi^2\hbar^2/(2mL^2)$ in eV.
+3. Find the smallest integer $n$ giving $E_n > 0$, and evaluate that resonance energy in eV.
+4. Relate this to the Ramsauer-Townsend minimum in electron-noble-gas scattering: why does the electron transmit perfectly at special energies?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Resonance condition.** T = 1 when an integer number of interior half-wavelengths spans the well: k′L = nπ. With k′ = √(2m(E+V₀))/ℏ ⟹ E + V₀ = n²π²ℏ²/(2mL²), i.e. **Eₙ = n²π²ℏ²/(2mL²) − V₀**.
+2. **Energy unit.** π²ℏ²/(2mL²) = π²(____×10⁻³⁴)² / (2·____×10⁻³¹·(0.4×10⁻⁹)²) = ____×10⁻¹⁹ J = **____ eV**.
+3. **Lowest valid mode.** Eₙ = n²·____ − 10. n = 1: −7.65 eV; n = 2: −0.60 eV (both < 0 — bound, not scattering states, discard). n = ____: 9·____ − 10 = **+____ eV** > 0 ⟹ **n = ____**, E₃ = ____ eV.
+4. **Physics.** At these energies the internal reflections interfere destructively and the well is transparent (T = 1) — the Ramsauer–Townsend minimum in electron–noble-gas scattering (Ramsauer 1921). The interior wavevector uses E + V₀ (the well deepens k inside), and the n = 1, 2 solutions with E < 0 are not scattering states.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_unit\_ev}     &=  \\
+\mathrm{first\_resonance\_ev} &=  \\
+\mathrm{n\_lowest}            &=  \\
+\end{aligned}
+\]",3f7fba4761ab746ae82e9a36d5f553b94f8dcddedb01fcf7cfc6473a5ec27291
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,46,QM_RT_001,Ramsauer-Townsend - transmission resonance over a well,Quantum Mechanics,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+An electron with energy $E > 0$ scatters across a 1D square well of depth $V_0 = 10.0$ eV and width $L = 0.400$ nm (potential $-V_0$ inside, 0 outside).
+
+Conventions: perfect transmission ($T = 1$) occurs when $k' L = n\pi$, where $k' = \sqrt{2m(E+V_0)}/\hbar$ is the wavevector INSIDE the well; report the lowest resonance with $E > 0$.
+
+Tasks:
+1. Derive the resonance condition and give $E_n = n^2 \pi^2\hbar^2/(2 m L^2) - V_0$.
+2. Evaluate the energy unit $\pi^2\hbar^2/(2mL^2)$ in eV.
+3. Find the smallest integer $n$ giving $E_n > 0$, and evaluate that resonance energy in eV.
+4. Relate this to the Ramsauer-Townsend minimum in electron-noble-gas scattering: why does the electron transmit perfectly at special energies?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Resonance condition.** T = 1 when an integer number of interior half-wavelengths spans the well: k′L = nπ. With k′ = √(2m(E+V₀))/ℏ ⟹ E + V₀ = n²π²ℏ²/(2mL²), i.e. **Eₙ = n²π²ℏ²/(2mL²) − V₀**.
+2. **Energy unit.** π²ℏ²/(2mL²) = π²(____×10⁻³⁴)² / (2·____×10⁻³¹·(0.4×10⁻⁹)²) = ____×10⁻¹⁹ J = **____ eV**.
+3. **Lowest valid mode.** Eₙ = n²·____ − 10. n = 1: −7.65 eV; n = 2: −0.60 eV (both < 0 — bound, not scattering states, discard). n = ____: 9·____ − 10 = **+____ eV** > 0 ⟹ **n = ____**, E₃ = ____ eV.
+4. **Physics.** At these energies the internal reflections interfere destructively and the well is transparent (T = 1) — the Ramsauer–Townsend minimum in electron–noble-gas scattering (Ramsauer 1921). The interior wavevector uses E + V₀ (the well deepens k inside), and the n = 1, 2 solutions with E < 0 are not scattering states.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_unit\_ev}     &=  \\
+\mathrm{first\_resonance\_ev} &=  \\
+\mathrm{n\_lowest}            &=  \\
+\end{aligned}
+\]",3f7fba4761ab746ae82e9a36d5f553b94f8dcddedb01fcf7cfc6473a5ec27291
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,47,QM_RT_001,Ramsauer-Townsend - transmission resonance over a well,Quantum Mechanics,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+An electron with energy $E > 0$ scatters across a 1D square well of depth $V_0 = 10.0$ eV and width $L = 0.400$ nm (potential $-V_0$ inside, 0 outside).
+
+Conventions: perfect transmission ($T = 1$) occurs when $k' L = n\pi$, where $k' = \sqrt{2m(E+V_0)}/\hbar$ is the wavevector INSIDE the well; report the lowest resonance with $E > 0$.
+
+Tasks:
+1. Derive the resonance condition and give $E_n = n^2 \pi^2\hbar^2/(2 m L^2) - V_0$.
+2. Evaluate the energy unit $\pi^2\hbar^2/(2mL^2)$ in eV.
+3. Find the smallest integer $n$ giving $E_n > 0$, and evaluate that resonance energy in eV.
+4. Relate this to the Ramsauer-Townsend minimum in electron-noble-gas scattering: why does the electron transmit perfectly at special energies?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Resonance condition.** T = 1 when an integer number of interior half-wavelengths spans the well: k′L = nπ. With k′ = √(2m(E+V₀))/ℏ ⟹ E + V₀ = n²π²ℏ²/(2mL²), i.e. **Eₙ = n²π²ℏ²/(2mL²) − V₀**.
+2. **Energy unit.** π²ℏ²/(2mL²) = π²(____×10⁻³⁴)² / (2·____×10⁻³¹·(0.4×10⁻⁹)²) = ____×10⁻¹⁹ J = **____ eV**.
+3. **Lowest valid mode.** Eₙ = n²·____ − 10. n = 1: −7.65 eV; n = 2: −0.60 eV (both < 0 — bound, not scattering states, discard). n = ____: 9·____ − 10 = **+____ eV** > 0 ⟹ **n = ____**, E₃ = ____ eV.
+4. **Physics.** At these energies the internal reflections interfere destructively and the well is transparent (T = 1) — the Ramsauer–Townsend minimum in electron–noble-gas scattering (Ramsauer 1921). The interior wavevector uses E + V₀ (the well deepens k inside), and the n = 1, 2 solutions with E < 0 are not scattering states.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_unit\_ev}     &=  \\
+\mathrm{first\_resonance\_ev} &=  \\
+\mathrm{n\_lowest}            &=  \\
+\end{aligned}
+\]",3f7fba4761ab746ae82e9a36d5f553b94f8dcddedb01fcf7cfc6473a5ec27291
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,48,QM_RT_001,Ramsauer-Townsend - transmission resonance over a well,Quantum Mechanics,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+An electron with energy $E > 0$ scatters across a 1D square well of depth $V_0 = 10.0$ eV and width $L = 0.400$ nm (potential $-V_0$ inside, 0 outside).
+
+Conventions: perfect transmission ($T = 1$) occurs when $k' L = n\pi$, where $k' = \sqrt{2m(E+V_0)}/\hbar$ is the wavevector INSIDE the well; report the lowest resonance with $E > 0$.
+
+Tasks:
+1. Derive the resonance condition and give $E_n = n^2 \pi^2\hbar^2/(2 m L^2) - V_0$.
+2. Evaluate the energy unit $\pi^2\hbar^2/(2mL^2)$ in eV.
+3. Find the smallest integer $n$ giving $E_n > 0$, and evaluate that resonance energy in eV.
+4. Relate this to the Ramsauer-Townsend minimum in electron-noble-gas scattering: why does the electron transmit perfectly at special energies?
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Resonance condition.** T = 1 when an integer number of interior half-wavelengths spans the well: k′L = nπ. With k′ = √(2m(E+V₀))/ℏ ⟹ E + V₀ = n²π²ℏ²/(2mL²), i.e. **Eₙ = n²π²ℏ²/(2mL²) − V₀**.
+2. **Energy unit.** π²ℏ²/(2mL²) = π²(____×10⁻³⁴)² / (2·____×10⁻³¹·(0.4×10⁻⁹)²) = ____×10⁻¹⁹ J = **____ eV**.
+3. **Lowest valid mode.** Eₙ = n²·____ − 10. n = 1: −7.65 eV; n = 2: −0.60 eV (both < 0 — bound, not scattering states, discard). n = ____: 9·____ − 10 = **+____ eV** > 0 ⟹ **n = ____**, E₃ = ____ eV.
+4. **Physics.** At these energies the internal reflections interfere destructively and the well is transparent (T = 1) — the Ramsauer–Townsend minimum in electron–noble-gas scattering (Ramsauer 1921). The interior wavevector uses E + V₀ (the well deepens k inside), and the n = 1, 2 solutions with E < 0 are not scattering states.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{energy\_unit\_ev}     &=  \\
+\mathrm{first\_resonance\_ev} &=  \\
+\mathrm{n\_lowest}            &=  \\
+\end{aligned}
+\]",3f7fba4761ab746ae82e9a36d5f553b94f8dcddedb01fcf7cfc6473a5ec27291
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,49,SR_FIZEAU_001,Fizeau drag - light in moving water,Special Relativity,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+Light propagates through water (refractive index $n = 1.333$) flowing at $V = 5.00$ m/s in the same direction as the light, in the lab frame.
+
+Conventions: work to first order in $V/c$; the phase velocity of light in the water's rest frame is $c/n$.
+
+Tasks:
+1. Using relativistic velocity addition, derive the lab-frame speed of the light to first order in $V/c$, and identify the Fresnel drag coefficient $f$ in $v \approx c/n + fV$.
+2. Evaluate the drag coefficient numerically for $n = 1.333$.
+3. Evaluate the increase in the light's lab speed, $\Delta v = fV$, in m/s.
+4. Explain why the naive Galilean result $\Delta v = V$ is wrong, and what Fizeau's 1851 experiment actually measured.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Velocity addition + expansion.** v = (c/n + V)/(1 + (c/n)V/c²) = (c/n + V)/(1 + V/(nc)). To first order in V/c: v ≈ (c/n + V)(1 − V/(nc)) ≈ c/n + V(1 − 1/n²). So the Fresnel drag coefficient is **f = 1 − 1/n²**.
+2. **Evaluate.** f = 1 − 1/1.333² = 1 − 1/____ = 1 − ____ = **____**.
+3. **Speed increase.** Δv = f·V = ____·5 = **____ m/s**.
+4. **Why not Galilean.** Galilean addition predicts Δv = V = 5 m/s (full drag). The relativistic result gives partial drag, f < 1 — the medium only partially carries the light. This f = 1 − 1/n² is Fresnel's 1818 coefficient, measured by Fizeau in 1851, and special relativity reproduces it exactly via velocity addition.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{delta\_v\_ms}      &=  \\
+\mathrm{drag\_coefficient} &=  \\
+\end{aligned}
+\]",56927f5730bf377206e605b68623c6699e0d5ce4991a60db268ed3787f3c64be
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,50,SR_FIZEAU_001,Fizeau drag - light in moving water,Special Relativity,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+Light propagates through water (refractive index $n = 1.333$) flowing at $V = 5.00$ m/s in the same direction as the light, in the lab frame.
+
+Conventions: work to first order in $V/c$; the phase velocity of light in the water's rest frame is $c/n$.
+
+Tasks:
+1. Using relativistic velocity addition, derive the lab-frame speed of the light to first order in $V/c$, and identify the Fresnel drag coefficient $f$ in $v \approx c/n + fV$.
+2. Evaluate the drag coefficient numerically for $n = 1.333$.
+3. Evaluate the increase in the light's lab speed, $\Delta v = fV$, in m/s.
+4. Explain why the naive Galilean result $\Delta v = V$ is wrong, and what Fizeau's 1851 experiment actually measured.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Velocity addition + expansion.** v = (c/n + V)/(1 + (c/n)V/c²) = (c/n + V)/(1 + V/(nc)). To first order in V/c: v ≈ (c/n + V)(1 − V/(nc)) ≈ c/n + V(1 − 1/n²). So the Fresnel drag coefficient is **f = 1 − 1/n²**.
+2. **Evaluate.** f = 1 − 1/1.333² = 1 − 1/____ = 1 − ____ = **____**.
+3. **Speed increase.** Δv = f·V = ____·5 = **____ m/s**.
+4. **Why not Galilean.** Galilean addition predicts Δv = V = 5 m/s (full drag). The relativistic result gives partial drag, f < 1 — the medium only partially carries the light. This f = 1 − 1/n² is Fresnel's 1818 coefficient, measured by Fizeau in 1851, and special relativity reproduces it exactly via velocity addition.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{delta\_v\_ms}      &=  \\
+\mathrm{drag\_coefficient} &=  \\
+\end{aligned}
+\]",56927f5730bf377206e605b68623c6699e0d5ce4991a60db268ed3787f3c64be
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,51,SR_FIZEAU_001,Fizeau drag - light in moving water,Special Relativity,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+Light propagates through water (refractive index $n = 1.333$) flowing at $V = 5.00$ m/s in the same direction as the light, in the lab frame.
+
+Conventions: work to first order in $V/c$; the phase velocity of light in the water's rest frame is $c/n$.
+
+Tasks:
+1. Using relativistic velocity addition, derive the lab-frame speed of the light to first order in $V/c$, and identify the Fresnel drag coefficient $f$ in $v \approx c/n + fV$.
+2. Evaluate the drag coefficient numerically for $n = 1.333$.
+3. Evaluate the increase in the light's lab speed, $\Delta v = fV$, in m/s.
+4. Explain why the naive Galilean result $\Delta v = V$ is wrong, and what Fizeau's 1851 experiment actually measured.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Velocity addition + expansion.** v = (c/n + V)/(1 + (c/n)V/c²) = (c/n + V)/(1 + V/(nc)). To first order in V/c: v ≈ (c/n + V)(1 − V/(nc)) ≈ c/n + V(1 − 1/n²). So the Fresnel drag coefficient is **f = 1 − 1/n²**.
+2. **Evaluate.** f = 1 − 1/1.333² = 1 − 1/____ = 1 − ____ = **____**.
+3. **Speed increase.** Δv = f·V = ____·5 = **____ m/s**.
+4. **Why not Galilean.** Galilean addition predicts Δv = V = 5 m/s (full drag). The relativistic result gives partial drag, f < 1 — the medium only partially carries the light. This f = 1 − 1/n² is Fresnel's 1818 coefficient, measured by Fizeau in 1851, and special relativity reproduces it exactly via velocity addition.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{delta\_v\_ms}      &=  \\
+\mathrm{drag\_coefficient} &=  \\
+\end{aligned}
+\]",56927f5730bf377206e605b68623c6699e0d5ce4991a60db268ed3787f3c64be
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,52,SR_FIZEAU_001,Fizeau drag - light in moving water,Special Relativity,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+Light propagates through water (refractive index $n = 1.333$) flowing at $V = 5.00$ m/s in the same direction as the light, in the lab frame.
+
+Conventions: work to first order in $V/c$; the phase velocity of light in the water's rest frame is $c/n$.
+
+Tasks:
+1. Using relativistic velocity addition, derive the lab-frame speed of the light to first order in $V/c$, and identify the Fresnel drag coefficient $f$ in $v \approx c/n + fV$.
+2. Evaluate the drag coefficient numerically for $n = 1.333$.
+3. Evaluate the increase in the light's lab speed, $\Delta v = fV$, in m/s.
+4. Explain why the naive Galilean result $\Delta v = V$ is wrong, and what Fizeau's 1851 experiment actually measured.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Velocity addition + expansion.** v = (c/n + V)/(1 + (c/n)V/c²) = (c/n + V)/(1 + V/(nc)). To first order in V/c: v ≈ (c/n + V)(1 − V/(nc)) ≈ c/n + V(1 − 1/n²). So the Fresnel drag coefficient is **f = 1 − 1/n²**.
+2. **Evaluate.** f = 1 − 1/1.333² = 1 − 1/____ = 1 − ____ = **____**.
+3. **Speed increase.** Δv = f·V = ____·5 = **____ m/s**.
+4. **Why not Galilean.** Galilean addition predicts Δv = V = 5 m/s (full drag). The relativistic result gives partial drag, f < 1 — the medium only partially carries the light. This f = 1 − 1/n² is Fresnel's 1818 coefficient, measured by Fizeau in 1851, and special relativity reproduces it exactly via velocity addition.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{delta\_v\_ms}      &=  \\
+\mathrm{drag\_coefficient} &=  \\
+\end{aligned}
+\]",56927f5730bf377206e605b68623c6699e0d5ce4991a60db268ed3787f3c64be
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,53,SR_FIZEAU_001,Fizeau drag - light in moving water,Special Relativity,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+Light propagates through water (refractive index $n = 1.333$) flowing at $V = 5.00$ m/s in the same direction as the light, in the lab frame.
+
+Conventions: work to first order in $V/c$; the phase velocity of light in the water's rest frame is $c/n$.
+
+Tasks:
+1. Using relativistic velocity addition, derive the lab-frame speed of the light to first order in $V/c$, and identify the Fresnel drag coefficient $f$ in $v \approx c/n + fV$.
+2. Evaluate the drag coefficient numerically for $n = 1.333$.
+3. Evaluate the increase in the light's lab speed, $\Delta v = fV$, in m/s.
+4. Explain why the naive Galilean result $\Delta v = V$ is wrong, and what Fizeau's 1851 experiment actually measured.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Velocity addition + expansion.** v = (c/n + V)/(1 + (c/n)V/c²) = (c/n + V)/(1 + V/(nc)). To first order in V/c: v ≈ (c/n + V)(1 − V/(nc)) ≈ c/n + V(1 − 1/n²). So the Fresnel drag coefficient is **f = 1 − 1/n²**.
+2. **Evaluate.** f = 1 − 1/1.333² = 1 − 1/____ = 1 − ____ = **____**.
+3. **Speed increase.** Δv = f·V = ____·5 = **____ m/s**.
+4. **Why not Galilean.** Galilean addition predicts Δv = V = 5 m/s (full drag). The relativistic result gives partial drag, f < 1 — the medium only partially carries the light. This f = 1 − 1/n² is Fresnel's 1818 coefficient, measured by Fizeau in 1851, and special relativity reproduces it exactly via velocity addition.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{delta\_v\_ms}      &=  \\
+\mathrm{drag\_coefficient} &=  \\
+\end{aligned}
+\]",56927f5730bf377206e605b68623c6699e0d5ce4991a60db268ed3787f3c64be
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,54,SR_FIZEAU_001,Fizeau drag - light in moving water,Special Relativity,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+Light propagates through water (refractive index $n = 1.333$) flowing at $V = 5.00$ m/s in the same direction as the light, in the lab frame.
+
+Conventions: work to first order in $V/c$; the phase velocity of light in the water's rest frame is $c/n$.
+
+Tasks:
+1. Using relativistic velocity addition, derive the lab-frame speed of the light to first order in $V/c$, and identify the Fresnel drag coefficient $f$ in $v \approx c/n + fV$.
+2. Evaluate the drag coefficient numerically for $n = 1.333$.
+3. Evaluate the increase in the light's lab speed, $\Delta v = fV$, in m/s.
+4. Explain why the naive Galilean result $\Delta v = V$ is wrong, and what Fizeau's 1851 experiment actually measured.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Velocity addition + expansion.** v = (c/n + V)/(1 + (c/n)V/c²) = (c/n + V)/(1 + V/(nc)). To first order in V/c: v ≈ (c/n + V)(1 − V/(nc)) ≈ c/n + V(1 − 1/n²). So the Fresnel drag coefficient is **f = 1 − 1/n²**.
+2. **Evaluate.** f = 1 − 1/1.333² = 1 − 1/____ = 1 − ____ = **____**.
+3. **Speed increase.** Δv = f·V = ____·5 = **____ m/s**.
+4. **Why not Galilean.** Galilean addition predicts Δv = V = 5 m/s (full drag). The relativistic result gives partial drag, f < 1 — the medium only partially carries the light. This f = 1 − 1/n² is Fresnel's 1818 coefficient, measured by Fizeau in 1851, and special relativity reproduces it exactly via velocity addition.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{delta\_v\_ms}      &=  \\
+\mathrm{drag\_coefficient} &=  \\
+\end{aligned}
+\]",56927f5730bf377206e605b68623c6699e0d5ce4991a60db268ed3787f3c64be
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,55,SR_FIZEAU_001,Fizeau drag - light in moving water,Special Relativity,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+Light propagates through water (refractive index $n = 1.333$) flowing at $V = 5.00$ m/s in the same direction as the light, in the lab frame.
+
+Conventions: work to first order in $V/c$; the phase velocity of light in the water's rest frame is $c/n$.
+
+Tasks:
+1. Using relativistic velocity addition, derive the lab-frame speed of the light to first order in $V/c$, and identify the Fresnel drag coefficient $f$ in $v \approx c/n + fV$.
+2. Evaluate the drag coefficient numerically for $n = 1.333$.
+3. Evaluate the increase in the light's lab speed, $\Delta v = fV$, in m/s.
+4. Explain why the naive Galilean result $\Delta v = V$ is wrong, and what Fizeau's 1851 experiment actually measured.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Velocity addition + expansion.** v = (c/n + V)/(1 + (c/n)V/c²) = (c/n + V)/(1 + V/(nc)). To first order in V/c: v ≈ (c/n + V)(1 − V/(nc)) ≈ c/n + V(1 − 1/n²). So the Fresnel drag coefficient is **f = 1 − 1/n²**.
+2. **Evaluate.** f = 1 − 1/1.333² = 1 − 1/____ = 1 − ____ = **____**.
+3. **Speed increase.** Δv = f·V = ____·5 = **____ m/s**.
+4. **Why not Galilean.** Galilean addition predicts Δv = V = 5 m/s (full drag). The relativistic result gives partial drag, f < 1 — the medium only partially carries the light. This f = 1 − 1/n² is Fresnel's 1818 coefficient, measured by Fizeau in 1851, and special relativity reproduces it exactly via velocity addition.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{delta\_v\_ms}      &=  \\
+\mathrm{drag\_coefficient} &=  \\
+\end{aligned}
+\]",56927f5730bf377206e605b68623c6699e0d5ce4991a60db268ed3787f3c64be
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,56,SR_FIZEAU_001,Fizeau drag - light in moving water,Special Relativity,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+Light propagates through water (refractive index $n = 1.333$) flowing at $V = 5.00$ m/s in the same direction as the light, in the lab frame.
+
+Conventions: work to first order in $V/c$; the phase velocity of light in the water's rest frame is $c/n$.
+
+Tasks:
+1. Using relativistic velocity addition, derive the lab-frame speed of the light to first order in $V/c$, and identify the Fresnel drag coefficient $f$ in $v \approx c/n + fV$.
+2. Evaluate the drag coefficient numerically for $n = 1.333$.
+3. Evaluate the increase in the light's lab speed, $\Delta v = fV$, in m/s.
+4. Explain why the naive Galilean result $\Delta v = V$ is wrong, and what Fizeau's 1851 experiment actually measured.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Velocity addition + expansion.** v = (c/n + V)/(1 + (c/n)V/c²) = (c/n + V)/(1 + V/(nc)). To first order in V/c: v ≈ (c/n + V)(1 − V/(nc)) ≈ c/n + V(1 − 1/n²). So the Fresnel drag coefficient is **f = 1 − 1/n²**.
+2. **Evaluate.** f = 1 − 1/1.333² = 1 − 1/____ = 1 − ____ = **____**.
+3. **Speed increase.** Δv = f·V = ____·5 = **____ m/s**.
+4. **Why not Galilean.** Galilean addition predicts Δv = V = 5 m/s (full drag). The relativistic result gives partial drag, f < 1 — the medium only partially carries the light. This f = 1 − 1/n² is Fresnel's 1818 coefficient, measured by Fizeau in 1851, and special relativity reproduces it exactly via velocity addition.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{delta\_v\_ms}      &=  \\
+\mathrm{drag\_coefficient} &=  \\
+\end{aligned}
+\]",56927f5730bf377206e605b68623c6699e0d5ce4991a60db268ed3787f3c64be
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,57,STAT_NEGT_001,Negative temperature - population inversion done right,Statistical Mechanics,model_gemma3_12b,Gemma 3 12B IT,OpenAI-compatible,google/gemma-3-12b-it,1,"Solve the following scenario.
+A collection of isolated two-level systems (level spacing $\Delta E = 2.00\times 10^{-23}$ J) is prepared with population ratio $N_{up}/N_{down} = 3.00$ (MORE atoms in the upper level).
+
+Conventions: temperature defined by the Boltzmann ratio $N_{up}/N_{down} = e^{-\Delta E/k_B T}$; report kelvin with sign.
+
+Tasks:
+1. Solve for $T$ given the inverted population, sign included.
+2. Evaluate $T$ in kelvin.
+3. Is a negative-temperature system colder or hotter than any positive-temperature system when they are brought into thermal contact? Justify via heat flow / entropy.
+4. Explain why negative temperatures require a BOUNDED energy spectrum, and name the classic experimental realization.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Sign.** e^{−ΔE/k_B T} = 3 > 1 ⟹ −ΔE/(k_B T) = ln 3 > 0; since ΔE > 0, this forces **T < 0**. T = −ΔE/(k_B ln 3).
+2. **Evaluate.** T = −2×10⁻²³ / (____×10⁻²³·____) = −2×10⁻²³ / ____×10⁻²³ = **−____ K**.
+3. **Hotter, not colder.** A negative-T system is **hotter** than any positive-T system: on contact, heat flows **from** T < 0 **to** T > 0 (ordering by −1/T). Adding energy to the inverted system lowers its entropy (dS/dE < 0 ⟹ T < 0), so it readily gives energy up.
+4. **Requirements.** Negative T needs a **bounded** energy spectrum (an upper energy bound), or the partition function diverges. Realized in nuclear-spin systems (Purcell & Pound 1951). It is ""beyond +∞"" on the 1/T scale — not ""below absolute zero"" in the colder sense.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{abs\_temperature\_K} &=  \\
+\mathrm{temperature\_K}      &=  \\
+\end{aligned}
+\]",fa11c5db051fc573d58a921ac93d76cc008670b0ef0a3bed893c657c64392577
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,58,STAT_NEGT_001,Negative temperature - population inversion done right,Statistical Mechanics,model_gemma3_27b,Gemma 3 27B IT,OpenAI-compatible,google/gemma-3-27b-it,1,"Solve the following scenario.
+A collection of isolated two-level systems (level spacing $\Delta E = 2.00\times 10^{-23}$ J) is prepared with population ratio $N_{up}/N_{down} = 3.00$ (MORE atoms in the upper level).
+
+Conventions: temperature defined by the Boltzmann ratio $N_{up}/N_{down} = e^{-\Delta E/k_B T}$; report kelvin with sign.
+
+Tasks:
+1. Solve for $T$ given the inverted population, sign included.
+2. Evaluate $T$ in kelvin.
+3. Is a negative-temperature system colder or hotter than any positive-temperature system when they are brought into thermal contact? Justify via heat flow / entropy.
+4. Explain why negative temperatures require a BOUNDED energy spectrum, and name the classic experimental realization.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Sign.** e^{−ΔE/k_B T} = 3 > 1 ⟹ −ΔE/(k_B T) = ln 3 > 0; since ΔE > 0, this forces **T < 0**. T = −ΔE/(k_B ln 3).
+2. **Evaluate.** T = −2×10⁻²³ / (____×10⁻²³·____) = −2×10⁻²³ / ____×10⁻²³ = **−____ K**.
+3. **Hotter, not colder.** A negative-T system is **hotter** than any positive-T system: on contact, heat flows **from** T < 0 **to** T > 0 (ordering by −1/T). Adding energy to the inverted system lowers its entropy (dS/dE < 0 ⟹ T < 0), so it readily gives energy up.
+4. **Requirements.** Negative T needs a **bounded** energy spectrum (an upper energy bound), or the partition function diverges. Realized in nuclear-spin systems (Purcell & Pound 1951). It is ""beyond +∞"" on the 1/T scale — not ""below absolute zero"" in the colder sense.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{abs\_temperature\_K} &=  \\
+\mathrm{temperature\_K}      &=  \\
+\end{aligned}
+\]",fa11c5db051fc573d58a921ac93d76cc008670b0ef0a3bed893c657c64392577
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,59,STAT_NEGT_001,Negative temperature - population inversion done right,Statistical Mechanics,model_gemma4_31b,Gemma 4 31B IT,OpenAI-compatible,google/gemma-4-31b-it,1,"Solve the following scenario.
+A collection of isolated two-level systems (level spacing $\Delta E = 2.00\times 10^{-23}$ J) is prepared with population ratio $N_{up}/N_{down} = 3.00$ (MORE atoms in the upper level).
+
+Conventions: temperature defined by the Boltzmann ratio $N_{up}/N_{down} = e^{-\Delta E/k_B T}$; report kelvin with sign.
+
+Tasks:
+1. Solve for $T$ given the inverted population, sign included.
+2. Evaluate $T$ in kelvin.
+3. Is a negative-temperature system colder or hotter than any positive-temperature system when they are brought into thermal contact? Justify via heat flow / entropy.
+4. Explain why negative temperatures require a BOUNDED energy spectrum, and name the classic experimental realization.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Sign.** e^{−ΔE/k_B T} = 3 > 1 ⟹ −ΔE/(k_B T) = ln 3 > 0; since ΔE > 0, this forces **T < 0**. T = −ΔE/(k_B ln 3).
+2. **Evaluate.** T = −2×10⁻²³ / (____×10⁻²³·____) = −2×10⁻²³ / ____×10⁻²³ = **−____ K**.
+3. **Hotter, not colder.** A negative-T system is **hotter** than any positive-T system: on contact, heat flows **from** T < 0 **to** T > 0 (ordering by −1/T). Adding energy to the inverted system lowers its entropy (dS/dE < 0 ⟹ T < 0), so it readily gives energy up.
+4. **Requirements.** Negative T needs a **bounded** energy spectrum (an upper energy bound), or the partition function diverges. Realized in nuclear-spin systems (Purcell & Pound 1951). It is ""beyond +∞"" on the 1/T scale — not ""below absolute zero"" in the colder sense.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{abs\_temperature\_K} &=  \\
+\mathrm{temperature\_K}      &=  \\
+\end{aligned}
+\]",fa11c5db051fc573d58a921ac93d76cc008670b0ef0a3bed893c657c64392577
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,60,STAT_NEGT_001,Negative temperature - population inversion done right,Statistical Mechanics,model_granite_41_8b,Granite 4.1 8B,OpenAI-compatible,ibm-granite/granite-4.1-8b,1,"Solve the following scenario.
+A collection of isolated two-level systems (level spacing $\Delta E = 2.00\times 10^{-23}$ J) is prepared with population ratio $N_{up}/N_{down} = 3.00$ (MORE atoms in the upper level).
+
+Conventions: temperature defined by the Boltzmann ratio $N_{up}/N_{down} = e^{-\Delta E/k_B T}$; report kelvin with sign.
+
+Tasks:
+1. Solve for $T$ given the inverted population, sign included.
+2. Evaluate $T$ in kelvin.
+3. Is a negative-temperature system colder or hotter than any positive-temperature system when they are brought into thermal contact? Justify via heat flow / entropy.
+4. Explain why negative temperatures require a BOUNDED energy spectrum, and name the classic experimental realization.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Sign.** e^{−ΔE/k_B T} = 3 > 1 ⟹ −ΔE/(k_B T) = ln 3 > 0; since ΔE > 0, this forces **T < 0**. T = −ΔE/(k_B ln 3).
+2. **Evaluate.** T = −2×10⁻²³ / (____×10⁻²³·____) = −2×10⁻²³ / ____×10⁻²³ = **−____ K**.
+3. **Hotter, not colder.** A negative-T system is **hotter** than any positive-T system: on contact, heat flows **from** T < 0 **to** T > 0 (ordering by −1/T). Adding energy to the inverted system lowers its entropy (dS/dE < 0 ⟹ T < 0), so it readily gives energy up.
+4. **Requirements.** Negative T needs a **bounded** energy spectrum (an upper energy bound), or the partition function diverges. Realized in nuclear-spin systems (Purcell & Pound 1951). It is ""beyond +∞"" on the 1/T scale — not ""below absolute zero"" in the colder sense.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{abs\_temperature\_K} &=  \\
+\mathrm{temperature\_K}      &=  \\
+\end{aligned}
+\]",fa11c5db051fc573d58a921ac93d76cc008670b0ef0a3bed893c657c64392577
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,61,STAT_NEGT_001,Negative temperature - population inversion done right,Statistical Mechanics,model_llama_31_8b,Llama 3.1 8B Instruct,OpenAI-compatible,meta-llama/llama-3.1-8b-instruct,1,"Solve the following scenario.
+A collection of isolated two-level systems (level spacing $\Delta E = 2.00\times 10^{-23}$ J) is prepared with population ratio $N_{up}/N_{down} = 3.00$ (MORE atoms in the upper level).
+
+Conventions: temperature defined by the Boltzmann ratio $N_{up}/N_{down} = e^{-\Delta E/k_B T}$; report kelvin with sign.
+
+Tasks:
+1. Solve for $T$ given the inverted population, sign included.
+2. Evaluate $T$ in kelvin.
+3. Is a negative-temperature system colder or hotter than any positive-temperature system when they are brought into thermal contact? Justify via heat flow / entropy.
+4. Explain why negative temperatures require a BOUNDED energy spectrum, and name the classic experimental realization.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Sign.** e^{−ΔE/k_B T} = 3 > 1 ⟹ −ΔE/(k_B T) = ln 3 > 0; since ΔE > 0, this forces **T < 0**. T = −ΔE/(k_B ln 3).
+2. **Evaluate.** T = −2×10⁻²³ / (____×10⁻²³·____) = −2×10⁻²³ / ____×10⁻²³ = **−____ K**.
+3. **Hotter, not colder.** A negative-T system is **hotter** than any positive-T system: on contact, heat flows **from** T < 0 **to** T > 0 (ordering by −1/T). Adding energy to the inverted system lowers its entropy (dS/dE < 0 ⟹ T < 0), so it readily gives energy up.
+4. **Requirements.** Negative T needs a **bounded** energy spectrum (an upper energy bound), or the partition function diverges. Realized in nuclear-spin systems (Purcell & Pound 1951). It is ""beyond +∞"" on the 1/T scale — not ""below absolute zero"" in the colder sense.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{abs\_temperature\_K} &=  \\
+\mathrm{temperature\_K}      &=  \\
+\end{aligned}
+\]",fa11c5db051fc573d58a921ac93d76cc008670b0ef0a3bed893c657c64392577
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,62,STAT_NEGT_001,Negative temperature - population inversion done right,Statistical Mechanics,model_ministral_8b,Ministral 3 8B,OpenAI-compatible,mistralai/ministral-8b-2512,1,"Solve the following scenario.
+A collection of isolated two-level systems (level spacing $\Delta E = 2.00\times 10^{-23}$ J) is prepared with population ratio $N_{up}/N_{down} = 3.00$ (MORE atoms in the upper level).
+
+Conventions: temperature defined by the Boltzmann ratio $N_{up}/N_{down} = e^{-\Delta E/k_B T}$; report kelvin with sign.
+
+Tasks:
+1. Solve for $T$ given the inverted population, sign included.
+2. Evaluate $T$ in kelvin.
+3. Is a negative-temperature system colder or hotter than any positive-temperature system when they are brought into thermal contact? Justify via heat flow / entropy.
+4. Explain why negative temperatures require a BOUNDED energy spectrum, and name the classic experimental realization.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Sign.** e^{−ΔE/k_B T} = 3 > 1 ⟹ −ΔE/(k_B T) = ln 3 > 0; since ΔE > 0, this forces **T < 0**. T = −ΔE/(k_B ln 3).
+2. **Evaluate.** T = −2×10⁻²³ / (____×10⁻²³·____) = −2×10⁻²³ / ____×10⁻²³ = **−____ K**.
+3. **Hotter, not colder.** A negative-T system is **hotter** than any positive-T system: on contact, heat flows **from** T < 0 **to** T > 0 (ordering by −1/T). Adding energy to the inverted system lowers its entropy (dS/dE < 0 ⟹ T < 0), so it readily gives energy up.
+4. **Requirements.** Negative T needs a **bounded** energy spectrum (an upper energy bound), or the partition function diverges. Realized in nuclear-spin systems (Purcell & Pound 1951). It is ""beyond +∞"" on the 1/T scale — not ""below absolute zero"" in the colder sense.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{abs\_temperature\_K} &=  \\
+\mathrm{temperature\_K}      &=  \\
+\end{aligned}
+\]",fa11c5db051fc573d58a921ac93d76cc008670b0ef0a3bed893c657c64392577
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,63,STAT_NEGT_001,Negative temperature - population inversion done right,Statistical Mechanics,model_mistral_nemo_12b,Mistral NeMo 12B,OpenAI-compatible,mistralai/mistral-nemo,1,"Solve the following scenario.
+A collection of isolated two-level systems (level spacing $\Delta E = 2.00\times 10^{-23}$ J) is prepared with population ratio $N_{up}/N_{down} = 3.00$ (MORE atoms in the upper level).
+
+Conventions: temperature defined by the Boltzmann ratio $N_{up}/N_{down} = e^{-\Delta E/k_B T}$; report kelvin with sign.
+
+Tasks:
+1. Solve for $T$ given the inverted population, sign included.
+2. Evaluate $T$ in kelvin.
+3. Is a negative-temperature system colder or hotter than any positive-temperature system when they are brought into thermal contact? Justify via heat flow / entropy.
+4. Explain why negative temperatures require a BOUNDED energy spectrum, and name the classic experimental realization.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Sign.** e^{−ΔE/k_B T} = 3 > 1 ⟹ −ΔE/(k_B T) = ln 3 > 0; since ΔE > 0, this forces **T < 0**. T = −ΔE/(k_B ln 3).
+2. **Evaluate.** T = −2×10⁻²³ / (____×10⁻²³·____) = −2×10⁻²³ / ____×10⁻²³ = **−____ K**.
+3. **Hotter, not colder.** A negative-T system is **hotter** than any positive-T system: on contact, heat flows **from** T < 0 **to** T > 0 (ordering by −1/T). Adding energy to the inverted system lowers its entropy (dS/dE < 0 ⟹ T < 0), so it readily gives energy up.
+4. **Requirements.** Negative T needs a **bounded** energy spectrum (an upper energy bound), or the partition function diverges. Realized in nuclear-spin systems (Purcell & Pound 1951). It is ""beyond +∞"" on the 1/T scale — not ""below absolute zero"" in the colder sense.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{abs\_temperature\_K} &=  \\
+\mathrm{temperature\_K}      &=  \\
+\end{aligned}
+\]",fa11c5db051fc573d58a921ac93d76cc008670b0ef0a3bed893c657c64392577
+structured_prompt_pilot_v5,structured_prompt_pilot_v5,64,STAT_NEGT_001,Negative temperature - population inversion done right,Statistical Mechanics,model_mistral_small_32,Mistral Small 3.2 24B Instruct,OpenAI-compatible,mistral-small-2506,1,"Solve the following scenario.
+A collection of isolated two-level systems (level spacing $\Delta E = 2.00\times 10^{-23}$ J) is prepared with population ratio $N_{up}/N_{down} = 3.00$ (MORE atoms in the upper level).
+
+Conventions: temperature defined by the Boltzmann ratio $N_{up}/N_{down} = e^{-\Delta E/k_B T}$; report kelvin with sign.
+
+Tasks:
+1. Solve for $T$ given the inverted population, sign included.
+2. Evaluate $T$ in kelvin.
+3. Is a negative-temperature system colder or hotter than any positive-temperature system when they are brought into thermal contact? Justify via heat flow / entropy.
+4. Explain why negative temperatures require a BOUNDED energy spectrum, and name the classic experimental realization.
+Use the following answer structure. Keep the same sections and step order. Fill in the missing values by doing the calculation.
+Do not copy the placeholders.
+Do not add extra final-answer fields.
+Do not include more than one FINAL ANSWER block.
+Keep the final answer field names exactly as shown.
+Keep the final answer row order exactly as shown.
+**Derivation**
+1. **Sign.** e^{−ΔE/k_B T} = 3 > 1 ⟹ −ΔE/(k_B T) = ln 3 > 0; since ΔE > 0, this forces **T < 0**. T = −ΔE/(k_B ln 3).
+2. **Evaluate.** T = −2×10⁻²³ / (____×10⁻²³·____) = −2×10⁻²³ / ____×10⁻²³ = **−____ K**.
+3. **Hotter, not colder.** A negative-T system is **hotter** than any positive-T system: on contact, heat flows **from** T < 0 **to** T > 0 (ordering by −1/T). Adding energy to the inverted system lowers its entropy (dS/dE < 0 ⟹ T < 0), so it readily gives energy up.
+4. **Requirements.** Negative T needs a **bounded** energy spectrum (an upper energy bound), or the partition function diverges. Realized in nuclear-spin systems (Purcell & Pound 1951). It is ""beyond +∞"" on the 1/T scale — not ""below absolute zero"" in the colder sense.
+**FINAL ANSWER**
+
+\[
+\begin{aligned}
+\mathrm{abs\_temperature\_K} &=  \\
+\mathrm{temperature\_K}      &=  \\
+\end{aligned}
+\]",fa11c5db051fc573d58a921ac93d76cc008670b0ef0a3bed893c657c64392577

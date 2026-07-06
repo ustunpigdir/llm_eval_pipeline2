@@ -1,0 +1,2 @@
+scenario_id,model_name,raw_helper_status,review_status,review_reason,autograded
+QFT_UNRUH_001,Granite 4.1 8B,NO_VALID_BLOCK,REVIEW,non_clean_helper_status,no

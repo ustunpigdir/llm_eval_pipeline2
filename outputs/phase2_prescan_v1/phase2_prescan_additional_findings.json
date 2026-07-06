@@ -1,0 +1,137 @@
+{
+  "explicit_base_log_candidates": [
+    {
+      "batch": "V2",
+      "current_error_tag": "log10_energy_ratio:MISMATCH",
+      "field_name": "log10_energy_ratio",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Llama 3.1 8B Instruct",
+      "raw_value": "8.083",
+      "scenario_id": "COS_CMB_001"
+    },
+    {
+      "batch": "V2",
+      "current_error_tag": "log10_number_ratio:MISMATCH",
+      "field_name": "log10_number_ratio",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Llama 3.1 8B Instruct",
+      "raw_value": "6.041",
+      "scenario_id": "COS_CMB_001"
+    },
+    {
+      "batch": "V2",
+      "current_error_tag": "log10_energy_ratio:MISMATCH",
+      "field_name": "log10_energy_ratio",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Mistral NeMo 12B",
+      "raw_value": "4.040",
+      "scenario_id": "COS_CMB_001"
+    },
+    {
+      "batch": "V2",
+      "current_error_tag": "log10_number_ratio:MISMATCH",
+      "field_name": "log10_number_ratio",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Mistral NeMo 12B",
+      "raw_value": "3.030",
+      "scenario_id": "COS_CMB_001"
+    },
+    {
+      "batch": "V2",
+      "current_error_tag": "log10_energy_ratio:MISMATCH",
+      "field_name": "log10_energy_ratio",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Mistral Small 3.2 24B Instruct",
+      "raw_value": "4.0552",
+      "scenario_id": "COS_CMB_001"
+    },
+    {
+      "batch": "V2",
+      "current_error_tag": "log10_number_ratio:MISMATCH",
+      "field_name": "log10_number_ratio",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Mistral Small 3.2 24B Instruct",
+      "raw_value": "3.0414",
+      "scenario_id": "COS_CMB_001"
+    },
+    {
+      "batch": "V3",
+      "current_error_tag": "log10_T:MISMATCH",
+      "field_name": "log10_T",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Gemma 3 12B IT",
+      "raw_value": "-2163.3",
+      "scenario_id": "QM_TUNNEL_001"
+    },
+    {
+      "batch": "V3",
+      "current_error_tag": "log10_T:MISMATCH",
+      "field_name": "log10_T",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Gemma 3 27B IT",
+      "raw_value": "-2.53",
+      "scenario_id": "QM_TUNNEL_001"
+    },
+    {
+      "batch": "V3",
+      "current_error_tag": "log10_T:MISMATCH",
+      "field_name": "log10_T",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Llama 3.1 8B Instruct",
+      "raw_value": "-1.19",
+      "scenario_id": "QM_TUNNEL_001"
+    },
+    {
+      "batch": "V3",
+      "current_error_tag": "log10_T:MISMATCH",
+      "field_name": "log10_T",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Ministral 3 8B",
+      "raw_value": "-1.937",
+      "scenario_id": "QM_TUNNEL_001"
+    },
+    {
+      "batch": "V3",
+      "current_error_tag": "log10_T:MISMATCH",
+      "field_name": "log10_T",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Mistral NeMo 12B",
+      "raw_value": "-3.046",
+      "scenario_id": "QM_TUNNEL_001"
+    },
+    {
+      "batch": "V3",
+      "current_error_tag": "log10_T:MISMATCH",
+      "field_name": "log10_T",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Mistral Small 3.2 24B Instruct",
+      "raw_value": "-6.23",
+      "scenario_id": "QM_TUNNEL_001"
+    },
+    {
+      "batch": "V4",
+      "current_error_tag": "holevo_chi_bits:UNPARSEABLE:parse-fail:TokenError",
+      "field_name": "holevo_chi_bits",
+      "likely_impact": "may_parse_after_log_support",
+      "model_name": "Ministral 3 8B",
+      "raw_value": "-\\frac{3+\\sqrt{5}}{4}\\log_2\\left(\\frac{3+\\sqrt{5}}{4}\\right) - \\frac{3-\\sqrt{5}}{4}\\log_2\\left(\\frac{3-\\sqrt{5}}{4}\\right)",
+      "scenario_id": "QI_HOLEVO_001"
+    }
+  ],
+  "fail_error_tag_distribution": {
+    "": 309,
+    "MISMATCH": 606,
+    "UNPARSEABLE": 12,
+    "UNPARSEABLE:parse-fail": 6,
+    "UNPARSEABLE:parse-fail:SympifyError": 2,
+    "UNPARSEABLE:parse-fail:TokenError": 4
+  },
+  "percent_ellipsis_risks": [],
+  "review_autograder_version_skew_risks": [
+    "scripts/autograde_structured_prompt_v2_no_bert.py contains local FIELD_SET_MISMATCH handling",
+    "scripts/autograde_structured_prompt_v3_no_bert.py contains local FIELD_SET_MISMATCH handling",
+    "scripts/autograde_structured_prompt_v4_no_bert.py contains local FIELD_SET_MISMATCH handling",
+    "scripts/autograde_structured_prompt_v5_no_bert.py contains local FIELD_SET_MISMATCH handling",
+    "scripts/run_bertscore_structured_all32_phase1_hardened_no_final_block.py contains local final-answer/block regex or marker logic"
+  ]
+}

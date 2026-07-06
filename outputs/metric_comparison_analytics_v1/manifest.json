@@ -1,0 +1,61 @@
+{
+  "actual_rows": 252,
+  "alignment_status": {
+    "alignment_key": "source_run_id",
+    "full_bertscore_rows_aligned": 252,
+    "missing": {
+      "missing_autograde": [],
+      "missing_full": [],
+      "missing_no_final": []
+    },
+    "no_final_bertscore_rows_aligned": 252
+  },
+  "artifact_name": "metric_comparison_analytics_v1",
+  "created_at": "2026-07-05T22:24:41+00:00",
+  "deterministic_fail_count": 135,
+  "deterministic_pass_count": 117,
+  "expected_rows": 252,
+  "external_llm_api_calls": false,
+  "human_label_alignment_status": "not_available_for_structured_clean_rows",
+  "input_folders": [
+    "outputs/structured_prompt_all32_summary_phase1_hardened/",
+    "outputs/structured_prompt_pilot_v2/",
+    "outputs/structured_prompt_pilot_v3/",
+    "outputs/structured_prompt_pilot_v4/",
+    "outputs/structured_prompt_pilot_v5/",
+    "outputs/bertscore_structured_all32_phase1_hardened_v1/",
+    "outputs/bertscore_structured_all32_phase1_hardened_no_final_block_v1/"
+  ],
+  "known_limitations": [
+    "automatic text metrics are secondary/descriptive and not correctness measures",
+    "full-answer BERTScore is provenance-only because references already exclude final-answer sections",
+    "no-final BERTScore v1 has a 5-row final-block-removal caveat",
+    "ROUGE-L and chrF are blank because saved metric CSVs do not contain candidate/reference text",
+    "no safely alignable human labels found for these 252 rows"
+  ],
+  "learning_db_modified": false,
+  "metrics_included": [
+    "bertscore_full_f1",
+    "bertscore_no_final_f1",
+    "candidate_reference_length_ratio"
+  ],
+  "model_calls_made": false,
+  "output_files": [
+    "README.md",
+    "METRIC_COMPARISON_ANALYTICS_REPORT.md",
+    "metric_comparison_base_dataset.csv",
+    "metric_comparison_base_dataset.json",
+    "metric_comparison_by_metric.csv",
+    "metric_comparison_by_grade.csv",
+    "metric_comparison_by_scenario.csv",
+    "metric_comparison_by_model.csv",
+    "metric_comparison_outliers_high_metric_fail.csv",
+    "metric_comparison_outliers_low_metric_pass.csv",
+    "metric_correlation_matrix.csv",
+    "manifest.json"
+  ],
+  "phase2_semantics_implemented": false,
+  "purpose": "compare automatic metrics against deterministic and human-reviewed labels",
+  "raw_outputs_modified": false,
+  "read_only": true
+}

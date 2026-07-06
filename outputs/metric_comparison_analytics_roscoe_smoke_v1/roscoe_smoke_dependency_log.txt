@@ -1,0 +1,25 @@
+# ROSCOE smoke dependency log
+
+Created/used environment:
+- path: .venv_roscoe
+- python: Python 3.12.13
+
+- pip: pip 26.1.2 from /Users/upigdir/Desktop/Pipeline SQL proj/.venv_roscoe/lib/python3.12/site-packages/pip (python 3.12)
+
+
+Install command attempted manually before this script:
+
+`.venv_roscoe/bin/pip install numpy tqdm scipy nltk transformers sentence-transformers simcse`
+
+Result:
+
+Failed. `simcse` dependency resolution attempted to build `scipy==1.5.4`, which attempted to build `numpy==1.17.3`; that path fails under Python 3.12 with `NameError: name 'CCompiler' is not defined`.
+
+No packages were installed in `.venv_roscoe`; current package list:
+
+```text
+Package Version
+------- -------
+pip     26.1.2
+
+```

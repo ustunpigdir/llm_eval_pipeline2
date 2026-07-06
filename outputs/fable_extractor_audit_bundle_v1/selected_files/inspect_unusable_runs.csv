@@ -1,0 +1,8 @@
+run_id,model_name,scenario_id,answer_length,flag_types,severities,v3_classification,v3_reason,markdown_block_count,display_math_count,inline_math_count,environment_count,final_answer_candidate_count,filled_final_block_count,blank_template_block_count,repetition_detected,suggested_decision
+185,Llama 3.1 8B Instruct,unknown,24938,odd_single_dollar,warning,UNUSABLE,no complete filled final-answer block found anywhere in the answer,300,192,92,0,0,0,0,False,CONFIRM_UNUSABLE
+187,Ministral 3 8B,unknown,28413,unmatched_bracket_display,warning,UNUSABLE,no complete filled final-answer block found anywhere in the answer,337,172,0,0,0,0,0,False,CONFIRM_UNUSABLE
+188,Ministral 3 8B,unknown,23990,unmatched_bracket_display,warning,UNUSABLE,no complete filled final-answer block found anywhere in the answer,115,79,0,0,0,0,0,False,CONFIRM_UNUSABLE
+256,NVIDIA Nemotron 3 Nano 30B-A3B,unknown,913,unmatched_bracket_display,warning,UNUSABLE,no complete filled final-answer block found anywhere in the answer,8,3,0,0,0,0,0,False,CONFIRM_UNUSABLE
+286,Llama 3.1 8B Instruct,unknown,27129,odd_single_dollar,warning,UNUSABLE,"no complete filled final-answer block found anywhere in the answer; repetition/looping present, preventing resolution",299,0,299,0,0,0,0,True,CONFIRM_UNUSABLE
+380,Ministral 3 8B,unknown,38889,unmatched_bracket_display,warning,UNUSABLE,no complete filled final-answer block found anywhere in the answer,366,214,0,0,0,0,0,False,CONFIRM_UNUSABLE
+514,Gemma 3 12B IT,unknown,25613,odd_single_dollar,warning,UNUSABLE,"no complete filled final-answer block found anywhere in the answer; repetition/looping present, preventing resolution",17,0,38,0,0,0,0,True,CONFIRM_UNUSABLE

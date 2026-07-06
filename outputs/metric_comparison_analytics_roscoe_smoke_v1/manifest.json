@@ -1,0 +1,41 @@
+{
+  "artifact_name": "roscoe_smoke_test_v1",
+  "created_at": "2026-07-05T23:17:04.742105+00:00",
+  "purpose": "isolated smoke test for Meta/ParlAI ROSCOE implementation",
+  "read_only_project_data": true,
+  "main_venv_modified": false,
+  "venv_roscoe_created": true,
+  "dependencies_installed_in_venv_roscoe": false,
+  "learning_db_modified": false,
+  "raw_outputs_modified": false,
+  "frozen_metric_artifacts_modified": false,
+  "benchmark_rows_scored": false,
+  "model_calls_made": false,
+  "external_llm_api_calls": false,
+  "bertscore_run": false,
+  "phase2_semantics_implemented": false,
+  "parlai_source": "https://github.com/facebookresearch/ParlAI",
+  "parlai_commit": "6c802418e93a51cbb746b011439ab783dd136de8",
+  "roscoe_files_used": [
+    "projects/roscoe/README.md",
+    "projects/roscoe/score.py",
+    "projects/roscoe/roscoe.py",
+    "projects/roscoe/utils.py",
+    "tests/nightly/cpu/test_roscoe.py"
+  ],
+  "smoke_pairs_attempted": 3,
+  "smoke_pairs_scored": 0,
+  "metrics_available": [],
+  "smoke_test_status": "failed",
+  "pilot_30_recommended": false,
+  "output_files": [
+    "README.md",
+    "ROSCOE_SMOKE_TEST_REPORT.md",
+    "roscoe_smoke_test_results.json",
+    "roscoe_smoke_test_results.md",
+    "roscoe_smoke_dependency_log.txt",
+    "roscoe_smoke_import_log.txt",
+    "roscoe_smoke_runtime_log.txt",
+    "manifest.json"
+  ]
+}

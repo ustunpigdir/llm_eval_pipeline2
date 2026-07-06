@@ -1,0 +1,253 @@
+batch,scenario_id,model_name,source_run_id,final_block_removed_candidate,final_block_removed_reference
+V2,CM_FOUCAULT_001,Gemma 3 12B IT,683d993d-776a-4d0a-8d7b-5f3955ff7ec2,True,False
+V2,CM_FOUCAULT_001,Gemma 3 27B IT,b77ca7e5-2054-47cf-8b2a-f0522502ecbe,True,False
+V2,CM_FOUCAULT_001,Gemma 4 31B IT,98f3c8aa-7662-449d-8bc9-789db679a7b5,True,False
+V2,CM_FOUCAULT_001,Granite 4.1 8B,6a439759-2c09-40f5-b714-5f0905b08611,True,False
+V2,CM_FOUCAULT_001,Llama 3.1 8B Instruct,43b57069-ea6b-42b1-9339-b978dcf9ad74,False,False
+V2,CM_FOUCAULT_001,Ministral 3 8B,981eba36-7bcf-427e-9a83-c05551b36c90,True,False
+V2,CM_FOUCAULT_001,Mistral NeMo 12B,78db6adf-408e-49e7-8f70-5a4c3fe210ad,True,False
+V2,CM_FOUCAULT_001,Mistral Small 3.2 24B Instruct,87d3ed82-6adb-40f0-8db1-efb66f5207f4,True,False
+V2,COS_CMB_001,Gemma 3 12B IT,f7f12cfe-6b34-4c5b-8af3-5337de7fb235,True,False
+V2,COS_CMB_001,Gemma 3 27B IT,45f12cf7-3772-421a-8998-b0b7ff23252b,True,False
+V2,COS_CMB_001,Gemma 4 31B IT,c15d63d9-68db-48a3-85f1-9600fff091ee,True,False
+V2,COS_CMB_001,Granite 4.1 8B,33b7ba26-8ce1-4c4c-aadf-b13a0800ceed,True,False
+V2,COS_CMB_001,Llama 3.1 8B Instruct,a3752b06-d12a-4b6f-b533-06abdc5a4a2d,True,False
+V2,COS_CMB_001,Ministral 3 8B,ea1562a8-ce25-46ef-96c3-4ea66084be94,True,False
+V2,COS_CMB_001,Mistral NeMo 12B,5bde406e-bcbd-4d75-9974-030635a1f45a,True,False
+V2,COS_CMB_001,Mistral Small 3.2 24B Instruct,2d1f22bc-291c-4722-88c7-cc1fed3ce53d,True,False
+V2,GR_ISCO_001,Gemma 3 12B IT,0891d888-672d-4f87-bc31-5a40a8dfdd32,True,False
+V2,GR_ISCO_001,Gemma 3 27B IT,a043fef4-92a9-4e39-8b94-4099ce5d7bd8,True,False
+V2,GR_ISCO_001,Gemma 4 31B IT,e4d58dfa-4086-43b4-a5bf-1f9bec6c2599,True,False
+V2,GR_ISCO_001,Granite 4.1 8B,40dd5ad7-5daa-4765-ad81-b279dda17267,True,False
+V2,GR_ISCO_001,Llama 3.1 8B Instruct,12ba6901-ab09-4608-812d-243a3ba8cb47,False,False
+V2,GR_ISCO_001,Ministral 3 8B,6a0624c3-57f8-4327-8206-731c8c16e32e,True,False
+V2,GR_ISCO_001,Mistral NeMo 12B,afe1c751-3c98-4578-aee5-2bc6938397b8,True,False
+V2,GR_ISCO_001,Mistral Small 3.2 24B Instruct,ab92bfee-92d9-4fbc-b33c-4d25777badf5,True,False
+V2,QI_TELEPORT_001,Gemma 3 12B IT,30ac6932-dc57-4cf3-bf98-468533408eb0,True,False
+V2,QI_TELEPORT_001,Gemma 3 27B IT,7c096d8f-6286-4837-bb5c-38e6df0e6b56,True,False
+V2,QI_TELEPORT_001,Gemma 4 31B IT,42445057-c8f5-4253-80d2-5a671b2f970e,True,False
+V2,QI_TELEPORT_001,Granite 4.1 8B,b82bd97e-a127-4a93-adc1-3fd1abd73acc,True,False
+V2,QI_TELEPORT_001,Llama 3.1 8B Instruct,ba60237f-f38f-49a1-aff7-f714152bab19,True,False
+V2,QI_TELEPORT_001,Ministral 3 8B,9584a665-3773-4c3a-a6fd-e7fe2777cbbb,True,False
+V2,QI_TELEPORT_001,Mistral NeMo 12B,ef9cc4a7-79d5-4db1-94dc-31e32778b632,True,False
+V2,QI_TELEPORT_001,Mistral Small 3.2 24B Instruct,dfc152eb-9100-4902-bb40-b122e3842d5f,True,False
+V2,QM_BERRY_001,Gemma 3 12B IT,d94b3e8b-d2fa-4bfd-8261-18fc32f1e6c2,True,False
+V2,QM_BERRY_001,Gemma 3 27B IT,5adb68d3-d803-46a1-ac23-424753a795f6,True,False
+V2,QM_BERRY_001,Gemma 4 31B IT,9db36a40-841b-4808-bbed-447ab10fa45e,True,False
+V2,QM_BERRY_001,Granite 4.1 8B,bfead667-22b7-4add-82bd-2984b62eeac1,True,False
+V2,QM_BERRY_001,Llama 3.1 8B Instruct,e85fdb3c-6f96-43c1-ae20-f3af6c23ab26,True,False
+V2,QM_BERRY_001,Ministral 3 8B,fdc95d2c-3de5-4854-8c60-7b922434ac4c,True,False
+V2,QM_BERRY_001,Mistral NeMo 12B,183a2bc8-11a9-43e6-a8a0-67b79cff192b,True,False
+V2,QM_BERRY_001,Mistral Small 3.2 24B Instruct,0c429cf4-5519-4352-b10b-b78367d1aa96,True,False
+V2,QFT_G2_001,Gemma 3 12B IT,b29759a2-66b7-4fc4-ba87-3dfd71ad6ba3,True,False
+V2,QFT_G2_001,Gemma 3 27B IT,25529e5b-327b-4589-a52a-93f73ca80330,True,False
+V2,QFT_G2_001,Gemma 4 31B IT,c4603976-d5d0-4988-a94c-66b6032bc539,True,False
+V2,QFT_G2_001,Granite 4.1 8B,4013320a-823c-4eea-a0f8-eff99460982d,True,False
+V2,QFT_G2_001,Llama 3.1 8B Instruct,eaff2b64-dfb3-49b3-9728-2a8a928c5ac7,False,False
+V2,QFT_G2_001,Ministral 3 8B,b3e81597-bbd0-4808-a7b4-5c7c68c104f0,True,False
+V2,QFT_G2_001,Mistral NeMo 12B,96198746-3f2d-4926-bcef-e8433bbb98d7,True,False
+V2,QFT_G2_001,Mistral Small 3.2 24B Instruct,ca000060-3995-4bae-816b-f16738e1b5cc,True,False
+V2,SR_ROCKET_001,Gemma 3 12B IT,0a1bfb8e-7794-43ce-a724-e54da756c20b,True,False
+V2,SR_ROCKET_001,Gemma 3 27B IT,0fdbc6f7-aa2f-4d13-85e3-1de67d52d0f1,True,False
+V2,SR_ROCKET_001,Gemma 4 31B IT,4e6f8a7e-4f83-4d56-8303-b5235d10c856,True,False
+V2,SR_ROCKET_001,Granite 4.1 8B,03445593-5565-4d84-808b-961d8347ef18,True,False
+V2,SR_ROCKET_001,Llama 3.1 8B Instruct,ea3655fd-8b19-4f34-972d-8d47bb3d3a2f,True,False
+V2,SR_ROCKET_001,Ministral 3 8B,b43a15c6-f44a-490f-9780-8498520180c6,True,False
+V2,SR_ROCKET_001,Mistral NeMo 12B,dc36a2b4-f64b-443a-b417-a32edd88612a,True,False
+V2,SR_ROCKET_001,Mistral Small 3.2 24B Instruct,8dd9d539-5113-456a-ad1b-2987c0bf85c9,True,False
+V2,STAT_ISING_001,Gemma 3 12B IT,863e22f3-01f3-468c-994c-0a868b72a3dc,True,False
+V2,STAT_ISING_001,Gemma 3 27B IT,a82bb41e-4662-4d67-95ff-851677b05abd,True,False
+V2,STAT_ISING_001,Gemma 4 31B IT,8032048a-8e04-432c-b3eb-aab06ea4d99e,True,False
+V2,STAT_ISING_001,Granite 4.1 8B,5f22cbbd-f1ee-4af0-aa42-2c057e6b9037,True,False
+V2,STAT_ISING_001,Llama 3.1 8B Instruct,7ccc748d-227f-4678-a6d4-a73a86a210d0,True,False
+V2,STAT_ISING_001,Ministral 3 8B,06aa69b6-039e-4f7c-91d6-191279776ccc,True,False
+V2,STAT_ISING_001,Mistral NeMo 12B,1578b708-15cc-4472-862d-060fbdc5e95c,True,False
+V2,STAT_ISING_001,Mistral Small 3.2 24B Instruct,9e6a063d-dc82-49ce-aceb-7ac5aad0e02b,True,False
+V3,CM_APSIDAL_001,Gemma 3 12B IT,d3255966-d397-4024-81e3-275d475b382f,True,False
+V3,CM_APSIDAL_001,Gemma 3 27B IT,d678fa6d-f25c-4af8-bc83-9067f0531bcc,True,False
+V3,CM_APSIDAL_001,Gemma 4 31B IT,4626221f-f5e2-47b7-9c73-7930e0977b54,True,False
+V3,CM_APSIDAL_001,Granite 4.1 8B,d410a814-2896-4137-8dcd-4ea1e3fde257,True,False
+V3,CM_APSIDAL_001,Llama 3.1 8B Instruct,c5b81f9e-4521-4354-8a5d-745ff4c05bcf,True,False
+V3,CM_APSIDAL_001,Ministral 3 8B,8d88ebb6-c7fb-48bf-8150-c24d1049670c,True,False
+V3,CM_APSIDAL_001,Mistral NeMo 12B,4e065114-6895-4037-9f9c-d85e9790bfc5,True,False
+V3,CM_APSIDAL_001,Mistral Small 3.2 24B Instruct,e4082586-1169-4679-b9af-5b1bc02b93ae,True,False
+V3,COS_DL_001,Gemma 3 12B IT,95f6ba98-9ad9-4743-98f6-e08bef51a990,True,False
+V3,COS_DL_001,Gemma 3 27B IT,218ab9ee-bcb4-4ea8-9ea5-27f50255759c,True,False
+V3,COS_DL_001,Gemma 4 31B IT,9b43c249-fc19-463d-9f32-928d33522cd0,True,False
+V3,COS_DL_001,Granite 4.1 8B,34cd051f-7d65-45c5-8ebf-a814fb4f5ed9,True,False
+V3,COS_DL_001,Llama 3.1 8B Instruct,b4d6a91d-fa00-46eb-bfa4-4bd21487259c,True,False
+V3,COS_DL_001,Ministral 3 8B,7e158b39-fc5d-4ba7-86a6-70440815a664,True,False
+V3,COS_DL_001,Mistral NeMo 12B,4f06ea18-7b13-4c03-a4a7-37036abe296d,True,False
+V3,COS_DL_001,Mistral Small 3.2 24B Instruct,47ac3873-4e9b-418a-8076-151b5dd3d817,True,False
+V3,GR_GPS_001,Gemma 3 12B IT,0ada0fb0-29cc-4f10-b31a-705df74e52ae,True,False
+V3,GR_GPS_001,Gemma 3 27B IT,e7473180-0785-429d-84d1-b9888a90bff4,True,False
+V3,GR_GPS_001,Gemma 4 31B IT,83128479-f3b5-4076-b4d8-697f3b7632f1,True,False
+V3,GR_GPS_001,Granite 4.1 8B,9991d196-4513-449c-9fa5-bc9e85fe608f,True,False
+V3,GR_GPS_001,Llama 3.1 8B Instruct,637b75a5-6869-433d-b669-e89b15b2555e,False,False
+V3,GR_GPS_001,Ministral 3 8B,30e59015-74c8-4d8c-abe8-a916e9150032,True,False
+V3,GR_GPS_001,Mistral NeMo 12B,69fbc5d3-4c42-43a5-bee4-fd591d229ef9,True,False
+V3,GR_GPS_001,Mistral Small 3.2 24B Instruct,a31b717b-3b3d-4f54-9f3b-2236e1370d22,True,False
+V3,QFT_CASIMIR_001,Gemma 3 12B IT,dbbe1d7b-1475-462c-878a-493a65482ef5,True,False
+V3,QFT_CASIMIR_001,Gemma 3 27B IT,a7e05154-1247-4373-b18c-e75f49ecf34a,True,False
+V3,QFT_CASIMIR_001,Gemma 4 31B IT,4dde1392-4ac8-428c-b9da-6bcc205ea668,True,False
+V3,QFT_CASIMIR_001,Granite 4.1 8B,81351b41-e944-416c-979d-7650f60107cb,True,False
+V3,QFT_CASIMIR_001,Llama 3.1 8B Instruct,0ed2217a-06ad-4917-b517-25fdcad0cab9,True,False
+V3,QFT_CASIMIR_001,Ministral 3 8B,d504b04e-bf1e-416b-a8f1-151658823740,True,False
+V3,QFT_CASIMIR_001,Mistral NeMo 12B,bea3064c-f5a0-4eb4-a402-ebfb00b71e9f,True,False
+V3,QFT_CASIMIR_001,Mistral Small 3.2 24B Instruct,1af000e0-80c0-45b3-9f95-f707072fdac3,True,False
+V3,QI_WERNER_001,Gemma 3 12B IT,6c48eb8a-bf99-4ad6-9a55-a3097ce5d672,True,False
+V3,QI_WERNER_001,Gemma 3 27B IT,eeb13605-e28d-4146-a8bb-a2d6b3475052,True,False
+V3,QI_WERNER_001,Gemma 4 31B IT,d2fb18e4-416b-4be2-9501-0b4d49cd535a,True,False
+V3,QI_WERNER_001,Granite 4.1 8B,dadc5ed2-8765-42cd-b756-8e32ac2d9f45,True,False
+V3,QI_WERNER_001,Llama 3.1 8B Instruct,f95b1fba-a8d5-4851-a0b3-6a2433ce8fdf,True,False
+V3,QI_WERNER_001,Ministral 3 8B,ac146922-b67b-431b-a16b-53713de6470e,True,False
+V3,QI_WERNER_001,Mistral NeMo 12B,739669d7-f24b-48b0-aaa4-7ea7484fd9f5,True,False
+V3,QI_WERNER_001,Mistral Small 3.2 24B Instruct,be6aefd2-aa5a-4bad-98e8-972c21fee52a,True,False
+V3,QM_TUNNEL_001,Gemma 3 12B IT,252e5a22-0a7b-412b-ae8c-1e0bc538da7c,True,False
+V3,QM_TUNNEL_001,Gemma 3 27B IT,633ca832-c7c2-4e57-8667-0e5462503514,True,False
+V3,QM_TUNNEL_001,Gemma 4 31B IT,2742e121-11c7-40dc-a1f9-f3aad05e93ab,True,False
+V3,QM_TUNNEL_001,Llama 3.1 8B Instruct,c4c34083-846b-4a5b-9241-5b10ea48920a,True,False
+V3,QM_TUNNEL_001,Ministral 3 8B,69105aad-c0ce-42d1-bb33-a335484e353a,True,False
+V3,QM_TUNNEL_001,Mistral NeMo 12B,54448dad-7233-4056-ae08-be960e31c16d,True,False
+V3,QM_TUNNEL_001,Mistral Small 3.2 24B Instruct,0da1e3a2-7970-4e89-9df6-00d6ef104a50,True,False
+V3,SR_BELL_001,Gemma 3 12B IT,b51a38fc-3664-46c2-a584-92b132c4b017,True,False
+V3,SR_BELL_001,Gemma 3 27B IT,9c6eca53-936a-41af-8459-9e55496a588e,True,False
+V3,SR_BELL_001,Gemma 4 31B IT,df3cdce2-3059-42f5-806b-1072d96949a5,True,False
+V3,SR_BELL_001,Granite 4.1 8B,d2552a2b-6eaa-4fa1-a60e-8e906f0bcb87,True,False
+V3,SR_BELL_001,Llama 3.1 8B Instruct,fa92b034-0c55-40c7-8d05-fbc188694292,True,False
+V3,SR_BELL_001,Ministral 3 8B,ccd2856b-b402-4e7e-b4ea-6124d1514eb0,True,False
+V3,SR_BELL_001,Mistral NeMo 12B,4115b317-b358-4e9f-b8f0-1ec168183806,True,False
+V3,SR_BELL_001,Mistral Small 3.2 24B Instruct,612db0fa-8d03-481c-ac03-7c1df757e96a,True,False
+V3,STAT_BEC_001,Gemma 3 12B IT,61e95544-755c-4b86-9adf-1517dc64f1fc,True,False
+V3,STAT_BEC_001,Gemma 3 27B IT,188bc4ef-e984-49f4-b584-bd3a99572a45,True,False
+V3,STAT_BEC_001,Gemma 4 31B IT,7291fcc8-4808-4d96-8b8c-a5286af017df,True,False
+V3,STAT_BEC_001,Ministral 3 8B,1205af10-0f2d-4c8b-ade7-beb9155d9d4d,True,False
+V3,STAT_BEC_001,Mistral NeMo 12B,08aed30b-5c92-41e7-8512-8d612ffade64,True,False
+V3,STAT_BEC_001,Mistral Small 3.2 24B Instruct,eed5e543-0bf8-4de7-b85b-655c79dfb28c,True,False
+V4,CM_KAPITZA_001,Gemma 3 12B IT,cf0f5553-a37e-484c-b664-53217a238526,True,False
+V4,CM_KAPITZA_001,Gemma 3 27B IT,cc0939dc-5379-4225-915b-cef4d5883b59,True,False
+V4,CM_KAPITZA_001,Gemma 4 31B IT,8c78ea06-5052-4340-9c3f-f73b2ced036e,True,False
+V4,CM_KAPITZA_001,Granite 4.1 8B,297bb41a-5909-4b26-9936-dd1af5211f9c,True,False
+V4,CM_KAPITZA_001,Llama 3.1 8B Instruct,c876484e-6565-4473-8cda-3f8554755dbd,True,False
+V4,CM_KAPITZA_001,Ministral 3 8B,6cf088ae-d374-4809-90c5-c1620139f384,True,False
+V4,CM_KAPITZA_001,Mistral NeMo 12B,422bb7fd-7549-43d4-9c14-1a96a2158a1a,True,False
+V4,CM_KAPITZA_001,Mistral Small 3.2 24B Instruct,ec03508e-f8ed-498f-9a9c-f2bd032d5130,True,False
+V4,COS_DESITTER_001,Gemma 3 12B IT,f9c05801-ce09-4b39-8f13-c10a55d785b7,True,False
+V4,COS_DESITTER_001,Gemma 3 27B IT,ac523904-da02-4286-b34b-441d9278b9b8,True,False
+V4,COS_DESITTER_001,Gemma 4 31B IT,491a2baf-b665-4ce6-837c-9a9d3c21f9ed,True,False
+V4,COS_DESITTER_001,Granite 4.1 8B,26ede9fe-ceec-41da-b26e-b510f3260cff,True,False
+V4,COS_DESITTER_001,Llama 3.1 8B Instruct,a0b03a0b-3abe-4557-a316-58e0a8feecda,True,False
+V4,COS_DESITTER_001,Ministral 3 8B,47b01d7f-0cd5-4d9d-8d26-4e6033183f2d,True,False
+V4,COS_DESITTER_001,Mistral NeMo 12B,3fdf2a5b-9eab-4eee-b8f4-8e57cbf19d5d,True,False
+V4,COS_DESITTER_001,Mistral Small 3.2 24B Instruct,13d804f3-30ad-428a-ad9d-7f48deb28505,True,False
+V4,GR_PERI_001,Gemma 3 12B IT,7acbd9b4-3991-424a-bd93-53630bd65ae6,True,False
+V4,GR_PERI_001,Gemma 3 27B IT,1f6f2a74-79ab-47f8-8a96-512a80ae17d9,True,False
+V4,GR_PERI_001,Gemma 4 31B IT,f9c2e581-e664-46ba-a070-afbfb0f5f90c,True,False
+V4,GR_PERI_001,Granite 4.1 8B,3ef8d245-f08a-4e4f-b522-65b487e020d0,True,False
+V4,GR_PERI_001,Llama 3.1 8B Instruct,3048c6ec-b6eb-429b-9e91-09317a088462,False,False
+V4,GR_PERI_001,Ministral 3 8B,82bfcead-f536-432a-af8d-1ace93dc33ae,True,False
+V4,GR_PERI_001,Mistral NeMo 12B,efeb19b9-ea9e-4b95-99d6-6bc144ac375a,True,False
+V4,GR_PERI_001,Mistral Small 3.2 24B Instruct,f517cb34-37e3-40da-9f4b-b4940a78c319,True,False
+V4,QFT_UNRUH_001,Gemma 3 12B IT,ce5ffba6-337f-4787-9fca-5fd406284075,True,False
+V4,QFT_UNRUH_001,Gemma 3 27B IT,bc3b7c0f-6520-491a-9c73-d717e54f5380,True,False
+V4,QFT_UNRUH_001,Gemma 4 31B IT,937f7088-15a5-4851-8a17-ce4247b8580d,True,False
+V4,QFT_UNRUH_001,Llama 3.1 8B Instruct,9a233092-d4f6-4160-a7d0-28edb2dbf792,True,False
+V4,QFT_UNRUH_001,Ministral 3 8B,5bd0cc60-5000-4404-a1d2-195f2b59bc02,True,False
+V4,QFT_UNRUH_001,Mistral NeMo 12B,fbbc26e8-3a8f-4492-b2f3-c0831106c117,True,False
+V4,QFT_UNRUH_001,Mistral Small 3.2 24B Instruct,b6b32afe-5f66-490d-a564-dbe0d3ddcd66,True,False
+V4,QI_HOLEVO_001,Gemma 3 12B IT,857a1764-71f5-4759-a705-172afc529699,True,False
+V4,QI_HOLEVO_001,Gemma 3 27B IT,74f13abf-916e-4c7d-bf0a-e6ce907c4931,True,False
+V4,QI_HOLEVO_001,Gemma 4 31B IT,0087022b-4054-4302-90e7-1c39288b64c9,True,False
+V4,QI_HOLEVO_001,Granite 4.1 8B,8a8ce38b-369d-4716-b6cc-fb4b687dc5ac,True,False
+V4,QI_HOLEVO_001,Llama 3.1 8B Instruct,038e0394-8fac-49ea-be6a-c65b10f8f47d,True,False
+V4,QI_HOLEVO_001,Ministral 3 8B,332b6344-a602-4bd9-be3f-788d8b061d0b,True,False
+V4,QI_HOLEVO_001,Mistral NeMo 12B,cb6bf16d-0fdc-4ac2-8b99-584645552174,True,False
+V4,QI_HOLEVO_001,Mistral Small 3.2 24B Instruct,e01cab6c-c9b8-4596-9bb8-f2a679b4b0b0,True,False
+V4,QM_AB_001,Gemma 3 12B IT,a84c9bda-d79c-414d-bef6-54044e441444,True,False
+V4,QM_AB_001,Gemma 3 27B IT,11e2b649-bad4-4438-8add-32ce29e75176,True,False
+V4,QM_AB_001,Gemma 4 31B IT,3c234c35-9365-43b8-81e9-98f5b0ac5e2f,True,False
+V4,QM_AB_001,Granite 4.1 8B,9fc843b5-b6bd-412e-9421-9525b76fb61a,True,False
+V4,QM_AB_001,Llama 3.1 8B Instruct,0dc7c9f3-a23b-4f8a-888f-b851d0d9fcf5,True,False
+V4,QM_AB_001,Ministral 3 8B,18568238-1307-480c-8ad5-578fb5bb8a74,True,False
+V4,QM_AB_001,Mistral NeMo 12B,99eb6948-8aa7-4cad-9751-aeacbf3f4ef3,True,False
+V4,QM_AB_001,Mistral Small 3.2 24B Instruct,49d13997-4d21-4608-87e8-5450a2ba9422,True,False
+V4,SR_TWIN_001,Gemma 3 12B IT,f8fc8c1d-de26-445b-afc1-189f7ca41841,True,False
+V4,SR_TWIN_001,Gemma 3 27B IT,e393f274-ca90-4884-a598-72d0a544a214,True,False
+V4,SR_TWIN_001,Gemma 4 31B IT,6e7e34c6-5aed-4b2b-a274-52a989157449,True,False
+V4,SR_TWIN_001,Granite 4.1 8B,660bac8a-431e-4e1e-a1b0-4327460893b8,True,False
+V4,SR_TWIN_001,Llama 3.1 8B Instruct,e4b0002a-0a46-40ec-9d3e-b250bc767a85,True,False
+V4,SR_TWIN_001,Ministral 3 8B,6d501bde-1cd3-4665-a659-90dc6642c4eb,True,False
+V4,SR_TWIN_001,Mistral NeMo 12B,063e679c-7ca5-4ff4-b22f-9e6dbfbb775f,True,False
+V4,SR_TWIN_001,Mistral Small 3.2 24B Instruct,64764691-9526-41c1-b9f7-85d4db8caf05,True,False
+V4,STAT_LANDAUER_001,Gemma 3 12B IT,35cbf917-fdbe-4d9a-ad8e-72e1515207f8,True,False
+V4,STAT_LANDAUER_001,Gemma 3 27B IT,1c025782-1745-4b84-8da5-82a9a85a1fb9,True,False
+V4,STAT_LANDAUER_001,Gemma 4 31B IT,1080327a-aefa-4292-9f3b-922c1e3ba116,True,False
+V4,STAT_LANDAUER_001,Granite 4.1 8B,c135ca95-a9ca-4c99-aecc-4d07f769530b,True,False
+V4,STAT_LANDAUER_001,Llama 3.1 8B Instruct,fba33b1e-020a-44db-9c7f-9f60b5d06de4,True,False
+V4,STAT_LANDAUER_001,Ministral 3 8B,a293ece1-1ae2-4e4f-baf4-afbd9c960aaa,True,False
+V4,STAT_LANDAUER_001,Mistral NeMo 12B,a9f5c35a-ab37-4053-b796-3f9bc9da5c12,True,False
+V4,STAT_LANDAUER_001,Mistral Small 3.2 24B Instruct,da4ea072-41a1-4b37-b488-090c88c329b3,True,False
+V5,CM_TOP_001,Gemma 3 12B IT,1b84f29d-7262-4118-892c-163d9f57dd84,True,False
+V5,CM_TOP_001,Gemma 3 27B IT,cd5a9180-abc6-4daf-b94f-60c94887ce90,True,False
+V5,CM_TOP_001,Gemma 4 31B IT,854903a7-b5b2-4b1e-b220-26c3c840d410,True,False
+V5,CM_TOP_001,Granite 4.1 8B,5662b68d-3be1-4094-aa82-9419c9d43619,True,False
+V5,CM_TOP_001,Llama 3.1 8B Instruct,09da2552-f5c9-4b6d-a531-830e1a95ff6b,True,False
+V5,CM_TOP_001,Ministral 3 8B,4e577879-1904-4de8-bf8a-9b6ac84bd4a2,True,False
+V5,CM_TOP_001,Mistral NeMo 12B,9cabff0f-1401-4d81-a9ab-0c356b747793,True,False
+V5,CM_TOP_001,Mistral Small 3.2 24B Instruct,eaf76ad0-3478-4749-b146-8154a4f1230d,True,False
+V5,COS_AGE_001,Gemma 3 12B IT,0230819a-56b1-4d17-86d3-5f6eca9cc205,True,False
+V5,COS_AGE_001,Gemma 3 27B IT,672d5859-333f-4a64-a9bf-0605af9f8987,True,False
+V5,COS_AGE_001,Gemma 4 31B IT,2c993c72-2e8e-41bc-a7d5-788e67e106ce,True,False
+V5,COS_AGE_001,Granite 4.1 8B,794326a8-04c8-49f0-b4e8-231b02e63bd8,True,False
+V5,COS_AGE_001,Llama 3.1 8B Instruct,eda681ea-d13b-404a-a57e-8235c4fdbc8c,True,False
+V5,COS_AGE_001,Ministral 3 8B,808620c4-f820-4f45-9bed-e9794424c240,True,False
+V5,COS_AGE_001,Mistral NeMo 12B,5f80e95a-cfa7-40e3-8d99-042b87848d45,True,False
+V5,COS_AGE_001,Mistral Small 3.2 24B Instruct,1ee8b3c0-af92-4328-a2c2-8a46d9dacbde,True,False
+V5,GR_CHIRP_001,Gemma 3 12B IT,4e501fd1-d63b-49da-8762-bb963ff46a61,True,False
+V5,GR_CHIRP_001,Gemma 3 27B IT,6ecc80ca-aa29-4a0d-bf5b-af046104b848,True,False
+V5,GR_CHIRP_001,Gemma 4 31B IT,d1f4f249-9011-47a1-bde1-4890e97d7e39,True,False
+V5,GR_CHIRP_001,Granite 4.1 8B,faa97c59-e8d6-45c9-9b0f-ead2481fab1a,True,False
+V5,GR_CHIRP_001,Llama 3.1 8B Instruct,3d984907-45c2-4187-9ae5-11c26b7157d7,True,False
+V5,GR_CHIRP_001,Ministral 3 8B,d6939d4f-3d1a-4d7a-b2d1-77a6c8cfd9cd,True,False
+V5,GR_CHIRP_001,Mistral NeMo 12B,8c115d74-c955-4798-9fee-364d3e420629,True,False
+V5,GR_CHIRP_001,Mistral Small 3.2 24B Instruct,6829aa30-fc54-4ffc-9602-72f72f6cd43d,True,False
+V5,QFT_YUKAWA_001,Gemma 3 12B IT,3733c22f-f895-4fe5-9154-889f49fc2a72,True,False
+V5,QFT_YUKAWA_001,Gemma 3 27B IT,7e7d0afd-32d2-4f48-b6cd-ecc7bc6e7627,True,False
+V5,QFT_YUKAWA_001,Gemma 4 31B IT,910216b0-43d4-41af-94f0-5fa74f3f2b66,True,False
+V5,QFT_YUKAWA_001,Granite 4.1 8B,61b3ada8-c08a-4081-8967-4f6ba358fb6c,True,False
+V5,QFT_YUKAWA_001,Llama 3.1 8B Instruct,613764e6-bc45-4e8d-9e78-630521ca2a16,True,False
+V5,QFT_YUKAWA_001,Ministral 3 8B,03a1c01a-e98f-4fee-b8b4-d5a5ebfbdc9d,True,False
+V5,QFT_YUKAWA_001,Mistral NeMo 12B,68d0c843-5e37-4256-a9d7-76a6d8498500,True,False
+V5,QFT_YUKAWA_001,Mistral Small 3.2 24B Instruct,4d767961-f12d-44d9-b1b8-1038e181b506,True,False
+V5,QI_CLONE_001,Gemma 3 12B IT,46f28589-617c-4397-9153-8946229945fd,True,False
+V5,QI_CLONE_001,Gemma 3 27B IT,94d1a3ae-d1d8-4d8b-8970-f8d9afe37b06,True,False
+V5,QI_CLONE_001,Gemma 4 31B IT,2269ab6d-3ceb-455f-a66f-7fe8faa2eb8b,True,False
+V5,QI_CLONE_001,Granite 4.1 8B,b228b816-1a6b-44f1-a48f-78cf05579c97,True,False
+V5,QI_CLONE_001,Llama 3.1 8B Instruct,eb2fd69f-c494-4ba9-be09-ef97522fe77f,True,False
+V5,QI_CLONE_001,Ministral 3 8B,6f30af7e-f6d9-4e79-8b19-096efcab4de6,True,False
+V5,QI_CLONE_001,Mistral NeMo 12B,515d6719-9a51-42a2-8a2f-90098293df92,True,False
+V5,QI_CLONE_001,Mistral Small 3.2 24B Instruct,1df804d6-a5b4-4ea3-ac8b-ba99c928f420,True,False
+V5,QM_RT_001,Gemma 3 12B IT,bcbdf68a-a219-4179-9226-2cb50ec078cd,True,False
+V5,QM_RT_001,Gemma 3 27B IT,8e410338-dd01-4f15-bb14-db80d59a5d02,True,False
+V5,QM_RT_001,Gemma 4 31B IT,d2a685d2-fe32-4360-b535-dd1e5f7c19cc,True,False
+V5,QM_RT_001,Granite 4.1 8B,698e3aa7-d0c7-4c5b-9780-4b6e5f0a739f,True,False
+V5,QM_RT_001,Llama 3.1 8B Instruct,43ea794a-fa6a-4182-ba45-e3d69a685917,True,False
+V5,QM_RT_001,Ministral 3 8B,c77d4a05-8f45-4584-89a7-4f848310ffcd,True,False
+V5,QM_RT_001,Mistral NeMo 12B,f0e190c3-9e26-497d-b03e-d9b4ab60e01d,True,False
+V5,QM_RT_001,Mistral Small 3.2 24B Instruct,d765a40d-fb04-4ffc-9811-18c108bbbc6d,True,False
+V5,SR_FIZEAU_001,Gemma 3 12B IT,3ec1d62b-5981-4a3f-97c6-f5baff66dfac,True,False
+V5,SR_FIZEAU_001,Gemma 3 27B IT,f4b4ad06-3249-4eb6-b337-68c28d197ee2,True,False
+V5,SR_FIZEAU_001,Gemma 4 31B IT,96c14a3d-11cc-431f-8b62-1a82810c0763,True,False
+V5,SR_FIZEAU_001,Granite 4.1 8B,f4735300-fd1d-4083-9bf8-63dcdaae1bf5,True,False
+V5,SR_FIZEAU_001,Llama 3.1 8B Instruct,eaa466a9-7908-417a-95eb-1b0a1e2d218f,True,False
+V5,SR_FIZEAU_001,Ministral 3 8B,e2270aef-f8ac-4820-aa0b-abab32b30eca,True,False
+V5,SR_FIZEAU_001,Mistral NeMo 12B,de461c3b-afac-483b-9f94-acddf144aac7,True,False
+V5,SR_FIZEAU_001,Mistral Small 3.2 24B Instruct,b0a86d16-409a-45c2-81e3-c95962cb106d,True,False
+V5,STAT_NEGT_001,Gemma 3 12B IT,a1beefb6-d36c-4066-ad87-4b3bb312dbd0,True,False
+V5,STAT_NEGT_001,Gemma 3 27B IT,98458b1f-1823-40a8-b93e-9045fb1f1fca,True,False
+V5,STAT_NEGT_001,Gemma 4 31B IT,ee5a81f9-a90c-4382-9a75-63a9874c1bd4,True,False
+V5,STAT_NEGT_001,Granite 4.1 8B,93598232-73aa-45f6-85f0-657ebcc3729c,True,False
+V5,STAT_NEGT_001,Llama 3.1 8B Instruct,b4e808b6-5d6e-4eaf-b19c-292801cb653e,True,False
+V5,STAT_NEGT_001,Ministral 3 8B,73a9174c-cf71-4e98-b525-770249d54949,True,False
+V5,STAT_NEGT_001,Mistral NeMo 12B,f6e77e0c-96ad-45a5-85ab-996fd74634d8,True,False
+V5,STAT_NEGT_001,Mistral Small 3.2 24B Instruct,4690da56-958f-4964-808a-a6e06eb2b7a0,True,False

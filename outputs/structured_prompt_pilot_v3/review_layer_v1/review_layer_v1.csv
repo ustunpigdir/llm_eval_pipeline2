@@ -1,0 +1,65 @@
+scenario_id,model_name,prompt_mode,raw_helper_status,first_layer_extractable,review_status,review_reason,final_answer_block_count,field_count,numeric_field_count,output_path_or_run_id
+CM_APSIDAL_001,Gemma 3 12B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,d3255966-d397-4024-81e3-275d475b382f
+CM_APSIDAL_001,Gemma 3 27B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,d678fa6d-f25c-4af8-bc83-9067f0531bcc
+CM_APSIDAL_001,Gemma 4 31B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,4626221f-f5e2-47b7-9c73-7930e0977b54
+CM_APSIDAL_001,Granite 4.1 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,d410a814-2896-4137-8dcd-4ea1e3fde257
+CM_APSIDAL_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,c5b81f9e-4521-4354-8a5d-745ff4c05bcf
+CM_APSIDAL_001,Ministral 3 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,8d88ebb6-c7fb-48bf-8150-c24d1049670c
+CM_APSIDAL_001,Mistral NeMo 12B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,4e065114-6895-4037-9f9c-d85e9790bfc5
+CM_APSIDAL_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,e4082586-1169-4679-b9af-5b1bc02b93ae
+COS_DL_001,Gemma 3 12B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,95f6ba98-9ad9-4743-98f6-e08bef51a990
+COS_DL_001,Gemma 3 27B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,218ab9ee-bcb4-4ea8-9ea5-27f50255759c
+COS_DL_001,Gemma 4 31B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,9b43c249-fc19-463d-9f32-928d33522cd0
+COS_DL_001,Granite 4.1 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,34cd051f-7d65-45c5-8ebf-a814fb4f5ed9
+COS_DL_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,b4d6a91d-fa00-46eb-bfa4-4bd21487259c
+COS_DL_001,Ministral 3 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,7e158b39-fc5d-4ba7-86a6-70440815a664
+COS_DL_001,Mistral NeMo 12B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,4f06ea18-7b13-4c03-a4a7-37036abe296d
+COS_DL_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,47ac3873-4e9b-418a-8076-151b5dd3d817
+GR_GPS_001,Gemma 3 12B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,0ada0fb0-29cc-4f10-b31a-705df74e52ae
+GR_GPS_001,Gemma 3 27B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,e7473180-0785-429d-84d1-b9888a90bff4
+GR_GPS_001,Gemma 4 31B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,83128479-f3b5-4076-b4d8-697f3b7632f1
+GR_GPS_001,Granite 4.1 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,9991d196-4513-449c-9fa5-bc9e85fe608f
+GR_GPS_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,637b75a5-6869-433d-b669-e89b15b2555e
+GR_GPS_001,Ministral 3 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,30e59015-74c8-4d8c-abe8-a916e9150032
+GR_GPS_001,Mistral NeMo 12B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,69fbc5d3-4c42-43a5-bee4-fd591d229ef9
+GR_GPS_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,a31b717b-3b3d-4f54-9f3b-2236e1370d22
+QFT_CASIMIR_001,Gemma 3 12B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,dbbe1d7b-1475-462c-878a-493a65482ef5
+QFT_CASIMIR_001,Gemma 3 27B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,a7e05154-1247-4373-b18c-e75f49ecf34a
+QFT_CASIMIR_001,Gemma 4 31B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,4dde1392-4ac8-428c-b9da-6bcc205ea668
+QFT_CASIMIR_001,Granite 4.1 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,81351b41-e944-416c-979d-7650f60107cb
+QFT_CASIMIR_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,0ed2217a-06ad-4917-b517-25fdcad0cab9
+QFT_CASIMIR_001,Ministral 3 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,d504b04e-bf1e-416b-a8f1-151658823740
+QFT_CASIMIR_001,Mistral NeMo 12B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,bea3064c-f5a0-4eb4-a402-ebfb00b71e9f
+QFT_CASIMIR_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,1af000e0-80c0-45b3-9f95-f707072fdac3
+QI_WERNER_001,Gemma 3 12B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,6c48eb8a-bf99-4ad6-9a55-a3097ce5d672
+QI_WERNER_001,Gemma 3 27B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,eeb13605-e28d-4146-a8bb-a2d6b3475052
+QI_WERNER_001,Gemma 4 31B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,d2fb18e4-416b-4be2-9501-0b4d49cd535a
+QI_WERNER_001,Granite 4.1 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,1,dadc5ed2-8765-42cd-b756-8e32ac2d9f45
+QI_WERNER_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,f95b1fba-a8d5-4851-a0b3-6a2433ce8fdf
+QI_WERNER_001,Ministral 3 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,0,ac146922-b67b-431b-a16b-53713de6470e
+QI_WERNER_001,Mistral NeMo 12B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,739669d7-f24b-48b0-aaa4-7ea7484fd9f5
+QI_WERNER_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,be6aefd2-aa5a-4bad-98e8-972c21fee52a
+QM_TUNNEL_001,Gemma 3 12B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,252e5a22-0a7b-412b-ae8c-1e0bc538da7c
+QM_TUNNEL_001,Gemma 3 27B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,633ca832-c7c2-4e57-8667-0e5462503514
+QM_TUNNEL_001,Gemma 4 31B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,2742e121-11c7-40dc-a1f9-f3aad05e93ab
+QM_TUNNEL_001,Granite 4.1 8B,structured_prompt_pilot_v3,NO_VALID_BLOCK,False,REVIEW,non_clean_helper_status,1,0,0,f48a7cff-18ef-478c-ac67-1da0906df07f
+QM_TUNNEL_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,c4c34083-846b-4a5b-9241-5b10ea48920a
+QM_TUNNEL_001,Ministral 3 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,69105aad-c0ce-42d1-bb33-a335484e353a
+QM_TUNNEL_001,Mistral NeMo 12B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,3,54448dad-7233-4056-ae08-be960e31c16d
+QM_TUNNEL_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,0da1e3a2-7970-4e89-9df6-00d6ef104a50
+SR_BELL_001,Gemma 3 12B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,1,b51a38fc-3664-46c2-a584-92b132c4b017
+SR_BELL_001,Gemma 3 27B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,9c6eca53-936a-41af-8459-9e55496a588e
+SR_BELL_001,Gemma 4 31B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,df3cdce2-3059-42f5-806b-1072d96949a5
+SR_BELL_001,Granite 4.1 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,d2552a2b-6eaa-4fa1-a60e-8e906f0bcb87
+SR_BELL_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,fa92b034-0c55-40c7-8d05-fbc188694292
+SR_BELL_001,Ministral 3 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,1,ccd2856b-b402-4e7e-b4ea-6124d1514eb0
+SR_BELL_001,Mistral NeMo 12B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,4115b317-b358-4e9f-b8f0-1ec168183806
+SR_BELL_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,3,3,612db0fa-8d03-481c-ac03-7c1df757e96a
+STAT_BEC_001,Gemma 3 12B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,61e95544-755c-4b86-9adf-1517dc64f1fc
+STAT_BEC_001,Gemma 3 27B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,188bc4ef-e984-49f4-b584-bd3a99572a45
+STAT_BEC_001,Gemma 4 31B IT,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,7291fcc8-4808-4d96-8b8c-a5286af017df
+STAT_BEC_001,Granite 4.1 8B,structured_prompt_pilot_v3,NO_VALID_BLOCK,False,REVIEW,non_clean_helper_status,1,0,0,817a2c0f-3045-43ac-9922-fbc31d79d4a2
+STAT_BEC_001,Llama 3.1 8B Instruct,structured_prompt_pilot_v3,NO_VALID_BLOCK,False,REVIEW,non_clean_helper_status,0,0,0,93465846-c62a-4560-8d61-c4e5934caa17
+STAT_BEC_001,Ministral 3 8B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,1205af10-0f2d-4c8b-ade7-beb9155d9d4d
+STAT_BEC_001,Mistral NeMo 12B,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,08aed30b-5c92-41e7-8512-8d612ffade64
+STAT_BEC_001,Mistral Small 3.2 24B Instruct,structured_prompt_pilot_v3,OK,True,CLEAN,clean_first_layer_ok,1,4,4,eed5e543-0bf8-4de7-b85b-655c79dfb28c

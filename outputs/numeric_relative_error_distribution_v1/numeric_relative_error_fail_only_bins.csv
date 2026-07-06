@@ -1,0 +1,15 @@
+bin_name,lower_bound_exclusive,upper_bound_inclusive,field_count,share_of_included_fields,original_pass_field_count,original_fail_field_count,original_row_pass_count,original_row_fail_count
+exact_or_zero_error,0,0,29,0.072864321608,29,0,0,29
+gt_0_to_0_1_percent,0,0.001,42,0.105527638191,42,0,0,42
+gt_0_1_to_0_5_percent,0.001,0.005,23,0.0577889447236,23,0,0,23
+gt_0_5_to_1_percent,0.005,0.01,1,0.00251256281407,1,0,0,1
+gt_1_to_1_25_percent,0.01,0.0125,3,0.00753768844221,0,3,0,3
+gt_1_25_to_2_percent,0.0125,0.02,5,0.0125628140704,0,5,0,5
+gt_2_to_3_percent,0.02,0.03,4,0.0100502512563,0,4,0,4
+gt_3_to_5_percent,0.03,0.05,5,0.0125628140704,0,5,0,5
+gt_5_to_10_percent,0.05,0.1,12,0.0301507537688,0,12,0,12
+gt_10_to_25_percent,0.1,0.25,30,0.0753768844221,0,30,0,30
+gt_25_to_50_percent,0.25,0.5,28,0.070351758794,0,28,0,28
+gt_50_to_100_percent,0.5,1,118,0.29648241206,0,118,0,118
+gt_100_to_1000_percent,1,10,56,0.140703517588,0,56,0,56
+gt_1000_percent,10,inf,42,0.105527638191,0,42,0,42

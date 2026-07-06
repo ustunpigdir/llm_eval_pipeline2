@@ -1,0 +1,26 @@
+{
+  "bundle_name": "fable_extractor_audit_bundle_8file_v1",
+  "created_at": "2026-07-05T21:21:32+00:00",
+  "purpose": "8-file compact audit bundle for Claude Fable 5 via OpenRouter chat",
+  "source_bundle": "outputs/fable_extractor_audit_bundle_v1",
+  "fable_not_called": true,
+  "external_api_calls": false,
+  "learning_db_modified": false,
+  "benchmark_results_modified": false,
+  "bertscore_run": false,
+  "file_count": 8,
+  "files": [
+    "01_FABLE_AUDIT_PROMPT.md",
+    "02_REQUESTED_OUTPUT_SCHEMA.md",
+    "03_REPO_MAP_AND_CURRENT_FINDINGS.md",
+    "04_SELECTED_SOURCE_DIGEST.md",
+    "05_REPRESENTATIVE_CASES_DIGEST.md",
+    "06_KNOWN_CORRECTIONS_LOG.md",
+    "README.md",
+    "07_BUNDLE_MANIFEST.json"
+  ],
+  "representative_case_count": 15,
+  "selected_source_entries_condensed": 13,
+  "zip_path": "outputs/fable_extractor_audit_bundle_8file_v1.zip",
+  "excluded": "raw folders, full DB, backups, venv/cache, .env/API keys, PDFs, BERTScore outputs, nested selected_files tree"
+}

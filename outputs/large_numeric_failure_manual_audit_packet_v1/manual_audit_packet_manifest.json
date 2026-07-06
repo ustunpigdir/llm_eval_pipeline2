@@ -1,0 +1,162 @@
+{
+  "artifact_name": "large_numeric_failure_manual_audit_packet_v1",
+  "audit_cards_created": 52,
+  "bertscore_run": false,
+  "cards_by_gate": {
+    "EXTREME_EXPLOSION_GATE": 10,
+    "ORDER_OF_MAGNITUDE_GATE": 11,
+    "POWER_OF_TEN_SCALE_GATE": 10,
+    "SIGN_FLIP_GATE": 6,
+    "UNCLASSIFIED_LARGE_GATE": 10,
+    "WRONG_FIELD_SCALE_GATE": 5
+  },
+  "created_at": "2026-07-06T00:28:56.741816+00:00",
+  "external_llm_api_calls": false,
+  "frozen_metric_artifacts_modified": false,
+  "gates_covered": [
+    "EXTREME_EXPLOSION_GATE",
+    "ORDER_OF_MAGNITUDE_GATE",
+    "POWER_OF_TEN_SCALE_GATE",
+    "SIGN_FLIP_GATE",
+    "UNCLASSIFIED_LARGE_GATE",
+    "WRONG_FIELD_SCALE_GATE"
+  ],
+  "input_artifacts": [
+    "outputs/large_numeric_failure_gt100pct_v1/large_numeric_failure_field_level.csv",
+    "outputs/large_numeric_failure_gt100pct_v1/large_numeric_failure_row_level.csv",
+    "outputs/large_numeric_failure_gt100pct_v1/large_numeric_failure_by_failure_pattern.csv",
+    "outputs/large_numeric_failure_gt100pct_v1/large_numeric_failure_gate_candidates.csv",
+    "outputs/large_numeric_failure_gt100pct_v1/large_numeric_failure_extreme_examples.csv"
+  ],
+  "learning_db_modified": false,
+  "model_calls_made": false,
+  "output_files": [
+    "README.md",
+    "LARGE_NUMERIC_FAILURE_MANUAL_AUDIT_PACKET.md",
+    "gate_audit_cards.md",
+    "gate_audit_cards.csv",
+    "gate_audit_cards.json",
+    "gate_summary_easy_read.csv",
+    "gate_examples_order_of_magnitude.md",
+    "gate_examples_power_of_ten.md",
+    "gate_examples_sign_flip.md",
+    "gate_examples_wrong_field_scale.md",
+    "gate_examples_extreme_explosion.md",
+    "gate_examples_unclassified_large.md",
+    "manual_audit_packet_manifest.json"
+  ],
+  "phase2_semantics_implemented": false,
+  "protected_input_states_after": {
+    "learning.db": {
+      "exists": true,
+      "mtime_ns": 1783243109540317855,
+      "size": 17268736
+    },
+    "outputs/bertscore_reasoning_only_canonical_v2/bertscore_reasoning_only_canonical_v2.csv": {
+      "exists": true,
+      "mtime_ns": 1783291798993580099,
+      "size": 142042
+    },
+    "outputs/metric_comparison_analytics_chrf_v1/chrf_row_scores.csv": {
+      "exists": true,
+      "mtime_ns": 1783291383033522786,
+      "size": 127219
+    },
+    "outputs/metric_comparison_analytics_roscoe_full_v1/roscoe_full_row_scores.csv": {
+      "exists": true,
+      "mtime_ns": 1783295079307330489,
+      "size": 156094
+    },
+    "outputs/metric_comparison_analytics_rouge_l_v1/rouge_l_row_scores.csv": {
+      "exists": true,
+      "mtime_ns": 1783291111246247541,
+      "size": 123807
+    },
+    "outputs/metric_text_artifacts_v1/canonical_reasoning_text_dataset.csv": {
+      "exists": true,
+      "mtime_ns": 1783290721242018047,
+      "size": 888393
+    },
+    "outputs/structured_prompt_pilot_v2/structured_prompt_pilot_v2_runs.json": {
+      "exists": true,
+      "mtime_ns": 1783246727915922980,
+      "size": 702201
+    },
+    "outputs/structured_prompt_pilot_v3/structured_prompt_pilot_v3_runs.json": {
+      "exists": true,
+      "mtime_ns": 1783251385024466366,
+      "size": 489584
+    },
+    "outputs/structured_prompt_pilot_v4/structured_prompt_pilot_v4_runs.json": {
+      "exists": true,
+      "mtime_ns": 1783251982447052659,
+      "size": 463367
+    },
+    "outputs/structured_prompt_pilot_v5/structured_prompt_pilot_v5_runs.json": {
+      "exists": true,
+      "mtime_ns": 1783283757638284606,
+      "size": 462578
+    }
+  },
+  "protected_input_states_before": {
+    "learning.db": {
+      "exists": true,
+      "mtime_ns": 1783243109540317855,
+      "size": 17268736
+    },
+    "outputs/bertscore_reasoning_only_canonical_v2/bertscore_reasoning_only_canonical_v2.csv": {
+      "exists": true,
+      "mtime_ns": 1783291798993580099,
+      "size": 142042
+    },
+    "outputs/metric_comparison_analytics_chrf_v1/chrf_row_scores.csv": {
+      "exists": true,
+      "mtime_ns": 1783291383033522786,
+      "size": 127219
+    },
+    "outputs/metric_comparison_analytics_roscoe_full_v1/roscoe_full_row_scores.csv": {
+      "exists": true,
+      "mtime_ns": 1783295079307330489,
+      "size": 156094
+    },
+    "outputs/metric_comparison_analytics_rouge_l_v1/rouge_l_row_scores.csv": {
+      "exists": true,
+      "mtime_ns": 1783291111246247541,
+      "size": 123807
+    },
+    "outputs/metric_text_artifacts_v1/canonical_reasoning_text_dataset.csv": {
+      "exists": true,
+      "mtime_ns": 1783290721242018047,
+      "size": 888393
+    },
+    "outputs/structured_prompt_pilot_v2/structured_prompt_pilot_v2_runs.json": {
+      "exists": true,
+      "mtime_ns": 1783246727915922980,
+      "size": 702201
+    },
+    "outputs/structured_prompt_pilot_v3/structured_prompt_pilot_v3_runs.json": {
+      "exists": true,
+      "mtime_ns": 1783251385024466366,
+      "size": 489584
+    },
+    "outputs/structured_prompt_pilot_v4/structured_prompt_pilot_v4_runs.json": {
+      "exists": true,
+      "mtime_ns": 1783251982447052659,
+      "size": 463367
+    },
+    "outputs/structured_prompt_pilot_v5/structured_prompt_pilot_v5_runs.json": {
+      "exists": true,
+      "mtime_ns": 1783283757638284606,
+      "size": 462578
+    }
+  },
+  "protected_inputs_unchanged": true,
+  "raw_answer_limitation": "Raw final-answer blocks were not reconstructed; normalized field values are used.",
+  "raw_final_answer_blocks_included": false,
+  "raw_outputs_modified": false,
+  "read_only": true,
+  "roscoe_run": false,
+  "source_gt1000_field_count": 42,
+  "source_gt100_field_count": 98,
+  "source_rows_with_gt100_failure": 62
+}

@@ -1,0 +1,3 @@
+dataset,n_rows,mean_f1,median_f1,min_f1,max_f1,comparison_note
+structured_prompt_all32_phase1_hardened_v1,252,0.5035585879629093,0.6324729919433594,-0.38166603446006775,0.7747526168823242,structured CLEAN rows only; no row-level alignment with original baseline
+pre_structured_prompt_usable_full_v1,617,-0.16353481221941074,-0.16704843938350677,-0.4067196846008301,0.08206989616155624,previous usable official baseline

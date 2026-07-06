@@ -41,7 +41,11 @@ def _is_ambiguous(s: str):
     return None
 
 _STRIP = re.compile(r"\\left|\\right|\\!|\\,|\\;|\\:|\\quad|\\qquad|\$")
-_TEXT  = re.compile(r"\\(?:text|mathrm|mathbf|mathit|operatorname)\s*\{[^{}]*\}")
+_TEXT  = re.compile(
+    r"\\(?:text|mathrm|mathbf|mathit|operatorname)\s*\{[^{}]*\}"
+    r"(?:\s*\^\s*(?:\{\s*[+-]?\d+\s*\}|[+-]?\d+))?"
+)
+_REL_OP = re.compile(r"\\approxeq|\\approx|\\simeq|\\sim|\\cong|=")
 _BOXED = re.compile(r"\\boxed\s*\{([^{}]+)\}")
 _FRAC  = re.compile(r"\\[dt]?frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}")
 _SQRTN = re.compile(r"\\sqrt\s*\[\s*([^\[\]{}]*)\s*\]\s*\{([^{}]*)\}")
@@ -55,7 +59,7 @@ def _latex_to_expr(s: str) -> str:
     s = _TEXT.sub(" ", s)
     s = _STRIP.sub(" ", s)
     s = s.replace("\\cdot", "*").replace("\\times", "*").replace("\\pi", " pi ").replace("\\ln", " ln ")
-    s = s.replace("\\approx", "=")
+    s = _REL_OP.sub("=", s)
     if "=" in s:
         s = s.split("=")[-1]                 # keep the RHS if a relation slipped in
     for _ in range(12):                      # resolve \frac / \sqrt inside-out
@@ -72,6 +76,15 @@ def _latex_to_expr(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def _unsafe_after_latex_cleanup(expr: str) -> str | None:
+    compact = expr.strip()
+    if compact.startswith("**") or compact.endswith("**"):
+        return "orphan-exponent-operator"
+    if re.search(r"(^|[(+\-*/])\s*\*\*", compact):
+        return "orphan-exponent-operator"
+    return None
+
+
 def eval_value(raw):
     """Return (float, note) or (None, reason)."""
     if raw is None or str(raw).strip() == "":
@@ -83,6 +96,9 @@ def eval_value(raw):
     expr_str = _latex_to_expr(str(raw))
     if not expr_str:
         return None, "empty"
+    unsafe = _unsafe_after_latex_cleanup(expr_str)
+    if unsafe:
+        return None, unsafe
     try:
         expr = parse_expr(expr_str, local_dict=_ALLOWED, transformations=_TRANS, evaluate=True)
     except Exception as e:

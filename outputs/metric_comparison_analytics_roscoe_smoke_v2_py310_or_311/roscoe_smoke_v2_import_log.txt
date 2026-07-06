@@ -1,0 +1,71 @@
+# ROSCOE smoke v2 import log
+
+Runtime source directory: `tmp/roscoe_parlai_runtime_v2`
+
+Import command:
+`/Users/upigdir/Desktop/Pipeline SQL proj/.venv_roscoe_py311/bin/python -c 
+import json
+import sys
+sys.path.insert(0, '/Users/upigdir/Desktop/Pipeline SQL proj/tmp/roscoe_parlai_runtime_v2')
+result = {}
+try:
+    import projects.roscoe.score as score
+    result["import_status"] = "ok"
+    result["reasoning_scores"] = list(score.REASONING_SCORES)
+    result["embedding_scores"] = list(score.EMB_MODEL_SCORES)
+except Exception as exc:
+    result["import_status"] = "failed"
+    result["error"] = type(exc).__name__ + ": " + str(exc)
+print(json.dumps(result, indent=2))
+`
+
+Return code: 0
+
+stdout:
+```json
+{
+  "import_status": "ok",
+  "reasoning_scores": [
+    "faithfulness",
+    "faithfulness_ww",
+    "repetition_word",
+    "repetition_step",
+    "informativeness_step",
+    "informativeness_chain",
+    "discourse_representation",
+    "coherence_step_vs_step",
+    "perplexity_step",
+    "perplexity_chain",
+    "grammar_step",
+    "perplexity_step_max",
+    "grammar_step_max",
+    "reasoning_alignment",
+    "external_hallucination",
+    "redundancy",
+    "common_sense_error",
+    "missing_step",
+    "semantic_coverage_step",
+    "semantic_coverage_chain"
+  ],
+  "embedding_scores": [
+    "faithfulness",
+    "faithfulness_ww",
+    "repetition_word",
+    "repetition_step",
+    "informativeness_step",
+    "informativeness_chain",
+    "reasoning_alignment",
+    "external_hallucination",
+    "redundancy",
+    "common_sense_error",
+    "missing_step",
+    "semantic_coverage_step",
+    "semantic_coverage_chain"
+  ]
+}
+```
+
+stderr:
+```text
+
+```

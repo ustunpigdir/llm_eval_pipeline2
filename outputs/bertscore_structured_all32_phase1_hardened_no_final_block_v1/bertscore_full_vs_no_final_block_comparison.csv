@@ -1,0 +1,20 @@
+metric,value
+row_level_alignment_status,aligned_by_source_run_id
+full_answer_csv,outputs/bertscore_structured_all32_phase1_hardened_v1/bertscore_structured_all32_phase1_hardened.csv
+aligned_rows,252
+full_overall_mean_f1,0.5035585879629093
+no_final_overall_mean_f1,0.6466392624886736
+delta_overall_mean_f1,0.14308067452576434
+full_PASS_mean_f1,0.5192392856105525
+no_final_PASS_mean_f1,0.6902303125581934
+full_FAIL_mean_f1,0.4899686500016186
+no_final_FAIL_mean_f1,0.6088603524284231
+full_PASS_minus_FAIL_gap,0.029270635608933948
+no_final_PASS_minus_FAIL_gap,0.08136996012977038
+delta_gap,0.05209932452083643
+rows_no_final_f1_increased,188
+rows_no_final_f1_decreased,20
+rows_no_final_f1_unchanged,44
+mean_delta_f1_by_grade,"{""FAIL"": 0.11889170242680444, ""PASS"": 0.17099102694764096}"
+largest_scenario_drops,"[{""mean_delta_f1"": -0.11433833837509155, ""rows_scored"": 8, ""scenario_id"": ""QFT_CASIMIR_001""}, {""mean_delta_f1"": -0.09054392389953136, ""rows_scored"": 8, ""scenario_id"": ""GR_GPS_001""}, {""mean_delta_f1"": -0.08432284742593765, ""rows_scored"": 8, ""scenario_id"": ""STAT_NEGT_001""}, {""mean_delta_f1"": 0.07484142978986104, ""rows_scored"": 6, ""scenario_id"": ""STAT_BEC_001""}, {""mean_delta_f1"": 0.08157577365636826, ""rows_scored"": 8, ""scenario_id"": ""QI_HOLEVO_001""}]"
+largest_scenario_increases,"[{""mean_delta_f1"": 0.2826613411307335, ""rows_scored"": 8, ""scenario_id"": ""CM_APSIDAL_001""}, {""mean_delta_f1"": 0.26202192902565, ""rows_scored"": 8, ""scenario_id"": ""QI_WERNER_001""}, {""mean_delta_f1"": 0.23722537606954575, ""rows_scored"": 8, ""scenario_id"": ""QI_TELEPORT_001""}, {""mean_delta_f1"": 0.2215801179409027, ""rows_scored"": 8, ""scenario_id"": ""COS_DL_001""}, {""mean_delta_f1"": 0.20909880846738815, ""rows_scored"": 8, ""scenario_id"": ""SR_BELL_001""}]"

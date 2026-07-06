@@ -1,0 +1,144 @@
+{
+  "batch_distribution": {
+    "V2": 64,
+    "V3": 61,
+    "V4": 63,
+    "V5": 64
+  },
+  "bertscore_model": "unknown",
+  "bertscore_notes": "",
+  "candidate_source": "structured_prompt_pilot_v2-v5 saved raw model responses",
+  "comparison_to_full_answer": {
+    "aligned_rows": 252,
+    "delta_gap": 0.05209932452083643,
+    "delta_overall_mean_f1": 0.14308067452576434,
+    "full_FAIL_mean_f1": 0.4899686500016186,
+    "full_PASS_mean_f1": 0.5192392856105525,
+    "full_PASS_minus_FAIL_gap": 0.029270635608933948,
+    "full_answer_csv": "outputs/bertscore_structured_all32_phase1_hardened_v1/bertscore_structured_all32_phase1_hardened.csv",
+    "full_overall_mean_f1": 0.5035585879629093,
+    "largest_scenario_drops": [
+      {
+        "mean_delta_f1": -0.11433833837509155,
+        "rows_scored": 8,
+        "scenario_id": "QFT_CASIMIR_001"
+      },
+      {
+        "mean_delta_f1": -0.09054392389953136,
+        "rows_scored": 8,
+        "scenario_id": "GR_GPS_001"
+      },
+      {
+        "mean_delta_f1": -0.08432284742593765,
+        "rows_scored": 8,
+        "scenario_id": "STAT_NEGT_001"
+      },
+      {
+        "mean_delta_f1": 0.07484142978986104,
+        "rows_scored": 6,
+        "scenario_id": "STAT_BEC_001"
+      },
+      {
+        "mean_delta_f1": 0.08157577365636826,
+        "rows_scored": 8,
+        "scenario_id": "QI_HOLEVO_001"
+      }
+    ],
+    "largest_scenario_increases": [
+      {
+        "mean_delta_f1": 0.2826613411307335,
+        "rows_scored": 8,
+        "scenario_id": "CM_APSIDAL_001"
+      },
+      {
+        "mean_delta_f1": 0.26202192902565,
+        "rows_scored": 8,
+        "scenario_id": "QI_WERNER_001"
+      },
+      {
+        "mean_delta_f1": 0.23722537606954575,
+        "rows_scored": 8,
+        "scenario_id": "QI_TELEPORT_001"
+      },
+      {
+        "mean_delta_f1": 0.2215801179409027,
+        "rows_scored": 8,
+        "scenario_id": "COS_DL_001"
+      },
+      {
+        "mean_delta_f1": 0.20909880846738815,
+        "rows_scored": 8,
+        "scenario_id": "SR_BELL_001"
+      }
+    ],
+    "mean_delta_f1_by_grade": {
+      "FAIL": 0.11889170242680444,
+      "PASS": 0.17099102694764096
+    },
+    "no_final_FAIL_mean_f1": 0.6088603524284231,
+    "no_final_PASS_mean_f1": 0.6902303125581934,
+    "no_final_PASS_minus_FAIL_gap": 0.08136996012977038,
+    "no_final_overall_mean_f1": 0.6466392624886736,
+    "row_level_alignment_status": "aligned_by_source_run_id",
+    "rows_no_final_f1_decreased": 20,
+    "rows_no_final_f1_increased": 188,
+    "rows_no_final_f1_unchanged": 44
+  },
+  "created_at": "2026-07-05T21:55:54+00:00",
+  "deterministic_grade_distribution": {
+    "FAIL": 135,
+    "PASS": 117
+  },
+  "extraction_status_distribution": {
+    "OK": 252
+  },
+  "final_block_removal_summary": {
+    "candidate_blocks_not_found": 5,
+    "candidate_blocks_removed": 247,
+    "reference_blocks_not_found": 252,
+    "reference_blocks_removed": 0,
+    "total_candidate_removed_chars": 44717,
+    "total_reference_removed_chars": 0
+  },
+  "helper_status_distribution": {
+    "OK": 252
+  },
+  "lang": "en",
+  "learning_db_modified": false,
+  "model_or_llm_api_calls": false,
+  "output_folder": "outputs/bertscore_structured_all32_phase1_hardened_no_final_block_v1",
+  "overall": {
+    "PASS_minus_FAIL_mean_F1_gap": 0.08136996012977038,
+    "fail_count": 135,
+    "fail_mean_f1": 0.6088603524284231,
+    "max_f1": 0.9935784339904785,
+    "mean_f1": 0.6466392624886736,
+    "mean_precision": 0.6175848052512193,
+    "mean_recall": 0.6785912840259409,
+    "median_f1": 0.8543463051319122,
+    "min_f1": -0.38166603446006775,
+    "pass_count": 117,
+    "pass_mean_f1": 0.6902303125581934,
+    "rows_scored": 252
+  },
+  "paired_row_comparison_count": 252,
+  "raw_outputs_modified": false,
+  "reference_files": [
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch1.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch2.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch3.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch4.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch5.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch6.md",
+    "/Users/upigdir/Desktop/Pipeline/Scenarios to Run/worked_solutions_batch7.md"
+  ],
+  "reference_source": "worked_solutions_batch1.md through worked_solutions_batch7.md",
+  "rescale_with_baseline": true,
+  "review_rows_scored": 0,
+  "row_level_alignment_status": "aligned_by_source_run_id",
+  "rows_scored": 252,
+  "run_name": "structured_prompt_all32_phase1_hardened_no_final_block_v1",
+  "scenario_count": 32,
+  "source_summary_folder": "outputs/structured_prompt_all32_summary_phase1_hardened",
+  "warning_rows": 252
+}

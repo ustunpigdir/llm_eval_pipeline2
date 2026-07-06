@@ -1,0 +1,91 @@
+{
+  "artifact_name": "metric_comparison_analytics_roscoe_v2_dependency_attempt",
+  "created_for": "controlled ROSCOE dependency workflow",
+  "run_mode": "dependency_discovery_only",
+  "safe_install_path_found": false,
+  "stopped_after_step": 1,
+  "environment_created": false,
+  "environment_path": ".venv_roscoe",
+  "install_attempted": false,
+  "install_status": "not_attempted_no_safe_roscoe_metric_package_found",
+  "smoke_test_status": "not_run",
+  "pilot_status": "not_run",
+  "full_run_status": "not_run",
+  "sources_checked": [
+    {
+      "source_type": "paper",
+      "name": "ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning",
+      "url": "https://arxiv.org/abs/2212.07919",
+      "result": "paper_found_no_official_code_link_visible"
+    },
+    {
+      "source_type": "github_repository_search",
+      "query": "ROSCOE reasoning metrics",
+      "result": "total_count_0"
+    },
+    {
+      "source_type": "github_repository_search",
+      "query": "ROSCOE: A Suite of Metrics",
+      "result": "total_count_0"
+    },
+    {
+      "source_type": "github_code_search",
+      "query": "distinctive_roscoe_metric_terms",
+      "result": "requires_authentication"
+    },
+    {
+      "source_type": "pypi",
+      "package": "roscoe",
+      "version": "0.1.9",
+      "url": "https://pypi.org/project/roscoe/0.1.9/",
+      "result": "rejected_unrelated_llm_agent_orchestration_sdk"
+    },
+    {
+      "source_type": "pypi",
+      "package": "roscoe-metrics",
+      "result": "no_matching_distribution"
+    },
+    {
+      "source_type": "pypi",
+      "package": "roscoe-score",
+      "result": "no_matching_distribution"
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "name": "roscoe",
+      "version": "0.1.9",
+      "source": "PyPI",
+      "repository": "https://github.com/rhealaloo45/roscoe",
+      "license": "MIT",
+      "requires_python": ">=3.11",
+      "summary": "Ready-to-run Orchestration SDK: Configurable, Observable, Extensible.",
+      "requires_dist": [
+        "langchain==0.3.25",
+        "langchain-openai<0.4,>=0.2",
+        "langchain-google-genai<3.0,>=2.0",
+        "langchain-anthropic<0.4,>=0.3",
+        "langchain-ollama<0.4,>=0.2",
+        "pydantic<3.0,>=2.10",
+        "pyyaml<7.0,>=6.0",
+        "click<9.0,>=8.1",
+        "httpx<1.0,>=0.27",
+        "python-dotenv<2.0,>=1.0"
+      ],
+      "rejection_reason": "Package is an LLM agent orchestration SDK, not the ROSCOE reasoning-metric implementation from the paper."
+    }
+  ],
+  "roscoe_metrics_available": [],
+  "selected_roscoe_metric": "",
+  "local_llm_api_calls": false,
+  "external_llm_api_calls": false,
+  "bertscore_rerun": false,
+  "phase2_semantics_changed": false,
+  "learning_db_modified": false,
+  "raw_outputs_modified": false,
+  "fake_scores_created": false,
+  "output_files": [
+    "ROSCOE_DEPENDENCY_REPORT.md",
+    "dependency_manifest.json"
+  ]
+}

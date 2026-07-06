@@ -1,0 +1,6 @@
+batch,scenario_id,model_name,source_run_id,bertscore_final_block_removed_candidate,extractor_helper_status,extractor_block_found,likely_reason_bertscore_removal_failed,recommended_fix
+V2,CM_FOUCAULT_001,Llama 3.1 8B Instruct,43b57069-ea6b-42b1-9339-b978dcf9ad74,False,OK,True,final_heading_or_latex_shape_variant_not_matched,reuse extractor final-answer block locator for BERTScore text transformation
+V2,GR_ISCO_001,Llama 3.1 8B Instruct,12ba6901-ab09-4608-812d-243a3ba8cb47,False,OK,True,final_heading_or_latex_shape_variant_not_matched,reuse extractor final-answer block locator for BERTScore text transformation
+V2,QFT_G2_001,Llama 3.1 8B Instruct,eaff2b64-dfb3-49b3-9728-2a8a928c5ac7,False,OK,True,final_heading_or_latex_shape_variant_not_matched,reuse extractor final-answer block locator for BERTScore text transformation
+V3,GR_GPS_001,Llama 3.1 8B Instruct,637b75a5-6869-433d-b669-e89b15b2555e,False,OK,True,final_heading_or_latex_shape_variant_not_matched,reuse extractor final-answer block locator for BERTScore text transformation
+V4,GR_PERI_001,Llama 3.1 8B Instruct,3048c6ec-b6eb-429b-9e91-09317a088462,False,OK,True,final_heading_or_latex_shape_variant_not_matched,reuse extractor final-answer block locator for BERTScore text transformation

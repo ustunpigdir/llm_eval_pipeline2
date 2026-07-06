@@ -76,7 +76,7 @@ _BOXED = re.compile(r"\\boxed\s*\{([^{}]+)\}")
 # degree symbol, percent, micro-prefix, unicode degree.
 _DECOR = re.compile(r"\^\s*\{?\s*\\circ\s*\}?|°|\\degree|\\%|\\mu(?![a-zA-Z])")
 _SPACE = re.compile(r"\\[,;:!>\s]|\\quad|\\qquad|\\!|\\left|\\right")
-_SPLIT_OP = re.compile(r"\\approx|\\approxeq|\\simeq|\\sim|\\cong|=")
+_SPLIT_OP = re.compile(r"\\approxeq|\\approx|\\simeq|\\sim|\\cong|=")
 _SCI = re.compile(
     r"([+-]?\d*\.?\d+)\s*(?:\\times|\\cdot|\*|×|x)\s*10\s*\^?\s*\{?\s*([+-]?\d+)\}?\s*$"
 )
